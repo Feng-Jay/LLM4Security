@@ -16,13 +16,13 @@
 
 ## Evaluation Criteria
 
-1. In-house Evaluation
+### In-house Evaluation
 
 This evaluation setting aims to evaluate the effectiveness of selected baselines on already known vulnerabilities. In this way, we can easily compare the performance of different methods on the same set of vulnerabilities.
 
 It should be noted that we should give each type of CWE a benchmark to fit all above methods.
 
-### Important Vulnerabilities Types
+#### Important Vulnerabilities Types
 
 > [!NOTE]
 > Filtered by referencing [2024 Top-25 Most Dangerous SWE leaderboard](https://cwe.mitre.org/top25/archive/2024/2024_cwe_top25.html):
@@ -32,4 +32,4 @@ C/CPP: NPD, MLK, UAF, UBI, IntOver, OOB
 Java: XSS, OSCI, APT, Code Injection, NPD, Resource Leak (CWE-400)
 
 
-2. Real-world Projects
+### Real-world Projects
