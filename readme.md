@@ -29,7 +29,23 @@ It should be noted that we should give each type of CWE a benchmark to fit all a
 
 C/CPP: NPD, MLK, UAF, UBI, IntOver, OOB
 
+There are some already known vulnerability reports:
+
+- [existing reports#1](https://github.com/fusion-scan/fusion-scan.github.io/blob/master/index.html): contains NPD, MLK, UAF vulnerabilities.
+
+- [existing reports#2](https://dl.acm.org/doi/10.1145/3368089.3409686): contains 8 UBI vulnerabilities in Linux Kernel.
+
+- [existing reports#3](https://link.springer.com/content/pdf/10.1186/s42400-020-00058-2.pdf): contains 8 IntOver vulnerabilities in Linux Kernel.
+
+- [existing reports#4](https://www.usenix.org/system/files/sec20-chen-weiteng.pdf): contains 8 OOB vulnerabilities in Linux Kernel.
+
+
 Java: XSS, OSCI, APT, Code Injection, NPD, Resource Leak (CWE-400)
 
+- [existing reports#1](https://github.com/iris-sast/cwe-bench-java/tree/698fb7248ae30cb7f7782d59c841f05ad70ea9cc): contains XSS, OSCI, APT and Code Injection vulnerabilities in Java.
+
+- [existing reports#2](https://github.com/ucd-plse/Static-Bug-Detectors-ASE-Artifact/blob/main/INSTALL.md): contains 102 NPD vulnerabilities in Java.
+
+- [existing reports#3](https://github.com/Dcollectors/JLeaks): contains 1,094 Resource Leak vulnerabilities in Java. 
 
 ### Real-world Projects
