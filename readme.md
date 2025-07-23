@@ -1,5 +1,14 @@
 # LLM4Security
 
+## How to run
+
+```bash
+git clone https://github.com/Feng-Jay/LLM4Security.git {path to your local repo}
+cd {path to your local repo}
+pip install -r requirements.txt
+# clone projects, you can skip linux to avoid long time cloning, use mirror in https://mirrors.tuna.tsinghua.edu.cn/help/linux.git/
+cd src && python setup.py 
+```
 
 ## Selected Methods
 

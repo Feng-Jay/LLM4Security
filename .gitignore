@@ -1,2 +1,5 @@
 /target
 /data/projects
+/data/projects.zip
+.vscode/
+.DS_Store
