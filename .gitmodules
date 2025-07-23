@@ -1,0 +1,24 @@
+[submodule "src/dependencies/RepoAudit"]
+	path = src/dependencies/RepoAudit
+	url = https://github.com/PurCL/RepoAudit.git
+	branch = artifact
+[submodule "src/dependencies/Knighter"]
+	path = src/dependencies/Knighter
+	url = https://github.com/ise-uiuc/KNighter.git
+	branch = main
+[submodule "src/dependencies/LLift"]
+	path = src/dependencies/LLift
+	url = https://github.com/seclab-ucr/LLift.git
+	branch = main
+[submodule "src/dependencies/LLMDFA"]
+	path = src/dependencies/LLMDFA
+	url = https://github.com/chengpeng-wang/LLMDFA.git
+	branch = main
+[submodule "src/dependencies/INFERROI"]
+	path = src/dependencies/INFERROI
+	url = https://github.com/cs-wangchong/InferROI-Replication.git
+	branch = main
+[submodule "src/dependencies/LLMSAN"]
+	path = src/dependencies/LLMSAN
+	url = https://github.com/chengpeng-wang/LLMSAN.git
+	branch = main
