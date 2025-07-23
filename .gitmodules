@@ -5,24 +5,4 @@
 [submodule "src/dependencies/Knighter"]
 	path = src/dependencies/Knighter
 	url = https://github.com/Feng-Jay/Knighter.git
-	branch = main
-[submodule "src/dependencies/LLift"]
-	path = src/dependencies/LLift
-	url = https://github.com/Feng-Jay/LLift.git
-	branch = main
-[submodule "src/dependencies/LLMDFA"]
-	path = src/dependencies/LLMDFA
-	url = https://github.com/Feng-Jay/LLMDFA.git
-	branch = main
-[submodule "src/dependencies/INFERROI"]
-	path = src/dependencies/INFERROI
-	url = https://github.com/Feng-Jay/InferROI-Replication.git
-	branch = main
-[submodule "src/dependencies/LLMSAN"]
-	path = src/dependencies/LLMSAN
-	url = https://github.com/Feng-Jay/LLMSAN.git
-	branch = main
-[submodule "src/dependencies/IRIS"]
-	path = src/dependencies/IRIS
-	url = https://github.com/Feng-Jay/iris.git
-	branch = v1
+	branch = master

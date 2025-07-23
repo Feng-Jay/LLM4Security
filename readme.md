@@ -3,12 +3,17 @@
 ## How to run
 
 ```bash
-git clone https://github.com/Feng-Jay/LLM4Security.git {path to your local repo}
+git clone --recursive https://github.com/Feng-Jay/LLM4Security.git {path to your local repo}
 cd {path to your local repo}
 pip install -r requirements.txt
 # clone projects, you can skip linux to avoid long time cloning, use mirror in https://mirrors.tuna.tsinghua.edu.cn/help/linux.git/
 cd src && python setup.py 
+
+# If you forget to add the --recursive flag during clone, you can run the following command to update submodules
+git submodule update --init --recursive
 ```
+
+If we want to modify the submodules, you can modify the submodule and give me a pull request.
 
 ## Selected Methods
 
