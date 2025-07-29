@@ -4,7 +4,7 @@
             "repo_name": "vim",
             "repo_link": "https://github.com/vim/vim.git",
             "description": "in vim 8.1.2269, one site may occur null pointer dereference, This was assigned CVE-2022-47024",
-            "commit_id": "^a63ad78ed31e36dbdf3a9cd28071dcdbefce7d19",
+            "commit_id": "a63ad78ed31e36dbdf3a9cd28071dcdbefce7d19^",
             "time":"yyyy-mm-dd",
             "localization":"src/gui_x11.c#2234"
         },
@@ -13,7 +13,7 @@
             "repo_name": "hwloc",
             "repo_link": "https://github.com/open-mpi/hwloc.git",
             "description": "in hwloc 2.1.0, a null pointer dereference occurs, This was assigned CVE-2022-47022",
-            "commit_id": "^ac1f8db9a0790d2bf153711ff4cbf6101f89aace",
+            "commit_id": "ac1f8db9a0790d2bf153711ff4cbf6101f89aace^",
             "time":"yyyy-mm-dd",
             "localization":"hwloc/topology-linux.c#880"
         },  
@@ -22,7 +22,7 @@
             "repo_name": "opusfile",
             "repo_link": "https://github.com/xiph/opusfile.git",
             "description": "in opusfile, a null pointer dereference occurs, This was assigned CVE-2022-47021",
-            "commit_id": "^0a4cd796df5b030cb866f3f4a5e41a4b92caddf5",
+            "commit_id": "0a4cd796df5b030cb866f3f4a5e41a4b92caddf5^",
             "time":"yyyy-mm-dd",
             "localization":"src/opusfile.c#151"
         },
@@ -31,7 +31,7 @@
             "repo_name": "Bento4",
             "repo_link": "https://github.com/axiomatic-systems/Bento4.git",
             "description": "null deref detected by static analysis and reproduced by fuzzing, CVE-2019–13959",
-            "commit_id": "^f7ba0dca622837bfab063e500f6013640e8e76e4",
+            "commit_id": "f7ba0dca622837bfab063e500f6013640e8e76e4^",
             "time":"yyyy-mm-dd",
             "localization":"Source/C++/Core/Ap4Sample.cpp#147"
         },
@@ -40,7 +40,7 @@
             "repo_name": "cJSON",
             "repo_link": "https://github.com/DaveGamble/cJSON.git",
             "description": "A null pointer deref in CJson.",
-            "commit_id": "^cdc35ebf88c5d440b8f63e9a69412c22c0abb6fa",
+            "commit_id": "cdc35ebf88c5d440b8f63e9a69412c22c0abb6fa^",
             "time":"yyyy-mm-dd",
             "localization":"cJSON.c#1793"
         },
@@ -48,7 +48,7 @@
             "repo_name": "ImageMagick",
             "repo_link": "https://github.com/ImageMagick/ImageMagick.git",
             "description": "CloneKernelInfo uses AcquireMagickMemory and it might return NULL, and causing Null Pointer Dereference and Denial of Service.",
-            "commit_id": "^875044bb78e52722940ef446be2f1f130f1aca9e",
+            "commit_id": "875044bb78e52722940ef446be2f1f130f1aca9e^",
             "time":"yyyy-mm-dd",
             "localization":"MagickCore/morphology.c#2337"
         },
@@ -57,7 +57,7 @@
             "repo_name": "ImageMagick",
             "repo_link": "https://github.com/ImageMagick/ImageMagick.git",
             "description": "Another potential NPD at resample_filter=AcquireResampleFilterThreadSet(image of DistortImage, there is no null check after this acquiring, it then dereference the pointer in after. It could lead to process crash in acquiring when there is not enough available memory. This is the <em>first</em> CVE id we got. CVE-2017-14739",
-            "commit_id": "^441fde32557eb3cec573b0f877ac324173feed7f",
+            "commit_id": "441fde32557eb3cec573b0f877ac324173feed7f^",
             "time":"yyyy-mm-dd",
             "localization":"MagickCore/effect.c#3800"
         },
@@ -65,7 +65,7 @@
             "repo_name": "openssl",
             "repo_link": "https://github.com/iamihalcea/openssl.git",
             "description": "A series of NPD bugs caused by the possible NULL return value of the function EVP_aes_128_cbc_hmac_sha1() in e_dasync.c",
-            "commit_id": "^3465aa73c798ce6a518ffa194955d317db98f62a",
+            "commit_id": "3465aa73c798ce6a518ffa194955d317db98f62a^",
             "time":"yyyy-mm-dd",
             "localization":"engines/e_dasync.c#595"
         },
@@ -73,7 +73,7 @@
             "repo_name": "shadowsocks-libev",
             "repo_link": "https://github.com/shadowsocks/shadowsocks-libev.git",
             "description": "Mishandling of json configuration file (\"plugin\") could lead to Null Pointer Dereference",
-            "commit_id": "^f19a96e1fad1820ad10efba265f1ce772b9d1d53",
+            "commit_id": "f19a96e1fad1820ad10efba265f1ce772b9d1d53^",
             "time":"yyyy-mm-dd",
             "localization":"src/jconf.c#298"
         },
@@ -81,7 +81,7 @@
             "repo_name": "tengine",
             "repo_link": "https://github.com/alibaba/tengine.git",
             "description": "Forgot to check null in a malloc wrapper.",
-            "commit_id": "^e54af3bed7ea070a8612cb980edb6b98d8ce22e3",
+            "commit_id": "e54af3bed7ea070a8612cb980edb6b98d8ce22e3^",
             "time":"yyyy-mm-dd",
             "localization":"src/os/unix/ngx_pipe.c#37"
         }
@@ -92,7 +92,7 @@
             "repo_name": "libsass",
             "repo_link": "https://github.com/sass/libsass.git",
             "description": "memory leak in permutate.hpp",
-            "commit_id": "^0537dd2c55fef7ed954fd991ad526bbcbc4be8d0",
+            "commit_id": "0537dd2c55fef7ed954fd991ad526bbcbc4be8d0^",
             "time":"yyyy-mm-dd",
             "localization":"src/permutate.hpp#27"
         },
@@ -101,7 +101,7 @@
             "repo_name": "optee_os",
             "repo_link": "https://github.com/OP-TEE/optee_os.git",
             "description": "the early return of return TEE_ERROR_BAD_STATE; at line 380 will leak the memory block pointed by dir (line 364)",
-            "commit_id": "^fe45728c5a33cc520c63999f9bc9ed76d94b3d78",
+            "commit_id": "fe45728c5a33cc520c63999f9bc9ed76d94b3d78^",
             "time":"yyyy-mm-dd",
             "localization":"core/tee/tee_fs_rpc.c#379"
         },
@@ -110,7 +110,7 @@
             "repo_name": "miniupnp",
             "repo_link": "https://github.com/miniupnp/miniupnp.git",
             "description": "A memory leak because of early return.",
-            "commit_id": "^c8b42602a28654fab31982f898b680bf4ec43dd1",
+            "commit_id": "c8b42602a28654fab31982f898b680bf4ec43dd1^",
             "time":"yyyy-mm-dd",
             "localization":"miniupnpc/upnpcommands.c#1165"
         },
@@ -119,7 +119,7 @@
             "repo_name": "transmission",
             "repo_link": "https://github.com/transmission/transmission.git",
             "description": "The pointers nodes in the code point to two newly-allocated memory. If rc &lt; 0 in the code happens, it will go to the label fail, where nodes are not released.",
-            "commit_id": "^99c9b90965a01b17e2305a3be72e11e769cad480",
+            "commit_id": "99c9b90965a01b17e2305a3be72e11e769cad480^",
             "time":"yyyy-mm-dd",
             "localization":"libtransmission/tr-dht.c#360;libtransmission/tr-dht.c#365"
         },
@@ -128,7 +128,7 @@
             "repo_name": "binutils-gdb",
             "repo_link": "https://sourceware.org/git/binutils-gdb.git",
             "description": "In Binutils 2.39, A memory leak occurs, CVE-2022-47007",
-            "commit_id": "^0ebc886149c22aceaf8ed74267821a59ca9d03eb",
+            "commit_id": "0ebc886149c22aceaf8ed74267821a59ca9d03eb^",
             "time":"yyyy-mm-dd",
             "localization":"binutils/stabs.c#5470"
         },
@@ -136,7 +136,7 @@
             "repo_name": "binutils-gdb",
             "repo_link": "https://sourceware.org/git/binutils-gdb.git",
             "description": "In Binutils 2.39, A memory leak occurs, CVE-2022-47008",
-            "commit_id": "^d6e1d48c83b165c129cb0aa78905f7ca80a1f682",
+            "commit_id": "d6e1d48c83b165c129cb0aa78905f7ca80a1f682^",
             "time":"yyyy-mm-dd",
             "localization":"binutils/bucomm.c#563"
         },
@@ -144,7 +144,7 @@
             "repo_name": "binutils-gdb",
             "repo_link": "https://sourceware.org/git/binutils-gdb.git",
             "description": "In Binutils 2.39, A memory leak occurs, CVE-2022-47011",
-            "commit_id": "^8a24927bc8dbf6beac2000593b21235c3796dc35",
+            "commit_id": "8a24927bc8dbf6beac2000593b21235c3796dc35^",
             "time":"yyyy-mm-dd",
             "localization":"binutils/stabs.c#2370"
         },
@@ -152,7 +152,7 @@
             "repo_name": "binutils-gdb",
             "repo_link": "https://sourceware.org/git/binutils-gdb.git",
             "description": "In Binutils 2.39, A memory leak occurs, CVE-2022-47010",
-            "commit_id": "^0d02e70b197c786f26175b9a73f94e01d14abdab",
+            "commit_id": "0d02e70b197c786f26175b9a73f94e01d14abdab^",
             "time":"yyyy-mm-dd",
             "localization":"binutils/prdbg.c#745"
         },
@@ -160,7 +160,7 @@
             "repo_name": "FFmpeg",
             "repo_link": "https://github.com/FFmpeg/FFmpeg.git",
             "description": "Memory Leak found in FFMpeg",
-            "commit_id": "^c6e1966c1a1a8987de0834462d7a76377eaa76bc",
+            "commit_id": "c6e1966c1a1a8987de0834462d7a76377eaa76bc^",
             "time":"yyyy-mm-dd",
             "localization":"libavcodec/ass_split.c#283"
         }
@@ -171,7 +171,7 @@
             "repo_name": "/SDL-1.2",
             "repo_link": "https://github.com/libsdl-org/SDL-1.2.git",
             "description": "In libSDL 1.2, a use after free occurs. CVE-2022-34568",
-            "commit_id": "^d7e00208738a0bc6af302723fe64908ac35b777b",
+            "commit_id": "d7e00208738a0bc6af302723fe64908ac35b777b^",
             "time":"yyyy-mm-dd",
             "localization":"src/video/x11/SDL_x11yuv.c#377"
         },
@@ -180,7 +180,7 @@
             "repo_name": "FFmpeg",
             "repo_link": "https://github.com/FFmpeg/FFmpeg.git",
             "description": "A use after free bug detected by the persistence",
-            "commit_id": "^0c4137bcb742bccc29f87145615a120bc5988c24",
+            "commit_id": "0c4137bcb742bccc29f87145615a120bc5988c24^",
             "time":"yyyy-mm-dd",
             "localization":"libavfilter/af_afftfilt.c#174"
         },
@@ -188,7 +188,7 @@
             "repo_name": "FFmpeg",
             "repo_link": "https://github.com/FFmpeg/FFmpeg.git",
             "description": "A use after free bug detected by the persistence",
-            "commit_id": "^9a53e0125290238db66034f67a9c41c420264c09",
+            "commit_id": "9a53e0125290238db66034f67a9c41c420264c09^",
             "time":"yyyy-mm-dd",
             "localization":"libavfilter/formats.c#521"
         },
@@ -196,7 +196,7 @@
             "repo_name": "optee_os",
             "repo_link": "https://github.com/OP-TEE/optee_os.git",
             "description": "alloc_and_copy_shdr could free shdr when return error, then it goes to label error_free_payload. then the label error_free_payload frees shdr again:",
-            "commit_id": "^2f47d8391d4a572cbfb93af1b0de9a955c95dd8c",
+            "commit_id": "2f47d8391d4a572cbfb93af1b0de9a955c95dd8c^",
             "time":"yyyy-mm-dd",
             "localization":"core/arch/arm/kernel/ree_fs_ta.c#241"
         },
@@ -204,7 +204,7 @@
             "repo_name": "shadowsocks-libev",
             "repo_link": "https://github.com/shadowsocks/shadowsocks-libev.git",
             "description": "A use-after-free (variable: <strong>remote</strong>) in Shadowsocks.",
-            "commit_id": "^32f52dabf99b3307903b25418ecb4c7f4c13c1d2",
+            "commit_id": "32f52dabf99b3307903b25418ecb4c7f4c13c1d2^",
             "time":"yyyy-mm-dd",
             "localization":"src/local.c#870;src/redir.c#406;src/server.c#1214;src/tunnel.c#364"
         },
@@ -212,7 +212,7 @@
             "repo_name": "wabt",
             "repo_link": "https://github.com/WebAssembly/wabt.git",
             "description": "There are two delete[] data inside function ProgramMain, if read_file failed, it could occur some unexpected behaviors. We can add a return statement after the first delete to avoid this",
-            "commit_id": "^9e38a8fd3a5bf6022cee56d2e36b57360b026e4a",
+            "commit_id": "9e38a8fd3a5bf6022cee56d2e36b57360b026e4a^",
             "time":"yyyy-mm-dd",
             "localization":"src/tools/wasm-opcodecnt.cc#263"
         },
@@ -221,7 +221,7 @@
             "repo_name": "coturn",
             "repo_link": "https://github.com/coturn/coturn.git",
             "description": "A use-after-free bug is detected in coturn on the function write_to_peerchannel",
-            "commit_id": "^13082beae8e86760807de1cd7e8cd7ca037b9f4e",
+            "commit_id": "13082beae8e86760807de1cd7e8cd7ca037b9f4e^",
             "time":"yyyy-mm-dd",
             "localization":"src/server/ns_turn_server.c#4138"
         },
@@ -229,7 +229,7 @@
             "repo_name": "coturn",
             "repo_link": "https://github.com/coturn/coturn.git",
             "description": "A use-after-free bug is detected in coturn on the function write_to_peerchannel",
-            "commit_id": "^2edc14a193883bacd70ccccbb84c5149fea77a99",
+            "commit_id": "2edc14a193883bacd70ccccbb84c5149fea77a99^",
             "time":"yyyy-mm-dd",
             "localization":"src/server/ns_turn_server.c#4297"
         },
@@ -237,7 +237,7 @@
             "repo_name": "poco",
             "repo_link": "https://github.com/pocoproject/poco.git",
             "description": "It is found in poco and fixed. The close() is being called before handleLastErrorImpl(), so the call to close will actually change/reset errno and handleLastErrorImpl() will throw the wrong exception.",
-            "commit_id": "^97ae6924dd7f0c90b04c8ae9da278a3f0bff1230",
+            "commit_id": "97ae6924dd7f0c90b04c8ae9da278a3f0bff1230^",
             "time":"yyyy-mm-dd",
             "localization":"Foundation/src/File_UNIX.cpp#378"
         }
@@ -248,7 +248,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^bde6f9ded1bd37ff27a042dcb968e104d92b02c1",
+            "commit_id": "bde6f9ded1bd37ff27a042dcb968e104d92b02c1^",
             "time":"yyyy-mm-dd",
             "localization":"net/ipv4/route.c#1815"
         },
@@ -256,7 +256,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^1a92b2ba339221a4afee43adf125fcc9a41353f7",
+            "commit_id": "1a92b2ba339221a4afee43adf125fcc9a41353f7^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/crypto/mv_cesa.c#616"
         },
@@ -264,7 +264,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^8134233e8d346aaa1c929dc510e75482ae318bce",
+            "commit_id": "8134233e8d346aaa1c929dc510e75482ae318bce^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/ata/ahci_xgene.c#825"
         },
@@ -272,7 +272,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^c94a3d403299f64d2f91346ff64c4b95747c123c",
+            "commit_id": "c94a3d403299f64d2f91346ff64c4b95747c123c^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/power/88pm860x_charger.c#516"
         },
@@ -280,7 +280,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^da5efffc42222d09079a3427b60374a68200d798",
+            "commit_id": "da5efffc42222d09079a3427b60374a68200d798^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/gpu/drm/vmwgfx/vmwgfx_execbuf.c#917"
         },
@@ -288,7 +288,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^3e645d6b485446c54c6745c5e2cf5c528fe4deec",
+            "commit_id": "3e645d6b485446c54c6745c5e2cf5c528fe4deec^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/media/video/v4l2-compat-ioctl32.c#196"
         },
@@ -296,7 +296,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^78146572b9cd20452da47951812f35b1ad4906be",
+            "commit_id": "78146572b9cd20452da47951812f35b1ad4906be^",
             "time":"yyyy-mm-dd",
             "localization":"net/netfilter/nfnetlink_cthelper.c#83"
         },
@@ -304,7 +304,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^6fd4b15603124c1b56e03db29b41ec39d8a077b9",
+            "commit_id": "6fd4b15603124c1b56e03db29b41ec39d8a077b9^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/crypto/caam/caamhash.c#1547;arch/arm/mm/dma-mapping.c#465"
         }
@@ -315,7 +315,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^da99466ac243f15fbba65bd261bfc75ffa1532b6",
+            "commit_id": "da99466ac243f15fbba65bd261bfc75ffa1532b6^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/block/floppy.c#3236"
         },
@@ -323,7 +323,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^9f645bcc566a1e9f921bdae7528a01ced5bc3713",
+            "commit_id": "9f645bcc566a1e9f921bdae7528a01ced5bc3713^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/video/fbdev/uvesafb.c#1047"
         },
@@ -331,7 +331,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^654b404f2a222f918af9b0cd18ad469d0c941a8e",
+            "commit_id": "654b404f2a222f918af9b0cd18ad469d0c941a8e^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/usb/serial/io_ti.c#1764"
         },
@@ -339,7 +339,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^05692d7005a364add85c6e25a6c4447ce08f913a",
+            "commit_id": "05692d7005a364add85c6e25a6c4447ce08f913a^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/vfio/pci/vfio_pci.c#842"
         },
@@ -347,7 +347,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^d157bd761585605b7882935ffb86286919f62ea1",
+            "commit_id": "d157bd761585605b7882935ffb86286919f62ea1^",
             "time":"yyyy-mm-dd",
             "localization":"net/netfilter/x_tables.c#662"
         },
@@ -355,7 +355,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^6217e5ede23285ddfee10d2e4ba0cc2d4c046205",
+            "commit_id": "6217e5ede23285ddfee10d2e4ba0cc2d4c046205^",
             "time":"yyyy-mm-dd",
             "localization":"sound/core/compress_offload.c#494"
         },
@@ -363,7 +363,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^b35cc8225845112a616e3a2266d2fde5ab13d3ab",
+            "commit_id": "b35cc8225845112a616e3a2266d2fde5ab13d3ab^",
             "time":"yyyy-mm-dd",
             "localization":"sound/core/compress_offload.c#414"
         },
@@ -371,7 +371,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "UBI",
-            "commit_id": "^a5cd335165e31db9dbab636fd29895d41da55dd2",
+            "commit_id": "a5cd335165e31db9dbab636fd29895d41da55dd2^",
             "time":"yyyy-mm-dd",
             "localization":"drivers/gpu/drm/drm_crtc.c#1876"
         }
@@ -383,7 +383,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB-CVE-2016-6187 ",
-            "commit_id": "^30a46a4647fd1df9cf52e43bf467f0d9265096ca",
+            "commit_id": "30a46a4647fd1df9cf52e43bf467f0d9265096ca^",
             "time":"yyyy-mm-dd",
             "localization":"security/apparmor/lsm.c#516"
         },
@@ -391,7 +391,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB-CVE-2016-6516",
-            "commit_id": "^10eec60ce79187686e052092e5383c99b4420a20",
+            "commit_id": "10eec60ce79187686e052092e5383c99b4420a20^",
             "time":"yyyy-mm-dd",
             "localization":"fs/ioctl.c#593"
         },
@@ -399,7 +399,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB-CVE-2017-7184",
-            "commit_id": "^677e806da4d916052585301785d847c3b3e6186a",
+            "commit_id": "677e806da4d916052585301785d847c3b3e6186a^",
             "time":"yyyy-mm-dd",
             "localization":"net/xfrm/xfrm_user.c#418"
         },
@@ -407,7 +407,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB",
-            "commit_id": "^d91c3e17f75f218022140dee18cf515292184a8f",
+            "commit_id": "d91c3e17f75f218022140dee18cf515292184a8f^",
             "time":"yyyy-mm-dd",
             "localization":"net/tls/tls_main.c#458"
         },
@@ -415,7 +415,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB",
-            "commit_id": "^35f7d5225ffcbf1b759f641aec1735e3a89b1914",
+            "commit_id": "35f7d5225ffcbf1b759f641aec1735e3a89b1914^",
             "time":"yyyy-mm-dd",
             "localization":"crypto/dh_helper.c#17"
         },
@@ -423,7 +423,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB",
-            "commit_id": "^bbeb6e4323dad9b5e0ee9f60c223dd532e2403b1",
+            "commit_id": "bbeb6e4323dad9b5e0ee9f60c223dd532e2403b1^",
             "time":"yyyy-mm-dd",
             "localization":"kernel/bpf/arraymap.c#87"
         },
@@ -431,7 +431,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB",
-            "commit_id": "^eb73190f4fbeedf762394e92d6a4ec9ace684c88",
+            "commit_id": "eb73190f4fbeedf762394e92d6a4ec9ace684c88^",
             "time":"yyyy-mm-dd",
             "localization":"net/packet/af_packet.c#4253"
         },
@@ -439,7 +439,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB",
-            "commit_id": "^17cfe79a65f98abe535261856c5aef14f306dff7",
+            "commit_id": "17cfe79a65f98abe535261856c5aef14f306dff7^",
             "time":"yyyy-mm-dd",
             "localization":"net/l2tp/l2tp_core.c#1487"
         },
@@ -447,7 +447,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB",
-            "commit_id": "^3619dec5103dd999a777e3e4ea08c8f40a6ddc57",
+            "commit_id": "3619dec5103dd999a777e3e4ea08c8f40a6ddc57^",
             "time":"yyyy-mm-dd",
             "localization":"security/keys/dh.c#211"
         },
@@ -455,7 +455,7 @@
             "repo_name": "linux",
             "repo_link": "https://github.com/torvalds/linux.git",
             "description": "OOB",
-            "commit_id": "^70303420b5721c38998cf987e6b7d30cc62d4ff1",
+            "commit_id": "70303420b5721c38998cf987e6b7d30cc62d4ff1^",
             "time":"yyyy-mm-dd",
             "localization":"kernel/trace/trace_events_filter.c#561"
         }
