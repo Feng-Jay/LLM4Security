@@ -6,3 +6,7 @@
 	path = src/dependencies/Knighter
 	url = https://github.com/Feng-Jay/Knighter.git
 	branch = master
+[submodule "src/dependencies/LLMDFA"]
+	path = src/dependencies/LLMDFA
+	url = https://github.com/Feng-Jay/LLMDFA.git
+	branch = master
