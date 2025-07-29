@@ -1,2 +1,4 @@
 loguru == 0.7.3
 pyyaml == 6.0.2
+google-genai
+azure-ai-inference

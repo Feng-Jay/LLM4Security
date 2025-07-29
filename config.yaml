@@ -1,0 +1,6 @@
+tool: "Knighter"
+vulnerability: "OOB"
+vulnerability_info_file: "../data/in_house/c/vulnerabilities.json"
+projects_dir: "../data/projects/"
+log: "../logs/"
+results: "../results/knighter/"

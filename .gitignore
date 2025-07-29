@@ -3,3 +3,5 @@
 /data/projects.zip
 .vscode/
 .DS_Store
+/logs/
+/results/
