@@ -10,3 +10,11 @@
 	path = src/dependencies/LLMDFA
 	url = https://github.com/Feng-Jay/LLMDFA.git
 	branch = master
+[submodule "src/dependencies/INFERROI"]
+	path = src/dependencies/INFERROI
+	url = https://github.com/Feng-Jay/INFERROI.git
+	branch = master
+[submodule "src/dependencies/iris"]
+	path = src/dependencies/iris
+	url = https://github.com/Feng-Jay/iris.git
+	branch = master

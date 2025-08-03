@@ -9,10 +9,14 @@ def run_tools(configs: Config) -> bool:
     if configs.tool == "Knighter":
         knighter = Knighter.from_config(Path("../knighter.yaml"))
         for vulnerability in vulnerabilities:
-            logger.info(f"Running Knighter for vulnerability: {vulnerability}")
+            logger.info(f"Running Knighter for vulnerability: {configs.vulnerability}")
             target_repo = configs.projects_dir / vulnerability['repo_name']
             target_commit_id = vulnerability['commit_id']
-            knighter.run_on_target(target_repo.resolve(), target_commit_id, configs.vulnerability, configs.results_file.resolve())
+            dir_name = f"{vulnerability['repo_name']}-{target_commit_id[:-1]}-{configs.vulnerability}"
+            print(repr(configs.results_dir / dir_name))
+            knighter.run_on_target(target_repo.resolve(), target_commit_id, 
+                                   configs.vulnerability, 
+                                   (configs.results_dir / dir_name).resolve())
             break
     pass
 

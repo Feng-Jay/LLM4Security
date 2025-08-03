@@ -44,6 +44,8 @@ class Knighter(BaseModel, AbsTool):
             vulnerability_type = "Null-Pointer-Dereference"
         elif vulnerability_type == "OOB":
             vulnerability_type = "Out-of-Bound"
+        elif vulnerability_type == "UBI":
+            vulnerability_type = "Uninit-Data"
         
         checker_dirs = self.checker_dir.glob(f"test-{vulnerability_type}-*/checkers/*.cpp")
         checker_dirs = [checker for checker in checker_dirs if checker.is_file()]
@@ -86,8 +88,9 @@ class Knighter(BaseModel, AbsTool):
             logger.info("make allyesconfig done")
             res = os.system(cmd)
             logger.info(f"Running command: {cmd} in {target_repo}")
-            os.system("git checkout -f master")
+            if res != 0:
+                logger.error(f"Command failed with return code {res}.")
+            # os.system("git checkout -f master")
             os.chdir(current_dir)
-            print(f"Command executed with return code: {res}")
-            # break
+            break
         pass

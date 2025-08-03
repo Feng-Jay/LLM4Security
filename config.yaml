@@ -1,5 +1,5 @@
 tool: "Knighter"
-vulnerability: "OOB"
+vulnerability: "UBI"
 vulnerability_info_file: "../data/in_house/c/vulnerabilities.json"
 projects_dir: "../data/projects/"
 log: "../logs/"
