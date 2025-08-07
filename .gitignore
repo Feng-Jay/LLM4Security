@@ -1,6 +1,8 @@
 /target
 /data/projects
 /data/projects.zip
+/data/in_house/c/ReposVul_c.jsonl
+/data/peek.py
 .vscode/
 .DS_Store
 /logs/
