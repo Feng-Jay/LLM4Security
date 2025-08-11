@@ -36,7 +36,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/netlink/genetlink.c" 
     },
     {
         "index": 3831,
@@ -75,7 +75,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/ipv6/sit.c"
     },
     {
         "index": 3832,
@@ -114,7 +114,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/hsr/hsr_device.c"
     },
     {
         "index": 4154,
@@ -153,7 +153,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/crypto/ccp/ccp-ops.c"
     },
     {
         "index": 4155,
@@ -192,7 +192,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/media/usb/dvb-usb/af9005.c"
     },
     {
         "index": 4156,
@@ -231,7 +231,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "sound/soc/sof/ipc.c"
     },
     {
         "index": 4157,
@@ -270,7 +270,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "sound/soc/sof/debug.c"
     },
     {
         "index": 4097,
@@ -309,7 +309,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/wireless/nl80211.c"
     },
     {
         "index": 4098,
@@ -348,7 +348,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/marvell/mwifiex/pcie.c"
     },
     {
         "index": 4099,
@@ -387,7 +387,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/marvell/mwifiex/pcie.c"
     },
     {
         "index": 4100,
@@ -426,7 +426,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/intel/iwlwifi/fw/dbg.c"
     },
     {
         "index": 4101,
@@ -465,7 +465,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/intel/iwlwifi/pcie/ctxt-info-gen3.c"
     },
     {
         "index": 4102,
@@ -504,7 +504,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/iio/imu/adis_buffer.c"
     },
     {
         "index": 4103,
@@ -543,7 +543,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/iio/imu/adis_buffer.c"
     },
     {
         "index": 4104,
@@ -582,7 +582,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "crypto/crypto_user_base.c"
     },
     {
         "index": 4105,
@@ -621,7 +621,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/realtek/rtlwifi/usb.c"
     },
     {
         "index": 4106,
@@ -660,7 +660,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/spi/spi-fsl-lpspi.c"
     },
     {
         "index": 4107,
@@ -699,7 +699,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/infiniband/hw/hfi1/sdma.c"
     },
     {
         "index": 4108,
@@ -738,7 +738,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/scsi/bfa/bfad_attr.c"
     },
     {
         "index": 4109,
@@ -777,7 +777,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/gpu/drm/amd/amdgpu/amdgpu_acp.c"
     },
     {
         "index": 4110,
@@ -816,7 +816,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c"
     },
     {
         "index": 4111,
@@ -855,7 +855,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/misc/fastrpc.c"
     },
     {
         "index": 4112,
@@ -894,7 +894,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/spi/spi-gpio.c"
     },
     {
         "index": 4085,
@@ -933,7 +933,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/rsi/rsi_91x_mgmt.c"
     },
     {
         "index": 4113,
@@ -972,7 +972,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/rsi/rsi_91x_mgmt.c"
     },
     {
         "index": 4086,
@@ -1011,7 +1011,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "kernel/trace/trace_events_filter.c"
     },
     {
         "index": 4114,
@@ -1050,7 +1050,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "kernel/trace/trace_events_filter.c"
     },
     {
         "index": 4087,
