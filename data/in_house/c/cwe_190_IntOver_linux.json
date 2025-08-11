@@ -36,7 +36,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "mm/oom_kill.c"
     },
     {
         "index": 73,
@@ -75,7 +75,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/xfs/xfs_acl.c"
     },
     {
         "index": 74,
@@ -114,7 +114,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/xfs/xfs_acl.c"
     },
     {
         "index": 75,
@@ -153,7 +153,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/gpu/drm/drm_crtc.c"
     },
     {
         "index": 1135,
@@ -191,7 +191,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/aio.c"
     },
     {
         "index": 1150,
@@ -229,7 +229,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "sound/core/compress_offload.c"
     },
     {
         "index": 601,
@@ -268,7 +268,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/core/filter.c"
     },
     {
         "index": 663,
@@ -307,7 +307,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "lib/lzo/lzo1x_decompress_safe.c"
     },
     {
         "index": 667,
@@ -346,7 +346,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "sound/core/control.c"
     },
     {
         "index": 668,
@@ -385,7 +385,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "sound/core/control.c"
     },
     {
         "index": 669,
@@ -424,7 +424,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "sound/core/control.c"
     },
     {
         "index": 959,
@@ -463,7 +463,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/scsi/sg.c"
     },
     {
         "index": 960,
@@ -502,7 +502,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/scsi/sg.c"
     },
     {
         "index": 1554,
@@ -540,7 +540,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/infiniband/sw/rxe/rxe_mr.c"
     },
     {
         "index": 1357,
@@ -579,7 +579,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/vfio/pci/vfio_pci.c"
     },
     {
         "index": 1358,
@@ -617,7 +617,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/vfio/pci/vfio_pci.c"
     },
     {
         "index": 1524,
@@ -655,7 +655,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "kernel/trace/ring_buffer.c"
     },
     {
         "index": 2592,
@@ -693,7 +693,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "include/linux/bpf_verifier.h"
     },
     {
         "index": 2731,
@@ -731,7 +731,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "kernel/events/core.c"
     },
     {
         "index": 2849,
@@ -769,7 +769,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/f2fs/data.c"
     },
     {
         "index": 1602,
@@ -807,7 +807,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/gpu/drm/vc4/vc4_gem.c"
     },
     {
         "index": 2131,
@@ -846,7 +846,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/ipv6/output_core.c"
     },
     {
         "index": 3027,
@@ -884,7 +884,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "include/linux/posix-timers.h"
     },
     {
         "index": 3010,
@@ -922,7 +922,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/video/fbdev/uvesafb.c"
     },
     {
         "index": 2699,
@@ -960,7 +960,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "kernel/futex.c"
     },
     {
         "index": 3643,
@@ -999,7 +999,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/block/floppy.c"
     },
     {
         "index": 4697,
@@ -1037,7 +1037,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/exec.c"
     },
     {
         "index": 6681,
@@ -1075,7 +1075,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "kernel/bpf/stackmap.c"
     },
     {
         "index": 7406,
@@ -1114,7 +1114,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/fs_context.c"
     },
     {
         "index": 9154,
@@ -1152,6 +1152,6 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/video/fbdev/pxa3xx-gcu.c"
     }
 ]
