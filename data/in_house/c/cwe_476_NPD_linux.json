@@ -35,7 +35,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 80,
@@ -73,7 +74,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 69,
@@ -110,7 +112,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 72,
@@ -147,7 +150,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 85,
@@ -184,7 +188,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 86,
@@ -221,7 +226,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 553,
@@ -259,7 +265,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 568,
@@ -297,7 +304,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 693,
@@ -334,7 +342,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 766,
@@ -372,7 +381,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1077,
@@ -409,7 +419,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1041,
@@ -446,7 +457,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1339,
@@ -483,7 +495,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1354,
@@ -520,7 +533,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1490,
@@ -557,7 +571,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1079,
@@ -594,7 +609,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1269,
@@ -631,7 +647,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1335,
@@ -668,7 +685,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1378,
@@ -706,7 +724,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1361,
@@ -744,7 +763,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1362,
@@ -781,7 +801,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1364,
@@ -818,7 +839,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2493,
@@ -855,7 +877,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2521,
@@ -892,7 +915,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 9344,
@@ -929,7 +953,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2307,
@@ -966,7 +991,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2534,
@@ -1003,7 +1029,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2505,
@@ -1040,7 +1067,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2494,
@@ -1077,7 +1105,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2553,
@@ -1114,7 +1143,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2566,
@@ -1151,7 +1181,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2629,
@@ -1188,7 +1219,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2789,
@@ -1225,7 +1257,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2744,
@@ -1262,7 +1295,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1624,
@@ -1299,7 +1333,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1573,
@@ -1337,7 +1372,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 1621,
@@ -1375,7 +1411,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 9365,
@@ -1412,7 +1449,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2795,
@@ -1449,7 +1487,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2794,
@@ -1486,7 +1525,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3025,
@@ -1523,7 +1563,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3026,
@@ -1560,7 +1601,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3024,
@@ -1598,7 +1640,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2648,
@@ -1635,7 +1678,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3515,
@@ -1672,7 +1716,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3516,
@@ -1709,7 +1754,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2678,
@@ -1746,7 +1792,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 2775,
@@ -1783,7 +1830,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3544,
@@ -1821,7 +1869,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3591,
@@ -1858,7 +1907,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3574,
@@ -1895,7 +1945,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3917,
@@ -1932,7 +1983,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3918,
@@ -1969,7 +2021,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3919,
@@ -2006,7 +2059,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 4159,
@@ -2043,7 +2097,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 4134,
@@ -2080,7 +2135,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 4203,
@@ -2117,7 +2173,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 4706,
@@ -2154,7 +2211,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 3424,
@@ -2191,7 +2249,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 4730,
@@ -2228,7 +2287,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 4731,
@@ -2265,7 +2325,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 4740,
@@ -2302,7 +2363,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 5647,
@@ -2339,7 +2401,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 5018,
@@ -2378,7 +2441,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 7738,
@@ -2415,7 +2479,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8672,
@@ -2453,7 +2518,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8673,
@@ -2491,7 +2557,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8674,
@@ -2529,7 +2596,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8645,
@@ -2566,7 +2634,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8646,
@@ -2603,7 +2672,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8650,
@@ -2640,7 +2710,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8304,
@@ -2677,7 +2748,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8647,
@@ -2714,7 +2786,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8648,
@@ -2751,7 +2824,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 8649,
@@ -2788,7 +2862,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 7360,
@@ -2825,7 +2900,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 9067,
@@ -2862,7 +2938,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 9585,
@@ -2899,7 +2976,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 10285,
@@ -2937,7 +3015,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 10558,
@@ -2974,7 +3053,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 10560,
@@ -3011,7 +3091,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 10562,
@@ -3048,7 +3129,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11120,
@@ -3085,7 +3167,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11118,
@@ -3122,7 +3205,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11117,
@@ -3159,7 +3243,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11116,
@@ -3196,7 +3281,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11115,
@@ -3233,7 +3319,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11114,
@@ -3270,7 +3357,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11952,
@@ -3307,7 +3395,8 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     },
     {
         "index": 11643,
@@ -3344,6 +3433,7 @@
         "cwe_descripiton": "",
         "cwe_consequence": "",
         "cwe_method": "",
-        "cwe_solution": ""
+        "cwe_solution": "",
+        "localization": ""
     }
 ]

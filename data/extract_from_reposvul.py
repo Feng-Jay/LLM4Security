@@ -13,6 +13,7 @@ for line in lines:
     object.pop("details")
     object.pop("windows_before")
     object.pop("windows_after")
+    object["localization"] = ""
     vuls.append(object)
 
 # get cwe-190s
