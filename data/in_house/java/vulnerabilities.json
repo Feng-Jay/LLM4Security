@@ -1,0 +1,850 @@
+{
+    "CWE-022": [
+        {
+            "repo_name": "DSpace__DSpace_CVE-2016-10726_4.4",
+            "repo_link": "https://github.com/DSpace/DSpace",
+            "commit_id": "ca4c86b1baa4e0b07975b1da86a34a6e7170b3b7",
+            "time": "yyyy-mm-dd",
+            "localization": "dspace-xmlui/src/main/java/org/dspace/app/xmlui/cocoon/SafeResourceReader.java"
+        },
+        {
+            "repo_name": "perwendel__spark_CVE-2018-9159_2.7.1",
+            "repo_link": "https://github.com/perwendel/spark",
+            "commit_id": "5316c0d0f057daaf556c3907c20df975f7bf8a8a",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/spark/resource/ClassPathResource.java;src/main/java/spark/resource/ClassPathResource.java;src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java;src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java;src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java;src/test/java/spark/examples/staticresources/StaticResources.java;src/main/java/spark/resource/ClassPathResource.java;src/main/java/spark/resource/ClassPathResource.java;src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java;src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java;src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java;src/test/java/spark/examples/staticresources/StaticResources.java;src/main/java/spark/resource/ClassPathResource.java;src/main/java/spark/resource/ClassPathResource.java;src/main/java/spark/resource/ClassPathResource.java;src/main/java/spark/resource/ClassPathResource.java;src/main/java/spark/resource/ClassPathResource.java"
+        },
+        {
+            "repo_name": "perwendel__spark_CVE-2016-9177_2.5.1",
+            "repo_link": "https://github.com/perwendel/spark",
+            "commit_id": "ce57dfb949ed183405f75dee8cf3262b45c9b3b5",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/spark/resource/ClassPathResourceHandler.java;src/main/java/spark/resource/ExternalResourceHandler.java;src/main/java/spark/staticfiles/StaticFilesConfiguration.java;src/main/java/spark/staticfiles/StaticFilesConfiguration.java;src/main/java/spark/staticfiles/StaticFilesConfiguration.java;src/main/java/spark/staticfiles/StaticFilesConfiguration.java;src/main/java/spark/utils/StringUtils.java;src/test/java/spark/StaticFilesTest.java"
+        },
+        {
+            "repo_name": "wildfly__wildfly_CVE-2018-1047_11.0.0.Final",
+            "repo_link": "https://github.com/wildfly/wildfly",
+            "commit_id": "4fd7bffaf2ee73201910684f2674aa1bced7fe81",
+            "time": "yyyy-mm-dd",
+            "localization": "testsuite/integration/web/src/test/java/org/jboss/as/test/integration/web/servlet/overlays/ServletResourceOverlaysTestCase.java;testsuite/integration/web/src/test/java/org/jboss/as/test/integration/web/servlet/overlays/ServletResourceOverlaysTestCase.java;undertow/src/main/java/org/wildfly/extension/undertow/deployment/ServletResourceManager.java;testsuite/integration/web/src/test/java/org/jboss/as/test/integration/web/servlet/overlays/ServletResourceOverlaysTestCase.java;testsuite/integration/web/src/test/java/org/jboss/as/test/integration/web/servlet/overlays/ServletResourceOverlaysTestCase.java;testsuite/integration/web/src/test/java/org/jboss/as/test/integration/web/servlet/overlays/ServletResourceOverlaysTestCase.java"
+        },
+        {
+            "repo_name": "vert-x3__vertx-web_CVE-2018-12542_3.5.3.CR1",
+            "repo_link": "https://github.com/vert-x3/vertx-web",
+            "commit_id": "3fe3873cc28b4d833c90f8989ff797a7b463da2c",
+            "time": "yyyy-mm-dd",
+            "localization": "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.java;vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.java;vertx-web/src/test/java/io/vertx/ext/web/handler/StaticHandlerTest.java;vertx-web/src/test/java/io/vertx/ext/web/handler/StaticHandlerTest.java"
+        },
+        {
+            "repo_name": "apache__camel_CVE-2018-8041_2.20.3",
+            "repo_link": "https://github.com/apache/camel",
+            "commit_id": "32bfda73ddd1ea8576bcb53dac496af9e0825f1a",
+            "time": "yyyy-mm-dd",
+            "localization": "components/camel-mail/src/main/java/org/apache/camel/component/mail/MailBinding.java;components/camel-mail/src/main/java/org/apache/camel/component/mail/MailBinding.java;components/camel-mail/src/main/java/org/apache/camel/component/mail/MailBinding.java;components/camel-mail/src/main/java/org/apache/camel/component/mail/MailBinding.java"
+        },
+        {
+            "repo_name": "dromara__hutool_CVE-2018-17297_4.1.11",
+            "repo_link": "https://github.com/dromara/hutool",
+            "commit_id": "96b486bb5ab5c2690c7b907a3fc67e25eab3c991",
+            "time": "yyyy-mm-dd",
+            "localization": "hutool-core/src/main/java/cn/hutool/core/util/ZipUtil.java;hutool-core/src/main/java/cn/hutool/core/util/ZipUtil.java;hutool-core/src/main/java/cn/hutool/core/util/ZipUtil.java;hutool-core/src/test/java/cn/hutool/core/io/FileUtilTest.java"
+        },
+        {
+            "repo_name": "apache__tika_CVE-2018-11762_1.18",
+            "repo_link": "https://github.com/apache/tika",
+            "commit_id": "38ff2a986af24ee255f1f91d654ea402f4016696",
+            "time": "yyyy-mm-dd",
+            "localization": "tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java;tika-app/src/test/java/org/apache/tika/cli/TikaCLITest.java;tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java;tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java;tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java;tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java;tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java;tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java;tika-app/src/test/java/org/apache/tika/cli/TikaCLITest.java;tika-example/src/main/java/org/apache/tika/example/ExtractEmbeddedFiles.java;tika-server/src/main/java/org/apache/tika/server/resource/UnpackerResource.java"
+        },
+        {
+            "repo_name": "square__retrofit_CVE-2018-1000850_2.4.0",
+            "repo_link": "https://github.com/square/retrofit",
+            "commit_id": "7158698314daa138e993fac6a590ed19d78a8599",
+            "time": "yyyy-mm-dd",
+            "localization": "retrofit/src/main/java/retrofit2/RequestBuilder.java;retrofit/src/main/java/retrofit2/RequestBuilder.java;retrofit/src/main/java/retrofit2/RequestBuilder.java;retrofit/src/main/java/retrofit2/RequestBuilder.java;retrofit/src/test/java/retrofit2/RequestFactoryTest.java;retrofit/src/test/java/retrofit2/RequestFactoryTest.java;retrofit/src/test/java/retrofit2/RequestFactoryTest.java"
+        },
+        {
+            "repo_name": "apache__jspwiki_CVE-2019-0225_2.11.0.M2",
+            "repo_link": "https://github.com/apache/jspwiki",
+            "commit_id": "d48bcef107a14dd07ecd830ab817b8df796082a4",
+            "time": "yyyy-mm-dd",
+            "localization": "jspwiki-main/src/main/java/org/apache/wiki/url/DefaultURLConstructor.java"
+        },
+        {
+            "repo_name": "apache__camel_CVE-2019-0194_2.21.4",
+            "repo_link": "https://github.com/apache/camel",
+            "commit_id": "757bc836d1d9ed11d11de73c5dc72fc53617d6a0",
+            "time": "yyyy-mm-dd",
+            "localization": "camel-core/src/main/java/org/apache/camel/component/file/GenericFileEndpoint.java;camel-core/src/main/java/org/apache/camel/component/file/GenericFileProducer.java;camel-core/src/main/java/org/apache/camel/component/file/GenericFileProducer.java;camel-core/src/test/java/org/apache/camel/component/file/FileProducerExpressionTest.java;components/camel-ftp/src/test/java/org/apache/camel/component/file/remote/FtpProducerExpressionTest.java"
+        },
+        {
+            "repo_name": "asf__tapestry-5_CVE-2019-0207_5.4.4",
+            "repo_link": "https://github.com/apache/tapestry-5",
+            "commit_id": "d29cc6778eb0c75e45139274005bba1c4f58907f",
+            "time": "yyyy-mm-dd",
+            "localization": "tapestry-ioc/src/main/java/org/apache/tapestry5/ioc/internal/util/AbstractResource.java"
+        },
+        {
+            "repo_name": "spring-cloud__spring-cloud-config_CVE-2020-5410_2.1.8.RELEASE",
+            "repo_link": "https://github.com/spring-cloud/spring-cloud-config",
+            "commit_id": "91843a9ddc7489275b679568bfce1e4c37af71e1",
+            "time": "yyyy-mm-dd",
+            "localization": "spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/GenericResourceRepository.java;spring-cloud-config-server/src/test/java/org/springframework/cloud/config/server/resource/GenericResourceRepositoryTests.java"
+        },
+        {
+            "repo_name": "spring-cloud__spring-cloud-config_CVE-2020-5405_2.1.6.RELEASE",
+            "repo_link": "https://github.com/spring-cloud/spring-cloud-config",
+            "commit_id": "24e7292e5930367396461354d3f9d8ba8b94771c",
+            "time": "yyyy-mm-dd",
+            "localization": "spring-cloud-config-client/src/main/java/org/springframework/cloud/config/client/ConfigServicePropertySourceLocator.java;spring-cloud-config-client/src/main/java/org/springframework/cloud/config/environment/Environment.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/environment/EnvironmentController.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/GenericResourceRepository.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/GenericResourceRepository.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/GenericResourceRepository.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/ResourceController.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/ResourceController.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/ResourceController.java;spring-cloud-config-server/src/main/java/org/springframework/cloud/config/server/resource/ResourceController.java;spring-cloud-config-server/src/test/java/org/springframework/cloud/config/server/resource/GenericResourceRepositoryTests.java"
+        },
+        {
+            "repo_name": "apache__rocketmq_CVE-2019-17572_4.6.0",
+            "repo_link": "https://github.com/apache/rocketmq",
+            "commit_id": "d1b4e47c26576cf4fa543bbdd8c6f09643220bed",
+            "time": "yyyy-mm-dd",
+            "localization": "broker/src/main/java/org/apache/rocketmq/broker/processor/AbstractSendMessageProcessor.java;broker/src/main/java/org/apache/rocketmq/broker/processor/AdminBrokerProcessor.java;broker/src/main/java/org/apache/rocketmq/broker/processor/AdminBrokerProcessor.java;broker/src/main/java/org/apache/rocketmq/broker/processor/AdminBrokerProcessor.java;broker/src/main/java/org/apache/rocketmq/broker/topic/TopicConfigManager.java;client/src/main/java/org/apache/rocketmq/client/Validators.java;client/src/main/java/org/apache/rocketmq/client/Validators.java;client/src/main/java/org/apache/rocketmq/client/Validators.java;client/src/main/java/org/apache/rocketmq/client/impl/MQAdminImpl.java;client/src/main/java/org/apache/rocketmq/client/impl/MQClientAPIImpl.java;common/src/main/java/org/apache/rocketmq/common/UtilAll.java;common/src/main/java/org/apache/rocketmq/common/UtilAll.java"
+        },
+        {
+            "repo_name": "joniles__mpxj_CVE-2020-35460_8.3.4",
+            "repo_link": "https://github.com/joniles/mpxj",
+            "commit_id": "87ea0ba33e901b87c95a18e3703ac51b59e2ee04",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+        },
+        {
+            "repo_name": "apache__flink_CVE-2020-17519_1.11.2",
+            "repo_link": "https://github.com/apache/flink",
+            "commit_id": "fe3613574f76201a8d55d572a639a4ce7e18a9db",
+            "time": "yyyy-mm-dd",
+            "localization": "flink-runtime/src/main/java/org/apache/flink/runtime/rest/handler/cluster/JobManagerCustomLogHandler.java"
+        },
+        {
+            "repo_name": "kubernetes-client__java_CVE-2020-8570_client-java-parent-9.0.1",
+            "repo_link": "https://github.com/kubernetes-client/java",
+            "commit_id": "796c74f4244cacd90d99393640ccaad0c72f8893",
+            "time": "yyyy-mm-dd",
+            "localization": "util/src/main/java/io/kubernetes/client/Copy.java"
+        },
+        {
+            "repo_name": "asf__commons-io_CVE-2021-29425_2.6",
+            "repo_link": "https://github.com/apache/commons-io",
+            "commit_id": "2ae025fe5c4a7d2046c53072b0898e37a079fe62",
+            "time": "yyyy-mm-dd",
+            "localization": "src/test/java/org/apache/commons/io/FilenameUtilsTestCase.java;src/test/java/org/apache/commons/io/FilenameUtilsTestCase.java"
+        },
+        {
+            "repo_name": "asf__karaf_CVE-2022-22932_4.3.5",
+            "repo_link": "https://github.com/apache/karaf",
+            "commit_id": "d0439e5b0dde1c7e3ff0207c557aa701093acd25",
+            "time": "yyyy-mm-dd",
+            "localization": "obr/src/main/java/org/apache/karaf/obr/command/util/FileUtil.java"
+        },
+        {
+            "repo_name": "asf__james-project_CVE-2022-22931_3.6.0",
+            "repo_link": "https://github.com/apache/james-project",
+            "commit_id": "34f9b0b52ab8c84378d3a34ac43a0fef5aa4e8fe",
+            "time": "yyyy-mm-dd",
+            "localization": "mailbox/maildir/src/main/java/org/apache/james/mailbox/maildir/MaildirFolder.java;server/data/data-file/src/main/java/org/apache/james/sieverepository/file/SieveFileRepository.java;server/data/data-file/src/test/java/org/apache/james/sieverepository/file/SieveFileRepositoryTest.java"
+        },
+        {
+            "repo_name": "vert-x3__vertx-web_CVE-2019-17640_3.9.3",
+            "repo_link": "https://github.com/vert-x3/vertx-web",
+            "commit_id": "2146b7240096e25b40bb1acc083fa7ec79330989",
+            "time": "yyyy-mm-dd",
+            "localization": "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.java;vertx-web/src/test/java/io/vertx/ext/web/handler/StaticHandlerTest.java;vertx-web/src/test/java/io/vertx/ext/web/handler/StaticHandlerTest.java"
+        },
+        {
+            "repo_name": "ESAPI__esapi-java-legacy_CVE-2022-23457_2.2.3.1",
+            "repo_link": "https://github.com/ESAPI/esapi-java-legacy",
+            "commit_id": "2e8694c6beb3bdbb2645b882eba72ce41bc63242",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/owasp/esapi/reference/DefaultValidator.java"
+        },
+        {
+            "repo_name": "xwiki__xwiki-commons_CVE-2022-24897_12.6.6",
+            "repo_link": "https://github.com/xwiki/xwiki-commons",
+            "commit_id": "4f33e1efd74016fa9eb31b3c2fcd01bc6becd551",
+            "time": "yyyy-mm-dd",
+            "localization": "xwiki-commons-core/xwiki-commons-velocity/src/main/java/org/xwiki/velocity/introspection/SecureIntrospector.java"
+        },
+        {
+            "repo_name": "srikanth-lingala__zip4j_CVE-2018-1002202_1.3.2",
+            "repo_link": "https://github.com/srikanth-lingala/zip4j",
+            "commit_id": "c4c993cb143db99832eadd03699bd8228a9793b8",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/net/lingala/zip4j/tasks/AbstractExtractFileTask.java;src/main/java/net/lingala/zip4j/tasks/AddFolderToZipTask.java;src/main/java/net/lingala/zip4j/tasks/AddFolderToZipTask.java;src/main/java/net/lingala/zip4j/util/FileUtils.java;src/test/java/net/lingala/zip4j/AddFilesToZipIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/ExtractZipFileIT.java;src/test/java/net/lingala/zip4j/MiscZipFileIT.java;src/test/java/net/lingala/zip4j/testutils/ZipFileVerifier.java"
+        },
+        {
+            "repo_name": "alibaba__one-java-agent_CVE-2022-25842_0.0.1",
+            "repo_link": "https://github.com/alibaba/one-java-agent",
+            "commit_id": "b911af2bb779917c84a016350700745dc31c642a",
+            "time": "yyyy-mm-dd",
+            "localization": ""
+        },
+        {
+            "repo_name": "apache__myfaces_CVE-2011-4367_2.0.11",
+            "repo_link": "https://github.com/apache/myfaces",
+            "commit_id": "bedac49daffc3cb792fa19884620af01ab5a01ab",
+            "time": "yyyy-mm-dd",
+            "localization": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java;shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java;shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java;shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java;shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java;shared/src/test/java/org/apache/myfaces/shared/resource/ResourceValidationUtilsTest.java;shared/src/test/java/org/apache/myfaces/shared/resource/ResourceValidationUtilsTest.java;shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+        },
+        {
+            "repo_name": "undertow-io__undertow_CVE-2014-7816_1.0.16.Final",
+            "repo_link": "https://github.com/undertow-io/undertow",
+            "commit_id": "4aa98c80fa9962235c94f8666c30793d0018f95d",
+            "time": "yyyy-mm-dd",
+            "localization": "core/src/main/java/io/undertow/server/handlers/resource/ResourceHandler.java;servlet/src/main/java/io/undertow/servlet/handlers/DefaultServlet.java;servlet/src/main/java/io/undertow/servlet/handlers/ServletPathMatches.java"
+        },
+        {
+            "repo_name": "jeremylong__DependencyCheck_CVE-2018-12036_3.1.2",
+            "repo_link": "https://github.com/jeremylong/DependencyCheck",
+            "commit_id": "c3b5b3c0d7fe7283b4cd421149d6fb620476f67d",
+            "time": "yyyy-mm-dd",
+            "localization": "core/src/main/java/org/owasp/dependencycheck/analyzer/ArchiveAnalyzer.java;core/src/main/java/org/owasp/dependencycheck/analyzer/ArchiveAnalyzer.java;core/src/main/java/org/owasp/dependencycheck/utils/ExtractionUtil.java;core/src/main/java/org/owasp/dependencycheck/utils/ExtractionUtil.java;core/src/main/java/org/owasp/dependencycheck/utils/ExtractionUtil.java"
+        },
+        {
+            "repo_name": "codehaus-plexus__plexus-archiver_CVE-2018-1002200_3.5",
+            "repo_link": "https://github.com/codehaus-plexus/plexus-archiver",
+            "commit_id": "b9f9a425865eb47fb3665b3144ee4ca11f402704",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java"
+        },
+        {
+            "repo_name": "zeroturnaround__zt-zip_CVE-2018-1002201_1.12",
+            "repo_link": "https://github.com/zeroturnaround/zt-zip",
+            "commit_id": "bd3f3d77f3709f901fd5180a493ef32e4dfebfa6",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/zeroturnaround/zip/ZipUtil.java;src/main/java/org/zeroturnaround/zip/ZipUtil.java;src/main/java/org/zeroturnaround/zip/ZipUtil.java"
+        },
+        {
+            "repo_name": "whitesource__curekit_CVE-2022-23082_1.1.3",
+            "repo_link": "https://github.com/whitesource/CureKit",
+            "commit_id": "7b275a67a5992165deb186b2b3f7764ddd062d26",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/io/whitesource/cure/FileSecurityUtils.java;src/test/java/io/whitesource/cure/FileSecurityUtilsTests.java"
+        },
+        {
+            "repo_name": "aws__aws-sdk-java_CVE-2022-31159_1.12.260",
+            "repo_link": "https://github.com/aws/aws-sdk-java",
+            "commit_id": "5555d847a882d4c3094b00ac7cec21a16cf01a3e",
+            "time": "yyyy-mm-dd",
+            "localization": "aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AWSCodeArtifactAsyncClient.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AWSCodeArtifactAsyncClient.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AWSCodeArtifactAsyncClient.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AWSCodeArtifactAsyncClient.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifact.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifact.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifact.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifact.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifactAsync.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifactAsync.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifactAsync.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/AbstractAWSCodeArtifactAsync.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/CopyPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/DescribePackageVersionRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/DisposePackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/GetPackageVersionAssetRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/GetPackageVersionReadmeRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/GetPackageVersionReadmeResult.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsResult.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsResult.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionAssetsResult.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionDependenciesRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionDependenciesResult.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackageVersionsResult.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackagesRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/ListPackagesRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageDependency.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageSummary.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageSummary.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageVersionDescription.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageVersionDescription.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageVersionDescription.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageVersionDescription.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageVersionSummary.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/PackageVersionSummary.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/UpdatePackageVersionsStatusRequest.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/ListPackageVersionsRequestMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/ListPackageVersionsRequestMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/ListPackagesRequestMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageSummaryJsonUnmarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageSummaryMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageSummaryMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageVersionDescriptionJsonUnmarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageVersionDescriptionMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageVersionDescriptionMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageVersionSummaryJsonUnmarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageVersionSummaryMarshaller.java;aws-java-sdk-codeartifact/src/main/java/com/amazonaws/services/codeartifact/model/transform/PackageVersionSummaryMarshaller.java;aws-java-sdk-fms/src/main/java/com/amazonaws/services/fms/model/NetworkFirewallPolicyDescription.java;aws-java-sdk-fms/src/main/java/com/amazonaws/services/fms/model/StatefulRuleGroup.java;aws-java-sdk-fms/src/main/java/com/amazonaws/services/fms/model/transform/NetworkFirewallPolicyDescriptionJsonUnmarshaller.java;aws-java-sdk-fms/src/main/java/com/amazonaws/services/fms/model/transform/NetworkFirewallPolicyDescriptionMarshaller.java;aws-java-sdk-fms/src/main/java/com/amazonaws/services/fms/model/transform/StatefulRuleGroupJsonUnmarshaller.java;aws-java-sdk-fms/src/main/java/com/amazonaws/services/fms/model/transform/StatefulRuleGroupMarshaller.java;aws-java-sdk-fms/src/main/java/com/amazonaws/services/fms/model/transform/StatefulRuleGroupMarshaller.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateJobRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateJobRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateJobRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateJobRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/CreateSessionRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/Job.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/Job.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/Job.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/Job.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobRun.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobRun.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobRun.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobRun.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobUpdate.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobUpdate.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobUpdate.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/JobUpdate.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/ListSessionsResult.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/ListSessionsResult.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/ListStatementsRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/ListStatementsResult.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/Session.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/Session.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/SessionCommand.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/SessionCommand.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-glue/src/main/java/com/amazonaws/services/glue/model/StartJobRunRequest.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AWSInspector2AsyncClient.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AWSInspector2Client.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AWSInspector2Client.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AbstractAWSInspector2.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AbstractAWSInspector2.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AbstractAWSInspector2.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AbstractAWSInspector2.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AbstractAWSInspector2Async.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AbstractAWSInspector2Async.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/AbstractAWSInspector2Async.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/CoverageFilterCriteria.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/CoverageFilterCriteria.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/CreateFilterRequest.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/CreateFilterRequest.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/UpdateFilterRequest.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/UpdateFilterRequest.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/transform/CreateFilterRequestMarshaller.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/transform/UpdateFilterRequestMarshaller.java;aws-java-sdk-inspector2/src/main/java/com/amazonaws/services/inspector2/model/transform/UpdateFilterRequestMarshaller.java"
+        },
+        {
+            "repo_name": "jlangch__venice_CVE-2022-36007_1.10.16",
+            "repo_link": "https://github.com/jlangch/venice",
+            "commit_id": "9306c93686100a6bc52ad0c8cb617ed199b5f75c",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/com/github/jlangch/venice/impl/util/io/LoadPaths.java;src/main/java/com/github/jlangch/venice/impl/util/io/LoadPaths.java"
+        },
+        {
+            "repo_name": "DSpace__DSpace_CVE-2022-31195_5.10",
+            "repo_link": "https://github.com/DSpace/DSpace",
+            "commit_id": "eca7968be7d6b9f8f5f302c9fc09f8186ed4809e",
+            "time": "yyyy-mm-dd",
+            "localization": "dspace-api/src/main/java/org/dspace/app/itemimport/ItemImport.java;dspace-api/src/main/java/org/dspace/app/itemimport/ItemImportServiceImpl.java"
+        },
+        {
+            "repo_name": "payara__Payara_CVE-2022-37422_5.2022.2",
+            "repo_link": "https://github.com/payara/Payara",
+            "commit_id": "7680990e55c04d628f16a591f950a2b3a4dcb401",
+            "time": "yyyy-mm-dd",
+            "localization": "appserver/web/web-core/src/main/java/org/apache/catalina/connector/CoyoteAdapter.java;appserver/web/web-core/src/main/java/org/apache/catalina/connector/CoyoteAdapter.java;appserver/web/web-core/src/main/java/org/apache/catalina/connector/CoyoteAdapter.java;appserver/web/web-core/src/main/java/org/apache/catalina/connector/CoyoteAdapter.java;appserver/web/web-core/src/main/java/org/apache/catalina/connector/CoyoteAdapter.java"
+        },
+        {
+            "repo_name": "DSpace__DSpace_CVE-2022-31194_5.10",
+            "repo_link": "https://github.com/DSpace/DSpace",
+            "commit_id": "eca7968be7d6b9f8f5f302c9fc09f8186ed4809e",
+            "time": "yyyy-mm-dd",
+            "localization": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java;dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java;dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java;dspace-jspui/src/main/java/org/dspace/app/webui/util/FileUploadRequest.java;dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java;dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java;dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java;dspace-jspui/src/main/java/org/dspace/app/webui/util/FileUploadRequest.java"
+        },
+        {
+            "repo_name": "diffplug__goomph_CVE-2022-26049_3.37.1",
+            "repo_link": "https://github.com/diffplug/goomph",
+            "commit_id": "fe2083196f0d0a75885aea402baaa972254173d5",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/com/diffplug/gradle/ZipMisc.java"
+        },
+        {
+            "repo_name": "apache__dolphinscheduler_CVE-2022-26884_2.0.5",
+            "repo_link": "https://github.com/apache/dolphinscheduler",
+            "commit_id": "f31328276c12821c21d1ce07e824bc74146c19b2",
+            "time": "yyyy-mm-dd",
+            "localization": "dolphinscheduler-server/src/main/java/org/apache/dolphinscheduler/server/log/LoggerRequestProcessor.java"
+        },
+        {
+            "repo_name": "apache__dolphinscheduler_CVE-2022-34662_2.0.9",
+            "repo_link": "https://github.com/apache/dolphinscheduler",
+            "commit_id": "23302054559410093573fb169336bafeb02db97f",
+            "time": "yyyy-mm-dd",
+            "localization": ""
+        },
+        {
+            "repo_name": "testng-team__testng_CVE-2022-4065_7.5",
+            "repo_link": "https://github.com/cbeust/testng",
+            "commit_id": "d8adcef70a9e0b8fcef5eab92ca87a8d398cfb89",
+            "time": "yyyy-mm-dd",
+            "localization": "testng-core/src/main/java/org/testng/JarFileUtils.java"
+        },
+        {
+            "repo_name": "apache__uima-uimaj_CVE-2022-32287_3.3.0",
+            "repo_link": "https://github.com/apache/uima-uimaj",
+            "commit_id": "f1f557a415ae38e383bf050587a510211515c21d",
+            "time": "yyyy-mm-dd",
+            "localization": "uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java;uimaj-core/src/main/java/org/apache/uima/pear/util/FileUtil.java"
+        },
+        {
+            "repo_name": "keycloak__keycloak_CVE-2022-3782_20.0.1",
+            "repo_link": "https://github.com/keycloak/keycloak",
+            "commit_id": "cce8ee2b1ab7c925bfbb62d8f12a33e93d943040",
+            "time": "yyyy-mm-dd",
+            "localization": "services/src/main/java/org/keycloak/protocol/oidc/endpoints/LogoutEndpoint.java;services/src/main/java/org/keycloak/protocol/oidc/endpoints/LogoutEndpoint.java;services/src/main/java/org/keycloak/protocol/oidc/endpoints/LogoutEndpoint.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/services/managers/AuthenticationSessionManager.java;services/src/main/java/org/keycloak/services/managers/UserSessionCrossDCManager.java;services/src/main/java/org/keycloak/services/resources/SessionCodeChecks.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/OAuthRedirectUriTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/OAuthRedirectUriTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/OAuthRedirectUriTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RPInitiatedLogoutTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RPInitiatedLogoutTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RPInitiatedLogoutTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RPInitiatedLogoutTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RPInitiatedLogoutTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RPInitiatedLogoutTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RefreshTokenTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/RefreshTokenTest.java"
+        },
+        {
+            "repo_name": "eclipse-ee4j__glassfish_CVE-2022-2712_6.2.5",
+            "repo_link": "https://github.com/eclipse-ee4j/glassfish",
+            "commit_id": "0159b68b362c7f4be78d1fa75aeaf2ec0b997f1d",
+            "time": "yyyy-mm-dd",
+            "localization": ""
+        },
+        {
+            "repo_name": "hapifhir__org.hl7.fhir.core_CVE-2023-24057_5.6.91",
+            "repo_link": "https://github.com/hapifhir/org.hl7.fhir.core",
+            "commit_id": "7b22d0355b1b12448e50b9cbfe2a8ae63f2ee828",
+            "time": "yyyy-mm-dd",
+            "localization": "org.hl7.fhir.convertors/src/main/java/org/hl7/fhir/convertors/misc/NpmPackageVersionConverter.java;org.hl7.fhir.convertors/src/main/java/org/hl7/fhir/convertors/misc/NpmPackageVersionConverter.java;org.hl7.fhir.convertors/src/main/java/org/hl7/fhir/convertors/misc/NpmPackageVersionConverter.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/terminologies/TerminologyCacheManager.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/terminologies/TerminologyCacheManager.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/terminologies/TerminologyCacheManager.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/terminologies/TerminologyCacheManager.java;org.hl7.fhir.utilities/src/main/java/org/hl7/fhir/utilities/npm/NpmPackage.java;org.hl7.fhir.utilities/src/main/java/org/hl7/fhir/utilities/npm/NpmPackage.java;org.hl7.fhir.validation/src/main/java/org/hl7/fhir/validation/Scanner.java;org.hl7.fhir.validation/src/main/java/org/hl7/fhir/validation/Scanner.java;org.hl7.fhir.validation/src/main/java/org/hl7/fhir/validation/Scanner.java"
+        },
+        {
+            "repo_name": "hapifhir__org.hl7.fhir.core_CVE-2023-28465_5.6.105",
+            "repo_link": "https://github.com/hapifhir/org.hl7.fhir.core",
+            "commit_id": "0b8e2c39841b51def04e29d3b745602517602d5b",
+            "time": "yyyy-mm-dd",
+            "localization": "org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/context/SimpleWorkerContext.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/terminologies/TerminologyCacheManager.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/test/utils/ToolsHelper.java;org.hl7.fhir.r4b/src/main/java/org/hl7/fhir/r4b/test/utils/ToolsHelper.java;org.hl7.fhir.r4b/src/test/java/org/hl7/fhir/r4b/terminologies/TerminologyCacheManagerTests.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/context/SimpleWorkerContext.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/renderers/QuestionnaireRenderer.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/terminologies/TerminologyCacheManager.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/test/utils/ToolsHelper.java;org.hl7.fhir.r5/src/main/java/org/hl7/fhir/r5/test/utils/ToolsHelper.java;org.hl7.fhir.r5/src/test/java/org/hl7/fhir/r5/terminologies/TerminologyCacheManagerTests.java;org.hl7.fhir.utilities/src/main/java/org/hl7/fhir/utilities/Utilities.java;org.hl7.fhir.utilities/src/main/java/org/hl7/fhir/utilities/Utilities.java;org.hl7.fhir.utilities/src/test/java/org/hl7/fhir/utilities/UtilitiesTest.java;org.hl7.fhir.utilities/src/test/java/org/hl7/fhir/utilities/UtilitiesTest.java;org.hl7.fhir.utilities/src/test/java/org/hl7/fhir/utilities/UtilitiesTest.java;org.hl7.fhir.validation/src/main/java/org/hl7/fhir/validation/IgLoader.java;org.hl7.fhir.validation/src/main/java/org/hl7/fhir/validation/IgLoader.java;org.hl7.fhir.validation/src/test/java/org/hl7/fhir/conversion/tests/UtilitiesXTests.java;org.hl7.fhir.validation/src/test/java/org/hl7/fhir/conversion/tests/UtilitiesXTests.java;org.hl7.fhir.validation/src/test/java/org/hl7/fhir/validation/IgLoaderTests.java;org.hl7.fhir.validation/src/test/java/org/hl7/fhir/validation/ScannerTest.java;org.hl7.fhir.validation/src/test/java/org/hl7/fhir/validation/ScannerTest.java;org.hl7.fhir.validation/src/test/java/org/hl7/fhir/validation/ScannerTest.java"
+        },
+        {
+            "repo_name": "Graylog2__graylog2-server_CVE-2023-41044_5.1.2",
+            "repo_link": "https://github.com/Graylog2/graylog2-server",
+            "commit_id": "d970230b6f3ecb83e07dd43df56428d1421c40e9",
+            "time": "yyyy-mm-dd",
+            "localization": "graylog2-server/src/main/java/org/graylog2/rest/resources/system/debug/bundle/SupportBundleService.java;graylog2-server/src/main/java/org/graylog2/rest/resources/system/debug/bundle/SupportBundleService.java;graylog2-server/src/main/java/org/graylog2/rest/resources/system/debug/bundle/SupportBundleService.java"
+        },
+        {
+            "repo_name": "apache__mina-sshd_CVE-2023-35887_2.9.2",
+            "repo_link": "https://github.com/apache/mina-sshd",
+            "commit_id": "fbbbb7b6af7fdf1765f297a96dfec3f198f5fd7d",
+            "time": "yyyy-mm-dd",
+            "localization": "sshd-cli/src/main/java/org/apache/sshd/cli/CliSupport.java;sshd-cli/src/main/java/org/apache/sshd/cli/client/SshClientCliSupport.java;sshd-cli/src/main/java/org/apache/sshd/cli/client/SshClientCliSupport.java;sshd-cli/src/main/java/org/apache/sshd/cli/client/SshClientCliSupport.java;sshd-cli/src/main/java/org/apache/sshd/cli/client/SshClientCliSupport.java;sshd-cli/src/main/java/org/apache/sshd/cli/client/SshKeyScanMain.java;sshd-cli/src/main/java/org/apache/sshd/cli/server/SshServerCliSupport.java;sshd-cli/src/main/java/org/apache/sshd/cli/server/SshServerMain.java;sshd-cli/src/test/java/org/apache/sshd/cli/server/SshFsMounter.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystem.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/util/BaseFileSystem.java;sshd-common/src/main/java/org/apache/sshd/common/file/util/BaseFileSystem.java;sshd-common/src/main/java/org/apache/sshd/common/util/io/IoUtils.java;sshd-common/src/main/java/org/apache/sshd/common/util/io/IoUtils.java;sshd-common/src/test/java/org/apache/sshd/common/file/root/RootedFileSystemProviderTest.java;sshd-common/src/test/java/org/apache/sshd/common/file/root/RootedFileSystemProviderTest.java;sshd-common/src/test/java/org/apache/sshd/common/file/root/RootedFileSystemProviderTest.java;sshd-common/src/test/java/org/apache/sshd/util/test/CommonTestSupportUtils.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/client/fs/SftpFileSystemProvider.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/client/fs/SftpFileSystemProvider.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpTest.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpTest.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpVersionsTest.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpVersionsTest.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystem.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/root/RootedFileSystemProvider.java;sshd-common/src/main/java/org/apache/sshd/common/file/util/BaseFileSystem.java;sshd-common/src/main/java/org/apache/sshd/common/file/util/BaseFileSystem.java;sshd-common/src/main/java/org/apache/sshd/common/util/io/IoUtils.java;sshd-common/src/main/java/org/apache/sshd/common/util/io/IoUtils.java;sshd-common/src/test/java/org/apache/sshd/common/file/root/RootedFileSystemProviderTest.java;sshd-common/src/test/java/org/apache/sshd/common/file/root/RootedFileSystemProviderTest.java;sshd-common/src/test/java/org/apache/sshd/common/file/root/RootedFileSystemProviderTest.java;sshd-common/src/test/java/org/apache/sshd/util/test/CommonTestSupportUtils.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/client/fs/SftpFileSystemProvider.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/client/fs/SftpFileSystemProvider.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/main/java/org/apache/sshd/sftp/server/SftpSubsystem.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpTest.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpTest.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpVersionsTest.java;sshd-sftp/src/test/java/org/apache/sshd/sftp/client/SftpVersionsTest.java"
+        },
+        {
+            "repo_name": "apache__shiro_CVE-2023-34478_1.11.0",
+            "repo_link": "https://github.com/apache/shiro",
+            "commit_id": "adb56c885210eeca710b2df17f6b3aeda85e4f35",
+            "time": "yyyy-mm-dd",
+            "localization": "web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java;web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java;web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java;web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java"
+        },
+        {
+            "repo_name": "codehaus-plexus__plexus-archiver_CVE-2023-37460_4.7.1",
+            "repo_link": "https://github.com/codehaus-plexus/plexus-archiver",
+            "commit_id": "e7cbadba1b5c78192677da95b355dd790f3a4535",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java;src/test/java/org/codehaus/plexus/archiver/SymlinkTest.java;src/test/java/org/codehaus/plexus/archiver/SymlinkTest.java;src/test/java/org/codehaus/plexus/archiver/SymlinkTest.java;src/test/java/org/codehaus/plexus/archiver/zip/ZipArchiverTest.java"
+        },
+        {
+            "repo_name": "codehaus-plexus__plexus-utils_CVE-2022-4244_3.0.23",
+            "repo_link": "https://github.com/codehaus-plexus/plexus-utils",
+            "commit_id": "6176f91bb843eecddac857591ed20bda38e01470",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/codehaus/plexus/util/Expand.java"
+        },
+        {
+            "repo_name": "yamcs__yamcs_CVE-2023-45278_5.8.6",
+            "repo_link": "https://github.com/yamcs/yamcs",
+            "commit_id": "ba2eea1c9bcd8d5bb1794eb6dacb063bf91890f0",
+            "time": "yyyy-mm-dd",
+            "localization": "yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java;yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java;yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java;yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java"
+        },
+        {
+            "repo_name": "yamcs__yamcs_CVE-2023-45277_5.8.6",
+            "repo_link": "https://github.com/yamcs/yamcs",
+            "commit_id": "ba2eea1c9bcd8d5bb1794eb6dacb063bf91890f0",
+            "time": "yyyy-mm-dd",
+            "localization": "yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java;yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java;yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java;yamcs-core/src/main/java/org/yamcs/yarch/FileSystemBucket.java"
+        },
+        {
+            "repo_name": "apache__shiro_CVE-2023-46749_1.12.0",
+            "repo_link": "https://github.com/apache/shiro",
+            "commit_id": "c8a294ab32b29a6e9d4b03bbaa6bae11c42daea1",
+            "time": "yyyy-mm-dd",
+            "localization": "web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java;web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java;web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java;web/src/main/java/org/apache/shiro/web/filter/InvalidRequestFilter.java"
+        },
+        {
+            "repo_name": "apache__sling-org-apache-sling-servlets-resolver_CVE-2024-23673_2.10.0",
+            "repo_link": "https://github.com/apache/sling-org-apache-sling-servlets-resolver",
+            "commit_id": "cb80c5e80144fcd9f6ac283ffb564f3b863cfbb2",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/apache/sling/servlets/resolver/internal/SlingScriptResolverImpl.java;src/main/java/org/apache/sling/servlets/resolver/internal/SlingServletResolver.java;src/main/java/org/apache/sling/servlets/resolver/internal/SlingServletResolver.java"
+        }
+    ],
+    "CWE-078": [
+        {
+            "repo_name": "x-stream__xstream_CVE-2013-7285_1.4.6",
+            "repo_link": "https://github.com/x-stream/xstream",
+            "commit_id": "768c6e417a75e7732fc591bee844e5e81af56a7d",
+            "time": "yyyy-mm-dd",
+            "localization": "xstream/src/java/com/thoughtworks/xstream/XStream.java;xstream/src/java/com/thoughtworks/xstream/XStream.java;xstream/src/java/com/thoughtworks/xstream/XStream.java;xstream/src/java/com/thoughtworks/xstream/mapper/CachingMapper.java;xstream/src/java/com/thoughtworks/xstream/mapper/CachingMapper.java;xstream/src/java/com/thoughtworks/xstream/converters/extended/FileConverter.java"
+        },
+        {
+            "repo_name": "x-stream__xstream_CVE-2020-26217_1.4.14-java7",
+            "repo_link": "https://github.com/x-stream/xstream",
+            "commit_id": "d03f6987b793fac71ab89a31d7aa633c366c5289",
+            "time": "yyyy-mm-dd",
+            "localization": ""
+        },
+        {
+            "repo_name": "x-stream__xstream_CVE-2021-21345_1.4.15",
+            "repo_link": "https://github.com/x-stream/xstream",
+            "commit_id": "f04bbec461f2c2a6f1e2cf41770f42c64aae24a4",
+            "time": "yyyy-mm-dd",
+            "localization": "xstream/src/java/com/thoughtworks/xstream/XStream.java;xstream/src/java/com/thoughtworks/xstream/XStream.java;xstream/src/java/com/thoughtworks/xstream/XStream.java;xstream/src/java/com/thoughtworks/xstream/XStream.java;xstream/src/java/com/thoughtworks/xstream/XStream.java"
+        },
+        {
+            "repo_name": "jenkinsci__docker-commons-plugin_CVE-2022-20617_1.17",
+            "repo_link": "https://github.com/jenkinsci/docker-commons-plugin",
+            "commit_id": "2f0fda49452a7653c33de24220c908786f1aa405",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/jenkinsci/plugins/docker/commons/credentials/DockerRegistryEndpoint.java;src/test/java/org/jenkinsci/plugins/docker/commons/credentials/DockerRegistryEndpointTest.java"
+        },
+        {
+            "repo_name": "jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646.v6ed3b5b01ff1",
+            "repo_link": "https://github.com/jenkinsci/workflow-cps-plugin",
+            "commit_id": "6ed3b5b01ff16dc4f6f9f4b209dbc21394b13913",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/jenkinsci/plugins/workflow/cps/CpsScmFlowDefinition.java;src/main/java/org/jenkinsci/plugins/workflow/cps/CpsScmFlowDefinition.java;src/main/java/org/jenkinsci/plugins/workflow/cps/DSL.java;src/test/java/org/jenkinsci/plugins/workflow/cps/CpsScmFlowDefinitionTest.java;src/main/java/org/jenkinsci/plugins/workflow/cps/CpsScmFlowDefinition.java"
+        },
+        {
+            "repo_name": "jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544.vff04fa68714d",
+            "repo_link": "https://github.com/jenkinsci/workflow-cps-global-lib-plugin",
+            "commit_id": "ff04fa68714d2cc277e8a87512461bdf3a39e186",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/jenkinsci/plugins/workflow/libs/FolderLibraries.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryAdder.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryAdder.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryAdder.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryAdder.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryAdder.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryResolver.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryStep.java;src/main/java/org/jenkinsci/plugins/workflow/libs/LibraryStep.java;src/main/java/org/jenkinsci/plugins/workflow/libs/SCMSourceRetriever.java;src/test/java/org/jenkinsci/plugins/workflow/libs/LibraryAdderTest.java;src/test/java/org/jenkinsci/plugins/workflow/libs/LibraryStepTest.java;src/test/java/org/jenkinsci/plugins/workflow/libs/LibraryStepTest.java;src/test/java/org/jenkinsci/plugins/workflow/libs/ResourceStepTest.java;src/test/java/org/jenkinsci/plugins/workflow/libs/ResourceStepTest.java;src/test/java/org/jenkinsci/plugins/workflow/libs/SCMSourceRetrieverTest.java;src/test/java/org/jenkinsci/plugins/workflow/libs/SCMSourceRetrieverTest.java"
+        },
+        {
+            "repo_name": "jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706.vd43c65dec013",
+            "repo_link": "https://github.com/jenkinsci/workflow-multibranch-plugin",
+            "commit_id": "d43c65dec013812b084fecbb4a310d856eb6b89a",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/jenkinsci/plugins/workflow/multibranch/ReadTrustedStep.java;src/main/java/org/jenkinsci/plugins/workflow/multibranch/ReadTrustedStep.java;src/main/java/org/jenkinsci/plugins/workflow/multibranch/ReadTrustedStep.java;src/test/java/org/jenkinsci/plugins/workflow/multibranch/ReadTrustedStepTest.java"
+        },
+        {
+            "repo_name": "apache__activemq_CVE-2014-3576_5.10.2",
+            "repo_link": "https://github.com/apache/activemq",
+            "commit_id": "f81d4784f3dda08a3b71b07d7946d39d0a7c6c12",
+            "time": "yyyy-mm-dd",
+            "localization": "activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnection.java;activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnection.java"
+        },
+        {
+            "repo_name": "codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15",
+            "repo_link": "https://github.com/codehaus-plexus/plexus-utils",
+            "commit_id": "3b271b43f9e5021b4232fc2ffdfb4e469c7f8685",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/Commandline.java;src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java;src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java;src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java;src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java;src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java;src/main/java/org/codehaus/plexus/util/cli/shell/Shell.java;src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java;src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java;src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java;src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java;src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java;src/test/java/org/codehaus/plexus/util/cli/CommandlineTest.java;src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java;src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java;src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java;src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java;src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java;src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java;src/test/java/org/codehaus/plexus/util/cli/shell/BourneShellTest.java"
+        },
+        {
+            "repo_name": "jenkinsci__git-client-plugin_CVE-2019-10392_2.8.4",
+            "repo_link": "https://github.com/jenkinsci/git-client-plugin",
+            "commit_id": "72add81da4cbeabc95504ebdb9007d47ac1c2b0b",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/jenkinsci/plugins/gitclient/CliGitAPIImpl.java;src/main/java/org/jenkinsci/plugins/gitclient/CliGitAPIImpl.java;src/main/java/org/jenkinsci/plugins/gitclient/CliGitAPIImpl.java;src/main/java/org/jenkinsci/plugins/gitclient/CliGitAPIImpl.java;src/main/java/org/jenkinsci/plugins/gitclient/CliGitAPIImpl.java;src/main/java/org/jenkinsci/plugins/gitclient/CliGitAPIImpl.java;src/main/java/org/jenkinsci/plugins/gitclient/CliGitAPIImpl.java"
+        },
+        {
+            "repo_name": "jenkinsci__perfecto-plugin_CVE-2020-2261_1.17",
+            "repo_link": "https://github.com/jenkinsci/perfecto-plugin",
+            "commit_id": "adabcd9da98628e063bb91198e30ff39a34dc921",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/io/plugins/perfecto/PerfectoBuildWrapper.java;src/main/java/io/plugins/perfecto/PerfectoBuildWrapper.java;src/main/java/io/plugins/perfecto/PerfectoBuildWrapper.java;src/main/java/io/plugins/perfecto/credentials/PerfectoCredentials.java;src/main/java/io/plugins/perfecto/credentials/PerfectoCredentials.java;src/main/java/io/plugins/perfecto/credentials/PerfectoCredentials.java;src/main/java/io/plugins/perfecto/credentials/PerfectoCredentials.java;src/main/java/io/plugins/perfecto/credentials/PerfectoCredentials.java;src/main/java/io/plugins/perfecto/credentials/PerfectoCredentials.java"
+        },
+        {
+            "repo_name": "apache__nifi_CVE-2022-33140_1.16.2",
+            "repo_link": "https://github.com/apache/nifi",
+            "commit_id": "06f04958272dafc30ce357c4c4edcaf470050b52",
+            "time": "yyyy-mm-dd",
+            "localization": "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/NssShellCommands.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/OsxShellCommands.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/RemoteShellCommands.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/ShellUserGroupProvider.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/ShellUserGroupProvider.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/ShellUserGroupProvider.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/ShellUserGroupProvider.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/ShellUserGroupProvider.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/main/java/org/apache/nifi/authorization/ShellUserGroupProvider.java;nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-shell-authorizer/src/test/java/org/apache/nifi/authorization/ShellUserGroupProviderIT.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/NssShellCommands.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/OsxShellCommands.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/ShellUserGroupProvider.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/ShellUserGroupProvider.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/ShellUserGroupProvider.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/ShellUserGroupProvider.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/ShellUserGroupProvider.java;nifi-registry/nifi-registry-core/nifi-registry-framework/src/main/java/org/apache/nifi/registry/security/authorization/shell/ShellUserGroupProvider.java"
+        },
+        {
+            "repo_name": "jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25",
+            "repo_link": "https://github.com/jenkinsci/script-security-plugin",
+            "commit_id": "d93135a2fb250c04cc361b0bb1efd809bc63ad08",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SandboxInterceptor.java;src/test/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SandboxInterceptorTest.java;src/test/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SandboxInterceptorTest.java;src/test/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SandboxInterceptorTest.java"
+        }
+    ],
+    "CWE-079": [
+        {
+            "repo_name": "nahsra__antisamy_CVE-2016-10006_1.5.3",
+            "repo_link": "https://github.com/nahsra/antisamy",
+            "commit_id": "1369d4c904e1f021d3616580daf9e1d8e43e0ddb",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.java"
+        },
+        {
+            "repo_name": "nahsra__antisamy_CVE-2017-14735_1.5.6",
+            "repo_link": "https://github.com/nahsra/antisamy",
+            "commit_id": "1369d4c904e1f021d3616580daf9e1d8e43e0ddb",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/owasp/validator/html/Policy.java;src/main/java/org/owasp/validator/html/Policy.java;src/main/java/org/owasp/validator/html/Policy.java;src/main/java/org/owasp/validator/html/Policy.java;src/main/java/org/owasp/validator/html/scan/AntiSamyDOMScanner.java;src/main/java/org/owasp/validator/html/scan/AntiSamySAXScanner.java;src/test/java/org/owasp/validator/html/test/AntiSamyTest.java"
+        },
+        {
+            "repo_name": "apache__jspwiki_CVE-2019-10077_2.11.0.M3",
+            "repo_link": "https://github.com/apache/jspwiki",
+            "commit_id": "2ea7973c1c7fdf2771a9743dbc8ecb27c9bb162d",
+            "time": "yyyy-mm-dd",
+            "localization": "jspwiki-main/src/main/java/org/apache/wiki/parser/JSPWikiMarkupParser.java;jspwiki-main/src/main/java/org/apache/wiki/parser/JSPWikiMarkupParser.java"
+        },
+        {
+            "repo_name": "apache__jspwiki_CVE-2019-10076_2.11.0.M3",
+            "repo_link": "https://github.com/apache/jspwiki",
+            "commit_id": "2ea7973c1c7fdf2771a9743dbc8ecb27c9bb162d",
+            "time": "yyyy-mm-dd",
+            "localization": "jspwiki-main/src/main/java/org/apache/wiki/tags/LinkToTag.java;jspwiki-main/src/main/java/org/apache/wiki/tags/LinkToTag.java;jspwiki-main/src/main/java/org/apache/wiki/tags/LinkToTag.java"
+        },
+        {
+            "repo_name": "apache__jspwiki_CVE-2019-10078_2.11.0.M3",
+            "repo_link": "https://github.com/apache/jspwiki",
+            "commit_id": "2ea7973c1c7fdf2771a9743dbc8ecb27c9bb162d",
+            "time": "yyyy-mm-dd",
+            "localization": "jspwiki-main/src/main/java/org/apache/wiki/plugin/ReferredPagesPlugin.java;jspwiki-main/src/main/java/org/apache/wiki/plugin/ReferredPagesPlugin.java"
+        },
+        {
+            "repo_name": "apache__jspwiki_CVE-2019-10089_2.11.0.M4",
+            "repo_link": "https://github.com/apache/jspwiki",
+            "commit_id": "6e1dc66adf3faa22e7f1f60189611a3d8ddb0726",
+            "time": "yyyy-mm-dd",
+            "localization": "jspwiki-main/src/main/java/org/apache/wiki/render/WysiwygEditingRenderer.java"
+        },
+        {
+            "repo_name": "hibernate__hibernate-validator_CVE-2019-10219_6.0.17.Final",
+            "repo_link": "https://github.com/hibernate/hibernate-validator",
+            "commit_id": "7694cff9ed6325006382390c9bb2d8e4f3efedb6",
+            "time": "yyyy-mm-dd",
+            "localization": "engine/src/main/java/org/hibernate/validator/internal/constraintvalidators/hv/SafeHtmlValidator.java;engine/src/test/java/org/hibernate/validator/test/internal/constraintvalidators/hv/SafeHtmlValidatorTest.java;engine/src/test/java/org/hibernate/validator/test/internal/constraintvalidators/hv/SafeHtmlValidatorTest.java;engine/src/main/java/org/hibernate/validator/internal/constraintvalidators/hv/SafeHtmlValidator.java;engine/src/test/java/org/hibernate/validator/test/internal/constraintvalidators/hv/SafeHtmlValidatorTest.java;engine/src/test/java/org/hibernate/validator/test/internal/constraintvalidators/hv/SafeHtmlValidatorTest.java"
+        },
+        {
+            "repo_name": "asf__cxf_CVE-2019-17573_3.2.11",
+            "repo_link": "https://github.com/apache/cxf",
+            "commit_id": "da2d27d97f9e9abd7d307e2224e5e0338b767ee2",
+            "time": "yyyy-mm-dd",
+            "localization": "rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/UnformattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/UnformattedServiceListWriter.java"
+        },
+        {
+            "repo_name": "xuxueli__xxl-job_CVE-2020-29204_2.2.0",
+            "repo_link": "https://github.com/xuxueli/xxl-job",
+            "commit_id": "1874c4854f81d6af4a9471d3fe111cdbf713f336",
+            "time": "yyyy-mm-dd",
+            "localization": "xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobGroupController.java;xxl-job-admin/src/main/java/com/xxl/job/admin/controller/UserController.java"
+        },
+        {
+            "repo_name": "OWASP__json-sanitizer_CVE-2020-13973_1.2.0",
+            "repo_link": "https://github.com/OWASP/json-sanitizer",
+            "commit_id": "bb41f80ad575cb90ea6535976d7c17accb4b4c87",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/com/google/json/JsonSanitizer.java;src/test/java/com/google/json/JsonSanitizerTest.java;src/test/java/com/google/json/JsonSanitizerTest.java"
+        },
+        {
+            "repo_name": "eclipse__hawkbit_CVE-2020-27219_0.3.0M6",
+            "repo_link": "https://github.com/eclipse/hawkbit",
+            "commit_id": "f3659f01425ad0162f92fa73357f8c507058bcb2",
+            "time": "yyyy-mm-dd",
+            "localization": ""
+        },
+        {
+            "repo_name": "alibaba__nacos_CVE-2021-44667_2.0.3",
+            "repo_link": "https://github.com/alibaba/nacos",
+            "commit_id": "5a4d433970be9b8402f57e65bffa497027f21e30",
+            "time": "yyyy-mm-dd",
+            "localization": ""
+        },
+        {
+            "repo_name": "nahsra__antisamy_CVE-2022-28367_1.6.5",
+            "repo_link": "https://github.com/nahsra/antisamy",
+            "commit_id": "b7c151112dd19928e700ee48639942fd1079d1e3",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/owasp/validator/html/scan/AntiSamyDOMScanner.java;src/test/java/org/owasp/validator/html/test/AntiSamyTest.java"
+        },
+        {
+            "repo_name": "ESAPI__esapi-java-legacy_CVE-2022-24891_2.2.3.1",
+            "repo_link": "https://github.com/ESAPI/esapi-java-legacy",
+            "commit_id": "2e8694c6beb3bdbb2645b882eba72ce41bc63242",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java;src/main/java/org/owasp/esapi/reference/DefaultValidator.java"
+        },
+        {
+            "repo_name": "nahsra__antisamy_CVE-2022-29577_1.6.6.1",
+            "repo_link": "https://github.com/nahsra/antisamy",
+            "commit_id": "b6e76de85a07549f2c97941437dd73430d7287a8",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/owasp/validator/html/scan/AntiSamyDOMScanner.java;src/test/java/org/owasp/validator/html/test/AntiSamyTest.java;src/test/java/org/owasp/validator/html/test/AntiSamyTest.java"
+        },
+        {
+            "repo_name": "rhuss__jolokia_CVE-2018-1000129_1.4.0",
+            "repo_link": "https://github.com/rhuss/jolokia",
+            "commit_id": "10727cab59a8fc2ae053bec6b2f26f48f1c4245c",
+            "time": "yyyy-mm-dd",
+            "localization": "agent/core/src/main/java/org/jolokia/http/AgentServlet.java;agent/core/src/main/java/org/jolokia/http/AgentServlet.java;agent/core/src/main/java/org/jolokia/http/AgentServlet.java;agent/core/src/main/java/org/jolokia/http/AgentServlet.java;agent/core/src/main/java/org/jolokia/http/AgentServlet.java;agent/core/src/main/java/org/jolokia/http/AgentServlet.java;agent/core/src/test/java/org/jolokia/http/AgentServletTest.java;agent/core/src/test/java/org/jolokia/http/AgentServletTest.java;agent/core/src/test/java/org/jolokia/http/AgentServletTest.java;agent/core/src/test/java/org/jolokia/http/AgentServletTest.java;agent/jvm/src/main/java/org/jolokia/jvmagent/handler/JolokiaHttpHandler.java;agent/jvm/src/main/java/org/jolokia/jvmagent/handler/JolokiaHttpHandler.java;agent/jvm/src/main/java/org/jolokia/jvmagent/handler/JolokiaHttpHandler.java;agent/jvm/src/main/java/org/jolokia/jvmagent/handler/JolokiaHttpHandler.java;agent/jvm/src/test/java/org/jolokia/jvmagent/handler/JolokiaHttpHandlerTest.java;agent/jvm/src/test/java/org/jolokia/jvmagent/handler/JolokiaHttpHandlerTest.java"
+        },
+        {
+            "repo_name": "keycloak__keycloak_CVE-2014-3656_1.0.5.Final",
+            "repo_link": "https://github.com/keycloak/keycloak",
+            "commit_id": "3b071b83aa0444749eba851fdbe0f2ed47932410",
+            "time": "yyyy-mm-dd",
+            "localization": "core/src/main/java/org/keycloak/util/UriUtils.java;services/src/main/java/org/keycloak/protocol/oidc/OpenIDConnectService.java"
+        },
+        {
+            "repo_name": "asf__cxf_CVE-2016-6812_3.0.11",
+            "repo_link": "https://github.com/apache/cxf",
+            "commit_id": "6c7df35913ce3fc6ec8f5dc6c6074b187f751aa6",
+            "time": "yyyy-mm-dd",
+            "localization": "rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/BaseUrlHelper.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/BaseUrlHelper.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/ServiceListGeneratorServlet.java;systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRSClientServerSpringBookTest.java;distribution/src/main/release/samples/jax_rs/spring_boot/src/main/java/sample/rs/service/SampleRestApplication.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/BaseUrlHelper.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/ServiceListGeneratorServlet.java;systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRSClientServerSpringBookTest.java;systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRSClientServerSpringBookTest.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/BaseUrlHelper.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/BaseUrlHelper.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/FormattedServiceListWriter.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/ServiceListGeneratorServlet.java;systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRSClientServerSpringBookTest.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/BaseUrlHelper.java;rt/transports/http/src/main/java/org/apache/cxf/transport/servlet/servicelist/ServiceListGeneratorServlet.java;systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRSClientServerSpringBookTest.java;systests/jaxrs/src/test/java/org/apache/cxf/systest/jaxrs/JAXRSClientServerSpringBookTest.java"
+        },
+        {
+            "repo_name": "apache__sling-org-apache-sling-xss_CVE-2016-5394_1.0.8",
+            "repo_link": "https://github.com/apache/sling-org-apache-sling-xss",
+            "commit_id": "e23ca68878dd6504066015601b6b76e8fe19b752",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java;src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java;src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java;src/main/java/org/apache/sling/xss/impl/XSSFilterImpl.java;src/main/java/org/apache/sling/xss/impl/XSSFilterImpl.java;src/main/java/org/apache/sling/xss/impl/XSSFilterImpl.java;src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java;src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java;src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java;src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java;src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java"
+        },
+        {
+            "repo_name": "DSpace__DSpace_CVE-2022-31192_5.10",
+            "repo_link": "https://github.com/DSpace/DSpace",
+            "commit_id": "eca7968be7d6b9f8f5f302c9fc09f8186ed4809e",
+            "time": "yyyy-mm-dd",
+            "localization": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/RequestItemServlet.java;dspace-jspui/src/main/java/org/dspace/app/webui/util/RequestItemManager.java;dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java"
+        },
+        {
+            "repo_name": "keycloak__keycloak_CVE-2022-4137_20.0.4",
+            "repo_link": "https://github.com/keycloak/keycloak",
+            "commit_id": "0bc62ec46b305508ed0e0cb2aa44706ab9426385",
+            "time": "yyyy-mm-dd",
+            "localization": "services/src/main/java/org/keycloak/forms/login/freemarker/FreeMarkerLoginFormsProvider.java;services/src/main/java/org/keycloak/theme/KeycloakSanitizerMethod.java;services/src/test/java/org/keycloak/theme/KeycloakSanitizerTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/AuthorizationCodeTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/AuthorizationCodeTest.java"
+        },
+        {
+            "repo_name": "keycloak__keycloak_CVE-2022-1274_20.0.4",
+            "repo_link": "https://github.com/keycloak/keycloak",
+            "commit_id": "0bc62ec46b305508ed0e0cb2aa44706ab9426385",
+            "time": "yyyy-mm-dd",
+            "localization": "services/src/main/java/org/keycloak/authentication/actiontoken/execactions/ExecuteActionsActionTokenHandler.java;services/src/main/java/org/keycloak/authentication/actiontoken/execactions/ExecuteActionsActionTokenHandler.java;services/src/main/java/org/keycloak/services/resources/admin/UserResource.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/admin/UserTest.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/admin/UserTest.java"
+        },
+        {
+            "repo_name": "xwiki__xwiki-commons_CVE-2023-29201_14.6",
+            "repo_link": "https://github.com/xwiki/xwiki-commons",
+            "commit_id": "1a52e374158eb78ff4b32aaa2b8e8c41e586877d",
+            "time": "yyyy-mm-dd",
+            "localization": "xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/DefaultHTMLCleaner.java;xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/DefaultHTMLCleaner.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/html/HTMLUtilsTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/html/filter/AbstractHTMLFilterTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/DefaultHTMLCleanerTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/DefaultHTMLCleanerTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/DefaultHTMLCleanerTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/DefaultHTMLCleanerTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/DefaultHTMLCleanerTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/DefaultHTMLCleanerTest.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/DefaultHTMLCleanerTest.java"
+        },
+        {
+            "repo_name": "xwiki__xwiki-commons_CVE-2023-29528_14.9-rc-1",
+            "repo_link": "https://github.com/xwiki/xwiki-commons",
+            "commit_id": "7796f76096a3e94b7a0a96bf12b3b026922e3573",
+            "time": "yyyy-mm-dd",
+            "localization": "xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/DefaultHTMLCleaner.java;xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/DefaultHTMLCleaner.java"
+        },
+        {
+            "repo_name": "xwiki__xwiki-rendering_CVE-2023-32070_14.6",
+            "repo_link": "https://github.com/xwiki/xwiki-rendering",
+            "commit_id": "0abe2f11af27f75fe3c26c9e136b03a9d7cef82f",
+            "time": "yyyy-mm-dd",
+            "localization": "xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedhtml5/src/main/java/org/xwiki/rendering/internal/renderer/html5/AnnotatedHTML5Renderer.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedxhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/AnnotatedXHTMLRenderer.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/main/java/org/xwiki/rendering/internal/renderer/html5/HTML5ChainingRenderer.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/main/java/org/xwiki/rendering/internal/renderer/html5/HTML5Renderer.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/test/java/org/xwiki/rendering/internal/html5/HTML5ChainingRendererTest.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/parser/xhtml/wikimodel/XHTMLXWikiGeneratorListener.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRenderer.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRenderer.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLRenderer.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRendererTest.java;xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRendererTest.java;xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java;xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java;xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java;xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java"
+        },
+        {
+            "repo_name": "xwiki__xwiki-commons_CVE-2023-31126_14.10.3",
+            "repo_link": "https://github.com/xwiki/xwiki-commons",
+            "commit_id": "011dee864805aec0b24151f69f230a42e40087da",
+            "time": "yyyy-mm-dd",
+            "localization": "xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/SecureHTMLElementSanitizer.java;xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/SecureHTMLElementSanitizer.java"
+        },
+        {
+            "repo_name": "apache__jspwiki_CVE-2022-46907_2.11.3",
+            "repo_link": "https://github.com/apache/jspwiki",
+            "commit_id": "515dff39c66c43318056fa76a20117662d2a0e8d",
+            "time": "yyyy-mm-dd",
+            "localization": "jspwiki-main/src/main/java/org/apache/wiki/plugin/BugReportHandler.java;jspwiki-main/src/main/java/org/apache/wiki/plugin/InsertPage.java;jspwiki-main/src/main/java/org/apache/wiki/forms/FormOutput.java;jspwiki-main/src/main/java/org/apache/wiki/forms/FormOpen.java;jspwiki-main/src/main/java/org/apache/wiki/plugin/CurrentTimePlugin.java;jspwiki-main/src/main/java/org/apache/wiki/plugin/Search.java"
+        },
+        {
+            "repo_name": "keycloak__keycloak_CVE-2022-4361_21.1.1",
+            "repo_link": "https://github.com/keycloak/keycloak",
+            "commit_id": "0ca0a5fa4459d97c4d769fec15b4ba99c3824314",
+            "time": "yyyy-mm-dd",
+            "localization": "services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java;testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/oauth/AuthorizationCodeTest.java"
+        },
+        {
+            "repo_name": "xwiki__xwiki-commons_CVE-2023-36471_14.10.5",
+            "repo_link": "https://github.com/xwiki/xwiki-commons",
+            "commit_id": "8dfb9fcb4f456c70f82ea670ca0e2f3dee373ee4",
+            "time": "yyyy-mm-dd",
+            "localization": "xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/HTMLDefinitions.java;xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/internal/html/SecureHTMLElementSanitizerTest.java"
+        },
+        {
+            "repo_name": "jstachio__jstachio_CVE-2023-33962_1.0.0",
+            "repo_link": "https://github.com/jstachio/jstachio",
+            "commit_id": "9ce20009d6bf726086fc528fceb174933077bff4",
+            "time": "yyyy-mm-dd",
+            "localization": "api/jstachio/src/main/java/io/jstach/jstachio/escapers/HtmlEscaper.java"
+        },
+        {
+            "repo_name": "xwiki__xwiki-rendering_CVE-2023-37908_14.10.3",
+            "repo_link": "https://github.com/xwiki/xwiki-rendering",
+            "commit_id": "0b0286c4caeab4cc1fdd617ec5bf0a91e6f46762",
+            "time": "yyyy-mm-dd",
+            "localization": "xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java"
+        }
+    ],
+    "CWE-094": [
+        {
+            "repo_name": "SpringSource__spring-security-oauth_CVE-2018-1260_2.3.2.RELEASE",
+            "repo_link": "https://github.com/spring-attic/spring-security-oauth",
+            "commit_id": "97e39dde7e88aae802be98de084a382886ca4255",
+            "time": "yyyy-mm-dd",
+            "localization": "spring-security-oauth2/src/main/java/org/springframework/security/oauth2/client/DefaultOAuth2RequestAuthenticator.java;spring-security-oauth2/src/test/java/org/springframework/security/oauth2/client/DefaultOAuth2RequestAuthenticatorTests.java"
+        },
+        {
+            "repo_name": "apache__activemq_CVE-2019-0222_5.15.8",
+            "repo_link": "https://github.com/apache/activemq",
+            "commit_id": "bcad7e1f6a6dd078d87787a03b56560e995ef773",
+            "time": "yyyy-mm-dd",
+            "localization": "activemq-mqtt/src/test/java/org/apache/activemq/transport/mqtt/MQTTCodecTest.java;activemq-mqtt/src/test/java/org/apache/activemq/transport/mqtt/MQTTCodecTest.java"
+        },
+        {
+            "repo_name": "jmrozanec__cron-utils_CVE-2021-41269_9.1.5",
+            "repo_link": "https://github.com/jmrozanec/cron-utils",
+            "commit_id": "34493c66edb490396202edad66c5f8cc5717d494",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/com/cronutils/parser/CronParser.java;src/test/java/com/cronutils/Issue418Test.java;src/test/java/com/cronutils/Issue418Test.java;src/test/java/com/cronutils/parser/CronParserQuartzIntegrationTest.java;src/test/java/com/cronutils/validation/CronValidatorTest.java;src/main/java/com/cronutils/validation/CronValidator.java"
+        },
+        {
+            "repo_name": "apache__struts_CVE-2020-17530_2.5.25",
+            "repo_link": "https://github.com/apache/struts",
+            "commit_id": "b3a9d82d5830ef9cd7811cfa3f86a373ae52fada",
+            "time": "yyyy-mm-dd",
+            "localization": "core/src/main/java/com/opensymphony/xwork2/interceptor/StaticParametersInterceptor.java;core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java"
+        },
+        {
+            "repo_name": "apache__activemq_CVE-2020-11998_5.15.12",
+            "repo_link": "https://github.com/apache/activemq",
+            "commit_id": "cebbd7fdea0633e6a0cbbef427f9b753949fa531",
+            "time": "yyyy-mm-dd",
+            "localization": "activemq-broker/src/main/java/org/apache/activemq/broker/jmx/ManagementContext.java;activemq-broker/src/main/java/org/apache/activemq/broker/jmx/ManagementContext.java;activemq-broker/src/main/java/org/apache/activemq/broker/jmx/ManagementContext.java"
+        },
+        {
+            "repo_name": "spring-projects__spring-framework_CVE-2022-22965_5.2.19.RELEASE",
+            "repo_link": "https://github.com/spring-projects/spring-framework",
+            "commit_id": "925b07826067d57a8a057837a1b5973cb6fad186",
+            "time": "yyyy-mm-dd",
+            "localization": "spring-beans/src/main/java/org/springframework/beans/CachedIntrospectionResults.java;spring-beans/src/main/java/org/springframework/beans/CachedIntrospectionResults.java"
+        },
+        {
+            "repo_name": "spring-cloud__spring-cloud-gateway_CVE-2022-22947_3.0.6",
+            "repo_link": "https://github.com/spring-cloud/spring-cloud-gateway",
+            "commit_id": "da0f9014bcc9131d8f15141be74011b89a01420f",
+            "time": "yyyy-mm-dd",
+            "localization": "spring-cloud-gateway-server/src/main/java/org/springframework/cloud/gateway/support/ShortcutConfigurable.java;spring-cloud-gateway-server/src/main/java/org/springframework/cloud/gateway/support/ShortcutConfigurable.java;spring-cloud-gateway-server/src/test/java/org/springframework/cloud/gateway/support/ShortcutConfigurableTests.java;spring-cloud-gateway-server/src/test/java/org/springframework/cloud/gateway/support/ShortcutConfigurableTests.java;spring-cloud-gateway-server/src/test/java/org/springframework/cloud/gateway/support/ShortcutConfigurableTests.java;spring-cloud-gateway-server/src/test/java/org/springframework/cloud/gateway/support/ShortcutConfigurableTests.java"
+        },
+        {
+            "repo_name": "apache__dubbo_CVE-2021-30180_2.7.9",
+            "repo_link": "https://github.com/apache/dubbo",
+            "commit_id": "f0483b80a32e813a4393879744e30d0084c3eafd",
+            "time": "yyyy-mm-dd",
+            "localization": "dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParser.java;dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParser.java;dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParser.java;dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/router/condition/config/model/ConditionRuleParser.java;dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/router/tag/model/TagRuleParser.java;dubbo-cluster/src/test/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParserTest.java;dubbo-cluster/src/test/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParserTest.java;dubbo-cluster/src/test/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParserTest.java;dubbo-cluster/src/test/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParserTest.java;dubbo-cluster/src/test/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParserTest.java;dubbo-cluster/src/test/java/org/apache/dubbo/rpc/cluster/configurator/parser/ConfigParserTest.java;dubbo-cluster/src/test/java/org/apache/dubbo/rpc/cluster/router/TagRouterTest.java;dubbo-common/src/main/java/org/apache/dubbo/common/utils/PojoUtils.java;dubbo-common/src/main/java/org/apache/dubbo/common/utils/PojoUtils.java;dubbo-common/src/test/java/org/apache/dubbo/common/utils/PojoUtilsTest.java;dubbo-common/src/test/java/org/apache/dubbo/common/utils/PojoUtilsTest.java;dubbo-common/src/test/java/org/apache/dubbo/common/utils/PojoUtilsTest.java"
+        },
+        {
+            "repo_name": "apache__incubator-dubbo_CVE-2021-30181_2.6.8",
+            "repo_link": "https://github.com/apache/dubbo",
+            "commit_id": "5a6a069986f3627f2d50720c50024df31a3dc38a",
+            "time": "yyyy-mm-dd",
+            "localization": "dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/router/script/ScriptRouter.java;dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/router/script/ScriptRouter.java;dubbo-cluster/src/main/java/org/apache/dubbo/rpc/cluster/router/script/ScriptRouter.java"
+        },
+        {
+            "repo_name": "spring-projects__spring-security_CVE-2011-2732_2.0.6.RELEASE",
+            "repo_link": "https://github.com/spring-projects/spring-security",
+            "commit_id": "beb0ec4ba95265a7e3481b3eb8d87f3b922733ae",
+            "time": "yyyy-mm-dd",
+            "localization": "web/src/main/java/org/springframework/security/web/authentication/AbstractAuthenticationTargetUrlRequestHandler.java;web/src/main/java/org/springframework/security/web/authentication/logout/SimpleUrlLogoutSuccessHandler.java;web/src/main/java/org/springframework/security/web/firewall/DefaultHttpFirewall.java"
+        },
+        {
+            "repo_name": "fabric8io__kubernetes-client_CVE-2021-4178_5.0.2",
+            "repo_link": "https://github.com/fabric8io/kubernetes-client",
+            "commit_id": "1d1b3d404836871c4d0fc0a35dafe5d40369b519",
+            "time": "yyyy-mm-dd",
+            "localization": "kubernetes-client/src/main/java/io/fabric8/kubernetes/client/utils/Serialization.java"
+        },
+        {
+            "repo_name": "asf__commons-text_CVE-2022-42889_1.9",
+            "repo_link": "https://github.com/apache/commons-text",
+            "commit_id": "cb85bed468e99d34b88d0c81fe20eb3b1615660e",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/apache/commons/text/StringSubstitutor.java;src/main/java/org/apache/commons/text/lookup/InterpolatorStringLookup.java;src/main/java/org/apache/commons/text/lookup/InterpolatorStringLookup.java;src/main/java/org/apache/commons/text/lookup/InterpolatorStringLookup.java;src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java;src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java;src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java;src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java;src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java;src/test/java/org/apache/commons/text/StringSubstitutorWithInterpolatorStringLookupTest.java;src/test/java/org/apache/commons/text/StringSubstitutorWithInterpolatorStringLookupTest.java;src/test/java/org/apache/commons/text/StringSubstitutorWithInterpolatorStringLookupTest.java;src/test/java/org/apache/commons/text/StringSubstitutorWithInterpolatorStringLookupTest.java;src/test/java/org/apache/commons/text/lookup/StringLookupFactoryTest.java"
+        },
+        {
+            "repo_name": "ff4j__ff4j_CVE-2022-44262_1.8.13",
+            "repo_link": "https://github.com/ff4j/ff4j",
+            "commit_id": "7c34409d320ed1c917c4ec4ac72a99661c4e446f",
+            "time": "yyyy-mm-dd",
+            "localization": "ff4j-config-properties/src/main/java/org/ff4j/parser/properties/PropertiesParser.java;ff4j-config-properties/src/main/java/org/ff4j/parser/properties/PropertiesParser.java;ff4j-config-properties/src/test/java/org/ff4j/parser/properties/PropertiesParserTest.java;ff4j-config-properties/src/test/java/org/ff4j/parser/properties/PropertiesParserTest.java;ff4j-config-properties/src/test/java/org/ff4j/parser/properties/PropertiesParserTest.java;ff4j-config-yaml/src/main/java/org/ff4j/parser/yaml/YamlParser.java;ff4j-config-yaml/src/main/java/org/ff4j/parser/yaml/YamlParser.java;ff4j-config-yaml/src/test/java/org/ff4j/parser/yaml/YamlParserTest.java;ff4j-config-yaml/src/test/java/org/ff4j/parser/yaml/YamlParserTest.java;ff4j-core/src/main/java/org/ff4j/conf/XmlParser.java;ff4j-core/src/main/java/org/ff4j/conf/XmlParser.java;ff4j-core/src/main/java/org/ff4j/property/util/PropertyFactory.java;ff4j-core/src/main/java/org/ff4j/utils/MappingUtil.java;ff4j-core/src/test/java/org/ff4j/test/parser/XmlParserTest.java;ff4j-core/src/test/java/org/ff4j/test/parser/XmlParserTest.java;ff4j-core/src/test/java/org/ff4j/test/property/PropertyFactoryTest.java;ff4j-core/src/test/java/org/ff4j/test/utils/MappingUtilsTest.java;ff4j-core/src/test/java/org/ff4j/test/utils/MappingUtilsTest.java;ff4j-web/src/main/java/org/ff4j/web/embedded/ConsoleOperations.java;ff4j-web/src/main/java/org/ff4j/web/embedded/ConsoleOperations.java"
+        },
+        {
+            "repo_name": "codecentric__spring-boot-admin_CVE-2022-46166_2.6.9",
+            "repo_link": "https://github.com/codecentric/spring-boot-admin",
+            "commit_id": "650db9e89d80f54b41ebd18f8c27389e8741516d",
+            "time": "yyyy-mm-dd",
+            "localization": "spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/DingTalkNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/DingTalkNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/DiscordNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/HipchatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/LetsChatNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/MicrosoftTeamsNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/MicrosoftTeamsNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/MicrosoftTeamsNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/OpsGenieNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/OpsGenieNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/OpsGenieNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/OpsGenieNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/OpsGenieNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/PagerdutyNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/PagerdutyNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/PagerdutyNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/PagerdutyNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/PagerdutyNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/PagerdutyNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/SlackNotifier.java;spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/notify/TelegramNotifier.java"
+        },
+        {
+            "repo_name": "xerial__sqlite-jdbc_CVE-2023-32697_3.41.2.1",
+            "repo_link": "https://github.com/xerial/sqlite-jdbc",
+            "commit_id": "a3322b2ae802b28624bcd4e2e20c55558e46cf99",
+            "time": "yyyy-mm-dd",
+            "localization": "src/main/java/org/sqlite/SQLiteConnection.java;src/main/java/org/sqlite/SQLiteConnection.java"
+        },
+        {
+            "repo_name": "asf__nifi_CVE-2023-34468_1.21.0",
+            "repo_link": "https://github.com/apache/nifi",
+            "commit_id": "892f822107da84ca0dcfefdb5c91c5bc11dc3dc1",
+            "time": "yyyy-mm-dd",
+            "localization": "nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-bundle/nifi-dbcp-service/src/test/java/org/apache/nifi/dbcp/DBCPServiceTest.java;nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-bundle/nifi-hikari-dbcp-service/src/test/java/org/apache/nifi/dbcp/HikariCPConnectionPoolTest.java;nifi-nar-bundles/nifi-extension-utils/nifi-dbcp-base/src/main/java/org/apache/nifi/dbcp/utils/DBCPProperties.java;nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-bundle/nifi-hikari-dbcp-service/src/main/java/org/apache/nifi/dbcp/HikariCPConnectionPool.java"
+        },
+        {
+            "repo_name": "apache__rocketmq_CVE-2023-37582_4.9.6",
+            "repo_link": "https://github.com/apache/rocketmq",
+            "commit_id": "db4ba459bec9392ac37647ff1a4d24d30466814d",
+            "time": "yyyy-mm-dd",
+            "localization": "namesrv/src/main/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessor.java;namesrv/src/test/java/org/apache/rocketmq/namesrv/processor/RequestProcessorTest.java"
+        },
+        {
+            "repo_name": "asf__nifi_CVE-2023-36542_1.22.0",
+            "repo_link": "https://github.com/apache/nifi",
+            "commit_id": "71e3ea9f2c58d0cf2ce6824c388f2bd3e917dfc8",
+            "time": "yyyy-mm-dd",
+            "localization": "nifi-nar-bundles/nifi-jms-bundle/nifi-jms-processors/src/main/java/org/apache/nifi/jms/cf/JMSConnectionFactoryProvider.java"
+        },
+        {
+            "repo_name": "apache__rocketmq_CVE-2023-33246_5.1.0",
+            "repo_link": "https://github.com/apache/rocketmq",
+            "commit_id": "b8e9334d2a1ed8868a3b15b63b8ef3198fcb81ce",
+            "time": "yyyy-mm-dd",
+            "localization": "broker/src/main/java/org/apache/rocketmq/broker/processor/AdminBrokerProcessor.java;broker/src/test/java/org/apache/rocketmq/broker/processor/AdminBrokerProcessorTest.java;controller/src/main/java/org/apache/rocketmq/controller/processor/ControllerRequestProcessor.java;controller/src/main/java/org/apache/rocketmq/controller/processor/ControllerRequestProcessor.java;namesrv/src/main/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessor.java;namesrv/src/main/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessor.java;namesrv/src/test/java/org/apache/rocketmq/namesrv/processor/RequestProcessorTest.java;namesrv/src/main/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessor.java;namesrv/src/main/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessor.java;namesrv/src/test/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessorTest.java"
+        },
+        {
+            "repo_name": "apache__dolphinscheduler_CVE-2023-51770_3.2.0",
+            "repo_link": "https://github.com/apache/dolphinscheduler",
+            "commit_id": "f64b254809f21f811eaef780d489a43b490ca327",
+            "time": "yyyy-mm-dd",
+            "localization": "dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/src/main/java/org/apache/dolphinscheduler/plugin/datasource/mysql/param/MySQLDataSourceProcessor.java;dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/src/main/java/org/apache/dolphinscheduler/plugin/datasource/mysql/param/MySQLDataSourceProcessor.java;dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/src/main/java/org/apache/dolphinscheduler/plugin/datasource/mysql/param/MySQLDataSourceProcessor.java;dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/src/main/java/org/apache/dolphinscheduler/plugin/datasource/mysql/param/MySQLDataSourceProcessor.java;dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/src/main/java/org/apache/dolphinscheduler/plugin/datasource/mysql/param/MySQLDataSourceProcessor.java;dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/src/test/java/org/apache/dolphinscheduler/plugin/datasource/mysql/param/MySQLDataSourceProcessorTest.java;dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/src/test/java/org/apache/dolphinscheduler/plugin/datasource/mysql/utils/DataSourceUtilsTest.java"
+        },
+        {
+            "repo_name": "apache__dolphinscheduler_CVE-2023-49109_3.2.0",
+            "repo_link": "https://github.com/apache/dolphinscheduler",
+            "commit_id": "f64b254809f21f811eaef780d489a43b490ca327",
+            "time": "yyyy-mm-dd",
+            "localization": "dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/controller/K8sNamespaceController.java;dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/k8s/K8sClientService.java;dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/k8s/K8sClientService.java;dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/service/impl/K8SNamespaceServiceImpl.java;dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/service/impl/K8SNamespaceServiceImpl.java;dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/service/impl/K8SNamespaceServiceImpl.java;dolphinscheduler-api/src/test/java/org/apache/dolphinscheduler/api/controller/K8sNamespaceControllerTest.java;dolphinscheduler-api/src/test/java/org/apache/dolphinscheduler/api/controller/K8sNamespaceControllerTest.java;dolphinscheduler-api/src/test/java/org/apache/dolphinscheduler/api/service/K8SNamespaceServiceTest.java;dolphinscheduler-api/src/test/java/org/apache/dolphinscheduler/api/service/K8SNamespaceServiceTest.java;dolphinscheduler-dao/src/test/java/org/apache/dolphinscheduler/dao/mapper/K8sNamespaceMapperTest.java;dolphinscheduler-dao/src/test/java/org/apache/dolphinscheduler/dao/mapper/K8sNamespaceMapperTest.java"
+        }
+    ]
+}
