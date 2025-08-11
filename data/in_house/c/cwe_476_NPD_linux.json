@@ -36,7 +36,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/sctp/socket.c"
     },
     {
         "index": 80,
@@ -75,7 +75,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/proc/task_mmu.c"
     },
     {
         "index": 69,
@@ -113,7 +113,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "crypto/ghash-generic.c"
     },
     {
         "index": 72,
@@ -151,7 +151,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/socket.c"
     },
     {
         "index": 85,
@@ -189,7 +189,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/binfmt_elf.c"
     },
     {
         "index": 86,
@@ -227,7 +227,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "mm/memcontrol.c"
     },
     {
         "index": 553,
@@ -266,7 +266,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/rds/ib.c"
     },
     {
         "index": 568,
@@ -305,7 +305,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/sctp/sm_statefuns.c"
     },
     {
         "index": 693,
@@ -343,7 +343,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/sctp/associola.c"
     },
     {
         "index": 766,
@@ -382,7 +382,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "kernel/trace/trace_syscalls.c"
     },
     {
         "index": 1077,
@@ -420,7 +420,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/input/tablet/aiptek.c"
     },
     {
         "index": 1041,
@@ -458,7 +458,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/netfilter/nf_nat_redirect.c"
     },
     {
         "index": 1339,
@@ -496,7 +496,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/bluetooth/rfcomm/sock.c"
     },
     {
         "index": 1354,
@@ -534,7 +534,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "crypto/algif_skcipher.c"
     },
     {
         "index": 1490,
@@ -572,7 +572,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "crypto/mcryptd.c"
     },
     {
         "index": 1079,
@@ -610,7 +610,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/usb/serial/visor.c"
     },
     {
         "index": 1269,
@@ -648,7 +648,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "mm/migrate.c"
     },
     {
         "index": 1335,
@@ -686,7 +686,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/infiniband/ulp/srpt/ib_srpt.c"
     },
     {
         "index": 1378,
@@ -725,7 +725,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "lib/assoc_array.c"
     },
     {
         "index": 1361,
@@ -764,7 +764,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "arch/x86/kvm/emulate.c"
     },
     {
         "index": 1362,
@@ -802,7 +802,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "crypto/algif_hash.c"
     },
     {
         "index": 1364,
@@ -840,7 +840,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "security/keys/big_key.c"
     },
     {
         "index": 2493,
