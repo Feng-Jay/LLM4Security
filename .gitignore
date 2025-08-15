@@ -1,6 +1,7 @@
 /target
 /data/projects
 /data/projects.zip
+/data/in_house/c/combine.py
 /data/in_house/c/ReposVul_c.jsonl
 .vscode/
 .DS_Store
