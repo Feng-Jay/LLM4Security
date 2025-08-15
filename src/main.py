@@ -7,7 +7,7 @@ def run_tools(configs: Config) -> bool:
     vulnerabilities = configs.get_vulnerability_info()
     logger.info(f"Loaded {len(vulnerabilities)} vulnerabilities from configuration.")
     match configs.tool:
-        case "repoAudit":
+        case "repoaudit":
             pass
         case "knighter":
             knighter = Knighter.from_config(Path("../knighter.yaml"))

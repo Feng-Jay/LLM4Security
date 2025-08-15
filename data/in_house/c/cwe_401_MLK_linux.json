@@ -1053,45 +1053,6 @@
         "localization": "kernel/trace/trace_events_filter.c"
     },
     {
-        "index": 4087,
-        "cve_id": "CVE-2019-19073",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "Memory leaks in drivers/net/wireless/ath/ath9k/htc_hst.c in the Linux kernel through 5.3.11 allow attackers to cause a denial of service (memory consumption) by triggering wait_for_completion_timeout() failures. This affects the htc_config_pipe_credits() function, the htc_setup_complete() function, and the htc_connect_service() function, aka CID-853acf7caf10.",
-        "cvss": "4.0",
-        "publish_date": "November 18, 2019",
-        "AV": "LOCAL",
-        "AC": "LOCAL",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "LOW",
-        "commit_id": "853acf7caf10b828102d92d05b5c101666a6142b",
-        "commit_message": "ath9k_htc: release allocated buffer if timed out\n\nIn htc_config_pipe_credits, htc_setup_complete, and htc_connect_service\nif time out happens, the allocated buffer needs to be released.\nOtherwise there will be memory leak.\n\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nSigned-off-by: Kalle Valo <kvalo@codeaurora.org>",
-        "commit_date": "2019-09-10T13:28:29Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/853acf7caf10b828102d92d05b5c101666a6142b",
-        "html_url": "https://github.com/torvalds/linux/commit/853acf7caf10b828102d92d05b5c101666a6142b",
-        "parents": [
-            {
-                "commit_id_before": "45f09a1c5b8584334899121d4b33a4aebe05e068",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/45f09a1c5b8584334899121d4b33a4aebe05e068",
-                "html_url_before": "https://github.com/torvalds/linux/commit/45f09a1c5b8584334899121d4b33a4aebe05e068"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
-    },
-    {
         "index": 4115,
         "cve_id": "CVE-2019-19073",
         "cwe_id": [
@@ -1128,46 +1089,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4088,
-        "cve_id": "CVE-2019-19074",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "A memory leak in the ath9k_wmi_cmd() function in drivers/net/wireless/ath/ath9k/wmi.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption), aka CID-728c1e2a05e4.",
-        "cvss": "7.5",
-        "publish_date": "November 18, 2019",
-        "AV": "NETWORK",
-        "AC": "NETWORK",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "728c1e2a05e4b5fc52fab3421dce772a806612a2",
-        "commit_message": "ath9k: release allocated buffer if timed out\n\nIn ath9k_wmi_cmd, the allocated network buffer needs to be released\nif timeout happens. Otherwise memory will be leaked.\n\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nSigned-off-by: Kalle Valo <kvalo@codeaurora.org>",
-        "commit_date": "2019-09-10T13:31:40Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/728c1e2a05e4b5fc52fab3421dce772a806612a2",
-        "html_url": "https://github.com/torvalds/linux/commit/728c1e2a05e4b5fc52fab3421dce772a806612a2",
-        "parents": [
-            {
-                "commit_id_before": "853acf7caf10b828102d92d05b5c101666a6142b",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/853acf7caf10b828102d92d05b5c101666a6142b",
-                "html_url_before": "https://github.com/torvalds/linux/commit/853acf7caf10b828102d92d05b5c101666a6142b"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/ath/ath9k/htc_hst.c"
     },
     {
         "index": 4116,
@@ -1206,46 +1128,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4089,
-        "cve_id": "CVE-2019-19075",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "A memory leak in the ca8210_probe() function in drivers/net/ieee802154/ca8210.c in the Linux kernel before 5.3.8 allows attackers to cause a denial of service (memory consumption) by triggering ca8210_get_platform_data() failures, aka CID-6402939ec86e.",
-        "cvss": "7.5",
-        "publish_date": "November 18, 2019",
-        "AV": "NETWORK",
-        "AC": "NETWORK",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "6402939ec86eaf226c8b8ae00ed983936b164908",
-        "commit_message": "ieee802154: ca8210: prevent memory leak\n\nIn ca8210_probe the allocated pdata needs to be assigned to\nspi_device->dev.platform_data before calling ca8210_get_platform_data.\nOthrwise when ca8210_get_platform_data fails pdata cannot be released.\n\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nLink: https://lore.kernel.org/r/20190917224713.26371-1-navid.emamdoost@gmail.com\nSigned-off-by: Stefan Schmidt <stefan@datenfreihafen.org>",
-        "commit_date": "2019-09-27T19:57:42Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/6402939ec86eaf226c8b8ae00ed983936b164908",
-        "html_url": "https://github.com/torvalds/linux/commit/6402939ec86eaf226c8b8ae00ed983936b164908",
-        "parents": [
-            {
-                "commit_id_before": "21a045e430e56725628f361dede8a882e92469b9",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/21a045e430e56725628f361dede8a882e92469b9",
-                "html_url_before": "https://github.com/torvalds/linux/commit/21a045e430e56725628f361dede8a882e92469b9"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/ath/ath9k/wmi.c"
     },
     {
         "index": 4117,
@@ -1284,46 +1167,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4090,
-        "cve_id": "CVE-2019-19076",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "** DISPUTED ** A memory leak in the nfp_abm_u32_knode_replace() function in drivers/net/ethernet/netronome/nfp/abm/cls.c in the Linux kernel before 5.3.6 allows attackers to cause a denial of service (memory consumption), aka CID-78beef629fd9. NOTE: This has been argued as not a valid vulnerability. The upstream commit 78beef629fd9 was reverted.",
-        "cvss": "5.9",
-        "publish_date": "November 18, 2019",
-        "AV": "NETWORK",
-        "AC": "NETWORK",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "78beef629fd95be4ed853b2d37b832f766bd96ca",
-        "commit_message": "nfp: abm: fix memory leak in nfp_abm_u32_knode_replace\n\nIn nfp_abm_u32_knode_replace if the allocation for match fails it should\ngo to the error handling instead of returning. Updated other gotos to\nhave correct errno returned, too.\n\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nSigned-off-by: David S. Miller <davem@davemloft.net>",
-        "commit_date": "2019-09-27T18:55:51Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/78beef629fd95be4ed853b2d37b832f766bd96ca",
-        "html_url": "https://github.com/torvalds/linux/commit/78beef629fd95be4ed853b2d37b832f766bd96ca",
-        "parents": [
-            {
-                "commit_id_before": "a41e8a88b06ee39fad4cb4a8ccf822563560a89c",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/a41e8a88b06ee39fad4cb4a8ccf822563560a89c",
-                "html_url_before": "https://github.com/torvalds/linux/commit/a41e8a88b06ee39fad4cb4a8ccf822563560a89c"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/ieee802154/ca8210.c"
     },
     {
         "index": 4118,
@@ -1362,46 +1206,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4091,
-        "cve_id": "CVE-2019-19077",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "A memory leak in the bnxt_re_create_srq() function in drivers/infiniband/hw/bnxt_re/ib_verbs.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering copy to udata failures, aka CID-4a9d46a9fe14.",
-        "cvss": "5.5",
-        "publish_date": "November 18, 2019",
-        "AV": "LOCAL",
-        "AC": "LOCAL",
-        "PR": "LOW",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "4a9d46a9fe14401f21df69cea97c62396d5fb053",
-        "commit_message": "RDMA: Fix goto target to release the allocated memory\n\nIn bnxt_re_create_srq(), when ib_copy_to_udata() fails allocated memory\nshould be released by goto fail.\n\nFixes: 37cb11acf1f7 (\"RDMA/bnxt_re: Add SRQ support for Broadcom adapters\")\nLink: https://lore.kernel.org/r/20190910222120.16517-1-navid.emamdoost@gmail.com\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nReviewed-by: Jason Gunthorpe <jgg@mellanox.com>\nSigned-off-by: Jason Gunthorpe <jgg@mellanox.com>",
-        "commit_date": "2019-09-13T19:55:55Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/4a9d46a9fe14401f21df69cea97c62396d5fb053",
-        "html_url": "https://github.com/torvalds/linux/commit/4a9d46a9fe14401f21df69cea97c62396d5fb053",
-        "parents": [
-            {
-                "commit_id_before": "2ac5a6d3a917755919d97c89f8aa74e4ed958557",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/2ac5a6d3a917755919d97c89f8aa74e4ed958557",
-                "html_url_before": "https://github.com/torvalds/linux/commit/2ac5a6d3a917755919d97c89f8aa74e4ed958557"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/ethernet/netronome/nfp/abm/cls.c"
     },
     {
         "index": 4119,
@@ -1440,46 +1245,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4092,
-        "cve_id": "CVE-2019-19078",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "A memory leak in the ath10k_usb_hif_tx_sg() function in drivers/net/wireless/ath/ath10k/usb.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering usb_submit_urb() failures, aka CID-b8d17e7d93d2.",
-        "cvss": "7.5",
-        "publish_date": "November 18, 2019",
-        "AV": "NETWORK",
-        "AC": "NETWORK",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "b8d17e7d93d2beb89e4f34c59996376b8b544792",
-        "commit_message": "ath10k: fix memory leak\n\nIn ath10k_usb_hif_tx_sg the allocated urb should be released if\nusb_submit_urb fails.\n\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nSigned-off-by: Kalle Valo <kvalo@codeaurora.org>",
-        "commit_date": "2019-09-23T08:28:50Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/b8d17e7d93d2beb89e4f34c59996376b8b544792",
-        "html_url": "https://github.com/torvalds/linux/commit/b8d17e7d93d2beb89e4f34c59996376b8b544792",
-        "parents": [
-            {
-                "commit_id_before": "35cc054d944e8c9a7e9a31f32bbf360feb01a301",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/35cc054d944e8c9a7e9a31f32bbf360feb01a301",
-                "html_url_before": "https://github.com/torvalds/linux/commit/35cc054d944e8c9a7e9a31f32bbf360feb01a301"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/infiniband/hw/bnxt_re/ib_verbs.c"
     },
     {
         "index": 4120,
@@ -1518,46 +1284,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4093,
-        "cve_id": "CVE-2019-19079",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "A memory leak in the qrtr_tun_write_iter() function in net/qrtr/tun.c in the Linux kernel before 5.3 allows attackers to cause a denial of service (memory consumption), aka CID-a21b7f0cff19.",
-        "cvss": "7.5",
-        "publish_date": "November 18, 2019",
-        "AV": "NETWORK",
-        "AC": "NETWORK",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "a21b7f0cff1906a93a0130b74713b15a0b36481d",
-        "commit_message": "net: qrtr: fix memort leak in qrtr_tun_write_iter\n\nIn qrtr_tun_write_iter the allocated kbuf should be release in case of\nerror or success return.\n\nv2 Update: Thanks to David Miller for pointing out the release on success\npath as well.\n\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nSigned-off-by: David S. Miller <davem@davemloft.net>",
-        "commit_date": "2019-09-12T10:58:44Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/a21b7f0cff1906a93a0130b74713b15a0b36481d",
-        "html_url": "https://github.com/torvalds/linux/commit/a21b7f0cff1906a93a0130b74713b15a0b36481d",
-        "parents": [
-            {
-                "commit_id_before": "10cc514f451a0f239aa34f91bc9dc954a9397840",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/10cc514f451a0f239aa34f91bc9dc954a9397840",
-                "html_url_before": "https://github.com/torvalds/linux/commit/10cc514f451a0f239aa34f91bc9dc954a9397840"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/wireless/ath/ath10k/usb.c"
     },
     {
         "index": 4121,
@@ -1596,46 +1323,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4094,
-        "cve_id": "CVE-2019-19080",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "Four memory leaks in the nfp_flower_spawn_phy_reprs() function in drivers/net/ethernet/netronome/nfp/flower/main.c in the Linux kernel before 5.3.4 allow attackers to cause a denial of service (memory consumption), aka CID-8572cea1461a.",
-        "cvss": "5.9",
-        "publish_date": "November 18, 2019",
-        "AV": "NETWORK",
-        "AC": "NETWORK",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "8572cea1461a006bce1d06c0c4b0575869125fa4",
-        "commit_message": "nfp: flower: prevent memory leak in nfp_flower_spawn_phy_reprs\n\nIn nfp_flower_spawn_phy_reprs, in the for loop over eth_tbl if any of\nintermediate allocations or initializations fail memory is leaked.\nrequiered releases are added.\n\nFixes: b94524529741 (\"nfp: flower: add per repr private data for LAG offload\")\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nAcked-by: Jakub Kicinski <jakub.kicinski@netronome.com>\nSigned-off-by: David S. Miller <davem@davemloft.net>",
-        "commit_date": "2019-09-27T18:10:52Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/8572cea1461a006bce1d06c0c4b0575869125fa4",
-        "html_url": "https://github.com/torvalds/linux/commit/8572cea1461a006bce1d06c0c4b0575869125fa4",
-        "parents": [
-            {
-                "commit_id_before": "dfe5999dc03e321d08190772c98843284d5cf419",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/dfe5999dc03e321d08190772c98843284d5cf419",
-                "html_url_before": "https://github.com/torvalds/linux/commit/dfe5999dc03e321d08190772c98843284d5cf419"
-            }
-        ],
-        "outdated": 1,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "net/qrtr/tun.c"
     },
     {
         "index": 4122,
@@ -1674,46 +1362,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4095,
-        "cve_id": "CVE-2019-19081",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "A memory leak in the nfp_flower_spawn_vnic_reprs() function in drivers/net/ethernet/netronome/nfp/flower/main.c in the Linux kernel before 5.3.4 allows attackers to cause a denial of service (memory consumption), aka CID-8ce39eb5a67a.",
-        "cvss": "5.9",
-        "publish_date": "November 18, 2019",
-        "AV": "NETWORK",
-        "AC": "NETWORK",
-        "PR": "NONE",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "8ce39eb5a67aee25d9f05b40b673c95b23502e3e",
-        "commit_message": "nfp: flower: fix memory leak in nfp_flower_spawn_vnic_reprs\n\nIn nfp_flower_spawn_vnic_reprs in the loop if initialization or the\nallocations fail memory is leaked. Appropriate releases are added.\n\nFixes: b94524529741 (\"nfp: flower: add per repr private data for LAG offload\")\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nAcked-by: Jakub Kicinski <jakub.kicinski@netronome.com>\nSigned-off-by: David S. Miller <davem@davemloft.net>",
-        "commit_date": "2019-09-27T18:12:03Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/8ce39eb5a67aee25d9f05b40b673c95b23502e3e",
-        "html_url": "https://github.com/torvalds/linux/commit/8ce39eb5a67aee25d9f05b40b673c95b23502e3e",
-        "parents": [
-            {
-                "commit_id_before": "8572cea1461a006bce1d06c0c4b0575869125fa4",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/8572cea1461a006bce1d06c0c4b0575869125fa4",
-                "html_url_before": "https://github.com/torvalds/linux/commit/8572cea1461a006bce1d06c0c4b0575869125fa4"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/ethernet/netronome/nfp/flower/main.c"
     },
     {
         "index": 4123,
@@ -1752,46 +1401,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
-    },
-    {
-        "index": 4096,
-        "cve_id": "CVE-2019-19082",
-        "cwe_id": [
-            "CWE-400",
-            "CWE-401"
-        ],
-        "cve_language": "C",
-        "cve_description": "Memory leaks in *create_resource_pool() functions under drivers/gpu/drm/amd/display/dc in the Linux kernel through 5.3.11 allow attackers to cause a denial of service (memory consumption). This affects the dce120_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce120/dce120_resource.c, the dce110_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce110/dce110_resource.c, the dce100_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c, the dcn10_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dcn10/dcn10_resource.c, and the dce112_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce112/dce112_resource.c, aka CID-104c307147ad.",
-        "cvss": "4.7",
-        "publish_date": "November 18, 2019",
-        "AV": "LOCAL",
-        "AC": "LOCAL",
-        "PR": "LOW",
-        "UI": "NONE",
-        "S": "UNCHANGED",
-        "C": "NONE",
-        "I": "NONE",
-        "A": "HIGH",
-        "commit_id": "104c307147ad379617472dd91a5bcb368d72bd6d",
-        "commit_message": "drm/amd/display: prevent memory leak\n\nIn dcn*_create_resource_pool the allocated memory should be released if\nconstruct pool fails.\n\nReviewed-by: Harry Wentland <harry.wentland@amd.com>\nSigned-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>\nSigned-off-by: Alex Deucher <alexander.deucher@amd.com>",
-        "commit_date": "2019-09-25T19:58:38Z",
-        "project": "torvalds/linux",
-        "url": "https://api.github.com/repos/torvalds/linux/commits/104c307147ad379617472dd91a5bcb368d72bd6d",
-        "html_url": "https://github.com/torvalds/linux/commit/104c307147ad379617472dd91a5bcb368d72bd6d",
-        "parents": [
-            {
-                "commit_id_before": "1e94b43813a2757f6ee471584ca07cdbc1a51db9",
-                "url_before": "https://api.github.com/repos/torvalds/linux/commits/1e94b43813a2757f6ee471584ca07cdbc1a51db9",
-                "html_url_before": "https://github.com/torvalds/linux/commit/1e94b43813a2757f6ee471584ca07cdbc1a51db9"
-            }
-        ],
-        "outdated": 0,
-        "cwe_descripiton": "",
-        "cwe_consequence": "",
-        "cwe_method": "",
-        "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/ethernet/netronome/nfp/flower/main.c"
     },
     {
         "index": 4124,
@@ -1830,7 +1440,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c#drivers/gpu/drm/amd/display/dc/dce112/dce112_resource.c"
     },
     {
         "index": 4125,
@@ -1869,7 +1479,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c"
     },
     {
         "index": 6871,
@@ -1907,7 +1517,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "net/rds/connection.c"
     },
     {
         "index": 7416,
@@ -1945,7 +1555,7 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "drivers/net/hamradio/yam.c"
     },
     {
         "index": 9915,
@@ -1983,6 +1593,6 @@
         "cwe_consequence": "",
         "cwe_method": "",
         "cwe_solution": "",
-        "localization": ""
+        "localization": "fs/ksmbd/smb2pdu.c"
     }
 ]

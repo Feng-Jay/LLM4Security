@@ -1,0 +1,354 @@
+{
+    "jleaks": [
+        {
+            "repo_name": "OpenTracksApp/OpenTracks",
+            "repo_link": "https://github.com/OpenTracksApp/OpenTracks",
+            "commit_id": "9abe3cf05b7fd902699a352b88f6ee7c62328709^",
+            "localization": "src/androidTest/java/de/dennisguse/opentracks/data/CustomContentProviderUtilsTest.java:testBulkInsertTrackPoint",
+            "time": "2022-01-19"
+        },
+        {
+            "repo_name": "spring-projects/spring-framework",
+            "repo_link": "https://github.com/spring-projects/spring-framework",
+            "commit_id": "ccff52645459be77919d2703e35e322d4b6abc0b^",
+            "localization": "spring-core/src/main/java/org/springframework/core/io/support/PathMatchingResourcePatternResolver.java:doFindPathMatchingFileResources",
+            "time": "2022-09-28"
+        },
+        {
+            "repo_name": "apache/kafka",
+            "repo_link": "https://github.com/apache/kafka",
+            "commit_id": "a07294a732704b5322df6611088d8d33bc7d3048^",
+            "localization": "src/contrib/rest/src/java/org/apache/zookeeper/server/jersey/cfg/RestCfg.java:RestCfg",
+            "time": "2024-07-26"
+        },
+        {
+            "repo_name": "IQSS/dataverse",
+            "repo_link": "https://github.com/IQSS/dataverse",
+            "commit_id": "45a54da4080ae32419039c4294e9f8b42c942704^",
+            "localization": "src/main/java/edu/harvard/iq/dataverse/util/FileUtil.java:isFITSFile",
+            "time": "2023-04-07"
+        },
+        {
+            "repo_name": "IQSS/dataverse",
+            "repo_link": "https://github.com/IQSS/dataverse",
+            "commit_id": "e64a81d18d8d68ca6efc1dcbf3c37c81244d7e54^",
+            "localization": "src/main/java/edu/harvard/iq/dataverse/harvest/server/web/servlet/OAIServlet.java:processRequest",
+            "time": "2022-07-11"
+        },
+        {
+            "repo_name": "AxonFramework/AxonFramework",
+            "repo_link": "https://github.com/AxonFramework/AxonFramework",
+            "commit_id": "e8a7c29371e47e71c048d8fb17e3257b7b00455f^",
+            "localization": "axon-server-connector/src/main/java/org/axonframework/axonserver/connector/query/AxonServerQueryBus.java:AxonServerQueryBus",
+            "time": "2023-02-22"
+        },
+        {
+            "repo_name": "sepinf-inc/IPED",
+            "repo_link": "https://github.com/sepinf-inc/IPED",
+            "commit_id": "73115a4482ad8067b40b447e19f983b69c1e9738^",
+            "localization": "iped-engine/src/main/java/dpf/sp/gpinf/indexer/process/task/DocThumbTask.java:process",
+            "time": "2022-03-22"
+        },
+        {
+            "repo_name": "DiscordSRV/DiscordSRV",
+            "repo_link": "https://github.com/DiscordSRV/DiscordSRV",
+            "commit_id": "e89c37ccbf74285830a11bd01b14c035e7801f28^",
+            "localization": "src/main/java/github/scarsz/discordsrv/util/WebhookUtil.java:executeWebhook",
+            "time": "2022-07-09"
+        },
+        {
+            "repo_name": "apache/nifi",
+            "repo_link": "https://github.com/apache/nifi",
+            "commit_id": "660d0ed5f9abc84e225d8f0fc0209f5cffe2e1bd^",
+            "localization": "minifi/minifi-nar-bundles/minifi-framework-bundle/minifi-framework/minifi-runtime/src/main/java/org/apache/nifi/minifi/bootstrap/BootstrapListener.java:echoRequestCmd",
+            "time": "2023-01-03"
+        },
+        {
+            "repo_name": "oracle/opengrok",
+            "repo_link": "https://github.com/oracle/opengrok",
+            "commit_id": "e0d55db982b9083974761fdefd35ec88935cfefd^",
+            "localization": "opengrok-indexer/src/main/java/org/opengrok/indexer/history/GitRepository.java:getFirstRevision",
+            "time": "2023-03-31"
+        },
+        {
+            "repo_name": "apache/rocketmq",
+            "repo_link": "https://github.com/apache/rocketmq",
+            "commit_id": "aa3feec4f506c7aea42d8ed9fba514e91e005ece^",
+            "localization": "common/src/main/java/org/apache/rocketmq/common/utils/ServiceProvider.java:load&&common/src/main/java/org/apache/rocketmq/common/utils/ServiceProvider.java:loadClass",
+            "time": "2022-10-03"
+        },
+        {
+            "repo_name": "iBotPeaches/Apktool",
+            "repo_link": "https://github.com/iBotPeaches/Apktool",
+            "commit_id": "1542fd03874b4edf71c6e53d710d70028a702a86^",
+            "localization": "brut.apktool/apktool-lib/src/main/java/brut/androlib/res/ResourcesDecoder.java:decodeManifest",
+            "time": "2024-06-24"
+        },
+        {
+            "repo_name": "sepinf-inc/IPED",
+            "repo_link": "https://github.com/sepinf-inc/IPED",
+            "commit_id": "ea1c749fb364581c2efd4bf8bc98c943e96c833f^",
+            "localization": "iped-parsers/iped-parsers-impl/src/main/java/iped/parsers/mail/win10/Win10MailParser.java:parse",
+            "time": "2022-10-03"
+        },
+        {
+            "repo_name": "UniversalMediaServer/UniversalMediaServer",
+            "repo_link": "https://github.com/UniversalMediaServer/UniversalMediaServer",
+            "commit_id": "8efca72f85051269a82ca4f26b4f92f6a83b3d08^",
+            "localization": "src/main/java/net/pms/database/MediaTableFiles.java:cleanup",
+            "time": "2022-08-26"
+        },
+        {
+            "repo_name": "apache/hadoop",
+            "repo_link": "https://github.com/apache/hadoop",
+            "commit_id": "6b67373d10717602da18ae701e8bc7f20dbb54d6^",
+            "localization": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-resourcemanager/src/test/java/org/apache/hadoop/yarn/server/resourcemanager/TestClientRMService.java:createExcludeFile",
+            "time": "2022-12-27"
+        },
+        {
+            "repo_name": "raphw/byte-buddy",
+            "repo_link": "https://github.com/raphw/byte-buddy",
+            "commit_id": "628b6a90c503192f9987fc488421a19d7d331bd5^",
+            "localization": "byte-buddy-gradle-plugin/src/main/java/net/bytebuddy/build/gradle/AbstractByteBuddyTask.java:doApply",
+            "time": "2022-10-07"
+        },
+        {
+            "repo_name": "apache/iotdb",
+            "repo_link": "https://github.com/apache/iotdb",
+            "commit_id": "8fb2737aba123a48b223f4a925633bab06a8962c^",
+            "localization": "server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/AbstractFragInsStateTracker.java:fetchState&&server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/SimpleFragInstanceDispatcher.java:dispatch&&server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/SimpleQueryTerminator.java:terminate",
+            "time": "2022-04-20"
+        },
+        {
+            "repo_name": "apache/pulsar",
+            "repo_link": "https://github.com/apache/pulsar",
+            "commit_id": "4ae070c5b26be3bf92c007ca309bd4adbae5ce93^",
+            "localization": "pulsar-proxy/src/main/java/org/apache/pulsar/proxy/server/ProxyConnection.java:channelInactive",
+            "time": "2022-04-20"
+        },
+        {
+            "repo_name": "apache/iotdb",
+            "repo_link": "https://github.com/apache/iotdb",
+            "commit_id": "36455413b93c58ab0aff99bbd2c323dfebe8d572^",
+            "localization": "iotdb-core/datanode/src/main/java/org/apache/iotdb/db/storageengine/dataregion/wal/io/WALByteBufReader.java:WALByteBufReader",
+            "time": "2024-07-30"
+        },
+        {
+            "repo_name": "apache/eventmesh",
+            "repo_link": "https://github.com/apache/eventmesh",
+            "commit_id": "40de773cb6096ac05ad8556d0448e8b04a837d98^",
+            "localization": "eventmesh-runtime/src/main/java/org/apache/eventmesh/runtime/admin/utils/HttpExchangeUtils.java:streamToString",
+            "time": "2023-05-24"
+        },
+        {
+            "repo_name": "apache/seatunnel",
+            "repo_link": "https://github.com/apache/seatunnel",
+            "commit_id": "3447266427b138327021213e52d271a856dae89f^",
+            "localization": "seatunnel-connectors-v2/connector-kafka/src/main/java/org/apache/seatunnel/connectors/seatunnel/kafka/source/KafkaConsumerThread.java:run",
+            "time": "2022-12-24"
+        },
+        {
+            "repo_name": "orientechnologies/orientdb",
+            "repo_link": "https://github.com/orientechnologies/orientdb",
+            "commit_id": "91d7ec249240b625b6e431d5e67efb977d526d63^",
+            "localization": "core/src/main/java/com/orientechnologies/orient/core/sql/executor/CartesianProductStep.java:internalStart",
+            "time": "2024-01-26"
+        },
+        {
+            "repo_name": "hazelcast/hazelcast",
+            "repo_link": "https://github.com/hazelcast/hazelcast",
+            "commit_id": "6ef75cd2ab8471f07575f05aca237baaffe48796^",
+            "localization": "hazelcast/src/main/java/com/hazelcast/client/impl/connection/tcp/TcpClientConnection.java:innerClose",
+            "time": "2023-03-02"
+        },
+        {
+            "repo_name": "iBotPeaches/Apktool",
+            "repo_link": "https://github.com/iBotPeaches/Apktool",
+            "commit_id": "c294e014e041ba9ed8ec429592d634765365f32a^",
+            "localization": "brut.apktool/apktool-lib/src/main/java/brut/androlib/res/Framework.java:installFramework",
+            "time": "2024-05-31"
+        },
+        {
+            "repo_name": "quarkusio/quarkus",
+            "repo_link": "https://github.com/quarkusio/quarkus",
+            "commit_id": "e5c45c408c4d635f47ed5e92bf70ccb9c1471261^",
+            "localization": "extensions/liquibase-mongodb/deployment/src/main/java/io/quarkus/liquibase/mongodb/deployment/LiquibaseMongodbProcessor.java:getChangeLogs",
+            "time": "2022-01-23"
+        },
+        {
+            "repo_name": "projectlombok/lombok",
+            "repo_link": "https://github.com/projectlombok/lombok",
+            "commit_id": "c8607ba782f90ef847488f0fc5bdc365c1e83317^",
+            "localization": "src/eclipseAgent/lombok/eclipse/agent/MavenEcjBootstrapApp.java:makeJar",
+            "time": "2022-03-18"
+        },
+        {
+            "repo_name": "typetools/checker-framework",
+            "repo_link": "https://github.com/typetools/checker-framework",
+            "commit_id": "978d73f686e5966e66700e9f05e1a4f2353d4f00^",
+            "localization": "framework/src/main/java/org/checkerframework/common/wholeprograminference/SceneToStubWriter.java:writeImpl",
+            "time": "2022-09-22"
+        },
+        {
+            "repo_name": "elastic/elasticsearch",
+            "repo_link": "https://github.com/elastic/elasticsearch",
+            "commit_id": "542286024ee2ae39edc26a4ecfd435d0ce716dc0^",
+            "localization": "server/src/main/java/org/elasticsearch/index/get/ShardGetService.java:innerGet",
+            "time": "2022-08-17"
+        },
+        {
+            "repo_name": "jline/jline3",
+            "repo_link": "https://github.com/jline/jline3",
+            "commit_id": "2f0218340b9008278fff29a50e6ec044511f3965^",
+            "localization": "builtins/src/main/java/org/jline/builtins/Commands.java:highlighter",
+            "time": "2023-10-03"
+        },
+        {
+            "repo_name": "line/armeria",
+            "repo_link": "https://github.com/line/armeria",
+            "commit_id": "3963f1a9e542e0704a4a17366b4a56bdbb0356fd^",
+            "localization": "grpc/src/main/java/com/linecorp/armeria/internal/common/grpc/GrpcMessageMarshaller.java:serializeRequest",
+            "time": "2024-03-21"
+        },
+        {
+            "repo_name": "axelor/axelor-open-suite",
+            "repo_link": "https://github.com/axelor/axelor-open-suite",
+            "commit_id": "7fcb32f316d5a5022ee7644d704c79935e3a8991^",
+            "localization": "axelor-studio/src/main/java/com/axelor/studio/service/ImportService.java:createAppLoaderImportZip",
+            "time": "2022-06-02"
+        },
+        {
+            "repo_name": "apache/kafka",
+            "repo_link": "https://github.com/apache/kafka",
+            "commit_id": "9f42739dd32e48aa583780f67e34284cc8cc9505^",
+            "localization": "clients/src/test/java/org/apache/kafka/common/network/NioEchoServer.java:close",
+            "time": "2022-02-02"
+        },
+        {
+            "repo_name": "apache/dolphinscheduler",
+            "repo_link": "https://github.com/apache/dolphinscheduler",
+            "commit_id": "2be1d4bf0add2485d4bf322aef7bbaeabfc223de^",
+            "localization": "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/MasterServer.java:close",
+            "time": "2022-07-11"
+        },
+        {
+            "repo_name": "SCADA-LTS/Scada-LTS",
+            "repo_link": "https://github.com/SCADA-LTS/Scada-LTS",
+            "commit_id": "d8d1d0bdbe89e81a843d0d5a53fb6d3641bfb6a4^",
+            "localization": "src/br/org/scadabr/vo/exporter/ZIPProjectManager.java:restoreFiles",
+            "time": "2022-04-13"
+        },
+        {
+            "repo_name": "ClickHouse/clickhouse-java",
+            "repo_link": "https://github.com/ClickHouse/clickhouse-java",
+            "commit_id": "178cfbc309cd6b0b22d4d463a1bf66421973b95e^",
+            "localization": "clickhouse-client/src/main/java/com/clickhouse/client/stream/AbstractByteArrayInputStream.java:pipe",
+            "time": "2022-06-25"
+        },
+        {
+            "repo_name": "dotCMS/core",
+            "repo_link": "https://github.com/dotCMS/core",
+            "commit_id": "c1e8cbacfbfdd65f0af0e4aaf4963b48ebee4b0a^",
+            "localization": "dotCMS/src/main/java/com/dotmarketing/util/ZipUtil.java:extract",
+            "time": "2022-12-05"
+        },
+        {
+            "repo_name": "deepjavalibrary/djl",
+            "repo_link": "https://github.com/deepjavalibrary/djl",
+            "commit_id": "c54db65d7d2b91c3b599eb318ccf7447d82a797d^",
+            "localization": "api/src/main/java/ai/djl/repository/LocalRepository.java:getResources",
+            "time": "2024-04-29"
+        },
+        {
+            "repo_name": "Alluxio/alluxio",
+            "repo_link": "https://github.com/Alluxio/alluxio",
+            "commit_id": "fa67b0180484c797764395a152549ecb9ddbd697^",
+            "localization": "core/client/fs/src/main/java/alluxio/client/file/AlluxioFileInStream.java:refreshMetadataOnMismatchedLength",
+            "time": "2022-11-04"
+        },
+        {
+            "repo_name": "apache/netbeans",
+            "repo_link": "https://github.com/apache/netbeans",
+            "commit_id": "58dd59082604c71a016e641cd99f701ce513277f^",
+            "localization": "enterprise/tomcat5/src/org/netbeans/modules/tomcat5/deploy/TomcatManagerImpl.javacreateTempContextXml",
+            "time": "2022-03-25"
+        },
+        {
+            "repo_name": "typetools/checker-framework",
+            "repo_link": "https://github.com/typetools/checker-framework",
+            "commit_id": "3a7af8a3fbae21372b26bc3b3564520ef3555e36^",
+            "localization": "checker/src/main/java/org/checkerframework/checker/i18nformatter/I18nFormatterAnnotatedTypeFactory.java:buildLookup&&dataflow/src/main/java/org/checkerframework/dataflow/cfg/visualize/CFGVisualizeLauncher.java:generateMethodCFG",
+            "time": "2022-08-16"
+        },
+        {
+            "repo_name": "keycloak/keycloak",
+            "repo_link": "https://github.com/keycloak/keycloak",
+            "commit_id": "8f4c721a7d39683823e5427d980a17949fb87c97^",
+            "localization": "model/map-jpa/src/main/java/org/keycloak/models/map/storage/jpa/JpaMapStorageProviderFactory.java:lazyInit",
+            "time": "2023-04-12"
+        },
+        {
+            "repo_name": "IQSS/dataverse",
+            "repo_link": "https://github.com/IQSS/dataverse",
+            "commit_id": "b4f30f7bb775bcada419d2a01cbf3f7cd4399e62^",
+            "localization": "src/main/java/edu/harvard/iq/dataverse/dataaccess/TabularSubsetGenerator.java:subsetDoubleVector",
+            "time": "2023-01-24"
+        },
+        {
+            "repo_name": "JetBrains/JetBrainsRuntime",
+            "repo_link": "https://github.com/JetBrains/JetBrainsRuntime",
+            "commit_id": "d55d7e8d87670043dd22ec6a3fb6cc49b39000cd^",
+            "localization": "src/java.base/share/classes/sun/nio/cs/StreamEncoder.java:implClose",
+            "time": "2023-07-21"
+        },
+        {
+            "repo_name": "apache/iotdb",
+            "repo_link": "https://github.com/apache/iotdb",
+            "commit_id": "2bc3954df3892c6e9a64e89f27a78c6e8ae9865e^",
+            "localization": "consensus/src/main/java/org/apache/iotdb/consensus/multileader/MultiLeaderServerImpl.java:transitSnapshot",
+            "time": "2022-09-23"
+        },
+        {
+            "repo_name": "OpenAPITools/openapi-generator",
+            "repo_link": "https://github.com/OpenAPITools/openapi-generator",
+            "commit_id": "440861270ee591535e1fcc22c8b5f76bb9160543^",
+            "localization": "modules/openapi-generator/src/main/java/org/openapitools/codegen/config/MergedSpecBuilder.java:getAllSpecFilesInDirectory",
+            "time": "2023-03-02"
+        },
+        {
+            "repo_name": "zalando/intellij-swagger",
+            "repo_link": "https://github.com/zalando/intellij-swagger",
+            "commit_id": "a544ec26653a6d9542423cd1b3506fe938abee91^",
+            "localization": "src/main/java/org/zalando/intellij/swagger/file/SwaggerUiCreator.java:copyFromJar",
+            "time": "2023-03-30"
+        },
+        {
+            "repo_name": "liquibase/liquibase",
+            "repo_link": "https://github.com/liquibase/liquibase",
+            "commit_id": "c72e682888eab054b5c56ad7fa2138710d82baf7^",
+            "localization": "liquibase-core/src/main/java/liquibase/database/AbstractJdbcDatabase.java:close",
+            "time": "2022-06-30"
+        },
+        {
+            "repo_name": "Sketchware-Pro/Sketchware-Pro",
+            "repo_link": "https://github.com/Sketchware-Pro/Sketchware-Pro",
+            "commit_id": "afe65cde21a528b78068ac9836c1c880d63c209e^",
+            "localization": "app/src/main/java/mod/hey/studios/project/backup/BackupFactory.java:getProject",
+            "time": "2022-11-20"
+        },
+        {
+            "repo_name": "apache/bookkeeper",
+            "repo_link": "https://github.com/apache/bookkeeper",
+            "commit_id": "a164bcae6462f0f7078372cae3549d91989f7383^",
+            "localization": "bookkeeper-server/src/main/java/org/apache/bookkeeper/server/http/service/DeleteLedgerService.java:handle",
+            "time": "2024-07-03"
+        },
+        {
+            "repo_name": "apache/beam",
+            "repo_link": "https://github.com/apache/beam",
+            "commit_id": "9cce412e30257903ab60490a16f7dbe71404f729^",
+            "localization": "sdks/java/io/google-cloud-platform/src/main/java/org/apache/beam/sdk/io/gcp/bigtable/BigtableIO.java:close",
+            "time": "2024-06-03"
+        }
+    ]
+}
