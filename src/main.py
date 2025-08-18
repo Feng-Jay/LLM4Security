@@ -1,6 +1,6 @@
 from pathlib import Path
 from utils import logger, Config
-from core import AbsTool, Knighter, Inferroi
+from core import AbsTool, Knighter, Inferroi, RepoAudit
 
 
 def run_tools(configs: Config) -> bool:
@@ -8,6 +8,18 @@ def run_tools(configs: Config) -> bool:
     logger.info(f"Loaded {len(vulnerabilities)} vulnerabilities from configuration.")
     match configs.tool:
         case "repoaudit":
+            repoaudit = RepoAudit.from_config(Path("../repoaudit.yaml"))
+            for vulnerability in vulnerabilities:
+                logger.info(f"Running RepoAudit for vulnerability: {configs.vulnerability}")
+                target_repo = configs.projects_dir / vulnerability['repo_name']
+                target_commit_id = vulnerability['commit_id']
+                dir_name = f"{vulnerability['repo_name']}-{target_commit_id[:-1]}-{configs.vulnerability}"
+                print(repr(configs.results_dir / dir_name))
+                repoaudit.set_localization(vulnerability["localization"])
+                repoaudit.run_on_target(target_repo.resolve(), target_commit_id, 
+                                        configs.vulnerability, 
+                                        (configs.results_dir / dir_name).resolve())
+                # break
             pass
         case "knighter":
             knighter = Knighter.from_config(Path("../knighter.yaml"))
@@ -36,6 +48,9 @@ def run_tools(configs: Config) -> bool:
                                     (configs.results_dir / dir_name).resolve())
                 break
             pass
+        case _:
+            logger.error(f"Unknown tool: {configs.tool}. Supported tools are: 'repoaudit', 'knighter', 'inferroi'.")
+            return False
     pass
 
 

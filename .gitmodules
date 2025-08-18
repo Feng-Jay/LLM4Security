@@ -1,7 +1,3 @@
-[submodule "src/dependencies/RepoAudit"]
-	path = src/dependencies/RepoAudit
-	url = https://github.com/Feng-Jay/RepoAudit.git
-	branch = artifact
 [submodule "src/dependencies/Knighter"]
 	path = src/dependencies/Knighter
 	url = https://github.com/Feng-Jay/Knighter.git
@@ -17,4 +13,8 @@
 [submodule "src/dependencies/iris"]
 	path = src/dependencies/iris
 	url = https://github.com/Feng-Jay/iris.git
+	branch = master
+[submodule "src/dependencies/RepoAudit"]
+	path = src/dependencies/RepoAudit
+	url = https://github.com/Feng-Jay/RepoAudit1.git
 	branch = master
