@@ -15,7 +15,10 @@ def run_tools(configs: Config) -> bool:
                 target_commit_id = vulnerability['commit_id']
                 dir_name = f"{vulnerability['repo_name']}-{target_commit_id[:-1]}-{configs.vulnerability}"
                 print(repr(configs.results_dir / dir_name))
-                repoaudit.set_localization(vulnerability["localization"])
+                if configs.vulnerability == "CWE-401":
+                    repoaudit.set_localization(vulnerability["localization"])
+                else:
+                    repoaudit.set_localization("src")
                 repoaudit.run_on_target(target_repo.resolve(), target_commit_id, 
                                         configs.vulnerability, 
                                         (configs.results_dir / dir_name).resolve())
@@ -39,15 +42,18 @@ def run_tools(configs: Config) -> bool:
             inferroi = Inferroi.from_config(Path("../inferroi.yaml"))
             for vulnerability in vulnerabilities:
                 logger.info(f"Running INFERROI for vulnerability: {configs.vulnerability}")
-                target_repo = configs.projects_dir / vulnerability['repo_name']
+                target_repo = configs.projects_dir / (vulnerability['repo_name'].split("/")[1] + "_" + vulnerability['commit_id'][:-1])
                 target_commit_id = vulnerability['commit_id']
+                localization = vulnerability['localization']
+                inferroi.set_localization(localization)
                 dir_name = f"{vulnerability['repo_name']}-{target_commit_id[:-1]}-{configs.vulnerability}"
                 print(repr(configs.results_dir / dir_name))
                 inferroi.run_on_target(target_repo.resolve(), target_commit_id, 
                                     configs.vulnerability, 
                                     (configs.results_dir / dir_name).resolve())
-                break
+                # break
             pass
+        
         case _:
             logger.error(f"Unknown tool: {configs.tool}. Supported tools are: 'repoaudit', 'knighter', 'inferroi'.")
             return False

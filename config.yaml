@@ -6,9 +6,9 @@
 # results: "../results/knighter/"
 
 # tool: "inferroi"
-# vulnerability: "CWE-022"
-# vulnerability_info_file: "../data/in_house/java/vulnerabilities.json"
-# projects_dir: "/data/lifengjie/sec/src/dependencies/iris/data/cwe-bench-java/project-sources/"
+# vulnerability: "jleaks"
+# vulnerability_info_file: "../data/in_house/java/jleaks_vulnerabilities.json"
+# projects_dir: "/data/jiangjiajun/LLM4Security/data/in_house/java/projects"
 # log: "../logs/"
 # results: "../results/inferroi/"
 

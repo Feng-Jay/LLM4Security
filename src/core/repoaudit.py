@@ -69,6 +69,7 @@ class RepoAudit(AbsTool, BaseModel):
             return False
         if os.environ.get("VULPATH").startswith("drivers"):
             target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0] / os.environ.get("VULPATH", "src").split("/")[1]
+            self.set_localization(os.environ.get("VULPATH", "src").split("/")[0] + "/" + os.environ.get("VULPATH", "src").split("/")[1])
         else:
             target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0]
         logger.info(f"Running RepoAudit on {target_repo} for vulnerability type {vulnerability_type}")
@@ -76,11 +77,13 @@ class RepoAudit(AbsTool, BaseModel):
                 --language Cpp \
                 --model-name {self.model_name} \
                 --project-path {target_repo} \
+                --commit_id {target_commit_id[:-1]} \
                 --bug-type {self.vul_type} \
                 --temperature 0.0 \
                 --scan-type dfbscan \
                 --call-depth 3 \
-                --max-workers 30"
+                --max-neural-workers 30"
+        logger.info(f"Command to run: {cmd}")
         subprocess.run(cmd, shell=True, check=True, cwd=self.repoaudit_path)
         pass
 

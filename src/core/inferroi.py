@@ -39,6 +39,10 @@ class Inferroi(BaseModel, AbsTool):
             project_path=Path(project_path)
         )
     
+    def set_localization(self, localization: str) -> None:
+        """Set the localization for the INFERROI tool."""
+        os.environ["VULPATH_INFERROI"] = localization
+    
     def run_on_target(self, target_repo, target_commit_id, vulnerability_type, report_file) -> bool:
         cmd = f"python -m script.scan_project -project_path {target_repo}"
         
