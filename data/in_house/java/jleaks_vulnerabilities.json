@@ -74,7 +74,7 @@
             "repo_name": "apache/rocketmq",
             "repo_link": "https://github.com/apache/rocketmq",
             "commit_id": "aa3feec4f506c7aea42d8ed9fba514e91e005ece^",
-            "localization": "common/src/main/java/org/apache/rocketmq/common/utils/ServiceProvider.java:load&&common/src/main/java/org/apache/rocketmq/common/utils/ServiceProvider.java:loadClass",
+            "localization": "common/src/main/java/org/apache/rocketmq/common/utils/ServiceProvider.java:load##common/src/main/java/org/apache/rocketmq/common/utils/ServiceProvider.java:loadClass",
             "time": "2022-10-03"
         },
         {
@@ -116,7 +116,7 @@
             "repo_name": "apache/iotdb",
             "repo_link": "https://github.com/apache/iotdb",
             "commit_id": "8fb2737aba123a48b223f4a925633bab06a8962c^",
-            "localization": "server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/AbstractFragInsStateTracker.java:fetchState&&server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/SimpleFragInstanceDispatcher.java:dispatch&&server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/SimpleQueryTerminator.java:terminate",
+            "localization": "server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/AbstractFragInsStateTracker.java:fetchState##server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/SimpleFragInstanceDispatcher.java:dispatch##server/src/main/java/org/apache/iotdb/db/mpp/execution/scheduler/SimpleQueryTerminator.java:terminate",
             "time": "2022-04-20"
         },
         {
@@ -270,14 +270,14 @@
             "repo_name": "apache/netbeans",
             "repo_link": "https://github.com/apache/netbeans",
             "commit_id": "58dd59082604c71a016e641cd99f701ce513277f^",
-            "localization": "enterprise/tomcat5/src/org/netbeans/modules/tomcat5/deploy/TomcatManagerImpl.javacreateTempContextXml",
+            "localization": "enterprise/tomcat5/src/org/netbeans/modules/tomcat5/deploy/TomcatManagerImpl.java:createTempContextXml",
             "time": "2022-03-25"
         },
         {
             "repo_name": "typetools/checker-framework",
             "repo_link": "https://github.com/typetools/checker-framework",
             "commit_id": "3a7af8a3fbae21372b26bc3b3564520ef3555e36^",
-            "localization": "checker/src/main/java/org/checkerframework/checker/i18nformatter/I18nFormatterAnnotatedTypeFactory.java:buildLookup&&dataflow/src/main/java/org/checkerframework/dataflow/cfg/visualize/CFGVisualizeLauncher.java:generateMethodCFG",
+            "localization": "checker/src/main/java/org/checkerframework/checker/i18nformatter/I18nFormatterAnnotatedTypeFactory.java:buildLookup##dataflow/src/main/java/org/checkerframework/dataflow/cfg/visualize/CFGVisualizeLauncher.java:generateMethodCFG",
             "time": "2022-08-16"
         },
         {

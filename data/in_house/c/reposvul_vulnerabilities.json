@@ -977,7 +977,38 @@
         }
     ],
     "CWE-401": [
-
+        {
+            "repo_name": "linux",
+            "commit_id": "aa7253c2393f6dcd6a1468b0792f6da76edad917^",
+            "repo_link": "https://www.github.com/torvalds/linux.git",
+            "localization": "fs/ksmbd/smb2pdu.c",
+            "time": "2022-08-01T04:14:32Z",
+            "cve_id": "CVE-2022-47941",
+            "cwe_id": [
+                "CWE-401"
+            ],
+            "cve_language": "C",
+            "cve_description": "An issue was discovered in ksmbd in the Linux kernel 5.15 through 5.19 before 5.19.2. fs/ksmbd/smb2pdu.c omits a kfree call in certain smb2_handle_negotiate error conditions, aka a memory leak.",
+            "cvss": "7.5",
+            "publish_date": "December 23, 2022",
+            "AV": "NETWORK",
+            "AC": "NETWORK",
+            "PR": "NONE",
+            "UI": "NONE",
+            "S": "UNCHANGED",
+            "C": "NONE",
+            "I": "NONE",
+            "A": "HIGH",
+            "commit_message": "ksmbd: fix memory leak in smb2_handle_negotiate\n\nThe allocated memory didn't free under an error\npath in smb2_handle_negotiate().\n\nFixes: e2f34481b24d (\"cifsd: add server-side procedures for SMB3\")\nCc: stable@vger.kernel.org\nReported-by: zdi-disclosures@trendmicro.com # ZDI-CAN-17815\nSigned-off-by: Namjae Jeon <linkinjeon@kernel.org>\nReviewed-by: Hyunchul Lee <hyc.lee@gmail.com>\nSigned-off-by: Steve French <stfrench@microsoft.com>",
+            "html_url": "https://github.com/torvalds/linux/commit/aa7253c2393f6dcd6a1468b0792f6da76edad917",
+            "parents": [
+                {
+                    "commit_id_before": "af7c39d971e43cd0af488729bca362427ad99488",
+                    "url_before": "https://api.github.com/repos/torvalds/linux/commits/af7c39d971e43cd0af488729bca362427ad99488",
+                    "html_url_before": "https://github.com/torvalds/linux/commit/af7c39d971e43cd0af488729bca362427ad99488"
+                }
+            ]
+        },
         {
             "repo_name": "linux",
             "commit_id": "29eb31542787e1019208a2e1047bb7c76c069536^",
