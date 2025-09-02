@@ -18,3 +18,7 @@
 	path = src/dependencies/RepoAudit
 	url = https://github.com/Feng-Jay/RepoAudit1.git
 	branch = master
+[submodule "src/dependencies/LLMSAN"]
+	path = src/dependencies/LLMSAN
+	url = https://github.com/Feng-Jay/LLMSAN.git
+	branch = master
