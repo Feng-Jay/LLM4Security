@@ -1,20 +1,22 @@
 import json
 
-repos_vul_json = open("./in_house/c/ReposVul_c.jsonl", "r")
+repos_vul_json = open("./in_house/java/ReposVul_java.jsonl", "r")
 
 lines = repos_vul_json.readlines()
 
 vuls = []
 
+cwes = list()
+
 for line in lines:
     object: dict = json.loads(line)
-    if "torvalds/linux" not in object["project"]:
-        continue
+    cwes.extend(object["cwe_id"])
     object.pop("details")
     object.pop("windows_before")
     object.pop("windows_after")
     object["localization"] = ""
     vuls.append(object)
+print(set(cwes))
 
 # get cwe-190s
 # cwe_190s = [vul for vul in vuls if "CWE-190" in vul["cwe_id"]]
@@ -31,18 +33,18 @@ for line in lines:
 #     f.write(json.dumps(cwe_401s, indent=4))
 
 # get cwe_416s
-cwe_416s = [vul for vul in vuls if "CWE-416" in vul["cwe_id"]]
-cwe_416s.sort(key=lambda x: x["cve_id"])
-print(len(cwe_416s))
-with open("./in_house/c/cwe_416_UAF_linux_new.json", "w") as f:
-    f.write(json.dumps(cwe_416s, indent=4))
+# cwe_416s = [vul for vul in vuls if "CWE-416" in vul["cwe_id"]]
+# cwe_416s.sort(key=lambda x: x["cve_id"])
+# print(len(cwe_416s))
+# with open("./in_house/c/cwe_416_UAF_linux_new.json", "w") as f:
+#     f.write(json.dumps(cwe_416s, indent=4))
 
 # get cwe_476s
-# cwe_476s = [vul for vul in vuls if "CWE-476" in vul["cwe_id"]]
-# cwe_476s.sort(key=lambda x: x["cve_id"])
-# print(len(cwe_476s))
-# with open("./in_house/c/cwe_476_NPD_linux.json", "w") as f:
-#     f.write(json.dumps(cwe_476s, indent=4))
+cwe_476s = [vul for vul in vuls if "CWE-476" in vul["cwe_id"]]
+cwe_476s.sort(key=lambda x: x["cve_id"])
+print(len(cwe_476s))
+with open("./in_house/java/cwe_476_NPD.json", "w") as f:
+    f.write(json.dumps(cwe_476s, indent=4))
 
 # get cwe_787 or 125
 # cwe_787_125s = [
