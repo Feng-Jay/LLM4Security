@@ -2,6 +2,7 @@ import time
 import json
 import yaml
 import loguru
+import pandas as pd
 from typing import Self, List, Dict
 from pathlib import Path
 from pydantic import BaseModel, Field
@@ -13,6 +14,7 @@ class Config(BaseModel):
     projects_dir: Path
     vulnerability: str
     vulnerability_info: Dict[str, List]
+    vulnerability_fl_info: Dict[str, List]
     tool: str
     log_dir: Path
     log_file: Path
@@ -43,12 +45,26 @@ class Config(BaseModel):
             logger.error(f"Vulnerability info file {configs['vulnerability_info_file']} does not exist.")
             raise FileNotFoundError(f"Vulnerability info file {configs['vulnerability_info_file']} does not exist.")
 
+        if configs["vulnerability_info_file"].endswith(".json"):
+            vulnerability_info = json.load(Path(configs["vulnerability_info_file"]).open("r"))
+        elif configs["vulnerability_info_file"].endswith(".csv"):
+            df = pd.read_csv(configs["vulnerability_info_file"])
+            vulnerability_info = df.groupby("cwe_id")["project_slug"].apply(lambda x: list(set(x))).to_dict()
+            print(vulnerability_info)
+
+        vulnerability_fl_info = {}
+        if "vulnerability_fl_file" in configs:
+            if Path(configs["vulnerability_fl_file"]).exists():
+                df = pd.read_csv(configs["vulnerability_fl_file"])
+                vulnerability_fl_info = df.groupby("project_slug")["file"].apply(lambda x: list(set(x))).to_dict()
+
         logger.info("Configuration loaded.")
 
         return cls(
             projects_dir=Path(configs["projects_dir"]),
             vulnerability=configs["vulnerability"],
-            vulnerability_info=json.load(Path(configs["vulnerability_info_file"]).open("r")),
+            vulnerability_info=vulnerability_info,
+            vulnerability_fl_info=vulnerability_fl_info,
             tool=configs["tool"],
             log_dir=log_dir,
             log_file=log_file,

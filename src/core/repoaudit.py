@@ -58,6 +58,12 @@ class RepoAudit(AbsTool, BaseModel):
     
     def set_localization(self, localization: str) -> None:
         os.environ["VULPATH"] = localization
+
+    def set_src_localization(self, localization: str) -> None:
+        os.environ["SRC_VULPATH"] = localization
+    
+    def set_sink_localization(self, localization: str) -> None:
+        os.environ["SINK_VULPATH"] = localization
     
     def run_on_target(self, target_repo: Path, target_commit_id: str, vulnerability_type: str, report_file: Path) -> bool:
         
@@ -67,11 +73,13 @@ class RepoAudit(AbsTool, BaseModel):
         if result.returncode != 0:
             logger.error(f"Failed to checkout commit {target_commit_id}: {result.stderr.decode()}")
             return False
-        if os.environ.get("VULPATH").startswith("drivers"):
-            target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0] / os.environ.get("VULPATH", "src").split("/")[1]
-            self.set_localization(os.environ.get("VULPATH", "src").split("/")[0] + "/" + os.environ.get("VULPATH", "src").split("/")[1])
-        else:
-            target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0]
+        # if os.environ.get("VULPATH").startswith("drivers"):
+        #     target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0] / os.environ.get("VULPATH", "src").split("/")[1]
+        #     self.set_localization(os.environ.get("VULPATH", "src").split("/")[0] + "/" + os.environ.get("VULPATH", "src").split("/")[1])
+        # else:
+        target_repo = target_repo / os.environ.get("VULPATH", "src")
+        if str(target_repo).endswith(".c"):
+            target_repo = target_repo.parent
         logger.info(f"Running RepoAudit on {target_repo} for vulnerability type {vulnerability_type}")
         cmd = f"python repoaudit.py \
                 --language Cpp \
