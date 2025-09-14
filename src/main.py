@@ -1,6 +1,6 @@
 from pathlib import Path
 from utils import logger, Config
-from core import AbsTool, Knighter, Inferroi, RepoAudit, IRIS, LLMDFA
+from core import AbsTool, Knighter, Inferroi, RepoAudit, IRIS, LLMDFA, LLMSAN
 
 
 def run_tools(configs: Config) -> bool:
@@ -80,6 +80,20 @@ def run_tools(configs: Config) -> bool:
                 llmdfa.run_on_target(target_repo=vulnerability, target_commit_id="", vulnerability_type=configs.vulnerability, report_file="")
                 logger.info(f"Completed LLMDFA for vulnerability: {configs.vulnerability} on {vulnerability}")
                 # break
+        
+        case "llmsan":
+            llmsan = LLMSAN.from_config(Path("../llmsan.yaml"))
+            for vulnerability in vulnerabilities:
+                print(configs.vulnerability_fl_info)
+                logger.info(f"Running LLMSAN for vulnerability: {configs.vulnerability}")
+                if vulnerability in configs.vulnerability_fl_info:
+                    fl_files = configs.vulnerability_fl_info[vulnerability]
+                    llmsan.set_fl_files(fl_files)
+                else:
+                    logger.info(f"No FL files found for {vulnerability} in LLMSAN. Proceeding without FL files.")
+                    llmsan.set_fl_files([])
+                llmsan.run_on_target(target_repo=vulnerability, target_commit_id="", vulnerability_type=configs.vulnerability, report_file="")
+                logger.info(f"Completed LLMSAN for vulnerability: {configs.vulnerability} on {vulnerability}")
         case _:
             logger.error(f"Unknown tool: {configs.tool}. Supported tools are: 'repoaudit', 'knighter', 'inferroi'.")
             return False
