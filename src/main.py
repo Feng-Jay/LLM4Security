@@ -1,6 +1,6 @@
 from pathlib import Path
 from utils import logger, Config
-from core import AbsTool, Knighter, Inferroi, RepoAudit, IRIS, LLMDFA, LLMSAN
+from core import AbsTool, Knighter, Inferroi, RepoAudit, IRIS, LLMDFA, LLMSAN, CodeQL
 
 
 def run_tools(configs: Config) -> bool:
@@ -65,7 +65,6 @@ def run_tools(configs: Config) -> bool:
                                     (configs.results_dir / dir_name).resolve())
                 # break
             pass
-        
         case "llmdfa":
             llmdfa = LLMDFA.from_config(Path("../llmdfa.yaml"))
             for vulnerability in vulnerabilities:
@@ -77,10 +76,10 @@ def run_tools(configs: Config) -> bool:
                     llmdfa.set_fl_files(fl_files)
                 else:
                     llmdfa.set_fl_files([])
+                    continue
                 llmdfa.run_on_target(target_repo=vulnerability, target_commit_id="", vulnerability_type=configs.vulnerability, report_file="")
                 logger.info(f"Completed LLMDFA for vulnerability: {configs.vulnerability} on {vulnerability}")
                 # break
-        
         case "llmsan":
             llmsan = LLMSAN.from_config(Path("../llmsan.yaml"))
             for vulnerability in vulnerabilities:
@@ -92,8 +91,28 @@ def run_tools(configs: Config) -> bool:
                 else:
                     logger.info(f"No FL files found for {vulnerability} in LLMSAN. Proceeding without FL files.")
                     llmsan.set_fl_files([])
+                    continue
                 llmsan.run_on_target(target_repo=vulnerability, target_commit_id="", vulnerability_type=configs.vulnerability, report_file="")
                 logger.info(f"Completed LLMSAN for vulnerability: {configs.vulnerability} on {vulnerability}")
+        case "codeql":
+            codeql = CodeQL.from_config(Path("../codeql.yaml"))
+            for vulnerability in vulnerabilities:
+                logger.info(f"Running CodeQL for vulnerability: {configs.vulnerability}")
+                target_repo = configs.projects_dir / vulnerability['repo_name']
+                target_commit_id = vulnerability['commit_id']
+                dir_name = f"{vulnerability['repo_name']}-{target_commit_id[:-1]}-{configs.vulnerability}"
+                if "localization" in vulnerability:
+                    localization = vulnerability['localization']
+                    target_repo = target_repo / localization.split("/")[0]
+                print(repr(configs.results_dir / dir_name))
+                codeql.run_on_target(target_repo=target_repo.resolve(), target_commit_id=target_commit_id, 
+                                     vulnerability_type=configs.vulnerability, 
+                                     report_file=(configs.results_dir / (dir_name + ".sarif")).resolve())
+                # break
+            pass
+        case "semgrep":
+            # TODO: Implement Semgrep integration
+            pass
         case _:
             logger.error(f"Unknown tool: {configs.tool}. Supported tools are: 'repoaudit', 'knighter', 'inferroi'.")
             return False

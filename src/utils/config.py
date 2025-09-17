@@ -24,6 +24,8 @@ class Config(BaseModel):
     @classmethod
     def from_yaml(cls, config_file: Path = Path("../config.yaml")) -> Self:
         configs = yaml.safe_load(config_file.read_text())
+        
+        # set the logger
         time_stamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
         global logger
         log_dir = Path(configs["log"])
@@ -36,22 +38,27 @@ class Config(BaseModel):
             retention="7 days",
             level="DEBUG",
         )
+        
+        # prepare results dir and file
         results_dir = Path(configs["results"])
         if not results_dir.exists():
             results_dir.mkdir(parents=True)
         results_file = results_dir / f"{configs['tool']}-{configs['vulnerability']}-{time_stamp}.txt"
 
+        # load vulnerability info
         if not Path(configs["vulnerability_info_file"]).exists():
             logger.error(f"Vulnerability info file {configs['vulnerability_info_file']} does not exist.")
             raise FileNotFoundError(f"Vulnerability info file {configs['vulnerability_info_file']} does not exist.")
 
+        # for c vuls
         if configs["vulnerability_info_file"].endswith(".json"):
             vulnerability_info = json.load(Path(configs["vulnerability_info_file"]).open("r"))
+        # for java vuls
         elif configs["vulnerability_info_file"].endswith(".csv"):
             df = pd.read_csv(configs["vulnerability_info_file"])
             vulnerability_info = df.groupby("cwe_id")["project_slug"].apply(lambda x: list(set(x))).to_dict()
             print(vulnerability_info)
-
+        # load fl files if provided
         vulnerability_fl_info = {}
         if "vulnerability_fl_file" in configs:
             if Path(configs["vulnerability_fl_file"]).exists():

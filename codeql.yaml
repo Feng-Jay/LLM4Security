@@ -1,0 +1,3 @@
+codeql_bin_path: "/data/jiangjiajun/LLM4Security/resources/codeql/codeql"
+codeql_db_dir: "/data/jiangjiajun/LLM4Security/data/codeql-dbs/"
+programming_language: "c-cpp"

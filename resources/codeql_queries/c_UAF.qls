@@ -1,0 +1,4 @@
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/DoubleFree.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/UseAfterFree.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/ReturnStackAllocatedObject.ql
+- queries: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-416

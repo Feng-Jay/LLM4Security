@@ -3,6 +3,7 @@
 /data/projects.zip
 /data/in_house/c/combine.py
 /data/in_house/c/ReposVul_c.jsonl
+/data/in_house/java/ReposVul_java.jsonl
 .vscode/
 .DS_Store
 /logs/

@@ -1,0 +1,5 @@
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/InconsistentNullnessTesting.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/MissingNullTest.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/NotInitialised.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/experimental/Security/CWE/CWE-476/DangerousUseOfExceptionBlocks.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/GlobalUseBeforeInit.ql

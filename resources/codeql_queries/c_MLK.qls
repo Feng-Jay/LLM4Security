@@ -1,0 +1,7 @@
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/FileMayNotBeClosed.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/FileNeverClosed.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/MemoryMayNotBeFreed.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/MemoryNeverFreed.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/NewArrayDeleteMismatch.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/DescriptorMayNotBeClosed.ql
+- query: /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/experimental/Security/CWE/CWE-401/MemoryLeakOnFailedCallToRealloc.ql
