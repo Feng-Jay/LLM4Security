@@ -21,7 +21,7 @@ class LLMSAN(AbsTool, BaseModel):
     )
     cwe_mappings: dict = {
         "CWE-022": "apt",
-        "CWE-078": "osci",
+        "CWE-078": "ci",
         "CWE-079": "xss"
     }
 

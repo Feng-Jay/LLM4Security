@@ -22,7 +22,7 @@ class LLMDFA(AbsTool, BaseModel):
     cwe_mappings: dict = {
         "CWE-078": "osci",
         "CWE-079": "xss",
-        "CWE-369": "dbz"
+        "CWE-022": "apt"
     }
 
     @field_validator("llm_model")
