@@ -1,6 +1,6 @@
 from pathlib import Path
 from utils import logger, Config
-from core import AbsTool, Knighter, Inferroi, RepoAudit, IRIS, LLMDFA, LLMSAN, CodeQL
+from core import AbsTool, Knighter, Inferroi, RepoAudit, IRIS, LLMDFA, LLMSAN, CodeQL, Semgrep
 
 
 def run_tools(configs: Config) -> bool:
@@ -20,6 +20,8 @@ def run_tools(configs: Config) -> bool:
                 repoaudit.set_localization(vulnerability["localization"])
                 repoaudit.set_src_localization(vulnerability["src_localization"])
                 repoaudit.set_sink_localization(vulnerability["sink_localization"])
+                repoaudit.set_src_api(vulnerability["src_api"])
+                repoaudit.set_sink_api(vulnerability["sink_api"])
                 # else:
                 #     repoaudit.set_localization(localization.split("/")[0] + "/" + localization.split("/")[1])
                 repoaudit.run_on_target(target_repo.resolve(), target_commit_id, 
@@ -98,12 +100,28 @@ def run_tools(configs: Config) -> bool:
             codeql = CodeQL.from_config(Path("../codeql.yaml"))
             for vulnerability in vulnerabilities:
                 logger.info(f"Running CodeQL for vulnerability: {configs.vulnerability}")
-                target_repo = configs.projects_dir / vulnerability['repo_name']
-                target_commit_id = vulnerability['commit_id']
-                dir_name = f"{vulnerability['repo_name']}-{target_commit_id[:-1]}-{configs.vulnerability}"
-                if "localization" in vulnerability:
-                    localization = vulnerability['localization']
-                    target_repo = target_repo / localization.split("/")[0]
+                if isinstance(vulnerability, dict):
+                    if vulnerability["repo_name"] == "linux":
+                        target_repo = configs.projects_dir / "linux_knighter"
+                    else:
+                        target_repo = configs.projects_dir / vulnerability['repo_name']
+                    target_commit_id = vulnerability['commit_id']
+                    repo_name = vulnerability['repo_name']
+                    dir_name = f"{repo_name}-{target_commit_id[:-1]}-{configs.vulnerability}"
+                    if "localization" in vulnerability:
+                        localization = vulnerability['localization']
+                        if localization.startswith("drivers"):
+                            if len(localization.split("/")) > 1:
+                                localization = "drivers/" + localization.split("/")[1]
+                        else:
+                            localization = localization.split("/")[0]
+                        target_repo = target_repo / localization
+                else:
+                    target_repo = configs.projects_dir / vulnerability
+                    target_commit_id = ""
+                    repo_name = vulnerability
+                    dir_name = f"{repo_name}"
+
                 print(repr(configs.results_dir / dir_name))
                 codeql.run_on_target(target_repo=target_repo.resolve(), target_commit_id=target_commit_id, 
                                      vulnerability_type=configs.vulnerability, 
@@ -112,6 +130,27 @@ def run_tools(configs: Config) -> bool:
             pass
         case "semgrep":
             # TODO: Implement Semgrep integration
+            semgrep = Semgrep.from_config(Path("../semgrep.yaml"))
+            for vulnerability in vulnerabilities:
+                logger.info(f"Running Semgrep for vulnerability: {configs.vulnerability}")
+                if isinstance(vulnerability, dict):
+                    target_repo = configs.projects_dir / vulnerability['repo_name']
+                    target_commit_id = vulnerability['commit_id']
+                    repo_name = vulnerability['repo_name']
+                    dir_name = f"{repo_name}-{target_commit_id[:-1]}-{configs.vulnerability}"
+                    if "localization" in vulnerability:
+                        localization = vulnerability['localization']
+                        target_repo = target_repo / localization.split("/")[0]
+                else:
+                    target_repo = configs.projects_dir / vulnerability
+                    target_commit_id = ""
+                    repo_name = vulnerability
+                    dir_name = f"{repo_name}"
+                print(repr(configs.results_dir / dir_name))
+                semgrep.run_on_target(target_repo=target_repo.resolve(), target_commit_id=target_commit_id, 
+                                     vulnerability_type=configs.vulnerability, 
+                                     report_file=(configs.results_dir / (dir_name + ".sarif")).resolve())
+                # break
             pass
         case _:
             logger.error(f"Unknown tool: {configs.tool}. Supported tools are: 'repoaudit', 'knighter', 'inferroi'.")

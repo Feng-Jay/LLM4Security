@@ -17,10 +17,10 @@ CWE_TO_CODEQL_QUERY = {
     },
     "java": 
     {
-        "CWE-022": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_APT.qls",
-        "CWE-078": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_OSCI.qls",
-        "CWE-079": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_XSS.qls",
-        "CWE-094": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_CI.qls",
+        "CWE-22": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_APT.qls",
+        "CWE-78": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_OSCI.qls",
+        "CWE-79": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_XSS.qls",
+        "CWE-94": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_CI.qls",
         "CWE-400": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_RL.qls",
     }
 }
@@ -68,6 +68,10 @@ class CodeQL(AbsTool, BaseModel):
 
     def run_on_target(self, target_repo: Path, target_commit_id: str, vulnerability_type: str, report_file: Path) -> bool:
         
+        if report_file.exists():
+            logger.info(f"Report file {report_file} already exists. Skipping CodeQL scan for {target_repo} at commit {target_commit_id}.")
+            return True
+
         # first checkout to the target commit if commit_id is provided
         if target_commit_id != "":
             subprocess.run(" ".join(["git", "checkout", "-f", target_commit_id]), cwd=target_repo, shell=True)
@@ -117,6 +121,9 @@ class CodeQL(AbsTool, BaseModel):
         
         logger.info(f"Scanning with {db_check_cmd}")
         db_scan_result = subprocess.run(" ".join(db_check_cmd), check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+
+        # clean the codeql db
+        subprocess.run("rm -rf {}".format(str(self.database_path / f"{target_repo.name}-{target_commit_id}")), shell=True)
 
         if db_scan_result.returncode != 0:
             logger.error(f"Failed to run CodeQL analysis for {target_repo} at commit {target_commit_id}. Error: {db_scan_result.stderr.decode()}")

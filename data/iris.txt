@@ -1,0 +1,47 @@
+cwe-22
+TP Method Found in codehaus-plexus__plexus-utils_CVE-2022-4244_3.0.23
+TP Method Found in perwendel__spark_CVE-2018-9159_2.7.1
+TP Method Found in yamcs__yamcs_CVE-2023-45277_5.8.6
+TP Method Found in square__retrofit_CVE-2018-1000850_2.4.0
+TP Method Found in DSpace__DSpace_CVE-2022-31195_5.10
+TP Method Found in codehaus-plexus__plexus-archiver_CVE-2023-37460_4.7.1
+TP Method Found in jeremylong__DependencyCheck_CVE-2018-12036_3.1.2
+TP Method Found in zeroturnaround__zt-zip_CVE-2018-1002201_1.12
+TP Method Found in dromara__hutool_CVE-2018-17297_4.1.11
+TP Method Found in apache__myfaces_CVE-2011-4367_2.0.11
+TP Method Found in apache__tika_CVE-2018-11762_1.18
+TP Method Found in apache__mina-sshd_CVE-2023-35887_2.9.2
+TP Method Found in apache__sling-org-apache-sling-servlets-resolver_CVE-2024-23673_2.10.0
+TP Method Found in undertow-io__undertow_CVE-2014-7816_1.0.16.Final
+TP Method Found in joniles__mpxj_CVE-2020-35460_8.3.4
+TP Method Found in DSpace__DSpace_CVE-2022-31194_5.10
+TP Method Found in alibaba__one-java-agent_CVE-2022-25842_0.0.1
+TP Method Found in perwendel__spark_CVE-2016-9177_2.5.1
+TP Method Found in asf__karaf_CVE-2022-22932_4.3.5
+TP Method Found in kubernetes-client__java_CVE-2020-8570_client-java-parent-9.0.1
+TP Method Found in codehaus-plexus__plexus-archiver_CVE-2018-1002200_3.5
+TP File: 27, TP Method: 21
+cwe-78
+TP Method Found in jenkinsci__perfecto-plugin_CVE-2020-2261_1.17
+TP Method Found in codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15
+TP File: 6, TP Method: 2
+cwe-79
+TP Method Found in apache__jspwiki_CVE-2019-10077_2.11.0.M3
+TP Method Found in nahsra__antisamy_CVE-2022-28367_1.6.5
+TP Method Found in DSpace__DSpace_CVE-2022-31192_5.10
+TP Method Found in nahsra__antisamy_CVE-2016-10006_1.5.3
+TP Method Found in apache__jspwiki_CVE-2019-10078_2.11.0.M3
+TP Method Found in ESAPI__esapi-java-legacy_CVE-2022-24891_2.2.3.1
+TP Method Found in apache__jspwiki_CVE-2022-46907_2.11.3
+TP Method Found in nahsra__antisamy_CVE-2022-29577_1.6.6.1
+TP Method Found in nahsra__antisamy_CVE-2017-14735_1.5.6
+TP Method Found in rhuss__jolokia_CVE-2018-1000129_1.4.0
+TP Method Found in asf__cxf_CVE-2016-6812_3.0.11
+TP File: 13, TP Method: 11
+cwe-94
+TP Method Found in apache__dubbo_CVE-2021-30180_2.7.9
+TP Method Found in ff4j__ff4j_CVE-2022-44262_1.8.13
+TP Method Found in apache__rocketmq_CVE-2023-33246_5.1.0
+TP Method Found in jmrozanec__cron-utils_CVE-2021-41269_9.1.5
+TP Method Found in xerial__sqlite-jdbc_CVE-2023-32697_3.41.2.1
+TP File: 7, TP Method: 5

@@ -1,4 +1,4 @@
-repoaudit_path: /data/jiangjiajun/LLM4Security/src/dependencies/RepoAudit/src
+repoaudit_path: /data/jiangjiajun/LLM4Security/src/dependencies/RepoAudit_main/src
 project_path: /data/jiangjiajun/LLM4Security/data/projects/linux
-vul_type: UAF
+vul_type: MLK
 model_name: claude-3.5

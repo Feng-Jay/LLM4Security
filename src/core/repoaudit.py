@@ -38,6 +38,7 @@ class RepoAudit(AbsTool, BaseModel):
             raise FileNotFoundError(f"RepoAudit path {repoaudit_path} does not exist.")
         
         project_path = config.get("project_path", "./data/projects/linux")
+        logger.info(f"Project path: {project_path}")
         if not Path(project_path).exists():
             logger.error(f"Project path {project_path} does not exist.")
             raise FileNotFoundError(f"Project path {project_path} does not exist.")
@@ -57,6 +58,11 @@ class RepoAudit(AbsTool, BaseModel):
         )
     
     def set_localization(self, localization: str) -> None:
+        if localization.startswith("drivers"):
+            if len(localization.split("/")) > 1:
+                localization = "drivers/" + localization.split("/")[1]
+        else:
+            localization = localization.split("/")[0]
         os.environ["VULPATH"] = localization
 
     def set_src_localization(self, localization: str) -> None:
@@ -65,21 +71,26 @@ class RepoAudit(AbsTool, BaseModel):
     def set_sink_localization(self, localization: str) -> None:
         os.environ["SINK_VULPATH"] = localization
     
+    def set_src_api(self, api: str) -> None:
+        os.environ["SRC_API"] = api
+    
+    def set_sink_api(self, api: str) -> None:
+        os.environ["SINK_API"] = api
+    
     def run_on_target(self, target_repo: Path, target_commit_id: str, vulnerability_type: str, report_file: Path) -> bool:
         
-        logger.info(f"Checkout commint {target_commit_id} in {target_repo}")
+        logger.info(f"Checkout commint {target_commit_id} in {self.project_path}")
         
-        result = subprocess.run(["git", "checkout", "-f", target_commit_id], cwd=target_repo, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        result = subprocess.run(["git", "checkout", "-f", target_commit_id], cwd=self.project_path, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         if result.returncode != 0:
             logger.error(f"Failed to checkout commit {target_commit_id}: {result.stderr.decode()}")
             return False
-        # if os.environ.get("VULPATH").startswith("drivers"):
-        #     target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0] / os.environ.get("VULPATH", "src").split("/")[1]
-        #     self.set_localization(os.environ.get("VULPATH", "src").split("/")[0] + "/" + os.environ.get("VULPATH", "src").split("/")[1])
-        # else:
-        target_repo = target_repo / os.environ.get("VULPATH", "src")
-        if str(target_repo).endswith(".c"):
-            target_repo = target_repo.parent
+        if os.environ.get("VULPATH").startswith("drivers"):
+            target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0] / os.environ.get("VULPATH", "src").split("/")[1]
+            # self.set_localization(os.environ.get("VULPATH", "src").split("/")[0] + "/" + os.environ.get("VULPATH", "src").split("/")[1])
+        else:
+            target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0]
+        
         logger.info(f"Running RepoAudit on {target_repo} for vulnerability type {vulnerability_type}")
         cmd = f"python repoaudit.py \
                 --language Cpp \
@@ -89,6 +100,16 @@ class RepoAudit(AbsTool, BaseModel):
                 --bug-type {self.vul_type} \
                 --temperature 0.0 \
                 --scan-type dfbscan \
+                --call-depth 3 \
+                --max-neural-workers 30"
+        cmd = f"python3 repoaudit.py \
+                --language Cpp \
+                --model-name {self.model_name}\
+                --project-path {target_repo} \
+                --bug-type {self.vul_type} \
+                --temperature 0.0 \
+                --scan-type dfbscan \
+                --commit_id {target_commit_id[:-1]} \
                 --call-depth 3 \
                 --max-neural-workers 30"
         logger.info(f"Command to run: {cmd}")
