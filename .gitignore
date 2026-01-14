@@ -4,9 +4,12 @@
 /data/in_house/c/combine.py
 /data/in_house/c/ReposVul_c.jsonl
 /data/in_house/java/ReposVul_java.jsonl
-/src/dependencies/RepoAudit_main/
 .vscode/
 .DS_Store
 /logs/
 /results/
 __pycache__/
+config.yaml
+/figs/*.sketch
+/figs/resources/
+/related works/
