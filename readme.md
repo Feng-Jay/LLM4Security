@@ -12,14 +12,14 @@ It includes evaluation scripts, prompts/configurations, and datasets metadata us
 
 ---
 
-## Repository Structure (High Level)
+## Repository Structure
 
 - `appendix/`
   Appendix materials for the paper.
 - `exp_details/`  
-  Experiment configuration, tool outputs, and intermediate results.  
-  - `exp_details/results/` may contain large artifacts (logs/SARIF).
-- `data/`
+  Experiment logs, tool outputs, and detailed results for each RQ.  
+    - `exp_details/results/` may contain large artifacts (logs/SARIF), so we provide a Google Drive link in the README under this directory.
+- `data/`  
   Dataset metadata, project lists, and vulnerability instance lists.
 - `figs/`  
   Figures and visualizations used in the paper.
