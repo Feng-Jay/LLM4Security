@@ -1,4 +1,4 @@
-# LLM4Security
+# LLM-based Vulnerability Detection at Project Scale: An Empirical Study
 
 This repository contains the replication package for our empirical study:
 
