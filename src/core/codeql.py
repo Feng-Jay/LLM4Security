@@ -9,19 +9,21 @@ from utils import logger, Config
 
 
 CWE_TO_CODEQL_QUERY = {
-    "cpp": 
+    "c-cpp": 
     {
         "CWE-476": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_NPD.qls",
         "CWE-401": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_MLK.qls",
-        "CWE-416": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_UAF.qls"
+        "CWE-416": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_UAF.qls",
+        "real_world": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_all.qls",
     },
     "java": 
     {
-        "CWE-22": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_APT.qls",
-        "CWE-78": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_OSCI.qls",
-        "CWE-79": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_XSS.qls",
-        "CWE-94": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_CI.qls",
+        "CWE-022": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_APT.qls",
+        "CWE-078": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_OSCI.qls",
+        "CWE-079": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_XSS.qls",
+        "CWE-094": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_CI.qls",
         "CWE-400": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_RL.qls",
+        "real_world": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_all.qls",
     }
 }
 
@@ -32,13 +34,20 @@ class CodeQL(AbsTool, BaseModel):
         default=Path("/data/jiangjiajun/LLM4Security/resources/codeql/codeql"),
         description="Path to the CodeQL's exec file."
     )
+
     database_path: Path = Field(
         default=Path("/data/jiangjiajun/LLM4Security/data/codeql-dbs/"),
         description="Path to store CodeQL databases."
     )
+
     programming_language: str = Field(
         default="cpp",
         description="Programming language of the target repository."
+    )
+
+    vul_type: str = Field(
+        default="",
+        description="Type of vulnerability to audit."
     )
 
 
@@ -62,13 +71,17 @@ class CodeQL(AbsTool, BaseModel):
         return cls(
             codeql_bin_path=Path(configs.get("codeql_bin_path", "/data/jiangjiajun/LLM4Security/resources/codeql/codeql")),
             database_path=Path(configs.get("codeql_db_dir", "/data/jiangjiajun/LLM4Security/data/codeql-dbs/")),
-            programming_language=configs.get("programming_language", "c-cpp")
+            programming_language=configs.get("programming_language", "c-cpp"),
+            vul_type=configs.get("vul_type", "")
         )
 
 
     def run_on_target(self, target_repo: Path, target_commit_id: str, vulnerability_type: str, report_file: Path) -> bool:
-        
-        if report_file.exists():
+        if self.vul_type == "":
+            self.vul_type = vulnerability_type
+            logger.info(f"Set vulnerability type to {self.vul_type} for CodeQL.")
+        print(str(report_file))
+        if report_file.exists() or Path(f"{str(report_file)}.csv").exists():
             logger.info(f"Report file {report_file} already exists. Skipping CodeQL scan for {target_repo} at commit {target_commit_id}.")
             return True
 
@@ -77,7 +90,7 @@ class CodeQL(AbsTool, BaseModel):
             subprocess.run(" ".join(["git", "checkout", "-f", target_commit_id]), cwd=target_repo, shell=True)
             logger.info(f"Checked out to commit {target_commit_id} of {target_repo}.")
         else:
-            logger.info(f"Running CodeQL on {target_repo} at commit {target_commit_id} for vulnerability type {vulnerability_type}.")
+            logger.info(f"Running CodeQL on {target_repo} at commit {target_commit_id} for vulnerability type {self.vul_type}.")
         
         # then build the codeql database
         if not (self.database_path / f"{target_repo.name}-{target_commit_id}").exists():
@@ -107,18 +120,23 @@ class CodeQL(AbsTool, BaseModel):
             logger.info(f"CodeQL database for {target_repo} at commit {target_commit_id} already exists. Skipping database creation.")
         
         # finally run the codeql query
-        query_suite = CWE_TO_CODEQL_QUERY.get(self.programming_language, {}).get(vulnerability_type, "")
-
+        print(self.vul_type)
+        query_suite = CWE_TO_CODEQL_QUERY.get(self.programming_language, {}).get(self.vul_type, "")
+        # rules = open(query_suite, "r").readlines()
+        # for i, rule in enumerate(rules):
         db_check_cmd = [
             str(self.codeql_bin_path),
             "database",
             "analyze",
             str(self.database_path / f"{target_repo.name}-{target_commit_id}"),
             query_suite,
-            "--format=sarif-latest",
-            f"--output={str(report_file)}"
+            "--format=csv",
+            f"--output={str(report_file)}.csv",
+            "--threads=8",
+            "--rerun",
+            "--ram=8192"
         ]
-        
+    
         logger.info(f"Scanning with {db_check_cmd}")
         db_scan_result = subprocess.run(" ".join(db_check_cmd), check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
 

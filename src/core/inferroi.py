@@ -44,6 +44,10 @@ class Inferroi(BaseModel, AbsTool):
         os.environ["VULPATH_INFERROI"] = localization
     
     def run_on_target(self, target_repo, target_commit_id, vulnerability_type, report_file) -> bool:
+        cmd = f"git checkout -f {target_commit_id}"
+        logger.info(f"Checking out to commit {target_commit_id} in {target_repo}.")
+        subprocess.run(cmd, shell=True, cwd=target_repo)
+        
         cmd = f"python -m script.scan_project -project_path {target_repo}"
         
         logger.info(f"Running INFERROI on {target_repo} with command: {cmd}")

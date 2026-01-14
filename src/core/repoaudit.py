@@ -20,7 +20,7 @@ class RepoAudit(AbsTool, BaseModel):
     )
     
     vul_type: str = Field(
-        default="CWE-401",
+        default="",
         description="Type of vulnerability to audit."
     )
 
@@ -42,7 +42,8 @@ class RepoAudit(AbsTool, BaseModel):
         if not Path(project_path).exists():
             logger.error(f"Project path {project_path} does not exist.")
             raise FileNotFoundError(f"Project path {project_path} does not exist.")
-        vul_type = config.get("vul_type", "CWE-401")
+        
+        vul_type = config.get("vul_type", "")
         candidates = ["MLK", "NPD", "UAF"]
         if vul_type not in candidates:
             logger.error(f"Invalid vulnerability type: {vul_type}. Must be one of {candidates}.")
@@ -78,7 +79,13 @@ class RepoAudit(AbsTool, BaseModel):
         os.environ["SINK_API"] = api
     
     def run_on_target(self, target_repo: Path, target_commit_id: str, vulnerability_type: str, report_file: Path) -> bool:
-        
+        if self.vul_type == "":
+            self.vul_type = vulnerability_type
+            logger.info(f"Set vulnerability type to {self.vul_type} for RepoAudit.")
+        if target_repo.exists():
+            self.project_path = target_repo
+            logger.info(f"Set project path to {self.project_path} for RepoAudit.")
+            
         logger.info(f"Checkout commint {target_commit_id} in {self.project_path}")
         
         result = subprocess.run(["git", "checkout", "-f", target_commit_id], cwd=self.project_path, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -91,7 +98,7 @@ class RepoAudit(AbsTool, BaseModel):
         else:
             target_repo = target_repo / os.environ.get("VULPATH", "src").split("/")[0]
         
-        logger.info(f"Running RepoAudit on {target_repo} for vulnerability type {vulnerability_type}")
+        logger.info(f"Running RepoAudit on {target_repo} for vulnerability type {self.vul_type}")
         cmd = f"python repoaudit.py \
                 --language Cpp \
                 --model-name {self.model_name} \
@@ -101,19 +108,27 @@ class RepoAudit(AbsTool, BaseModel):
                 --temperature 0.0 \
                 --scan-type dfbscan \
                 --call-depth 3 \
-                --max-neural-workers 30"
-        cmd = f"python3 repoaudit.py \
-                --language Cpp \
-                --model-name {self.model_name}\
-                --project-path {target_repo} \
-                --bug-type {self.vul_type} \
-                --temperature 0.0 \
-                --scan-type dfbscan \
-                --commit_id {target_commit_id[:-1]} \
-                --call-depth 3 \
-                --max-neural-workers 30"
+                --max-neural-workers 5"
+        if self.vul_type != "MLK":
+            cmd += " --is-reachable"
+        # cmd = f"python3 repoaudit.py \
+        #         --language Cpp \
+        #         --model-name {self.model_name}\
+        #         --project-path {target_repo} \
+        #         --bug-type {self.vul_type} \
+        #         --temperature 0.0 \
+        #         --scan-type dfbscan \
+        #         --commit_id {target_commit_id[:-1]} \
+        #         --call-depth 3 \
+        #         --is-reachable \
+        #         --max-neural-workers 30"
         logger.info(f"Command to run: {cmd}")
         subprocess.run(cmd, shell=True, check=True, cwd=self.repoaudit_path)
+        os.environ.pop("VULPATH", None)
+        os.environ.pop("SRC_VULPATH", None)
+        os.environ.pop("SINK_VULPATH", None)
+        os.environ.pop("SRC_API", None)
+        os.environ.pop("SINK_API", None)
         pass
 
     pass

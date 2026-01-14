@@ -20,7 +20,7 @@ CWE_TO_SEMGREP_RULE = {
                     "r/c.lang.security.use-after-free.use-after-free"
                     ],
          "CWE-401": ["/data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management-cpp.yaml",
-                    "/data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management-c.yaml",]
+                    "/data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management.yaml",]
     },
     "java":{
         "CWE-022": [
@@ -89,6 +89,11 @@ class Semgrep(AbsTool, BaseModel):
         default="cpp",
         description="Programming language of the target repository."
     )
+
+    vul_type: str = Field(
+        default="",
+        description="Type of vulnerability to audit."
+    )
     
     
     @field_validator("semgrep_path")
@@ -110,17 +115,22 @@ class Semgrep(AbsTool, BaseModel):
         configs = safe_load(config_file.read_text())
         return cls(
             semgrep_path=Path(configs.get("semgrep_path", "/home/jiangjiajun/miniconda3/bin/semgrep")),
-            programming_language=configs.get("programming_language", "cpp")
+            programming_language=configs.get("programming_language", "cpp"),
+            vul_type=configs.get("vul_type", "")
         )
 
 
     def run_on_target(self, target_repo: Path, target_commit_id: str, vulnerability_type: str, report_file: Path) -> bool:
+        if self.vul_type == "":
+            self.vul_type = vulnerability_type
+            logger.info(f"Set vulnerability type to {self.vul_type} for Semgrep.")
+
         if report_file.exists():
             logger.info(f"Semgrep report for {target_repo} already exists, skipping.")
             return True
         
-        if vulnerability_type not in CWE_TO_SEMGREP_RULE[self.programming_language]:
-            logger.error(f"Unsupported vulnerability type {vulnerability_type} for language {self.programming_language}.")
+        if self.vul_type != "real_world" and self.vul_type not in CWE_TO_SEMGREP_RULE[self.programming_language]:
+            logger.error(f"Unsupported vulnerability type {self.vul_type} for language {self.programming_language}.")
             return False
         
         if target_commit_id != "":
@@ -128,11 +138,18 @@ class Semgrep(AbsTool, BaseModel):
             subprocess.run(f"git checkout -f {target_commit_id}", shell=True, cwd=target_repo)
             logger.info(f"Checked out to commit {target_commit_id} in {target_repo}.")
         
-        rules = CWE_TO_SEMGREP_RULE[self.programming_language][vulnerability_type]
-        rules = [" "] + rules
+        if self.vul_type == "real_world":
+            # scan one time for all the rules
+            rules = sum(CWE_TO_SEMGREP_RULE[self.programming_language].values(), [])
+            rules = [" "] + rules
+        else:
+            rules = CWE_TO_SEMGREP_RULE[self.programming_language][self.vul_type]
+            rules = [" "] + rules
 
-        cmd_str = f"{self.semgrep_path} scan" + " --config ".join(rules) + " " + str(target_repo.absolute()) + f" --sarif --sarif-output={report_file}"
+        cmd_str = f"{self.semgrep_path} scan " + " --config ".join(rules) + " " + str(target_repo.absolute()) + f" --json --sarif-output={report_file}"
 
         logger.info(f"Scanning {target_repo} using cmd {cmd_str}.")
 
         subprocess.run(cmd_str, shell=True)
+
+        logger.info(f"Semgrep scan completed for {target_repo}. Report saved to {report_file}.")
