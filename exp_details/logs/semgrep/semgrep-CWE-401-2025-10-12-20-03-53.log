@@ -1,0 +1,83 @@
+2025-10-12 20:03:53.928 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-12 20:03:53.929 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-10-12 20:03:53.929 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.929 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-401 for Semgrep.
+2025-10-12 20:03:53.929 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.929 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.930 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.930 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.930 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.930 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.930 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.930 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.930 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.930 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.930 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.930 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.931 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.931 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.931 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.931 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.931 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.931 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.931 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.931 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.931 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.931 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.931 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.932 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.932 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.932 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.932 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.932 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.932 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.932 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.932 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.932 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.932 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.932 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.933 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.933 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.933 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.933 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.933 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.933 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.933 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.933 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.933 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.933 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.933 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.933 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.934 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.934 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.934 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.934 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.934 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.934 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.934 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.934 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.934 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.934 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.934 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.934 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.935 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.935 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.935 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.935 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.935 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.935 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.935 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.935 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.935 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.935 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.936 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.936 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.936 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.936 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.936 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.936 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.936 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.936 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.936 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.
+2025-10-12 20:03:53.936 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 20:03:53.936 | INFO     | core.semgrep:run_on_target:129 - Semgrep report for /data/jiangjiajun/LLM4Security/data/projects/linux already exists, skipping.

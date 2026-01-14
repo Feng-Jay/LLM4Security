@@ -1,0 +1,9 @@
+2025-10-15 14:35:05.599 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 14:35:05.600 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 14:35:05.600 | INFO     | __main__:run_tools:111 - Running CodeQL for vulnerability: CWE-400
+2025-10-15 14:35:05.600 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-400 for CodeQL.
+2025-10-15 14:35:05.670 | INFO     | core.codeql:run_on_target:91 - Checked out to commit acafbcf3cb71ea0a04188c8f6257e3d395fa7c36 of /data/jiangjiajun/LLM4Security/data/projects/jsoup.
+2025-10-15 14:35:05.671 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/jsoup at commit acafbcf3cb71ea0a04188c8f6257e3d395fa7c36.
+2025-10-15 14:35:49.942 | INFO     | core.codeql:run_on_target:118 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/jsoup at commit acafbcf3cb71ea0a04188c8f6257e3d395fa7c36.
+2025-10-15 14:35:49.942 | INFO     | core.codeql:run_on_target:140 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/jsoup-acafbcf3cb71ea0a04188c8f6257e3d395fa7c36', '/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_RL.qls', '--format=csv', '--output=/data/jiangjiajun/LLM4Security/results/codeql_real_world/jsoup-acafbcf3cb71ea0a04188c8f6257e3d395fa7c3-CWE-400.csv', '--threads=8', '--rerun', '--ram=8192']
+2025-10-15 14:36:08.140 | INFO     | core.codeql:run_on_target:150 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/jsoup at commit acafbcf3cb71ea0a04188c8f6257e3d395fa7c36. Report saved to /data/jiangjiajun/LLM4Security/results/codeql_real_world/jsoup-acafbcf3cb71ea0a04188c8f6257e3d395fa7c3-CWE-400.

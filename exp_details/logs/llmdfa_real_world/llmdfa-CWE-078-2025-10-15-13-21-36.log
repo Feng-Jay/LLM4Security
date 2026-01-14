@@ -1,0 +1,5 @@
+2025-10-15 13:21:36.660 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 13:21:36.660 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 13:21:36.660 | INFO     | __main__:run_tools:91 - Running LLMDFA for vulnerability: CWE-078
+2025-10-15 13:21:36.669 | INFO     | core.llmdfa:run_on_target:70 - Checked out to commit e4b9517bd855657c900bd1b31cde09748c7a19a7 of /data/jiangjiajun/LLM4Security/data/projects/workflow-cps-plugin.
+2025-10-15 13:21:36.669 | INFO     | core.llmdfa:run_on_target:73 - Running LLMDFA with command: python run_llmdfa.py --bug-type osci --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name workflow-cps-plugin

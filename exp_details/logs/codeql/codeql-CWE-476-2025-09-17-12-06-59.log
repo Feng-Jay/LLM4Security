@@ -1,0 +1,8 @@
+2025-09-17 12:06:59.368 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-17 12:06:59.368 | INFO     | __main__:run_tools:8 - Loaded 14 vulnerabilities from configuration.
+2025-09-17 12:06:59.369 | INFO     | __main__:run_tools:100 - Running CodeQL for vulnerability: CWE-476
+2025-09-17 12:06:59.775 | INFO     | core.codeql:run_on_target:74 - Checked out to commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ of /data/jiangjiajun/LLM4Security/data/projects/linux.
+2025-09-17 12:06:59.776 | INFO     | core.codeql:run_on_target:102 - CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ already exists. Skipping database creation.
+2025-09-17 12:07:00.267 | ERROR    | core.codeql:run_on_target:121 - Failed to run CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^. Error: Unknown option: '--overwrite'
+Try codeql database analyze --help for usage help.
+

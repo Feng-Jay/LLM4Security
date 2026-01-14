@@ -1,0 +1,8 @@
+2025-10-14 20:46:06.578 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-14 20:46:06.578 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-14 20:46:06.579 | INFO     | core.repoaudit:from_config:41 - Project path: /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-10-14 20:46:06.579 | INFO     | __main__:run_tools:14 - Running RepoAudit for vulnerability: CWE-401
+2025-10-14 20:46:06.579 | INFO     | core.repoaudit:run_on_target:87 - Set project path to /data/jiangjiajun/LLM4Security/data/projects/linux for RepoAudit.
+2025-10-14 20:46:06.579 | INFO     | core.repoaudit:run_on_target:89 - Checkout commint 6093a688a07da07808f0122f9aa2a3eed250d853 in /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-10-14 20:46:06.735 | INFO     | core.repoaudit:run_on_target:101 - Running RepoAudit on /data/jiangjiajun/LLM4Security/data/projects/linux/mm for vulnerability type MLK
+2025-10-14 20:46:06.735 | INFO     | core.repoaudit:run_on_target:125 - Command to run: python repoaudit.py                 --language Cpp                 --model-name claude-3.5                 --project-path /data/jiangjiajun/LLM4Security/data/projects/linux/mm                 --commit_id 6093a688a07da07808f0122f9aa2a3eed250d85                 --bug-type MLK                 --temperature 0.0                 --scan-type dfbscan                 --call-depth 3                 --max-neural-workers 5

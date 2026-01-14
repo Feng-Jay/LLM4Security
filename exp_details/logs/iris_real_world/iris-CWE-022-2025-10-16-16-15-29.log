@@ -1,0 +1,7 @@
+2025-10-16 16:15:29.097 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-16 16:15:29.098 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-16 16:15:29.098 | INFO     | __main__:run_tools:58 - Loaded 1 vulnerabilities from configuration.
+2025-10-16 16:15:29.098 | INFO     | __main__:run_tools:60 - get 1 bugs
+2025-10-16 16:15:29.098 | INFO     | __main__:run_tools:66 - Running IRIS for vulnerability: CWE-022 on DSpace__DSpace_CVE-2035-11113_1.1
+2025-10-16 16:15:29.098 | INFO     | core.iris:run_on_target:47 - Set vulnerability type to CWE-022 for IRIS.
+2025-10-16 16:15:29.099 | INFO     | core.iris:run_on_target:51 - IRIS output for DSpace__DSpace_CVE-2035-11113_1.1 already exists, skipping.

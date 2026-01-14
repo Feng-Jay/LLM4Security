@@ -1,0 +1,8 @@
+2025-12-03 08:34:12.812 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-03 08:34:12.812 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-12-03 08:34:12.813 | INFO     | __main__:run_tools:159 - Running Semgrep for vulnerability: CWE-401
+2025-12-03 08:34:12.813 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-401 for Semgrep.
+2025-12-03 08:34:12.813 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit 6093a688a07da07808f0122f9aa2a3eed250d853 in /data/jiangjiajun/LLM4Security/data/projects/linux/sound.
+2025-12-03 08:34:12.988 | INFO     | core.semgrep:run_on_target:139 - Checked out to commit 6093a688a07da07808f0122f9aa2a3eed250d853 in /data/jiangjiajun/LLM4Security/data/projects/linux/sound.
+2025-12-03 08:34:12.988 | INFO     | core.semgrep:run_on_target:150 - Scanning /data/jiangjiajun/LLM4Security/data/projects/linux/sound using cmd /home/jiangjiajun/miniconda3/bin/semgrep scan   --config /data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management-cpp.yaml --config /data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management.yaml /data/jiangjiajun/LLM4Security/data/projects/linux/sound --json --sarif-output=/data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/linux_sound_-6093a688a07da07808f0122f9aa2a3eed250d85-CWE-401.json.
+2025-12-03 08:34:23.400 | INFO     | core.semgrep:run_on_target:154 - Semgrep scan completed for /data/jiangjiajun/LLM4Security/data/projects/linux/sound. Report saved to /data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/linux_sound_-6093a688a07da07808f0122f9aa2a3eed250d85-CWE-401.json.

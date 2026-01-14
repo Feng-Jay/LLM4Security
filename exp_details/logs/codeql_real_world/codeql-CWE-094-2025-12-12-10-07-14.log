@@ -1,0 +1,4 @@
+2025-12-12 10:07:14.449 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-12 10:07:14.449 | INFO     | __main__:run_tools:9 - Loaded 3 vulnerabilities from configuration.
+2025-12-12 10:07:14.449 | INFO     | __main__:run_tools:117 - Running CodeQL for vulnerability: CWE-094
+2025-12-12 10:07:14.450 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-094 for CodeQL.

@@ -1,0 +1,5 @@
+2025-08-30 15:57:20.713 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-30 15:57:20.714 | INFO     | __main__:run_tools:8 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:57:20.714 | INFO     | __main__:run_tools:44 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:57:20.714 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-022 on alibaba__one-java-agent_CVE-2022-25842_0.0.1
+2025-08-30 15:57:21.176 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-022 on alibaba__one-java-agent_CVE-2022-25842_0.0.1

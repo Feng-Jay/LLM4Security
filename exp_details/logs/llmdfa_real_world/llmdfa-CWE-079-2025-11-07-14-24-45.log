@@ -1,0 +1,5 @@
+2025-11-07 14:24:45.704 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-11-07 14:24:45.704 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-11-07 14:24:45.704 | INFO     | __main__:run_tools:97 - Running LLMDFA for vulnerability: CWE-079
+2025-11-07 14:24:46.291 | INFO     | core.llmdfa:run_on_target:70 - Checked out to commit 69d5a542391a0dc5c1b2ed609447bc863e7e892d of /data/jiangjiajun/LLM4Security/data/projects/jenkins.
+2025-11-07 14:24:46.292 | INFO     | core.llmdfa:run_on_target:73 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name jenkins

@@ -1,0 +1,22 @@
+2025-10-12 10:15:34.347 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-12 10:15:34.347 | INFO     | __main__:run_tools:8 - Loaded 5 vulnerabilities from configuration.
+2025-10-12 10:15:34.348 | INFO     | __main__:run_tools:69 - Running INFERROI for vulnerability: real_world
+2025-10-12 10:15:34.348 | INFO     | core.inferroi:run_on_target:48 - Checking out to commit b311b7d028fc5c3dc96fae37a67b446bb30f7fda in /data/jiangjiajun/LLM4Security/data/projects/tomcat.
+2025-10-12 10:15:34.365 | INFO     | core.inferroi:run_on_target:53 - Running INFERROI on /data/jiangjiajun/LLM4Security/data/projects/tomcat with command: python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/tomcat
+2025-10-12 10:15:34.386 | ERROR    | core.inferroi:run_on_target:57 - Failed to run INFERROI: Command 'python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/tomcat' returned non-zero exit status 1.
+2025-10-12 10:15:34.386 | INFO     | __main__:run_tools:69 - Running INFERROI for vulnerability: real_world
+2025-10-12 10:15:34.387 | INFO     | core.inferroi:run_on_target:48 - Checking out to commit 0eba2a5684b3e5be50d1cc508a9203fe5e1b2398 in /data/jiangjiajun/LLM4Security/data/projects/jenkins.
+2025-10-12 10:15:34.415 | INFO     | core.inferroi:run_on_target:53 - Running INFERROI on /data/jiangjiajun/LLM4Security/data/projects/jenkins with command: python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/jenkins
+2025-10-12 10:15:34.435 | ERROR    | core.inferroi:run_on_target:57 - Failed to run INFERROI: Command 'python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/jenkins' returned non-zero exit status 1.
+2025-10-12 10:15:34.435 | INFO     | __main__:run_tools:69 - Running INFERROI for vulnerability: real_world
+2025-10-12 10:15:34.435 | INFO     | core.inferroi:run_on_target:48 - Checking out to commit 66c4efecdda1302d9cfb3af9eedb122b74452bf3 in /data/jiangjiajun/LLM4Security/data/projects/zookeeper.
+2025-10-12 10:15:34.762 | INFO     | core.inferroi:run_on_target:53 - Running INFERROI on /data/jiangjiajun/LLM4Security/data/projects/zookeeper with command: python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/zookeeper
+2025-10-12 10:15:34.788 | ERROR    | core.inferroi:run_on_target:57 - Failed to run INFERROI: Command 'python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/zookeeper' returned non-zero exit status 1.
+2025-10-12 10:15:34.788 | INFO     | __main__:run_tools:69 - Running INFERROI for vulnerability: real_world
+2025-10-12 10:15:34.789 | INFO     | core.inferroi:run_on_target:48 - Checking out to commit 32ff5fcc248fd7497a48cde52daebf2b04e49d36 in /data/jiangjiajun/LLM4Security/data/projects/struts.
+2025-10-12 10:15:34.880 | INFO     | core.inferroi:run_on_target:53 - Running INFERROI on /data/jiangjiajun/LLM4Security/data/projects/struts with command: python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/struts
+2025-10-12 10:15:34.910 | ERROR    | core.inferroi:run_on_target:57 - Failed to run INFERROI: Command 'python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/struts' returned non-zero exit status 1.
+2025-10-12 10:15:34.910 | INFO     | __main__:run_tools:69 - Running INFERROI for vulnerability: real_world
+2025-10-12 10:15:34.910 | INFO     | core.inferroi:run_on_target:48 - Checking out to commit 1ed8eb08e0858e91152660278ffff15afd881b47 in /data/jiangjiajun/LLM4Security/data/projects/spring-boot.
+2025-10-12 10:15:34.962 | INFO     | core.inferroi:run_on_target:53 - Running INFERROI on /data/jiangjiajun/LLM4Security/data/projects/spring-boot with command: python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/spring-boot
+2025-10-12 10:15:34.990 | ERROR    | core.inferroi:run_on_target:57 - Failed to run INFERROI: Command 'python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/spring-boot' returned non-zero exit status 1.

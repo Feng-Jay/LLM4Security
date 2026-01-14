@@ -1,0 +1,83 @@
+2025-10-12 15:10:35.229 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-12 15:10:35.229 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-10-12 15:10:35.230 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.230 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-401 for Semgrep.
+2025-10-12 15:10:35.230 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.230 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.230 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.231 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.231 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.231 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.231 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.231 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.231 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.231 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.231 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.231 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.232 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.232 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.232 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.232 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.232 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.232 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.232 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.232 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.232 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.232 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.233 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.233 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.233 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.233 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.233 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.233 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.233 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.233 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.234 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.234 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.234 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.234 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.234 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.234 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.234 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.234 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.234 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.234 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.235 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.235 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.235 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.235 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.235 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.235 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.235 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.235 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.235 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.235 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.236 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.236 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.236 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.236 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.236 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.236 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.236 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.236 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.236 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.237 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.237 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.237 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.237 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.237 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.237 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.237 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.237 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.237 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.238 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.238 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.238 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.238 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.238 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.238 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.238 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.238 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.238 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.
+2025-10-12 15:10:35.238 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:10:35.239 | ERROR    | core.semgrep:run_on_target:133 - Unsupported vulnerability type CWE-401 for language java.

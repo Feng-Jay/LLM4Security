@@ -1,0 +1,14 @@
+2025-09-30 07:54:59.589 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-30 07:54:59.590 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-09-30 07:54:59.598 | INFO     | core.repoaudit:from_config:41 - Project path: /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 07:54:59.599 | INFO     | core.repoaudit:run_on_target:82 - Checkout commint ab612b1daf415b62c58e130cb3d0f30b255a14d0^ in /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-09-30 07:55:13.912 | INFO     | core.repoaudit:run_on_target:94 - Running RepoAudit on /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/iio for vulnerability type CWE-401
+2025-09-30 07:55:13.912 | INFO     | core.repoaudit:run_on_target:116 - Command to run: python3 repoaudit.py                 --language Cpp                 --model-name claude-3.5                --project-path /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/iio                 --bug-type NPD                 --temperature 0.0                 --scan-type dfbscan                 --commit_id ab612b1daf415b62c58e130cb3d0f30b255a14d0                 --call-depth 3                 --is-reachable                 --max-neural-workers 30

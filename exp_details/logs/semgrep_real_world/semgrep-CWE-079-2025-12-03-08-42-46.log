@@ -1,0 +1,8 @@
+2025-12-03 08:42:46.027 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-03 08:42:46.027 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-12-03 08:42:46.028 | INFO     | __main__:run_tools:159 - Running Semgrep for vulnerability: CWE-079
+2025-12-03 08:42:46.028 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-079 for Semgrep.
+2025-12-03 08:42:46.028 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit fc734981c142b35c0ce97d0af7d29c904794ba46 in /data/jiangjiajun/LLM4Security/data/projects/xwiki-platform.
+2025-12-03 08:42:47.312 | INFO     | core.semgrep:run_on_target:139 - Checked out to commit fc734981c142b35c0ce97d0af7d29c904794ba46 in /data/jiangjiajun/LLM4Security/data/projects/xwiki-platform.
+2025-12-03 08:42:47.312 | INFO     | core.semgrep:run_on_target:150 - Scanning /data/jiangjiajun/LLM4Security/data/projects/xwiki-platform using cmd /home/jiangjiajun/miniconda3/bin/semgrep scan   --config p/xss /data/jiangjiajun/LLM4Security/data/projects/xwiki-platform --json --sarif-output=/data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/xwiki-platform-fc734981c142b35c0ce97d0af7d29c904794ba4-CWE-079.json.
+2025-12-03 08:43:53.392 | INFO     | core.semgrep:run_on_target:154 - Semgrep scan completed for /data/jiangjiajun/LLM4Security/data/projects/xwiki-platform. Report saved to /data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/xwiki-platform-fc734981c142b35c0ce97d0af7d29c904794ba4-CWE-079.json.

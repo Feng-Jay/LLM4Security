@@ -1,0 +1,7 @@
+2025-09-22 10:59:00.467 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-22 10:59:00.467 | INFO     | __main__:run_tools:8 - Loaded 41 vulnerabilities from configuration.
+2025-09-22 10:59:00.468 | INFO     | core.repoaudit:from_config:41 - Project path: /data/jiangjiajun/LLM4Security/data/projects/linux_knighter
+2025-09-22 10:59:00.468 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-22 10:59:00.468 | INFO     | core.repoaudit:run_on_target:79 - Checkout commint aa7253c2393f6dcd6a1468b0792f6da76edad917^ in /data/jiangjiajun/LLM4Security/data/projects/linux_knighter
+2025-09-22 10:59:00.638 | INFO     | core.repoaudit:run_on_target:92 - Running RepoAudit on /data/jiangjiajun/LLM4Security/data/projects/linux/fs/ksmbd for vulnerability type CWE-401
+2025-09-22 10:59:00.638 | INFO     | core.repoaudit:run_on_target:103 - Command to run: python repoaudit.py                 --language Cpp                 --model-name claude-3.5                 --project-path /data/jiangjiajun/LLM4Security/data/projects/linux/fs/ksmbd                 --commit_id aa7253c2393f6dcd6a1468b0792f6da76edad917                 --bug-type MLK                 --temperature 0.0                 --scan-type dfbscan                 --call-depth 3                 --max-neural-workers 30

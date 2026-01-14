@@ -1,0 +1,11 @@
+2025-10-16 15:49:40.756 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-16 15:49:40.756 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-16 15:49:40.757 | INFO     | __main__:run_tools:58 - Loaded 3 vulnerabilities from configuration.
+2025-10-16 15:49:40.780 | INFO     | __main__:run_tools:60 - get 3 bugs
+2025-10-16 15:49:40.780 | INFO     | __main__:run_tools:66 - Running IRIS for vulnerability: CWE-022 on {'repo_name': 'OpenOLAT', 'commit_id': 'df53b85db5c27935e7467b9d39eaac7aebf50d4a', 'repo_link': 'https://github.com/OpenOLAT/OpenOLAT.git'}
+2025-10-16 15:49:40.780 | INFO     | core.iris:run_on_target:47 - Set vulnerability type to CWE-022 for IRIS.
+2025-10-16 15:49:48.666 | INFO     | __main__:run_tools:68 - Completed IRIS for vulnerability: CWE-022 on {'repo_name': 'OpenOLAT', 'commit_id': 'df53b85db5c27935e7467b9d39eaac7aebf50d4a', 'repo_link': 'https://github.com/OpenOLAT/OpenOLAT.git'}
+2025-10-16 15:49:48.666 | INFO     | __main__:run_tools:66 - Running IRIS for vulnerability: CWE-022 on {'repo_name': 'spark', 'commit_id': '1973e402f5d4c1442ad34a1d38ed0758079f7773', 'repo_link': 'https://github.com/perwendel/spark.git'}
+2025-10-16 15:49:54.395 | INFO     | __main__:run_tools:68 - Completed IRIS for vulnerability: CWE-022 on {'repo_name': 'spark', 'commit_id': '1973e402f5d4c1442ad34a1d38ed0758079f7773', 'repo_link': 'https://github.com/perwendel/spark.git'}
+2025-10-16 15:49:54.395 | INFO     | __main__:run_tools:66 - Running IRIS for vulnerability: CWE-022 on {'repo_name': 'DSpace', 'commit_id': '3b248012147da7cac7ac0fcd0b6b9ee0b07b5088', 'repo_link': 'https://github.com/DSpace/DSpace.git'}
+2025-10-16 15:50:00.111 | INFO     | __main__:run_tools:68 - Completed IRIS for vulnerability: CWE-022 on {'repo_name': 'DSpace', 'commit_id': '3b248012147da7cac7ac0fcd0b6b9ee0b07b5088', 'repo_link': 'https://github.com/DSpace/DSpace.git'}

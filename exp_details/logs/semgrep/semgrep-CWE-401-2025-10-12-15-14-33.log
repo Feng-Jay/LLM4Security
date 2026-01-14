@@ -1,0 +1,5 @@
+2025-10-12 15:14:34.378 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-12 15:14:34.378 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-10-12 15:14:34.379 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:14:34.379 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-401 for Semgrep.
+2025-10-12 15:14:34.379 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit aa7253c2393f6dcd6a1468b0792f6da76edad917^ in /data/jiangjiajun/LLM4Security/data/projects/linux/fs.

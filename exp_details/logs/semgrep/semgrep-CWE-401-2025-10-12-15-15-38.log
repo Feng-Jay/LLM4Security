@@ -1,0 +1,9 @@
+2025-10-12 15:15:38.846 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-12 15:15:38.846 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-10-12 15:15:38.846 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:15:38.846 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-401 for Semgrep.
+2025-10-12 15:15:38.847 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit aa7253c2393f6dcd6a1468b0792f6da76edad917^ in /data/jiangjiajun/LLM4Security/data/projects/linux/fs.
+2025-10-12 15:15:54.755 | INFO     | core.semgrep:run_on_target:139 - Checked out to commit aa7253c2393f6dcd6a1468b0792f6da76edad917^ in /data/jiangjiajun/LLM4Security/data/projects/linux/fs.
+2025-10-12 15:15:54.755 | INFO     | core.semgrep:run_on_target:150 - Scanning /data/jiangjiajun/LLM4Security/data/projects/linux/fs using cmd /home/jiangjiajun/miniconda3/bin/semgrep scan   --config /data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management-cpp.yaml --config /data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management.yaml /data/jiangjiajun/LLM4Security/data/projects/linux/fs --csv --sarif-output=/data/jiangjiajun/LLM4Security/results/semgrep/linux-aa7253c2393f6dcd6a1468b0792f6da76edad917-CWE-401.csv.
+2025-10-12 15:15:54.930 | INFO     | __main__:run_tools:145 - Running Semgrep for vulnerability: CWE-401
+2025-10-12 15:15:54.931 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit 29eb31542787e1019208a2e1047bb7c76c069536^ in /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/net.

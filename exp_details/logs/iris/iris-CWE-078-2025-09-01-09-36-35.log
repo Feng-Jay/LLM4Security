@@ -1,0 +1,14 @@
+2025-09-01 09:36:35.504 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-09-01 09:36:35.504 | INFO     | __main__:run_tools:8 - Loaded 13 vulnerabilities from configuration.
+2025-09-01 09:36:35.504 | INFO     | __main__:run_tools:44 - Loaded 13 vulnerabilities from configuration.
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:46 - get 13 bugs
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2021-21345_1.4.15
+2025-09-01 09:36:35.505 | INFO     | core.iris:run_on_target:38 - IRIS output for x-stream__xstream_CVE-2021-21345_1.4.15 already exists, skipping.
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2021-21345_1.4.15
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15
+2025-09-01 09:36:35.505 | INFO     | core.iris:run_on_target:38 - IRIS output for codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15 already exists, skipping.
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2013-7285_1.4.6
+2025-09-01 09:36:35.505 | INFO     | core.iris:run_on_target:38 - IRIS output for x-stream__xstream_CVE-2013-7285_1.4.6 already exists, skipping.
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2013-7285_1.4.6
+2025-09-01 09:36:35.505 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on apache__nifi_CVE-2022-33140_1.16.2

@@ -1,0 +1,9 @@
+2025-10-15 14:22:58.486 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 14:22:58.486 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 14:22:58.487 | INFO     | __main__:run_tools:111 - Running CodeQL for vulnerability: CWE-079
+2025-10-15 14:22:58.487 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-079 for CodeQL.
+2025-10-15 14:22:59.186 | INFO     | core.codeql:run_on_target:91 - Checked out to commit 4f55b9b6bd6dadfdd04cfd09eb532dfdd26d5607 of /data/jiangjiajun/LLM4Security/data/projects/keycloak.
+2025-10-15 14:22:59.186 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/keycloak at commit 4f55b9b6bd6dadfdd04cfd09eb532dfdd26d5607.
+2025-10-15 14:36:10.332 | INFO     | core.codeql:run_on_target:118 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/keycloak at commit 4f55b9b6bd6dadfdd04cfd09eb532dfdd26d5607.
+2025-10-15 14:36:10.333 | INFO     | core.codeql:run_on_target:140 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/keycloak-4f55b9b6bd6dadfdd04cfd09eb532dfdd26d5607', '/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_XSS.qls', '--format=csv', '--output=/data/jiangjiajun/LLM4Security/results/codeql_real_world/keycloak-4f55b9b6bd6dadfdd04cfd09eb532dfdd26d560-CWE-079.csv', '--threads=8', '--rerun', '--ram=8192']
+2025-10-15 14:37:18.136 | INFO     | core.codeql:run_on_target:150 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/keycloak at commit 4f55b9b6bd6dadfdd04cfd09eb532dfdd26d5607. Report saved to /data/jiangjiajun/LLM4Security/results/codeql_real_world/keycloak-4f55b9b6bd6dadfdd04cfd09eb532dfdd26d560-CWE-079.

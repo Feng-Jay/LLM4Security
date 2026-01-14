@@ -1,0 +1,46 @@
+2025-09-15 13:43:15.773 | INFO     | utils.config:from_yaml:61 - Configuration loaded.
+2025-09-15 13:43:15.773 | INFO     | __main__:run_tools:8 - Loaded 21 vulnerabilities from configuration.
+2025-09-15 13:43:15.773 | INFO     | __main__:run_tools:44 - Loaded 21 vulnerabilities from configuration.
+2025-09-15 13:43:15.774 | INFO     | __main__:run_tools:46 - get 21 bugs
+2025-09-15 13:43:15.774 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on asf__nifi_CVE-2023-34468_1.21.0
+2025-09-15 13:43:21.357 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on asf__nifi_CVE-2023-34468_1.21.0
+2025-09-15 13:43:21.358 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__dubbo_CVE-2021-30180_2.7.9
+2025-09-15 14:23:44.022 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__dubbo_CVE-2021-30180_2.7.9
+2025-09-15 14:23:44.023 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on ff4j__ff4j_CVE-2022-44262_1.8.13
+2025-09-15 14:51:27.045 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on ff4j__ff4j_CVE-2022-44262_1.8.13
+2025-09-15 14:51:27.045 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__incubator-dubbo_CVE-2021-30181_2.6.8
+2025-09-15 15:14:47.749 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__incubator-dubbo_CVE-2021-30181_2.6.8
+2025-09-15 15:14:47.750 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on spring-projects__spring-security_CVE-2011-2732_2.0.6.RELEASE
+2025-09-15 15:14:53.230 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on spring-projects__spring-security_CVE-2011-2732_2.0.6.RELEASE
+2025-09-15 15:14:53.230 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on spring-cloud__spring-cloud-gateway_CVE-2022-22947_3.0.6
+2025-09-15 15:14:58.826 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on spring-cloud__spring-cloud-gateway_CVE-2022-22947_3.0.6
+2025-09-15 15:14:58.827 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on SpringSource__spring-security-oauth_CVE-2018-1260_2.3.2.RELEASE
+2025-09-15 15:42:11.048 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on SpringSource__spring-security-oauth_CVE-2018-1260_2.3.2.RELEASE
+2025-09-15 15:42:11.049 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__activemq_CVE-2020-11998_5.15.12
+2025-09-15 20:13:21.631 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__activemq_CVE-2020-11998_5.15.12
+2025-09-15 20:13:21.632 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__activemq_CVE-2019-0222_5.15.8
+2025-09-16 00:37:41.904 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__activemq_CVE-2019-0222_5.15.8
+2025-09-16 00:37:41.904 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on jmrozanec__cron-utils_CVE-2021-41269_9.1.5
+2025-09-16 00:42:58.911 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on jmrozanec__cron-utils_CVE-2021-41269_9.1.5
+2025-09-16 00:42:58.912 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on codecentric__spring-boot-admin_CVE-2022-46166_2.6.9
+2025-09-16 00:57:47.537 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on codecentric__spring-boot-admin_CVE-2022-46166_2.6.9
+2025-09-16 00:57:47.537 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on spring-projects__spring-framework_CVE-2022-22965_5.2.19.RELEASE
+2025-09-16 00:57:53.186 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on spring-projects__spring-framework_CVE-2022-22965_5.2.19.RELEASE
+2025-09-16 00:57:53.187 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on fabric8io__kubernetes-client_CVE-2021-4178_5.0.2
+2025-09-16 01:33:18.782 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on fabric8io__kubernetes-client_CVE-2021-4178_5.0.2
+2025-09-16 01:33:18.783 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on xerial__sqlite-jdbc_CVE-2023-32697_3.41.2.1
+2025-09-16 01:45:44.122 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on xerial__sqlite-jdbc_CVE-2023-32697_3.41.2.1
+2025-09-16 01:45:44.122 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on asf__nifi_CVE-2023-36542_1.22.0
+2025-09-16 01:45:49.813 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on asf__nifi_CVE-2023-36542_1.22.0
+2025-09-16 01:45:49.813 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on asf__commons-text_CVE-2022-42889_1.9
+2025-09-16 01:52:36.201 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on asf__commons-text_CVE-2022-42889_1.9
+2025-09-16 01:52:36.202 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__dolphinscheduler_CVE-2023-51770_3.2.0
+2025-09-16 02:35:30.552 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__dolphinscheduler_CVE-2023-51770_3.2.0
+2025-09-16 02:35:30.552 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__struts_CVE-2020-17530_2.5.25
+2025-09-16 03:48:33.388 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__struts_CVE-2020-17530_2.5.25
+2025-09-16 03:48:33.389 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__rocketmq_CVE-2023-37582_4.9.6
+2025-09-16 04:03:40.829 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__rocketmq_CVE-2023-37582_4.9.6
+2025-09-16 04:03:40.829 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__dolphinscheduler_CVE-2023-49109_3.2.0
+2025-09-16 04:37:01.935 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__dolphinscheduler_CVE-2023-49109_3.2.0
+2025-09-16 04:37:01.935 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-094 on apache__rocketmq_CVE-2023-33246_5.1.0
+2025-09-16 05:04:48.335 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-094 on apache__rocketmq_CVE-2023-33246_5.1.0

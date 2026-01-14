@@ -1,0 +1,36 @@
+2025-09-17 10:31:59.400 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-17 10:31:59.400 | INFO     | __main__:run_tools:8 - Loaded 14 vulnerabilities from configuration.
+2025-09-17 10:31:59.401 | INFO     | __main__:run_tools:100 - Running CodeQL for vulnerability: CWE-476
+2025-09-17 10:31:59.401 | INFO     | core.codeql:run_on_target:73 - Running CodeQL on /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ for vulnerability type CWE-476.
+2025-09-17 10:31:59.401 | INFO     | core.codeql:run_on_target:93 - Create CodeQL database command: /data/jiangjiajun/LLM4Security/resources/codeql/codeql database create --threads=3 /data/jiangjiajun/LLM4Security/data/codeql-dbs/linux-4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ --language=c-cpp --source-root=/data/jiangjiajun/LLM4Security/data/projects/linux
+2025-09-17 10:31:59.401 | INFO     | core.codeql:run_on_target:94 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^.
+2025-09-17 10:32:00.438 | ERROR    | core.codeql:run_on_target:97 - Failed to create CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^. Error: Usage: codeql <command> <argument>...
+Create and query CodeQL databases, or work with the QL language.
+
+GitHub makes this program freely available for the analysis of open-source
+software and certain other uses, but it is not itself free software. Type
+codeql --license to see the license terms.
+
+      --license              Show the license terms for the CodeQL toolchain.
+Common options:
+  -h, --help                 Show this help text.
+  -v, --verbose              Incrementally increase the number of progress
+                               messages printed.
+  -q, --quiet                Incrementally decrease the number of progress
+                               messages printed.
+Some advanced options have been hidden; try --help -v for a fuller view.
+Commands:
+  query       Compile and execute QL code.
+  bqrs        Get information from .bqrs files.
+  database    Create, analyze and process CodeQL databases.
+  dataset     [Plumbing] Work with raw QL datasets.
+  test        Execute QL unit tests.
+  resolve     [Deep plumbing] Helper commands to resolve disk locations etc.
+  execute     [Deep plumbing] Low-level commands that need special JVM options.
+  version     Show the version of the CodeQL toolchain.
+  generate    Commands that generate useful output.
+  github      Commands useful for interacting with the GitHub API through
+                CodeQL.
+  pack        Commands to manage QL packages.
+  diagnostic  [Experimental] Create, process, and export diagnostic information.
+

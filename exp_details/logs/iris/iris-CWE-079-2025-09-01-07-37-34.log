@@ -1,0 +1,29 @@
+2025-09-01 07:37:34.248 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-09-01 07:37:34.249 | INFO     | __main__:run_tools:8 - Loaded 32 vulnerabilities from configuration.
+2025-09-01 07:37:34.249 | INFO     | __main__:run_tools:44 - Loaded 32 vulnerabilities from configuration.
+2025-09-01 07:37:34.249 | INFO     | __main__:run_tools:46 - get 32 bugs
+2025-09-01 07:37:34.249 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10078_2.11.0.M3
+2025-09-01 07:46:29.489 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10078_2.11.0.M3
+2025-09-01 07:46:29.489 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-28367_1.6.5
+2025-09-01 07:46:29.490 | INFO     | core.iris:run_on_target:38 - IRIS output for nahsra__antisamy_CVE-2022-28367_1.6.5 already exists, skipping.
+2025-09-01 07:46:29.490 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-28367_1.6.5
+2025-09-01 07:46:29.490 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on xuxueli__xxl-job_CVE-2020-29204_2.2.0
+2025-09-01 07:46:29.490 | INFO     | core.iris:run_on_target:38 - IRIS output for xuxueli__xxl-job_CVE-2020-29204_2.2.0 already exists, skipping.
+2025-09-01 07:46:29.490 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on xuxueli__xxl-job_CVE-2020-29204_2.2.0
+2025-09-01 07:46:29.490 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-09-01 07:46:29.491 | INFO     | core.iris:run_on_target:38 - IRIS output for nahsra__antisamy_CVE-2016-10006_1.5.3 already exists, skipping.
+2025-09-01 07:46:29.491 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-09-01 07:46:29.491 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on keycloak__keycloak_CVE-2022-4137_20.0.3
+2025-09-01 07:46:34.912 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on keycloak__keycloak_CVE-2022-4137_20.0.3
+2025-09-01 07:46:34.913 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-29201_14.5
+2025-09-01 07:46:34.913 | INFO     | core.iris:run_on_target:38 - IRIS output for xwiki__xwiki-commons_CVE-2023-29201_14.5 already exists, skipping.
+2025-09-01 07:46:34.913 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-29201_14.5
+2025-09-01 07:46:34.913 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10077_2.11.0.M3
+2025-09-01 07:46:34.913 | INFO     | core.iris:run_on_target:38 - IRIS output for apache__jspwiki_CVE-2019-10077_2.11.0.M3 already exists, skipping.
+2025-09-01 07:46:34.913 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10077_2.11.0.M3
+2025-09-01 07:46:34.914 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-29577_1.6.6.1
+2025-09-01 07:46:34.914 | INFO     | core.iris:run_on_target:38 - IRIS output for nahsra__antisamy_CVE-2022-29577_1.6.6.1 already exists, skipping.
+2025-09-01 07:46:34.914 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-29577_1.6.6.1
+2025-09-01 07:46:34.914 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on DSpace__DSpace_CVE-2022-31192_5.10
+2025-09-01 08:24:47.768 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on DSpace__DSpace_CVE-2022-31192_5.10
+2025-09-01 08:24:47.768 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on asf__cxf_CVE-2019-17573_3.2.11

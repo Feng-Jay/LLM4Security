@@ -1,0 +1,9 @@
+2025-08-30 15:51:25.913 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-30 15:51:25.913 | INFO     | __main__:run_tools:8 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:51:25.914 | INFO     | __main__:run_tools:44 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:51:25.914 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-022 on apache__dolphinscheduler_CVE-2022-26884_2.0.5
+2025-08-30 15:51:27.715 | ERROR    | core.iris:run_on_target:39 - IRIS analysis failed for apache__dolphinscheduler_CVE-2022-26884_2.0.5: python3: can't open file '/data/jiangjiajun/LLM4Security/src/dependencies/iris/src/src/neusym_vul.py': [Errno 2] No such file or directory
+
+ERROR conda.cli.main_run:execute(127): `conda run python3 src/neusym_vul.py --query CWE-022wLLM --run-id expr --llm gpt-4 apache__dolphinscheduler_CVE-2022-26884_2.0.5` failed. (See above for error)
+
+2025-08-30 15:51:27.715 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-022 on apache__dolphinscheduler_CVE-2022-26884_2.0.5

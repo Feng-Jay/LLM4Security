@@ -1,0 +1,5 @@
+2025-11-07 14:21:32.187 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-11-07 14:21:32.187 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-11-07 14:21:32.188 | INFO     | __main__:run_tools:97 - Running LLMDFA for vulnerability: CWE-079
+2025-11-07 14:21:34.311 | INFO     | core.llmdfa:run_on_target:70 - Checked out to commit fc734981c142b35c0ce97d0af7d29c904794ba46 of /data/jiangjiajun/LLM4Security/data/projects/xwiki-platform.
+2025-11-07 14:21:34.311 | INFO     | core.llmdfa:run_on_target:73 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xwiki-platform

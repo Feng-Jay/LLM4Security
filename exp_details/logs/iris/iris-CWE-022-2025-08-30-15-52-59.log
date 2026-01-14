@@ -1,0 +1,4 @@
+2025-08-30 15:52:59.495 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-30 15:52:59.495 | INFO     | __main__:run_tools:8 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:52:59.496 | INFO     | __main__:run_tools:44 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:52:59.496 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-022 on jeremylong__DependencyCheck_CVE-2018-12036_3.1.2

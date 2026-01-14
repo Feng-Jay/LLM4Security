@@ -1,0 +1,8 @@
+2025-09-17 12:06:05.979 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-17 12:06:05.980 | INFO     | __main__:run_tools:8 - Loaded 14 vulnerabilities from configuration.
+2025-09-17 12:06:05.980 | INFO     | __main__:run_tools:100 - Running CodeQL for vulnerability: CWE-476
+2025-09-17 12:06:06.110 | INFO     | core.codeql:run_on_target:74 - Checked out to commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ of /data/jiangjiajun/LLM4Security/data/projects/linux.
+2025-09-17 12:06:06.110 | INFO     | core.codeql:run_on_target:102 - CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ already exists. Skipping database creation.
+2025-09-17 12:06:07.057 | ERROR    | core.codeql:run_on_target:120 - Failed to run CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^. Error: Running queries.
+A fatal error occurred: Database at /data/jiangjiajun/LLM4Security/data/codeql-dbs/linux-4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ needs to be finalized before running queries; please run codeql database finalize
+

@@ -1,0 +1,40 @@
+2025-10-11 14:49:38.523 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-11 14:49:38.523 | INFO     | __main__:run_tools:8 - Loaded 14 vulnerabilities from configuration.
+2025-10-11 14:49:38.524 | INFO     | __main__:run_tools:104 - Running CodeQL for vulnerability: CWE-476
+2025-10-11 14:49:38.524 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-476 for CodeQL.
+2025-10-11 14:49:42.296 | INFO     | core.codeql:run_on_target:91 - Checked out to commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ of /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/mm.
+2025-10-11 14:49:42.296 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/mm at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^.
+2025-10-11 14:49:51.540 | INFO     | core.codeql:run_on_target:118 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/mm at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^.
+2025-10-11 14:49:51.540 | INFO     | core.codeql:run_on_target:140 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/mm-4a625ceee8a0ab0273534cb6b432ce6b331db5ee^', '/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_NPD.qls', '--format=csv', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-4a625ceee8a0ab0273534cb6b432ce6b331db5ee-CWE-476-mm/memory-tiers.c.csv', '--threads=3', '--rerun', '--ram=8192']
+2025-10-11 14:50:02.174 | ERROR    | core.codeql:run_on_target:147 - Failed to run CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/mm at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^. Error: Running queries.
+[1/5] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/InconsistentNullnessTesting.qlx.
+[2/5] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/MissingNullTest.qlx.
+[3/5] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/NotInitialised.qlx.
+[4/5] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/experimental/Security/CWE/CWE-476/DangerousUseOfExceptionBlocks.qlx.
+[5/5] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/GlobalUseBeforeInit.qlx.
+Starting evaluation of codeql/cpp-queries/Critical/MissingNullTest.ql.
+Starting evaluation of codeql/cpp-queries/Critical/GlobalUseBeforeInit.ql.
+Starting evaluation of codeql/cpp-queries/Critical/InconsistentNullnessTesting.ql.
+Starting evaluation of codeql/cpp-queries/Critical/NotInitialised.ql.
+Starting evaluation of codeql/cpp-queries/experimental/Security/CWE/CWE-476/DangerousUseOfExceptionBlocks.ql.
+[1/5 eval 2.3s] Evaluation done; writing results to codeql/cpp-queries/experimental/Security/CWE/CWE-476/DangerousUseOfExceptionBlocks.bqrs.
+[2/5 eval 2.4s] Evaluation done; writing results to codeql/cpp-queries/Critical/NotInitialised.bqrs.
+[3/5 eval 2.7s] Evaluation done; writing results to codeql/cpp-queries/Critical/InconsistentNullnessTesting.bqrs.
+[4/5 eval 3.2s] Evaluation done; writing results to codeql/cpp-queries/Critical/GlobalUseBeforeInit.bqrs.
+[5/5 eval 3.7s] Evaluation done; writing results to codeql/cpp-queries/Critical/MissingNullTest.bqrs.
+Shutting down query evaluator.
+Interpreting results.
+Resolving extensions
+Interpreting /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/InconsistentNullnessTesting.ql...
+Interpreting /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/MissingNullTest.ql...
+Interpreting /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/NotInitialised.ql...
+Interpreting /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/experimental/Security/CWE/CWE-476/DangerousUseOfExceptionBlocks.ql...
+Interpreting /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/GlobalUseBeforeInit.ql...
+Reading source archive /data/jiangjiajun/LLM4Security/data/codeql-dbs/mm-4a625ceee8a0ab0273534cb6b432ce6b331db5ee^/src.zip
+Exporting results to CSV...
+A fatal error occurred: Could not write CSV file
+(eventual cause: NoSuchFileException "/data/jiangjiajun/LLM4Security/results/codeql/linux-4a625ceee8a0ab0273534cb6b432...")
+
+2025-10-11 14:50:02.175 | INFO     | __main__:run_tools:104 - Running CodeQL for vulnerability: CWE-476
+2025-10-11 14:50:05.953 | INFO     | core.codeql:run_on_target:91 - Checked out to commit 45af1d7aae7d5520d2858f8517a1342646f015db^ of /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/kernel.
+2025-10-11 14:50:05.954 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/kernel at commit 45af1d7aae7d5520d2858f8517a1342646f015db^.

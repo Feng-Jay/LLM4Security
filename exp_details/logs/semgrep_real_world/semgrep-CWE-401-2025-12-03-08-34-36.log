@@ -1,0 +1,8 @@
+2025-12-03 08:34:36.263 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-03 08:34:36.263 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-12-03 08:34:36.264 | INFO     | __main__:run_tools:159 - Running Semgrep for vulnerability: CWE-401
+2025-12-03 08:34:36.264 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-401 for Semgrep.
+2025-12-03 08:34:36.264 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit 3bf1076d748a5ec40073685ce71ca9222cf0b00c in /data/jiangjiajun/LLM4Security/data/projects/ImageMagick.
+2025-12-03 08:34:36.293 | INFO     | core.semgrep:run_on_target:139 - Checked out to commit 3bf1076d748a5ec40073685ce71ca9222cf0b00c in /data/jiangjiajun/LLM4Security/data/projects/ImageMagick.
+2025-12-03 08:34:36.294 | INFO     | core.semgrep:run_on_target:150 - Scanning /data/jiangjiajun/LLM4Security/data/projects/ImageMagick using cmd /home/jiangjiajun/miniconda3/bin/semgrep scan   --config /data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management-cpp.yaml --config /data/jiangjiajun/LLM4Security/resources/semgrep-rules/c/mismatched-memory-management.yaml /data/jiangjiajun/LLM4Security/data/projects/ImageMagick --json --sarif-output=/data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/ImageMagick_-3bf1076d748a5ec40073685ce71ca9222cf0b00-CWE-401.json.
+2025-12-03 08:34:44.504 | INFO     | core.semgrep:run_on_target:154 - Semgrep scan completed for /data/jiangjiajun/LLM4Security/data/projects/ImageMagick. Report saved to /data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/ImageMagick_-3bf1076d748a5ec40073685ce71ca9222cf0b00-CWE-401.json.

@@ -1,0 +1,5 @@
+2025-09-17 12:20:27.271 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-17 12:20:27.272 | INFO     | __main__:run_tools:8 - Loaded 14 vulnerabilities from configuration.
+2025-09-17 12:20:27.272 | INFO     | __main__:run_tools:100 - Running CodeQL for vulnerability: CWE-476
+2025-09-17 12:20:27.446 | INFO     | core.codeql:run_on_target:74 - Checked out to commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ of /data/jiangjiajun/LLM4Security/data/projects/linux.
+2025-09-17 12:20:27.446 | INFO     | core.codeql:run_on_target:94 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^.

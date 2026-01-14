@@ -1,0 +1,29 @@
+2025-08-31 07:20:29.181 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-31 07:20:29.181 | INFO     | __main__:run_tools:8 - Loaded 13 vulnerabilities from configuration.
+2025-08-31 07:20:29.181 | INFO     | __main__:run_tools:44 - Loaded 13 vulnerabilities from configuration.
+2025-08-31 07:20:29.182 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on apache__activemq_CVE-2014-3576_5.10.1
+2025-08-31 07:21:24.981 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on apache__activemq_CVE-2014-3576_5.10.1
+2025-08-31 07:21:24.982 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on jenkinsci__docker-commons-plugin_CVE-2022-20617_1.17
+2025-08-31 07:21:30.584 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__docker-commons-plugin_CVE-2022-20617_1.17
+2025-08-31 07:21:30.584 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on apache__nifi_CVE-2022-33140_1.16.2
+2025-08-31 07:21:36.265 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on apache__nifi_CVE-2022-33140_1.16.2
+2025-08-31 07:21:36.266 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646.v6ed3b5b01ff1
+2025-08-31 07:21:41.846 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646.v6ed3b5b01ff1
+2025-08-31 07:21:41.846 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2020-26217_1.4.14-java7
+2025-08-31 07:21:47.473 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2020-26217_1.4.14-java7
+2025-08-31 07:21:47.473 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on jenkinsci__perfecto-plugin_CVE-2020-2261_1.17
+2025-08-31 07:21:53.052 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__perfecto-plugin_CVE-2020-2261_1.17
+2025-08-31 07:21:53.053 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15
+2025-08-31 07:26:34.844 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15
+2025-08-31 07:26:34.844 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2013-7285_1.4.6
+2025-08-31 07:31:51.763 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2013-7285_1.4.6
+2025-08-31 07:31:51.764 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on jenkinsci__git-client-plugin_CVE-2019-10392_2.8.4
+2025-08-31 07:31:57.337 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__git-client-plugin_CVE-2019-10392_2.8.4
+2025-08-31 07:31:57.337 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25
+2025-08-31 07:32:02.913 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25
+2025-08-31 07:32:02.913 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544.vff04fa68714d
+2025-08-31 07:32:08.527 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544.vff04fa68714d
+2025-08-31 07:32:08.527 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2021-21345_1.4.15
+2025-08-31 07:37:16.940 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2021-21345_1.4.15
+2025-08-31 07:37:16.940 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-078 on jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706.vd43c65dec013
+2025-08-31 07:37:22.486 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706.vd43c65dec013

@@ -1,0 +1,8 @@
+2025-10-14 19:07:10.571 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-14 19:07:10.571 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-14 19:07:10.572 | INFO     | core.repoaudit:from_config:41 - Project path: /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-10-14 19:07:10.572 | INFO     | __main__:run_tools:14 - Running RepoAudit for vulnerability: CWE-476
+2025-10-14 19:07:10.572 | INFO     | core.repoaudit:run_on_target:87 - Set project path to /data/jiangjiajun/LLM4Security/data/projects/gpac for RepoAudit.
+2025-10-14 19:07:10.572 | INFO     | core.repoaudit:run_on_target:89 - Checkout commint c6a72c35aadadd9755d177c5ffc51b3e2b5f9268 in /data/jiangjiajun/LLM4Security/data/projects/gpac
+2025-10-14 19:07:10.584 | INFO     | core.repoaudit:run_on_target:101 - Running RepoAudit on /data/jiangjiajun/LLM4Security/data/projects/gpac for vulnerability type MLK
+2025-10-14 19:07:10.584 | INFO     | core.repoaudit:run_on_target:125 - Command to run: python repoaudit.py                 --language Cpp                 --model-name claude-3.5                 --project-path /data/jiangjiajun/LLM4Security/data/projects/gpac                 --commit_id c6a72c35aadadd9755d177c5ffc51b3e2b5f926                 --bug-type MLK                 --temperature 0.0                 --scan-type dfbscan                 --call-depth 3                 --max-neural-workers 10

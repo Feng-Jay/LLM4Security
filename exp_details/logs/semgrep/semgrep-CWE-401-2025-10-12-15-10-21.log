@@ -1,0 +1,1 @@
+2025-10-12 15:10:21.790 | ERROR    | utils.config:from_yaml:50 - Vulnerability info file ../data/in_world/c/reposvul_vulnerabilities.json does not exist.

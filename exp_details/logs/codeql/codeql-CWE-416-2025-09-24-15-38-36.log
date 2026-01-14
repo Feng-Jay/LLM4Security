@@ -1,0 +1,173 @@
+2025-09-24 15:38:36.332 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-24 15:38:36.333 | INFO     | __main__:run_tools:8 - Loaded 10 vulnerabilities from configuration.
+2025-09-24 15:38:36.333 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 15:38:36.957 | INFO     | core.codeql:run_on_target:78 - Checked out to commit 6709d4b7bc2e079241fdef15d1160581c5261c10^ of /data/jiangjiajun/LLM4Security/data/projects/linux/net.
+2025-09-24 15:38:36.957 | INFO     | core.codeql:run_on_target:107 - CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/net at commit 6709d4b7bc2e079241fdef15d1160581c5261c10^ already exists. Skipping database creation.
+2025-09-24 15:38:36.958 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/net-6709d4b7bc2e079241fdef15d1160581c5261c10^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-6709d4b7bc2e079241fdef15d1160581c5261c10-CWE-416.sarif']
+2025-09-24 15:44:40.826 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/net at commit 6709d4b7bc2e079241fdef15d1160581c5261c10^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-6709d4b7bc2e079241fdef15d1160581c5261c10-CWE-416.sarif.
+2025-09-24 15:44:40.827 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 15:44:47.582 | INFO     | core.codeql:run_on_target:78 - Checked out to commit cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^ of /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/hwmon.
+2025-09-24 15:44:47.582 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/hwmon at commit cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^.
+2025-09-24 15:44:57.701 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/hwmon at commit cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^.
+2025-09-24 15:44:57.702 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/hwmon-cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-cb090e64cf25602b9adaf32d5dfc9c8bec493cd1-CWE-416.sarif']
+2025-09-24 15:46:18.869 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/hwmon at commit cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-cb090e64cf25602b9adaf32d5dfc9c8bec493cd1-CWE-416.sarif.
+2025-09-24 15:46:18.870 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 15:46:25.318 | INFO     | core.codeql:run_on_target:78 - Checked out to commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^ of /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/media.
+2025-09-24 15:46:25.318 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/media at commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^.
+2025-09-24 15:48:15.842 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/media at commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^.
+2025-09-24 15:48:15.842 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/media-29b0589a865b6f66d141d79b2dd1373e4e50fe17^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-29b0589a865b6f66d141d79b2dd1373e4e50fe17-CWE-416.sarif']
+2025-09-24 15:54:31.413 | ERROR    | core.codeql:run_on_target:129 - Failed to run CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/media at commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^. Error: Running queries.
+[1/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/RedundantNullCheckSimple.qlx.
+[2/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Underspecified Functions/TooFewArguments.qlx.
+[3/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Format/SnprintfOverflow.qlx.
+[4/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Format/WrongNumberOfFormatArguments.qlx.
+[5/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Format/WrongTypeFormatArguments.qlx.
+[6/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Memory Management/UsingExpiredStackAddress.qlx.
+[7/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Memory Management/SuspiciousCallToStrncat.qlx.
+[8/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Memory Management/AllocaInLoop.qlx.
+[9/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Memory Management/PointerOverflow.qlx.
+[10/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Memory Management/ReturnStackAllocatedMemory.qlx.
+[11/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/OO/UnsafeUseOfThis.qlx.
+[12/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Conversion/CastArrayPointerArithmetic.qlx.
+[13/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Arithmetic/IntMultToLong.qlx.
+[14/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Arithmetic/SignedOverflowCheck.qlx.
+[15/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Likely Bugs/Arithmetic/BadAdditionOverflowCheck.qlx.
+[16/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-134/UncontrolledFormatString.qlx.
+[17/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-191/UnsignedDifferenceExpressionComparedZero.qlx.
+[18/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-319/UseOfHttp.qlx.
+[19/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-497/ExposedSystemData.qlx.
+[20/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-676/DangerousUseOfCin.qlx.
+[21/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-676/DangerousFunctionOverflow.qlx.
+[22/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-311/CleartextTransmission.qlx.
+[23/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-311/CleartextFileWrite.qlx.
+[24/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-014/MemsetMayBeDeleted.qlx.
+[25/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-079/CgiXss.qlx.
+[26/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-611/XXE.qlx.
+[27/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-078/ExecTainted.qlx.
+[28/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-416/UseOfUniquePointerAfterLifetimeEnds.qlx.
+[29/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-416/IteratorToExpiredContainer.qlx.
+[30/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-416/UseOfStringAfterLifetimeEnds.qlx.
+[31/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-131/NoSpaceForZeroTerminator.qlx.
+[32/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-327/BrokenCryptoAlgorithm.qlx.
+[33/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-327/OpenSslHeartbleed.qlx.
+[34/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-120/BadlyBoundedWrite.qlx.
+[35/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-120/VeryLikelyOverrunWrite.qlx.
+[36/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-704/WcharCharConversion.qlx.
+[37/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-190/ComparisonWithWiderType.qlx.
+[38/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-190/ArithmeticUncontrolled.qlx.
+[39/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-253/HResultBooleanConversion.qlx.
+[40/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-326/InsufficientKeySize.qlx.
+[41/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-367/TOCTOUFilesystemRace.qlx.
+[42/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-732/UnsafeDaclSecurityDescriptor.qlx.
+[43/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-732/OpenCallMissingModeArgument.qlx.
+[44/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-468/SuspiciousAddWithSizeof.qlx.
+[45/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-089/SqlTainted.qlx.
+[46/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/OverflowStatic.qlx.
+[47/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/DoubleFree.qlx.
+[48/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/NewFreeMismatch.qlx.
+[49/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/IncorrectCheckScanf.qlx.
+[50/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/UseAfterFree.qlx.
+[51/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Diagnostics/ExtractedFiles.qlx.
+[52/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Diagnostics/ExtractionWarnings.qlx.
+[53/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Diagnostics/FailedExtractorInvocations.qlx.
+[54/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Summary/LinesOfCode.qlx.
+[55/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Summary/LinesOfUserCode.qlx.
+[56/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Telemetry/DatabaseQuality.qlx.
+[57/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Telemetry/CompilerErrors.qlx.
+[58/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Telemetry/ExtractionMetrics.qlx.
+[59/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Telemetry/MissingIncludes.qlx.
+[60/60] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Telemetry/SucceededIncludes.qlx.
+Starting evaluation of codeql/cpp-queries/Critical/DoubleFree.ql.
+Starting evaluation of codeql/cpp-queries/Critical/IncorrectCheckScanf.ql.
+[1/60 eval 4m57s] Evaluation done; writing results to codeql/cpp-queries/Critical/DoubleFree.bqrs.
+Starting evaluation of codeql/cpp-queries/Critical/NewFreeMismatch.ql.
+[2/60 eval 1.1s] Evaluation done; writing results to codeql/cpp-queries/Critical/IncorrectCheckScanf.bqrs.
+Starting evaluation of codeql/cpp-queries/Critical/OverflowStatic.ql.
+[3/60 eval 24.2s] Evaluation done; writing results to codeql/cpp-queries/Critical/NewFreeMismatch.bqrs.
+Starting evaluation of codeql/cpp-queries/Critical/UseAfterFree.ql.
+[4/60 eval 16.2s] Evaluation done; writing results to codeql/cpp-queries/Critical/OverflowStatic.bqrs.
+Starting evaluation of codeql/cpp-queries/Diagnostics/ExtractedFiles.ql.
+[5/60 eval 98ms] Evaluation done; writing results to codeql/cpp-queries/Critical/UseAfterFree.bqrs.
+Starting evaluation of codeql/cpp-queries/Diagnostics/ExtractionWarnings.ql.
+[6/60 eval 64ms] Evaluation done; writing results to codeql/cpp-queries/Diagnostics/ExtractedFiles.bqrs.
+Starting evaluation of codeql/cpp-queries/Diagnostics/FailedExtractorInvocations.ql.
+[7/60 eval 7.7s] Evaluation done; writing results to codeql/cpp-queries/Diagnostics/ExtractionWarnings.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Arithmetic/BadAdditionOverflowCheck.ql.
+[8/60 eval 146ms] Evaluation done; writing results to codeql/cpp-queries/Diagnostics/FailedExtractorInvocations.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Arithmetic/IntMultToLong.ql.
+[9/60 eval 780ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Arithmetic/BadAdditionOverflowCheck.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Arithmetic/SignedOverflowCheck.ql.
+[10/60 eval 199ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Arithmetic/IntMultToLong.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Conversion/CastArrayPointerArithmetic.ql.
+[11/60 eval 377ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Arithmetic/SignedOverflowCheck.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Format/SnprintfOverflow.ql.
+[12/60 eval 6ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Conversion/CastArrayPointerArithmetic.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Format/WrongNumberOfFormatArguments.ql.
+[13/60 eval 123ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Format/SnprintfOverflow.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Format/WrongTypeFormatArguments.ql.
+[14/60 eval 7.2s] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Format/WrongNumberOfFormatArguments.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Memory Management/AllocaInLoop.ql.
+[15/60 eval 6ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Format/WrongTypeFormatArguments.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Memory Management/PointerOverflow.ql.
+[16/60 eval 1.1s] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Memory Management/AllocaInLoop.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Memory Management/ReturnStackAllocatedMemory.ql.
+[17/60 eval 80ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Memory Management/PointerOverflow.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Memory Management/SuspiciousCallToStrncat.ql.
+[18/60 eval 2.6s] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Memory Management/ReturnStackAllocatedMemory.bqrs.
+[19/60 eval 74ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Memory Management/SuspiciousCallToStrncat.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Memory Management/UsingExpiredStackAddress.ql.
+[20/60 eval 1.6s] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Memory Management/UsingExpiredStackAddress.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/OO/UnsafeUseOfThis.ql.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/RedundantNullCheckSimple.ql.
+[21/60 eval 1ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/OO/UnsafeUseOfThis.bqrs.
+Starting evaluation of codeql/cpp-queries/Likely Bugs/Underspecified Functions/TooFewArguments.ql.
+[22/60 eval 822ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/RedundantNullCheckSimple.bqrs.
+Starting evaluation of codeql/cpp-queries/Security/CWE/CWE-014/MemsetMayBeDeleted.ql.
+[23/60 eval 354ms] Evaluation done; writing results to codeql/cpp-queries/Likely Bugs/Underspecified Functions/TooFewArguments.bqrs.
+Starting evaluation of codeql/cpp-queries/Security/CWE/CWE-078/ExecTainted.ql.
+[24/60 eval 1.6s] Evaluation done; writing results to codeql/cpp-queries/Security/CWE/CWE-014/MemsetMayBeDeleted.bqrs.
+A fatal error occurred: Cannot create dirty marker for cached strings
+(eventual cause: NoSuchFileException "/data/jiangjiajun/LLM4Security/data/codeql-dbs/media-29b0589a865b6f66d141d79b2dd...")
+
+2025-09-24 15:54:31.413 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 15:54:38.043 | INFO     | core.codeql:run_on_target:78 - Checked out to commit 153695d36ead0ccc4d0256953c751cabf673e621^ of /data/jiangjiajun/LLM4Security/data/projects/linux/fs.
+2025-09-24 15:54:38.043 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit 153695d36ead0ccc4d0256953c751cabf673e621^.
+2025-09-24 15:57:00.763 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit 153695d36ead0ccc4d0256953c751cabf673e621^.
+2025-09-24 15:57:00.764 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/fs-153695d36ead0ccc4d0256953c751cabf673e621^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-153695d36ead0ccc4d0256953c751cabf673e621-CWE-416.sarif']
+2025-09-24 16:04:53.567 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit 153695d36ead0ccc4d0256953c751cabf673e621^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-153695d36ead0ccc4d0256953c751cabf673e621-CWE-416.sarif.
+2025-09-24 16:04:53.568 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 16:05:02.200 | INFO     | core.codeql:run_on_target:78 - Checked out to commit cf6531d98190fa2cf92a6d8bbc8af0a4740a223c^ of /data/jiangjiajun/LLM4Security/data/projects/linux/fs.
+2025-09-24 16:05:02.200 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit cf6531d98190fa2cf92a6d8bbc8af0a4740a223c^.
+2025-09-24 16:07:38.197 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit cf6531d98190fa2cf92a6d8bbc8af0a4740a223c^.
+2025-09-24 16:07:38.197 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/fs-cf6531d98190fa2cf92a6d8bbc8af0a4740a223c^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-cf6531d98190fa2cf92a6d8bbc8af0a4740a223c-CWE-416.sarif']
+2025-09-24 16:15:40.891 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit cf6531d98190fa2cf92a6d8bbc8af0a4740a223c^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-cf6531d98190fa2cf92a6d8bbc8af0a4740a223c-CWE-416.sarif.
+2025-09-24 16:15:40.891 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 16:15:48.466 | INFO     | core.codeql:run_on_target:78 - Checked out to commit 9e7fef9521e73ca8afd7da9e58c14654b02dfad8^ of /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/net.
+2025-09-24 16:15:48.466 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/net at commit 9e7fef9521e73ca8afd7da9e58c14654b02dfad8^.
+2025-09-24 16:21:57.051 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/net at commit 9e7fef9521e73ca8afd7da9e58c14654b02dfad8^.
+2025-09-24 16:21:57.051 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/net-9e7fef9521e73ca8afd7da9e58c14654b02dfad8^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-9e7fef9521e73ca8afd7da9e58c14654b02dfad8-CWE-416.sarif']
+2025-09-24 16:45:19.140 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/net at commit 9e7fef9521e73ca8afd7da9e58c14654b02dfad8^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-9e7fef9521e73ca8afd7da9e58c14654b02dfad8-CWE-416.sarif.
+2025-09-24 16:45:19.140 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 16:45:23.818 | INFO     | core.codeql:run_on_target:78 - Checked out to commit d270453a0d9ec10bb8a802a142fb1b3601a83098^ of /data/jiangjiajun/LLM4Security/data/projects/linux/drivers.
+2025-09-24 16:45:23.818 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers at commit d270453a0d9ec10bb8a802a142fb1b3601a83098^.
+2025-09-24 17:08:15.652 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers at commit d270453a0d9ec10bb8a802a142fb1b3601a83098^.
+2025-09-24 17:08:15.652 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/drivers-d270453a0d9ec10bb8a802a142fb1b3601a83098^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-d270453a0d9ec10bb8a802a142fb1b3601a83098-CWE-416.sarif']
+2025-09-24 19:25:47.260 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers at commit d270453a0d9ec10bb8a802a142fb1b3601a83098^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-d270453a0d9ec10bb8a802a142fb1b3601a83098-CWE-416.sarif.
+2025-09-24 19:25:47.261 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 19:25:51.444 | INFO     | core.codeql:run_on_target:78 - Checked out to commit b561275d633bcd8e0e8055ab86f1a13df75a0269^ of /data/jiangjiajun/LLM4Security/data/projects/linux/net.
+2025-09-24 19:25:51.444 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/net at commit b561275d633bcd8e0e8055ab86f1a13df75a0269^.
+2025-09-24 19:27:42.385 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/net at commit b561275d633bcd8e0e8055ab86f1a13df75a0269^.
+2025-09-24 19:27:42.385 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/net-b561275d633bcd8e0e8055ab86f1a13df75a0269^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-b561275d633bcd8e0e8055ab86f1a13df75a0269-CWE-416.sarif']
+2025-09-24 19:33:52.178 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/net at commit b561275d633bcd8e0e8055ab86f1a13df75a0269^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-b561275d633bcd8e0e8055ab86f1a13df75a0269-CWE-416.sarif.
+2025-09-24 19:33:52.178 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 19:34:01.178 | INFO     | core.codeql:run_on_target:78 - Checked out to commit 4e0f718daf97d47cf7dec122da1be970f145c809^ of /data/jiangjiajun/LLM4Security/data/projects/linux.
+2025-09-24 19:34:01.178 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4e0f718daf97d47cf7dec122da1be970f145c809^.
+2025-09-24 22:11:20.981 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4e0f718daf97d47cf7dec122da1be970f145c809^.
+2025-09-24 22:11:20.982 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/linux-4e0f718daf97d47cf7dec122da1be970f145c809^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-4e0f718daf97d47cf7dec122da1be970f145c809-CWE-416.sarif']
+2025-09-25 05:59:17.846 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux at commit 4e0f718daf97d47cf7dec122da1be970f145c809^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-4e0f718daf97d47cf7dec122da1be970f145c809-CWE-416.sarif.
+2025-09-25 05:59:17.863 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-25 06:00:17.370 | INFO     | core.codeql:run_on_target:78 - Checked out to commit 6a3eb3360667170988f8a6477f6686242061488a^ of /data/jiangjiajun/LLM4Security/data/projects/linux/fs.
+2025-09-25 06:00:17.372 | INFO     | core.codeql:run_on_target:99 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit 6a3eb3360667170988f8a6477f6686242061488a^.
+2025-09-25 06:02:10.565 | INFO     | core.codeql:run_on_target:105 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit 6a3eb3360667170988f8a6477f6686242061488a^.
+2025-09-25 06:02:10.565 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/fs-6a3eb3360667170988f8a6477f6686242061488a^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-6a3eb3360667170988f8a6477f6686242061488a-CWE-416.sarif']
+2025-09-25 06:08:44.220 | INFO     | core.codeql:run_on_target:132 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/fs at commit 6a3eb3360667170988f8a6477f6686242061488a^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-6a3eb3360667170988f8a6477f6686242061488a-CWE-416.sarif.

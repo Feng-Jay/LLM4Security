@@ -1,0 +1,6 @@
+2025-09-17 12:33:08.096 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-17 12:33:08.097 | INFO     | __main__:run_tools:8 - Loaded 14 vulnerabilities from configuration.
+2025-09-17 12:33:08.097 | INFO     | __main__:run_tools:100 - Running CodeQL for vulnerability: CWE-476
+2025-09-17 12:33:08.238 | INFO     | core.codeql:run_on_target:74 - Checked out to commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ of /data/jiangjiajun/LLM4Security/data/projects/linux/mm.
+2025-09-17 12:33:08.238 | INFO     | core.codeql:run_on_target:103 - CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/mm at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^ already exists. Skipping database creation.
+2025-09-17 12:33:58.141 | INFO     | core.codeql:run_on_target:124 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/mm at commit 4a625ceee8a0ab0273534cb6b432ce6b331db5ee^. Report saved to /data/jiangjiajun/LLM4Security/results/codeql/linux-4a625ceee8a0ab0273534cb6b432ce6b331db5ee-CWE-476.sarif.

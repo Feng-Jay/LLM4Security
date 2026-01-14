@@ -1,0 +1,63 @@
+2025-12-13 14:59:05.861 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-13 14:59:05.862 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-12-13 14:59:05.862 | INFO     | __main__:run_tools:42 - Running Knighter for vulnerability: CWE-401
+2025-12-13 14:59:05.863 | INFO     | core.knighter:run_on_target:125 - Set vulnerability type to real_world for Knighter.
+2025-12-13 14:59:05.863 | INFO     | core.knighter:get_checker_files:102 - get 59 checkers for vulnerability type 'real_world'
+2025-12-13 14:59:05.864 | INFO     | core.knighter:run_on_target:133 - get 8 checker files for vulnerability type 'real_world'
+2025-12-13 14:59:05.864 | INFO     | core.knighter:run_on_target:134 - Running Knighter on target repository: /data/lifengjie/sec/data/projects/linux at commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:05.864 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/1f886a7bfb3faf4c1021e73f045538008ce7634e/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:39.986 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:39.986 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:40.028 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:47.451 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:51.383 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:51.383 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.
+2025-12-13 14:59:51.427 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/b1ba8bcb2d1ffce11b308ce166c9cc28d989e3b9/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:52.557 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:52.557 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:55.393 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:55.459 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:55.891 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:55.891 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.
+2025-12-13 14:59:55.891 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/3027e7b15b02d2d37e3f82d6b8404f6d37e3b8cf/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:56.051 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:56.051 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:56.071 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:56.147 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:56.567 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:56.567 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.
+2025-12-13 14:59:56.567 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/4050957c7c2c14aa795dbf423b4180d5ac04e113/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:56.737 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:56.737 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:56.779 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:56.807 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:57.315 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:57.315 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.
+2025-12-13 14:59:57.316 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/0336f8ffece62f882ab3012820965a786a983f70/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:57.468 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:57.468 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:57.492 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:57.563 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:57.881 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:57.881 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.
+2025-12-13 14:59:57.881 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/ad297cd2db8953e2202970e9504cab247b6c7cb4/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:58.076 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:58.076 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:58.152 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:58.227 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:58.638 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:58.638 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.
+2025-12-13 14:59:58.638 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/aec8e6bf839101784f3ef037dcdb9432c3f32343/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:58.829 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:58.829 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:58.853 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:58.895 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:59.252 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:59.252 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.
+2025-12-13 14:59:59.252 | INFO     | core.knighter:run_on_target:140 - Checker file /data/lifengjie/sec/src/dependencies/Knighter/checkers_final/f1e54d11b210b53d418ff1476c6b58a2f434dfc0/checker1.cpp written to /data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/clang/lib/Analysis/plugins/SAGenTestHandling/SAGenTestChecker.cpp
+2025-12-13 14:59:59.408 | INFO     | core.knighter:run_on_target:160 - checkout to commit: 6093a688a07da07808f0122f9aa2a3eed250d853
+2025-12-13 14:59:59.408 | INFO     | core.knighter:run_on_target:161 - apply the candidate patches
+2025-12-13 14:59:59.447 | INFO     | core.knighter:run_on_target:165 - apply patches done
+2025-12-13 14:59:59.475 | INFO     | core.knighter:run_on_target:168 - make allyesconfig done
+2025-12-13 14:59:59.820 | ERROR    | core.knighter:run_on_target:202 - Run failed on vulnerability real_world at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-12-13 14:59:59.820 | ERROR    | core.knighter:run_on_target:203 - Command failed with return code 2.

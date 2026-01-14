@@ -1,0 +1,13 @@
+2025-10-09 16:55:39.325 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-09 16:55:39.326 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-10-09 16:55:39.326 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-401
+2025-10-09 16:55:39.326 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-401 for CodeQL.
+2025-10-09 16:56:08.453 | INFO     | core.codeql:run_on_target:91 - Checked out to commit aa7253c2393f6dcd6a1468b0792f6da76edad917^ of /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs.
+2025-10-09 16:56:08.454 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit aa7253c2393f6dcd6a1468b0792f6da76edad917^.
+2025-10-09 16:56:11.808 | ERROR    | core.codeql:run_on_target:116 - Failed to create CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit aa7253c2393f6dcd6a1468b0792f6da76edad917^. Error: Initializing database at /data/jiangjiajun/LLM4Security/data/codeql-dbs/fs-aa7253c2393f6dcd6a1468b0792f6da76edad917^.
+Running build command: []
+Running command in /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs: [/data/jiangjiajun/LLM4Security/resources/codeql/java/tools/autobuild.sh]
+Finalizing database at /data/jiangjiajun/LLM4Security/data/codeql-dbs/fs-aa7253c2393f6dcd6a1468b0792f6da76edad917^.
+CodeQL detected code written in C/C++, but not any written in Java/Kotlin. Confirm that there is some source code for Java/Kotlin in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build.
+
+2025-10-09 16:56:11.808 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-401

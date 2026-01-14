@@ -1,0 +1,14 @@
+2025-08-30 15:51:57.299 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-30 15:51:57.300 | INFO     | __main__:run_tools:8 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:51:57.300 | INFO     | __main__:run_tools:44 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:51:57.300 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-022 on joniles__mpxj_CVE-2020-35460_8.3.4
+2025-08-30 15:52:02.886 | ERROR    | core.iris:run_on_target:39 - IRIS analysis failed for joniles__mpxj_CVE-2020-35460_8.3.4: Traceback (most recent call last):
+  File "/data/jiangjiajun/LLM4Security/src/dependencies/iris/src/neusym_vul.py", line 1297, in <module>
+    pipeline = SAPipeline(
+  File "/data/jiangjiajun/LLM4Security/src/dependencies/iris/src/neusym_vul.py", line 146, in __init__
+    raise Exception(f"Unknown query `{self.query}`; aborting")
+Exception: Unknown query `CWE-022wLLM`; aborting
+
+ERROR conda.cli.main_run:execute(127): `conda run python3 src/neusym_vul.py --query CWE-022wLLM --run-id expr --llm gpt-4 joniles__mpxj_CVE-2020-35460_8.3.4` failed. (See above for error)
+
+2025-08-30 15:52:02.887 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-022 on joniles__mpxj_CVE-2020-35460_8.3.4

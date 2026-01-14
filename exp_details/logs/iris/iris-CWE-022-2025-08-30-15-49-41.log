@@ -1,0 +1,9 @@
+2025-08-30 15:49:41.156 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-30 15:49:41.156 | INFO     | __main__:run_tools:8 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:49:41.156 | INFO     | __main__:run_tools:44 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:49:41.157 | INFO     | __main__:run_tools:47 - Running IRIS for vulnerability: CWE-022 on whitesource__curekit_CVE-2022-23082_1.1.3
+2025-08-30 15:49:41.608 | ERROR    | core.iris:run_on_target:39 - IRIS analysis failed for whitesource__curekit_CVE-2022-23082_1.1.3: 
+CondaError: Run 'conda init' before 'conda activate'
+
+
+2025-08-30 15:49:41.608 | INFO     | __main__:run_tools:49 - Completed IRIS for vulnerability: CWE-022 on whitesource__curekit_CVE-2022-23082_1.1.3

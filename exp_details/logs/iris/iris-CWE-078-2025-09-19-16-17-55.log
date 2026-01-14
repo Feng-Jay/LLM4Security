@@ -1,0 +1,41 @@
+2025-09-19 16:17:55.062 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-19 16:17:55.062 | INFO     | __main__:run_tools:8 - Loaded 13 vulnerabilities from configuration.
+2025-09-19 16:17:55.062 | INFO     | __main__:run_tools:44 - Loaded 13 vulnerabilities from configuration.
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:46 - get 13 bugs
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15
+2025-09-19 16:17:55.063 | INFO     | core.iris:run_on_target:38 - IRIS output for codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15 already exists, skipping.
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on codehaus-plexus__plexus-utils_CVE-2017-1000487_3.0.15
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on jenkinsci__docker-commons-plugin_CVE-2022-20617_1.17
+2025-09-19 16:17:55.063 | INFO     | core.iris:run_on_target:38 - IRIS output for jenkinsci__docker-commons-plugin_CVE-2022-20617_1.17 already exists, skipping.
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__docker-commons-plugin_CVE-2022-20617_1.17
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on jenkinsci__git-client-plugin_CVE-2019-10392_2.8.4
+2025-09-19 16:17:55.063 | INFO     | core.iris:run_on_target:38 - IRIS output for jenkinsci__git-client-plugin_CVE-2019-10392_2.8.4 already exists, skipping.
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__git-client-plugin_CVE-2019-10392_2.8.4
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2021-21345_1.4.15
+2025-09-19 16:17:55.063 | INFO     | core.iris:run_on_target:38 - IRIS output for x-stream__xstream_CVE-2021-21345_1.4.15 already exists, skipping.
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2021-21345_1.4.15
+2025-09-19 16:17:55.063 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on apache__nifi_CVE-2022-33140_1.16.2
+2025-09-19 16:18:00.694 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on apache__nifi_CVE-2022-33140_1.16.2
+2025-09-19 16:18:00.695 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on jenkinsci__perfecto-plugin_CVE-2020-2261_1.17
+2025-09-19 16:18:00.695 | INFO     | core.iris:run_on_target:38 - IRIS output for jenkinsci__perfecto-plugin_CVE-2020-2261_1.17 already exists, skipping.
+2025-09-19 16:18:00.695 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__perfecto-plugin_CVE-2020-2261_1.17
+2025-09-19 16:18:00.695 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25
+2025-09-19 16:18:00.695 | INFO     | core.iris:run_on_target:38 - IRIS output for jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25 already exists, skipping.
+2025-09-19 16:18:00.696 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25
+2025-09-19 16:18:00.696 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646.v6ed3b5b01ff1
+2025-09-19 16:18:00.696 | INFO     | core.iris:run_on_target:38 - IRIS output for jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646.v6ed3b5b01ff1 already exists, skipping.
+2025-09-19 16:18:00.696 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646.v6ed3b5b01ff1
+2025-09-19 16:18:00.696 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544.vff04fa68714d
+2025-09-19 16:18:00.696 | INFO     | core.iris:run_on_target:38 - IRIS output for jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544.vff04fa68714d already exists, skipping.
+2025-09-19 16:18:00.697 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544.vff04fa68714d
+2025-09-19 16:18:00.697 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2020-26217_1.4.14-java7
+2025-09-19 16:18:06.395 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2020-26217_1.4.14-java7
+2025-09-19 16:18:06.395 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706.vd43c65dec013
+2025-09-19 16:18:06.396 | INFO     | core.iris:run_on_target:38 - IRIS output for jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706.vd43c65dec013 already exists, skipping.
+2025-09-19 16:18:06.396 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706.vd43c65dec013
+2025-09-19 16:18:06.396 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on apache__activemq_CVE-2014-3576_5.10.1
+2025-09-19 16:18:06.396 | INFO     | core.iris:run_on_target:38 - IRIS output for apache__activemq_CVE-2014-3576_5.10.1 already exists, skipping.
+2025-09-19 16:18:06.396 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on apache__activemq_CVE-2014-3576_5.10.1
+2025-09-19 16:18:06.397 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2013-7285_1.4.6
+2025-09-19 16:18:06.397 | INFO     | core.iris:run_on_target:38 - IRIS output for x-stream__xstream_CVE-2013-7285_1.4.6 already exists, skipping.
+2025-09-19 16:18:06.397 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-078 on x-stream__xstream_CVE-2013-7285_1.4.6

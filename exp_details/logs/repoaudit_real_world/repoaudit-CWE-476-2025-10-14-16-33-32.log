@@ -1,0 +1,8 @@
+2025-10-14 16:33:32.941 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-14 16:33:32.941 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-14 16:33:32.942 | INFO     | core.repoaudit:from_config:41 - Project path: /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-10-14 16:33:32.942 | INFO     | __main__:run_tools:14 - Running RepoAudit for vulnerability: CWE-476
+2025-10-14 16:33:32.942 | INFO     | core.repoaudit:run_on_target:87 - Set project path to /data/jiangjiajun/LLM4Security/data/projects/linux for RepoAudit.
+2025-10-14 16:33:32.942 | INFO     | core.repoaudit:run_on_target:89 - Checkout commint 6093a688a07da07808f0122f9aa2a3eed250d853 in /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-10-14 16:33:33.096 | INFO     | core.repoaudit:run_on_target:101 - Running RepoAudit on /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/peci for vulnerability type NPD
+2025-10-14 16:33:33.096 | INFO     | core.repoaudit:run_on_target:125 - Command to run: python repoaudit.py                 --language Cpp                 --model-name claude-3.5                 --project-path /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/peci                 --commit_id 6093a688a07da07808f0122f9aa2a3eed250d85                 --bug-type NPD                 --temperature 0.0                 --scan-type dfbscan                 --call-depth 3                 --max-neural-workers 10 --is-reachable

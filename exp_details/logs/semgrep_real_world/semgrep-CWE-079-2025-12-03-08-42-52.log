@@ -1,0 +1,8 @@
+2025-12-03 08:42:52.253 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-03 08:42:52.254 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-12-03 08:42:52.254 | INFO     | __main__:run_tools:159 - Running Semgrep for vulnerability: CWE-079
+2025-12-03 08:42:52.254 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-079 for Semgrep.
+2025-12-03 08:42:52.254 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit 69d5a542391a0dc5c1b2ed609447bc863e7e892d in /data/jiangjiajun/LLM4Security/data/projects/jenkins.
+2025-12-03 08:42:52.770 | INFO     | core.semgrep:run_on_target:139 - Checked out to commit 69d5a542391a0dc5c1b2ed609447bc863e7e892d in /data/jiangjiajun/LLM4Security/data/projects/jenkins.
+2025-12-03 08:42:52.770 | INFO     | core.semgrep:run_on_target:150 - Scanning /data/jiangjiajun/LLM4Security/data/projects/jenkins using cmd /home/jiangjiajun/miniconda3/bin/semgrep scan   --config p/xss /data/jiangjiajun/LLM4Security/data/projects/jenkins --json --sarif-output=/data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/jenkins-69d5a542391a0dc5c1b2ed609447bc863e7e892-CWE-079.json.
+2025-12-03 08:43:15.104 | INFO     | core.semgrep:run_on_target:154 - Semgrep scan completed for /data/jiangjiajun/LLM4Security/data/projects/jenkins. Report saved to /data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/jenkins-69d5a542391a0dc5c1b2ed609447bc863e7e892-CWE-079.json.

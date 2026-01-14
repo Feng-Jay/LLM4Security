@@ -1,0 +1,49 @@
+2025-09-30 08:02:32.499 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-30 08:02:32.499 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-09-30 08:02:32.500 | INFO     | core.repoaudit:from_config:41 - Project path: /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.500 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:02:32.501 | INFO     | core.repoaudit:run_on_target:82 - Checkout commint ab612b1daf415b62c58e130cb3d0f30b255a14d0^ in /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-09-30 08:02:39.068 | INFO     | core.repoaudit:run_on_target:94 - Running RepoAudit on /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/iio for vulnerability type CWE-401
+2025-09-30 08:02:39.068 | INFO     | core.repoaudit:run_on_target:116 - Command to run: python repoaudit.py                 --language Cpp                 --model-name claude-3.5                 --project-path /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/iio                 --commit_id ab612b1daf415b62c58e130cb3d0f30b255a14d0                 --bug-type MLK                 --temperature 0.0                 --scan-type dfbscan                 --call-depth 3                 --max-neural-workers 30
+2025-09-30 08:03:48.010 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:03:48.011 | INFO     | core.repoaudit:run_on_target:82 - Checkout commint 9c0530e898f384c5d279bfcebd8bb17af1105873^ in /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-09-30 08:03:48.187 | INFO     | core.repoaudit:run_on_target:94 - Running RepoAudit on /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/iio for vulnerability type CWE-401
+2025-09-30 08:03:48.188 | INFO     | core.repoaudit:run_on_target:116 - Command to run: python repoaudit.py                 --language Cpp                 --model-name claude-3.5                 --project-path /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/iio                 --commit_id 9c0530e898f384c5d279bfcebd8bb17af1105873                 --bug-type MLK                 --temperature 0.0                 --scan-type dfbscan                 --call-depth 3                 --max-neural-workers 30
+2025-09-30 08:05:27.834 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.835 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.835 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.835 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.835 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.835 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.835 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.836 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.836 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.836 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.836 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.836 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.836 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.836 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.837 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.837 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.837 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.837 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.837 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.837 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.837 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.838 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.838 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.838 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.838 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.838 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.838 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.838 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.839 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.839 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-30 08:05:27.839 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401

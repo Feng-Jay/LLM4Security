@@ -1,0 +1,3 @@
+2025-08-30 15:57:09.746 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-30 15:57:09.746 | INFO     | __main__:run_tools:8 - Loaded 55 vulnerabilities from configuration.
+2025-08-30 15:57:09.747 | INFO     | __main__:run_tools:44 - Loaded 55 vulnerabilities from configuration.

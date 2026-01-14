@@ -1,0 +1,6 @@
+2025-10-05 12:01:37,051 - INFO - Start data-flow bug scanning in parallel...
+2025-10-05 12:01:37,051 - INFO - Max number of workers: 30
+2025-10-05 12:01:37,052 - INFO - 0 bug(s) was/were detected in total.
+2025-10-05 12:01:37,052 - INFO - The bug report(s) has/have been dumped to /data/jiangjiajun/LLM4Security/src/dependencies/RepoAudit_main/result/dfbscan/claude-3.5/MLK/fs-6093a688a07da07808f0122f9aa2a3eed250d85/2025-10-05-12-01-36-0/detect_info.json
+2025-10-05 12:01:37,052 - INFO - The log files are as follows:
+2025-10-05 12:01:37,052 - INFO - /data/jiangjiajun/LLM4Security/src/dependencies/RepoAudit_main/log/dfbscan/claude-3.5/MLK/fs-6093a688a07da07808f0122f9aa2a3eed250d85/2025-10-05-12-01-36-0/dfbscan.log

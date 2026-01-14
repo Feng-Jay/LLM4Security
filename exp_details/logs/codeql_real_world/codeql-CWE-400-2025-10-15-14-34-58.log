@@ -1,0 +1,9 @@
+2025-10-15 14:34:58.894 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 14:34:58.894 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 14:34:58.895 | INFO     | __main__:run_tools:111 - Running CodeQL for vulnerability: CWE-400
+2025-10-15 14:34:58.895 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-400 for CodeQL.
+2025-10-15 14:34:59.167 | INFO     | core.codeql:run_on_target:91 - Checked out to commit f07765edac25ccc110802add8a879d77208f09b9 of /data/jiangjiajun/LLM4Security/data/projects/RxJava.
+2025-10-15 14:34:59.167 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/RxJava at commit f07765edac25ccc110802add8a879d77208f09b9.
+2025-10-15 14:41:18.200 | INFO     | core.codeql:run_on_target:118 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/RxJava at commit f07765edac25ccc110802add8a879d77208f09b9.
+2025-10-15 14:41:18.200 | INFO     | core.codeql:run_on_target:140 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/RxJava-f07765edac25ccc110802add8a879d77208f09b9', '/data/jiangjiajun/LLM4Security/resources/codeql_queries/java_RL.qls', '--format=csv', '--output=/data/jiangjiajun/LLM4Security/results/codeql_real_world/RxJava-f07765edac25ccc110802add8a879d77208f09b-CWE-400.csv', '--threads=8', '--rerun', '--ram=8192']
+2025-10-15 14:42:12.961 | INFO     | core.codeql:run_on_target:150 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/RxJava at commit f07765edac25ccc110802add8a879d77208f09b9. Report saved to /data/jiangjiajun/LLM4Security/results/codeql_real_world/RxJava-f07765edac25ccc110802add8a879d77208f09b-CWE-400.

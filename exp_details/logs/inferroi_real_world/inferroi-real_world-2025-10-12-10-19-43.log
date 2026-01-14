@@ -1,0 +1,5 @@
+2025-10-12 10:19:43.438 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-12 10:19:43.445 | INFO     | __main__:run_tools:8 - Loaded 5 vulnerabilities from configuration.
+2025-10-12 10:19:43.446 | INFO     | __main__:run_tools:69 - Running INFERROI for vulnerability: real_world
+2025-10-12 10:19:43.446 | INFO     | core.inferroi:run_on_target:48 - Checking out to commit b311b7d028fc5c3dc96fae37a67b446bb30f7fda in /data/jiangjiajun/LLM4Security/data/projects/tomcat.
+2025-10-12 10:19:43.458 | INFO     | core.inferroi:run_on_target:53 - Running INFERROI on /data/jiangjiajun/LLM4Security/data/projects/tomcat with command: python -m script.scan_project -project_path /data/jiangjiajun/LLM4Security/data/projects/tomcat

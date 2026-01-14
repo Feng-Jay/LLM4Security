@@ -1,0 +1,5 @@
+2025-10-15 11:40:17.178 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 11:40:17.179 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 11:40:17.179 | INFO     | __main__:run_tools:91 - Running LLMDFA for vulnerability: CWE-078
+2025-10-15 11:40:17.242 | INFO     | core.llmdfa:run_on_target:70 - Checked out to commit 2b38ed18fa6df22a425cd96f2431b3a574044533 of /data/jiangjiajun/LLM4Security/data/projects/tika.
+2025-10-15 11:40:17.242 | INFO     | core.llmdfa:run_on_target:73 - Running LLMDFA with command: python run_llmdfa.py --bug-type osci --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name tika

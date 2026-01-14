@@ -1,0 +1,15 @@
+2025-09-24 15:54:25.452 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-24 15:54:25.452 | INFO     | __main__:run_tools:8 - Loaded 10 vulnerabilities from configuration.
+2025-09-24 15:54:25.453 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 15:54:25.453 | INFO     | core.codeql:run_on_target:72 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-6709d4b7bc2e079241fdef15d1160581c5261c10-CWE-416.sarif already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux/net at commit 6709d4b7bc2e079241fdef15d1160581c5261c10^.
+2025-09-24 15:54:25.453 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 15:54:25.453 | INFO     | core.codeql:run_on_target:72 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-cb090e64cf25602b9adaf32d5dfc9c8bec493cd1-CWE-416.sarif already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/hwmon at commit cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^.
+2025-09-24 15:54:25.453 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-09-24 15:54:25.896 | INFO     | core.codeql:run_on_target:78 - Checked out to commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^ of /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/media.
+2025-09-24 15:54:25.896 | INFO     | core.codeql:run_on_target:107 - CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/media at commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^ already exists. Skipping database creation.
+2025-09-24 15:54:25.896 | INFO     | core.codeql:run_on_target:122 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/media-29b0589a865b6f66d141d79b2dd1373e4e50fe17^', '', '--format=sarif-latest', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-29b0589a865b6f66d141d79b2dd1373e4e50fe17-CWE-416.sarif']
+2025-09-24 15:54:28.654 | ERROR    | core.codeql:run_on_target:129 - Failed to run CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux/drivers/media at commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^. Error: Running queries.
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at /data/jiangjiajun/LLM4Security/data/codeql-dbs/media-29b0589a865b6f66d141d79b2dd1373e4e50fe17^/db-cpp/default/cache/.lock
+(eventual cause: OverlappingFileLockException)
+
+2025-09-24 15:54:28.655 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416

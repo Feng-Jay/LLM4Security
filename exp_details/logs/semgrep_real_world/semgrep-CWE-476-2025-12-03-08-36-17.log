@@ -1,0 +1,8 @@
+2025-12-03 08:36:17.389 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-03 08:36:17.389 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-12-03 08:36:17.389 | INFO     | __main__:run_tools:159 - Running Semgrep for vulnerability: CWE-476
+2025-12-03 08:36:17.390 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-476 for Semgrep.
+2025-12-03 08:36:17.390 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit 8af06ca5362445ff6379aca028b79c607ed77f90 in /data/jiangjiajun/LLM4Security/data/projects/bitlbee.
+2025-12-03 08:36:17.652 | INFO     | core.semgrep:run_on_target:139 - Checked out to commit 8af06ca5362445ff6379aca028b79c607ed77f90 in /data/jiangjiajun/LLM4Security/data/projects/bitlbee.
+2025-12-03 08:36:17.652 | INFO     | core.semgrep:run_on_target:150 - Scanning /data/jiangjiajun/LLM4Security/data/projects/bitlbee using cmd /home/jiangjiajun/miniconda3/bin/semgrep scan   --config r/cpp.lang.security.memory.null-deref.null-library-function.null-library-function /data/jiangjiajun/LLM4Security/data/projects/bitlbee --json --sarif-output=/data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/bitlbee_-8af06ca5362445ff6379aca028b79c607ed77f9-CWE-476.json.
+2025-12-03 08:36:23.598 | INFO     | core.semgrep:run_on_target:154 - Semgrep scan completed for /data/jiangjiajun/LLM4Security/data/projects/bitlbee. Report saved to /data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/bitlbee_-8af06ca5362445ff6379aca028b79c607ed77f9-CWE-476.json.

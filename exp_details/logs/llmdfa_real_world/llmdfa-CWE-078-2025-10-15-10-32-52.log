@@ -1,0 +1,5 @@
+2025-10-15 10:32:52.438 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 10:32:52.439 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 10:32:52.439 | INFO     | __main__:run_tools:91 - Running LLMDFA for vulnerability: CWE-078
+2025-10-15 10:32:52.448 | INFO     | core.llmdfa:run_on_target:70 - Checked out to commit a22d3af9e3938fcf33bff620fd08669993e203cf of /data/jiangjiajun/LLM4Security/data/projects/xstream.
+2025-10-15 10:32:52.449 | INFO     | core.llmdfa:run_on_target:73 - Running LLMDFA with command: python run_llmdfa.py --bug-type osci --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xstream

@@ -1,0 +1,25 @@
+2025-09-19 15:33:28.659 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-19 15:33:28.659 | INFO     | __main__:run_tools:8 - Loaded 32 vulnerabilities from configuration.
+2025-09-19 15:33:28.659 | INFO     | __main__:run_tools:44 - Loaded 32 vulnerabilities from configuration.
+2025-09-19 15:33:28.659 | INFO     | __main__:run_tools:46 - get 32 bugs
+2025-09-19 15:33:28.659 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-31126_14.10.3
+2025-09-19 15:33:45.154 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-31126_14.10.3
+2025-09-19 15:33:45.155 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-28367_1.6.5
+2025-09-19 15:33:52.431 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-28367_1.6.5
+2025-09-19 15:33:52.432 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on keycloak__keycloak_CVE-2022-1274_20.0.4
+2025-09-19 15:33:58.991 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on keycloak__keycloak_CVE-2022-1274_20.0.4
+2025-09-19 15:33:58.991 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-29528_14.9-rc-1
+2025-09-19 15:34:04.722 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-29528_14.9-rc-1
+2025-09-19 15:34:04.722 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on DSpace__DSpace_CVE-2022-31192_5.10
+2025-09-19 15:35:35.148 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on DSpace__DSpace_CVE-2022-31192_5.10
+2025-09-19 15:35:35.148 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on xuxueli__xxl-job_CVE-2020-29204_2.2.0
+2025-09-19 15:35:41.858 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on xuxueli__xxl-job_CVE-2020-29204_2.2.0
+2025-09-19 15:35:41.858 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on hibernate__hibernate-validator_CVE-2019-10219_6.0.17.Final
+2025-09-19 15:35:57.330 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on hibernate__hibernate-validator_CVE-2019-10219_6.0.17.Final
+2025-09-19 15:35:57.331 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-09-19 15:36:04.523 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-09-19 15:36:04.524 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on eclipse__hawkbit_CVE-2020-27219_0.3.0M6
+2025-09-19 15:36:18.172 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on eclipse__hawkbit_CVE-2020-27219_0.3.0M6
+2025-09-19 15:36:18.172 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10089_2.11.0.M4
+2025-09-19 15:36:41.598 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10089_2.11.0.M4
+2025-09-19 15:36:41.598 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on asf__cxf_CVE-2016-6812_3.0.11

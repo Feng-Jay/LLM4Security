@@ -1,0 +1,20 @@
+2025-10-10 07:54:38.566 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-10 07:54:38.566 | INFO     | __main__:run_tools:8 - Loaded 10 vulnerabilities from configuration.
+2025-10-10 07:54:38.567 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.567 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-416 for CodeQL.
+2025-10-10 07:54:38.567 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-6709d4b7bc2e079241fdef15d1160581c5261c10-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/net at commit 6709d4b7bc2e079241fdef15d1160581c5261c10^.
+2025-10-10 07:54:38.567 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.567 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-cb090e64cf25602b9adaf32d5dfc9c8bec493cd1-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/hwmon at commit cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^.
+2025-10-10 07:54:38.567 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.568 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-29b0589a865b6f66d141d79b2dd1373e4e50fe17-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/media at commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^.
+2025-10-10 07:54:38.568 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.568 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-153695d36ead0ccc4d0256953c751cabf673e621-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit 153695d36ead0ccc4d0256953c751cabf673e621^.
+2025-10-10 07:54:38.568 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.568 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-cf6531d98190fa2cf92a6d8bbc8af0a4740a223c-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit cf6531d98190fa2cf92a6d8bbc8af0a4740a223c^.
+2025-10-10 07:54:38.568 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.568 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-9e7fef9521e73ca8afd7da9e58c14654b02dfad8-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/net at commit 9e7fef9521e73ca8afd7da9e58c14654b02dfad8^.
+2025-10-10 07:54:38.568 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.568 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-d270453a0d9ec10bb8a802a142fb1b3601a83098-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers at commit d270453a0d9ec10bb8a802a142fb1b3601a83098^.
+2025-10-10 07:54:38.569 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:54:38.569 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-b561275d633bcd8e0e8055ab86f1a13df75a0269-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/net at commit b561275d633bcd8e0e8055ab86f1a13df75a0269^.
+2025-10-10 07:54:38.569 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416

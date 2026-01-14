@@ -1,0 +1,10 @@
+2025-10-15 13:38:30.103 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 13:38:30.103 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 13:38:30.104 | INFO     | __main__:run_tools:111 - Running CodeQL for vulnerability: CWE-416
+2025-10-15 13:38:30.104 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-416 for CodeQL.
+2025-10-15 13:38:30.254 | INFO     | core.codeql:run_on_target:91 - Checked out to commit 6093a688a07da07808f0122f9aa2a3eed250d853 of /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/net.
+2025-10-15 13:38:30.254 | INFO     | core.codeql:run_on_target:120 - CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/net at commit 6093a688a07da07808f0122f9aa2a3eed250d853 already exists. Skipping database creation.
+2025-10-15 13:38:30.255 | INFO     | core.codeql:run_on_target:140 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/net-6093a688a07da07808f0122f9aa2a3eed250d853', '/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_UAF.qls', '--format=csv', '--output=/data/jiangjiajun/LLM4Security/results/codeql_real_world/linux_drivers_net_-6093a688a07da07808f0122f9aa2a3eed250d85-CWE-416.csv', '--threads=8', '--rerun', '--ram=8192']
+2025-10-15 13:38:31.381 | ERROR    | core.codeql:run_on_target:147 - Failed to run CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/net at commit 6093a688a07da07808f0122f9aa2a3eed250d853. Error: Running queries.
+A fatal error occurred: Database at /data/jiangjiajun/LLM4Security/data/codeql-dbs/net-6093a688a07da07808f0122f9aa2a3eed250d853 needs to be finalized before running queries; please run codeql database finalize
+

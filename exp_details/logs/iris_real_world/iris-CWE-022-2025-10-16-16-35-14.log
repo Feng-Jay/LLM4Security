@@ -1,0 +1,6 @@
+2025-10-16 16:35:14.441 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-16 16:35:14.441 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-16 16:35:14.441 | INFO     | __main__:run_tools:58 - Loaded 1 vulnerabilities from configuration.
+2025-10-16 16:35:14.442 | INFO     | __main__:run_tools:60 - get 1 bugs
+2025-10-16 16:35:14.442 | INFO     | __main__:run_tools:66 - Running IRIS for vulnerability: CWE-022 on OpenOLAT__OpenOLAT_CVE-2035-11111_1.1
+2025-10-16 16:35:14.442 | INFO     | core.iris:run_on_target:47 - Set vulnerability type to CWE-022 for IRIS.

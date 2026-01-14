@@ -1,0 +1,4 @@
+2025-09-22 09:55:58.926 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-22 09:55:58.926 | INFO     | __main__:run_tools:8 - Loaded 41 vulnerabilities from configuration.
+2025-09-22 09:55:58.941 | INFO     | __main__:run_tools:13 - Running RepoAudit for vulnerability: CWE-401
+2025-09-22 09:55:58.941 | INFO     | core.repoaudit:run_on_target:76 - Checkout commint aa7253c2393f6dcd6a1468b0792f6da76edad917^ in /data/jiangjiajun/LLM4Security/data/projects/linux

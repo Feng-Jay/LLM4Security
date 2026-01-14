@@ -1,0 +1,9 @@
+2025-10-15 13:34:59.828 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-15 13:34:59.828 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-15 13:34:59.828 | INFO     | __main__:run_tools:111 - Running CodeQL for vulnerability: CWE-401
+2025-10-15 13:34:59.829 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-401 for CodeQL.
+2025-10-15 13:35:00.322 | INFO     | core.codeql:run_on_target:91 - Checked out to commit 6093a688a07da07808f0122f9aa2a3eed250d853 of /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/sound.
+2025-10-15 13:35:00.322 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/sound at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-10-15 13:36:39.134 | INFO     | core.codeql:run_on_target:118 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/sound at commit 6093a688a07da07808f0122f9aa2a3eed250d853.
+2025-10-15 13:36:39.135 | INFO     | core.codeql:run_on_target:140 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/sound-6093a688a07da07808f0122f9aa2a3eed250d853', '/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_MLK.qls', '--format=csv', '--output=/data/jiangjiajun/LLM4Security/results/codeql_real_world/linux_sound_-6093a688a07da07808f0122f9aa2a3eed250d85-CWE-401.csv', '--threads=8', '--rerun', '--ram=8192']
+2025-10-15 13:38:08.918 | INFO     | core.codeql:run_on_target:150 - Successfully ran CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/sound at commit 6093a688a07da07808f0122f9aa2a3eed250d853. Report saved to /data/jiangjiajun/LLM4Security/results/codeql_real_world/linux_sound_-6093a688a07da07808f0122f9aa2a3eed250d85-CWE-401.

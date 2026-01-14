@@ -1,0 +1,5 @@
+2025-10-14 20:00:26.464 | INFO     | utils.config:from_yaml:69 - Configuration loaded.
+2025-10-14 20:00:26.465 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-10-14 20:00:26.465 | INFO     | core.repoaudit:from_config:41 - Project path: /data/jiangjiajun/LLM4Security/data/projects/linux
+2025-10-14 20:00:26.465 | INFO     | __main__:run_tools:14 - Running RepoAudit for vulnerability: CWE-476
+2025-10-14 20:00:26.466 | INFO     | core.repoaudit:run_on_target:89 - Checkout commint 8af06ca5362445ff6379aca028b79c607ed77f90 in /data/jiangjiajun/LLM4Security/data/projects/linux

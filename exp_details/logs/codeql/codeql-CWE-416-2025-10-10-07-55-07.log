@@ -1,0 +1,53 @@
+2025-10-10 07:55:07.817 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-10 07:55:07.818 | INFO     | __main__:run_tools:8 - Loaded 10 vulnerabilities from configuration.
+2025-10-10 07:55:07.818 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.818 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-416 for CodeQL.
+2025-10-10 07:55:07.819 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-6709d4b7bc2e079241fdef15d1160581c5261c10-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/net at commit 6709d4b7bc2e079241fdef15d1160581c5261c10^.
+2025-10-10 07:55:07.819 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.819 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-cb090e64cf25602b9adaf32d5dfc9c8bec493cd1-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/hwmon at commit cb090e64cf25602b9adaf32d5dfc9c8bec493cd1^.
+2025-10-10 07:55:07.819 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.819 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-29b0589a865b6f66d141d79b2dd1373e4e50fe17-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/media at commit 29b0589a865b6f66d141d79b2dd1373e4e50fe17^.
+2025-10-10 07:55:07.819 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.819 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-153695d36ead0ccc4d0256953c751cabf673e621-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit 153695d36ead0ccc4d0256953c751cabf673e621^.
+2025-10-10 07:55:07.819 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.819 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-cf6531d98190fa2cf92a6d8bbc8af0a4740a223c-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit cf6531d98190fa2cf92a6d8bbc8af0a4740a223c^.
+2025-10-10 07:55:07.819 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.820 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-9e7fef9521e73ca8afd7da9e58c14654b02dfad8-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers/net at commit 9e7fef9521e73ca8afd7da9e58c14654b02dfad8^.
+2025-10-10 07:55:07.820 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.820 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-d270453a0d9ec10bb8a802a142fb1b3601a83098-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/drivers at commit d270453a0d9ec10bb8a802a142fb1b3601a83098^.
+2025-10-10 07:55:07.820 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:07.820 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-b561275d633bcd8e0e8055ab86f1a13df75a0269-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/net at commit b561275d633bcd8e0e8055ab86f1a13df75a0269^.
+2025-10-10 07:55:07.820 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 07:55:11.082 | INFO     | core.codeql:run_on_target:91 - Checked out to commit 4e0f718daf97d47cf7dec122da1be970f145c809^ of /data/jiangjiajun/LLM4Security/data/projects/linux_knighter.
+2025-10-10 07:55:11.083 | INFO     | core.codeql:run_on_target:112 - Creating CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter at commit 4e0f718daf97d47cf7dec122da1be970f145c809^.
+2025-10-10 10:26:54.423 | INFO     | core.codeql:run_on_target:118 - Successfully created CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter at commit 4e0f718daf97d47cf7dec122da1be970f145c809^.
+2025-10-10 10:26:54.424 | INFO     | core.codeql:run_on_target:140 - Scanning with ['/data/jiangjiajun/LLM4Security/resources/codeql/codeql', 'database', 'analyze', '/data/jiangjiajun/LLM4Security/data/codeql-dbs/linux_knighter-4e0f718daf97d47cf7dec122da1be970f145c809^', '/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_UAF.qls', '--format=csv', '--output=/data/jiangjiajun/LLM4Security/results/codeql/linux-4e0f718daf97d47cf7dec122da1be970f145c809-CWE-416.csv', '--threads=3', '--rerun', '--ram=8192']
+2025-10-10 11:15:21.383 | ERROR    | core.codeql:run_on_target:147 - Failed to run CodeQL analysis for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter at commit 4e0f718daf97d47cf7dec122da1be970f145c809^. Error: Running queries.
+[1/6] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/DoubleFree.qlx.
+[2/6] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/UseAfterFree.qlx.
+[3/6] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Critical/ReturnStackAllocatedObject.qlx.
+[4/6] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-416/UseOfUniquePointerAfterLifetimeEnds.qlx.
+[5/6] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-416/IteratorToExpiredContainer.qlx.
+[6/6] Loaded /data/jiangjiajun/LLM4Security/resources/codeql/qlpacks/codeql/cpp-queries/1.4.7/Security/CWE/CWE-416/UseOfStringAfterLifetimeEnds.qlx.
+Starting evaluation of codeql/cpp-queries/Critical/ReturnStackAllocatedObject.ql.
+Starting evaluation of codeql/cpp-queries/Critical/UseAfterFree.ql.
+Starting evaluation of codeql/cpp-queries/Critical/DoubleFree.ql.
+Starting evaluation of codeql/cpp-queries/Security/CWE/CWE-416/IteratorToExpiredContainer.ql.
+Starting evaluation of codeql/cpp-queries/Security/CWE/CWE-416/UseOfStringAfterLifetimeEnds.ql.
+Starting evaluation of codeql/cpp-queries/Security/CWE/CWE-416/UseOfUniquePointerAfterLifetimeEnds.ql.
+[1/6 eval 47m40s] Query failed: codeql/cpp-queries/Critical/DoubleFree.ql (Query evaluation ran out of Java heap (Java heap maximum: 1660 MiB). The evaluator previously allocated beyond the heap limit.
+(eventual cause: OutOfMemoryError "Java heap space")).
+[2/6 eval 47m40s] Query failed: codeql/cpp-queries/Critical/UseAfterFree.ql (Query evaluation ran out of Java heap (Java heap maximum: 1660 MiB). The evaluator previously allocated beyond the heap limit.
+(eventual cause: OutOfMemoryError "Java heap space")).
+[3/6 eval 47m40s] Query failed: codeql/cpp-queries/Security/CWE/CWE-416/UseOfStringAfterLifetimeEnds.ql (Query evaluation ran out of Java heap (Java heap maximum: 1660 MiB). The evaluator previously allocated beyond the heap limit.
+(eventual cause: OutOfMemoryError "Java heap space")).
+[4/6 eval 47m40s] Query failed: codeql/cpp-queries/Security/CWE/CWE-416/IteratorToExpiredContainer.ql (Query evaluation ran out of Java heap (Java heap maximum: 1660 MiB). The evaluator previously allocated beyond the heap limit.
+(eventual cause: OutOfMemoryError "Java heap space")).
+[5/6 eval 47m40s] Query failed: codeql/cpp-queries/Security/CWE/CWE-416/UseOfUniquePointerAfterLifetimeEnds.ql (Query evaluation ran out of Java heap (Java heap maximum: 1660 MiB). The evaluator previously allocated beyond the heap limit.
+(eventual cause: OutOfMemoryError "Java heap space")).
+[6/6 eval 47m40s] Query failed: codeql/cpp-queries/Critical/ReturnStackAllocatedObject.ql (Query evaluation ran out of Java heap (Java heap maximum: 1660 MiB). The evaluator previously allocated beyond the heap limit.
+(eventual cause: OutOfMemoryError "Java heap space")).
+CodeQL is out of memory. Try increasing the memory available to CodeQL using the --ram option.
+
+2025-10-10 11:15:21.384 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-416
+2025-10-10 11:15:21.384 | INFO     | core.codeql:run_on_target:85 - Report file /data/jiangjiajun/LLM4Security/results/codeql/linux-6a3eb3360667170988f8a6477f6686242061488a-CWE-416 already exists. Skipping CodeQL scan for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit 6a3eb3360667170988f8a6477f6686242061488a^.

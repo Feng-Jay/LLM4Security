@@ -1,0 +1,19 @@
+2025-08-31 07:51:20.452 | INFO     | utils.config:from_yaml:54 - Configuration loaded.
+2025-08-31 07:51:20.452 | INFO     | __main__:run_tools:8 - Loaded 32 vulnerabilities from configuration.
+2025-08-31 07:51:20.452 | INFO     | __main__:run_tools:44 - Loaded 32 vulnerabilities from configuration.
+2025-08-31 07:51:20.453 | INFO     | __main__:run_tools:46 - get 32 bugs
+2025-08-31 07:51:20.453 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on hibernate__hibernate-validator_CVE-2019-10219_6.0.17.Final
+2025-08-31 07:58:00.049 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on hibernate__hibernate-validator_CVE-2019-10219_6.0.17.Final
+2025-08-31 07:58:00.050 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on eclipse__hawkbit_CVE-2020-27219_0.3.0M6
+2025-08-31 07:58:05.659 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on eclipse__hawkbit_CVE-2020-27219_0.3.0M6
+2025-08-31 07:58:05.659 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-29577_1.6.6.1
+2025-08-31 08:02:35.545 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-29577_1.6.6.1
+2025-08-31 08:02:35.546 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10076_2.11.0.M3
+2025-08-31 08:13:28.329 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10076_2.11.0.M3
+2025-08-31 08:13:28.329 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on xwiki__xwiki-rendering_CVE-2023-32070_14.5
+2025-08-31 08:13:33.949 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on xwiki__xwiki-rendering_CVE-2023-32070_14.5
+2025-08-31 08:13:33.949 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on xwiki__xwiki-rendering_CVE-2023-37908_14.10.3
+2025-08-31 08:13:39.576 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on xwiki__xwiki-rendering_CVE-2023-37908_14.10.3
+2025-08-31 08:13:39.577 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-08-31 08:16:58.978 | INFO     | __main__:run_tools:50 - Completed IRIS for vulnerability: CWE-079 on nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-08-31 08:16:58.978 | INFO     | __main__:run_tools:48 - Running IRIS for vulnerability: CWE-079 on asf__cxf_CVE-2019-17573_3.2.11

@@ -1,0 +1,6 @@
+2025-10-09 16:57:27.631 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-10-09 16:57:27.631 | INFO     | __main__:run_tools:8 - Loaded 40 vulnerabilities from configuration.
+2025-10-09 16:57:27.632 | INFO     | __main__:run_tools:102 - Running CodeQL for vulnerability: CWE-401
+2025-10-09 16:57:27.632 | INFO     | core.codeql:run_on_target:82 - Set vulnerability type to CWE-401 for CodeQL.
+2025-10-09 16:57:31.812 | INFO     | core.codeql:run_on_target:91 - Checked out to commit aa7253c2393f6dcd6a1468b0792f6da76edad917^ of /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs.
+2025-10-09 16:57:31.812 | INFO     | core.codeql:run_on_target:120 - CodeQL database for /data/jiangjiajun/LLM4Security/data/projects/linux_knighter/fs at commit aa7253c2393f6dcd6a1468b0792f6da76edad917^ already exists. Skipping database creation.

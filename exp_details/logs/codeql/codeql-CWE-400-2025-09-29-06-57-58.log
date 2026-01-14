@@ -1,0 +1,2 @@
+2025-09-29 06:57:58.598 | INFO     | utils.config:from_yaml:68 - Configuration loaded.
+2025-09-29 06:57:58.599 | INFO     | __main__:run_tools:8 - Loaded 0 vulnerabilities from configuration.

@@ -1,0 +1,8 @@
+2025-12-03 08:35:57.486 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-12-03 08:35:57.486 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-12-03 08:35:57.486 | INFO     | __main__:run_tools:159 - Running Semgrep for vulnerability: CWE-476
+2025-12-03 08:35:57.487 | INFO     | core.semgrep:run_on_target:126 - Set vulnerability type to CWE-476 for Semgrep.
+2025-12-03 08:35:57.487 | INFO     | core.semgrep:run_on_target:137 - Checking out to commit c6a72c35aadadd9755d177c5ffc51b3e2b5f9268 in /data/jiangjiajun/LLM4Security/data/projects/gpac.
+2025-12-03 08:35:57.921 | INFO     | core.semgrep:run_on_target:139 - Checked out to commit c6a72c35aadadd9755d177c5ffc51b3e2b5f9268 in /data/jiangjiajun/LLM4Security/data/projects/gpac.
+2025-12-03 08:35:57.921 | INFO     | core.semgrep:run_on_target:150 - Scanning /data/jiangjiajun/LLM4Security/data/projects/gpac using cmd /home/jiangjiajun/miniconda3/bin/semgrep scan   --config r/cpp.lang.security.memory.null-deref.null-library-function.null-library-function /data/jiangjiajun/LLM4Security/data/projects/gpac --json --sarif-output=/data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/gpac_-c6a72c35aadadd9755d177c5ffc51b3e2b5f926-CWE-476.json.
+2025-12-03 08:36:09.581 | INFO     | core.semgrep:run_on_target:154 - Semgrep scan completed for /data/jiangjiajun/LLM4Security/data/projects/gpac. Report saved to /data/jiangjiajun/LLM4Security/results/semgrep_real_world_time/gpac_-c6a72c35aadadd9755d177c5ffc51b3e2b5f926-CWE-476.json.

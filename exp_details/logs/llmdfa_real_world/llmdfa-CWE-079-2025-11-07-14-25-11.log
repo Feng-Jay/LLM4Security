@@ -1,0 +1,5 @@
+2025-11-07 14:25:11.017 | INFO     | utils.config:from_yaml:71 - Configuration loaded.
+2025-11-07 14:25:11.017 | INFO     | __main__:run_tools:9 - Loaded 1 vulnerabilities from configuration.
+2025-11-07 14:25:11.018 | INFO     | __main__:run_tools:97 - Running LLMDFA for vulnerability: CWE-079
+2025-11-07 14:25:12.803 | INFO     | core.llmdfa:run_on_target:70 - Checked out to commit 4f55b9b6bd6dadfdd04cfd09eb532dfdd26d5607 of /data/jiangjiajun/LLM4Security/data/projects/keycloak.
+2025-11-07 14:25:12.803 | INFO     | core.llmdfa:run_on_target:73 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name keycloak

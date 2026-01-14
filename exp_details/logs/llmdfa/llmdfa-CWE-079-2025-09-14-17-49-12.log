@@ -1,0 +1,92 @@
+2025-09-14 17:49:12.428 | INFO     | utils.config:from_yaml:61 - Configuration loaded.
+2025-09-14 17:49:12.428 | INFO     | __main__:run_tools:8 - Loaded 32 vulnerabilities from configuration.
+2025-09-14 17:49:12.429 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:49:12.429 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:49:12.429 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-09-14 17:49:13.556 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on nahsra__antisamy_CVE-2016-10006_1.5.3
+2025-09-14 17:49:13.556 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:49:13.556 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name apache__jspwiki_CVE-2022-46907_2.11.3
+2025-09-14 17:49:48.845 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on apache__jspwiki_CVE-2022-46907_2.11.3
+2025-09-14 17:49:48.846 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:49:48.846 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name apache__jspwiki_CVE-2019-10076_2.11.0.M3
+2025-09-14 17:50:19.807 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10076_2.11.0.M3
+2025-09-14 17:50:19.807 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:50:19.807 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name asf__cxf_CVE-2019-17573_3.2.11
+2025-09-14 17:59:08.660 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on asf__cxf_CVE-2019-17573_3.2.11
+2025-09-14 17:59:08.660 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:08.660 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xwiki__xwiki-rendering_CVE-2023-32070_14.5
+2025-09-14 17:59:09.958 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on xwiki__xwiki-rendering_CVE-2023-32070_14.5
+2025-09-14 17:59:09.959 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:09.959 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name keycloak__keycloak_CVE-2022-4137_20.0.3
+2025-09-14 17:59:12.172 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on keycloak__keycloak_CVE-2022-4137_20.0.3
+2025-09-14 17:59:12.172 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:12.172 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name hibernate__hibernate-validator_CVE-2019-10219_6.0.17.Final
+2025-09-14 17:59:14.650 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on hibernate__hibernate-validator_CVE-2019-10219_6.0.17.Final
+2025-09-14 17:59:14.650 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:14.650 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xwiki__xwiki-rendering_CVE-2023-37908_14.10.3
+2025-09-14 17:59:20.391 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on xwiki__xwiki-rendering_CVE-2023-37908_14.10.3
+2025-09-14 17:59:20.392 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:20.392 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name nahsra__antisamy_CVE-2022-28367_1.6.5
+2025-09-14 17:59:21.490 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-28367_1.6.5
+2025-09-14 17:59:21.490 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:21.490 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xwiki__xwiki-commons_CVE-2023-31126_14.10.3
+2025-09-14 17:59:24.751 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-31126_14.10.3
+2025-09-14 17:59:24.751 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:24.751 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xwiki__xwiki-commons_CVE-2023-29528_14.9-rc-1
+2025-09-14 17:59:26.477 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-29528_14.9-rc-1
+2025-09-14 17:59:26.478 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:26.478 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name nahsra__antisamy_CVE-2022-29577_1.6.6.1
+2025-09-14 17:59:42.052 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on nahsra__antisamy_CVE-2022-29577_1.6.6.1
+2025-09-14 17:59:42.052 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:42.053 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name asf__cxf_CVE-2016-6812_3.0.11
+2025-09-14 17:59:48.110 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on asf__cxf_CVE-2016-6812_3.0.11
+2025-09-14 17:59:48.110 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:48.111 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name apache__jspwiki_CVE-2019-10089_2.11.0.M4
+2025-09-14 17:59:50.636 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10089_2.11.0.M4
+2025-09-14 17:59:50.637 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:50.637 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name rhuss__jolokia_CVE-2018-1000129_1.4.0
+2025-09-14 17:59:55.334 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on rhuss__jolokia_CVE-2018-1000129_1.4.0
+2025-09-14 17:59:55.335 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:55.335 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name keycloak__keycloak_CVE-2022-1274_20.0.3
+2025-09-14 17:59:57.524 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on keycloak__keycloak_CVE-2022-1274_20.0.3
+2025-09-14 17:59:57.525 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:57.525 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name ESAPI__esapi-java-legacy_CVE-2022-24891_2.2.3.1
+2025-09-14 17:59:58.685 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on ESAPI__esapi-java-legacy_CVE-2022-24891_2.2.3.1
+2025-09-14 17:59:58.685 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 17:59:58.686 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name keycloak__keycloak_CVE-2022-4361_21.1.1
+2025-09-14 18:02:34.511 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on keycloak__keycloak_CVE-2022-4361_21.1.1
+2025-09-14 18:02:34.512 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:02:34.512 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:02:34.512 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name nahsra__antisamy_CVE-2017-14735_1.5.6
+2025-09-14 18:02:35.565 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on nahsra__antisamy_CVE-2017-14735_1.5.6
+2025-09-14 18:02:35.565 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:02:35.565 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xwiki__xwiki-commons_CVE-2023-29201_14.5
+2025-09-14 18:02:38.112 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-29201_14.5
+2025-09-14 18:02:38.112 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:02:38.112 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name OWASP__json-sanitizer_CVE-2020-13973_1.2.0
+2025-09-14 18:02:39.795 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on OWASP__json-sanitizer_CVE-2020-13973_1.2.0
+2025-09-14 18:02:39.795 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:02:39.795 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xwiki__xwiki-commons_CVE-2023-36471_14.10.5
+2025-09-14 18:03:14.829 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on xwiki__xwiki-commons_CVE-2023-36471_14.10.5
+2025-09-14 18:03:14.830 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:03:14.830 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name apache__jspwiki_CVE-2019-10077_2.11.0.M3
+2025-09-14 18:03:17.191 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10077_2.11.0.M3
+2025-09-14 18:03:17.191 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:03:17.191 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name xuxueli__xxl-job_CVE-2020-29204_2.2.0
+2025-09-14 18:04:02.264 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on xuxueli__xxl-job_CVE-2020-29204_2.2.0
+2025-09-14 18:04:02.264 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:04:02.264 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name DSpace__DSpace_CVE-2022-31192_5.10
+2025-09-14 18:04:11.001 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on DSpace__DSpace_CVE-2022-31192_5.10
+2025-09-14 18:04:11.002 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:04:11.002 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name apache__sling-org-apache-sling-xss_CVE-2016-5394_1.0.8
+2025-09-14 18:04:13.106 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on apache__sling-org-apache-sling-xss_CVE-2016-5394_1.0.8
+2025-09-14 18:04:13.106 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:04:13.106 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name mapfish__mapfish-print_CVE-2020-15231_3.22.0
+2025-09-14 18:04:14.629 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on mapfish__mapfish-print_CVE-2020-15231_3.22.0
+2025-09-14 18:04:14.629 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:04:14.629 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name keycloak__keycloak_CVE-2014-3656_1.0.5.Final
+2025-09-14 18:04:16.338 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on keycloak__keycloak_CVE-2014-3656_1.0.5.Final
+2025-09-14 18:04:16.339 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
+2025-09-14 18:04:16.339 | INFO     | core.llmdfa:run_on_target:57 - Running LLMDFA with command: python run_llmdfa.py --bug-type xss --model-name gpt-4-turbo                 -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name apache__jspwiki_CVE-2019-10078_2.11.0.M3
+2025-09-14 18:05:58.932 | INFO     | __main__:run_tools:81 - Completed LLMDFA for vulnerability: CWE-079 on apache__jspwiki_CVE-2019-10078_2.11.0.M3
+2025-09-14 18:05:58.932 | INFO     | __main__:run_tools:73 - Running LLMDFA for vulnerability: CWE-079
