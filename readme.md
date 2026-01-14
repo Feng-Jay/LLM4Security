@@ -8,7 +8,7 @@ It includes evaluation scripts, prompts/configurations, and datasets metadata us
 1) an **in-house benchmark** of known real-world vulnerabilities, and  
 2) a set of **recent, actively maintained real-world projects** for analyzing false positives and practical usability.
 
-> Note: Some result artifacts (e.g., large logs / SARIF) may be tracked via Google Drive links in the `exp_details` directory due to GitHub file size limits.
+> [!NOTE]: Some result artifacts (e.g., large logs / SARIF) may be tracked via Google Drive links in the `exp_details` directory due to GitHub file size limits.
 
 ---
 
@@ -50,7 +50,7 @@ It includes evaluation scripts, prompts/configurations, and datasets metadata us
 
 ## How to run
 
-Since our repo contains several submodules, please first clone it with `--recursive` flag:
+> [!NOTE] Since our repo contains several submodules, please first clone it with `--recursive` flag:
 
 ```bash
 git clone --recursive https://github.com/Feng-Jay/LLM4Security.git {path to your local repo}
@@ -62,6 +62,7 @@ Then, install the required python packages and setup the project:
 cd {path to your local repo}
 pip install -r requirements.txt
 ```
+
 In case you forget to add the --recursive flag during clone, you can run the following command to update submodules
 
 ```bash
