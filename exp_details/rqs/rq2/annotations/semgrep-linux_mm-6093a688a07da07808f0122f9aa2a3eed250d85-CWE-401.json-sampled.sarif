@@ -1,0 +1,64 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "79f67be0a5b2f74d96956670794055a7e4e6dab4dc75ad5868e8541f9fa33d1619d426ddddc1e3fd738f0649be27dbeda7257297d2fba06e777ae62897e0d8e3_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/linux/tools/testing/scatterlist/linux/mm.h",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 21,
+                        "endLine": 109,
+                        "snippet": {
+                            "text": "\tfree((void *)page);"
+                        },
+                        "startColumn": 2,
+                        "startLine": 109
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": ""
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "76ad4ae937c0dde5255e13f092edc44aa22d9a3888aa77199f43b84e95c25a2fed2c9a71e5e3f844dcab5e305349dec30a7d07bf750eb7d63eb31f3b05a92399_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/linux/tools/testing/scatterlist/linux/mm.h",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 21,
+                        "endLine": 109,
+                        "snippet": {
+                            "text": "\tfree((void *)page);"
+                        },
+                        "startColumn": 2,
+                        "startLine": 109
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management",
+        "is_human_confirmed_true": false,
+        "reason": ""
+    }
+]

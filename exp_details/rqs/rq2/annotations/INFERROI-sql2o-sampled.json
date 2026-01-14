@@ -1,0 +1,273 @@
+[
+    {
+        "method_name": "createQuery",
+        "source": "@Deprecated\n    public Query createQuery(String query, boolean returnGeneratedKeys) {\n        return new Connection(this, true).createQuery(query, returnGeneratedKeys);\n    }",
+        "answer": "Leakable Resources: \nConnection: new Connection(this, true)\n\nAPI/method Calls for Acquiring Resources:\nline 3: `new Connection(this, true)` acquires `Connection` resource\n\nAPI/method Calls for Releasing Resources: \nNo explicit release method call in the provided code snippet.\n\nIf-conditions for Checking Resources closed or not:\nNo if-condition for checking resource status in the provided code snippet.",
+        "intentions": [
+            [
+                3,
+                "acquire",
+                "Connection",
+                "Connection"
+            ]
+        ],
+        "leaks": {
+            "Connection": {
+                "type": "Connection",
+                "paths": [
+                    "-> line 3: return new Connection(this, true).createQuery(query, returnGeneratedKeys);"
+                ]
+            }
+        },
+        "file": "Sql2o.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "INFERROI do not understand the semantics of this code, it is decorated as deprecated, thus not used in the project, thus this is a fp."
+    },
+    {
+        "method_name": "fillDefaults",
+        "source": "private static void fillDefaults(Map<Class<?>, Converter<?>> mapToFill) {\n        mapToFill.put(Integer.class, new IntegerConverter(false));\n        mapToFill.put(int.class, new IntegerConverter(true));\n\n        mapToFill.put(Double.class, new DoubleConverter(false));\n        mapToFill.put(double.class, new DoubleConverter(true));\n\n        mapToFill.put(Float.class, new FloatConverter(false));\n        mapToFill.put(float.class, new FloatConverter(true));\n\n        mapToFill.put(Long.class, new LongConverter(false));\n        mapToFill.put(long.class, new LongConverter(true));\n\n        mapToFill.put(Short.class, new ShortConverter(false));\n        mapToFill.put(short.class, new ShortConverter(true));\n\n        mapToFill.put(Byte.class, new ByteConverter(false));\n        mapToFill.put(byte.class, new ByteConverter(true));\n\n        mapToFill.put(BigDecimal.class, new BigDecimalConverter());\n\n        mapToFill.put(String.class, new StringConverter());\n\n        mapToFill.put(java.util.Date.class,DateConverter.instance);\n        mapToFill.put(java.sql.Date.class,\n                new AbstractDateConverter<java.sql.Date>(java.sql.Date.class) {\n                    @Override\n                    protected java.sql.Date fromMilliseconds(long millisecond) {\n                        return new java.sql.Date(millisecond);\n                    }\n                });\n        mapToFill.put(java.sql.Time.class, new SqlTimeConverter());\n        mapToFill.put(java.sql.Timestamp.class,\n                new AbstractDateConverter<java.sql.Timestamp>(java.sql.Timestamp.class) {\n                    @Override\n                    protected java.sql.Timestamp fromMilliseconds(long millisecond) {\n                        return new java.sql.Timestamp(millisecond);\n                    }\n                });\n\n        BooleanConverter booleanConverter = new BooleanConverter();\n        mapToFill.put(Boolean.class, booleanConverter);\n        mapToFill.put(boolean.class, booleanConverter);\n\n        ByteArrayConverter byteArrayConverter = new ByteArrayConverter();\n        mapToFill.put(byte[].class, byteArrayConverter);\n\n        InputStreamConverter inputStreamConverter = new InputStreamConverter();\n        mapToFill.put(InputStream.class, inputStreamConverter);\n        mapToFill.put(ByteArrayInputStream.class, inputStreamConverter);\n\n        mapToFill.put(UUID.class, new UUIDConverter());\n\n        mapToFill.put(java.time.Instant.class, new InstantConverter());\n        mapToFill.put(java.time.OffsetDateTime.class, new OffsetDateTimeConverter());\n\n        mapToFill.put(java.time.LocalDate.class, new LocalDateConverter());\n        mapToFill.put(java.time.LocalTime.class, new LocalTimeConverter());\n        mapToFill.put(java.time.LocalDateTime.class, new LocalDateTimeConverter());\n\n\n        if (FeatureDetector.isJodaTimeAvailable()) {\n            mapToFill.put(DateTime.class, new JodaDateTimeConverter());\n            mapToFill.put(LocalTime.class, new JodaLocalTimeConverter());\n            mapToFill.put(LocalDate.class, new JodaLocalDateConverter());\n        }\n    }",
+        "answer": "Leakable Resources: \nInputStream: inputStreamConverter\n\nAPI/method Calls for Acquiring Resources:\nline 48: `new InputStreamConverter()` acquires `inputStreamConverter` resource\n\nAPI/method Calls for Releasing Resources: \nNo explicit release method calls found in the provided code snippet.\n\nIf-conditions for Checking Resources closed or not:\nNo if-conditions for checking resource closure found in the provided code snippet.",
+        "intentions": [
+            [
+                48,
+                "acquire",
+                "inputStreamConverter",
+                "InputStreamConverter"
+            ]
+        ],
+        "leaks": {
+            "inputStreamConverter": {
+                "type": "InputStreamConverter",
+                "paths": [
+                    "-> line 48: InputStreamConverter inputStreamConverter = new InputStreamConverter()\n\t-> line 49: mapToFill.put(InputStream.class, inputStreamConverter)\n\t-> line 50: mapToFill.put(ByteArrayInputStream.class, inputStreamConverter)\n\t-> line 52: mapToFill.put(UUID.class, new UUIDConverter())\n\t-> line 54: mapToFill.put(java.time.Instant.class, new InstantConverter())\n\t-> line 55: mapToFill.put(java.time.OffsetDateTime.class, new OffsetDateTimeConverter())\n\t-> line 57: mapToFill.put(java.time.LocalDate.class, new LocalDateConverter())\n\t-> line 58: mapToFill.put(java.time.LocalTime.class, new LocalTimeConverter())\n\t-> line 59: mapToFill.put(java.time.LocalDateTime.class, new LocalDateTimeConverter())\n\t-> line 62: if (FeatureDetector.isJodaTimeAvailable())\n\t-> line x: end-if:63",
+                    "-> line 48: InputStreamConverter inputStreamConverter = new InputStreamConverter()\n\t-> line 49: mapToFill.put(InputStream.class, inputStreamConverter)\n\t-> line 50: mapToFill.put(ByteArrayInputStream.class, inputStreamConverter)\n\t-> line 52: mapToFill.put(UUID.class, new UUIDConverter())\n\t-> line 54: mapToFill.put(java.time.Instant.class, new InstantConverter())\n\t-> line 55: mapToFill.put(java.time.OffsetDateTime.class, new OffsetDateTimeConverter())\n\t-> line 57: mapToFill.put(java.time.LocalDate.class, new LocalDateConverter())\n\t-> line 58: mapToFill.put(java.time.LocalTime.class, new LocalTimeConverter())\n\t-> line 59: mapToFill.put(java.time.LocalDateTime.class, new LocalDateTimeConverter())\n\t-> line 62: if (FeatureDetector.isJodaTimeAvailable())\n\t-> line 63: mapToFill.put(DateTime.class, new JodaDateTimeConverter())\n\t-> line 64: mapToFill.put(LocalTime.class, new JodaLocalTimeConverter())\n\t-> line 65: mapToFill.put(LocalDate.class, new JodaLocalDateConverter())\n\t-> line x: end-if:63"
+                ]
+            }
+        },
+        "file": "Convert.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "INFERROI do not understand the semantics of this code, the new InputStreamConverter() does not really open any stream, thus this is a fp."
+    },
+    {
+        "method_name": "executeAndFetchTableLazy",
+        "source": "public LazyTable executeAndFetchTableLazy() {\n        final LazyTable lt = new LazyTable();\n\n        lt.setRows(new ResultSetIterableBase<Row>() {\n            public Iterator<Row> iterator() {\n                return new TableResultSetIterator(rs, isCaseSensitive(), getConnection().getSql2o().getQuirks(), lt);\n            }\n        });\n\n        return lt;\n    }",
+        "answer": "Leakable Resources: \n`Connection`: getConnection()\n\nAPI/method Calls for Acquiring Resources:\nline 6: `getConnection()` acquires `Connection` resource\n\nAPI/method Calls for Releasing Resources: \nNo explicit release method call found in the provided code snippet.\n\nIf-conditions for Checking Resources closed or not:\nNo if-condition found in the provided code snippet for checking if the `Connection` resource is closed or not.",
+        "intentions": [
+            [
+                6,
+                "acquire",
+                "Connection",
+                "Connection"
+            ]
+        ],
+        "leaks": {
+            "Connection": {
+                "type": "Connection",
+                "paths": [
+                    "-> line 4: lt.setRows(new ResultSetIterableBase<Row>() { public Iterator<Row> iterator() { return new TableResultSetIterator(rs, isCaseSensitive(), getConnection().getSql2o().getQuirks(), lt); } })\n\t-> line 10: return lt;"
+                ]
+            }
+        },
+        "file": "Query.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Since INFERROI check method by method, it doest not know how these data are used. In the real proejct, this method is only used in tests, thus is a fp."
+    },
+    {
+        "method_name": "executeUpdate",
+        "source": "public Connection executeUpdate(){\n        long start = System.currentTimeMillis();\n        try{\n            logExecution();\n            PreparedStatement statement = buildPreparedStatement();\n            this.connection.setResult(statement.executeUpdate());\n            this.connection.setKeys(this.returnGeneratedKeys ? statement.getGeneratedKeys() : null);\n            connection.setCanGetKeys(this.returnGeneratedKeys);\n        }\n        catch(SQLException ex){\n            this.connection.onException();\n            throw new Sql2oException(\"Error in executeUpdate, \" + ex.getMessage(), ex);\n        }\n        finally {\n            closeConnectionIfNecessary();\n        }\n\n        long end = System.currentTimeMillis();\n        logger.debug(\"total: {} ms; executed update [{}]\", new Object[]{\n                end - start,\n                this.getName() == null ? \"No name\" : this.getName()\n        });\n\n        return this.connection;\n    }",
+        "answer": "Leakable Resources: \nPreparedStatement: statement\n\nAPI/method Calls for Acquiring Resources:\nline 5: `buildPreparedStatement()` acquires `statement` resource\n\nAPI/method Calls for Releasing Resources: \nNo explicit release call for `statement` in the provided code snippet.\n\nIf-conditions for Checking Resources closed or not:\nNo explicit if-condition for checking if `statement` is closed or not in the provided code snippet.",
+        "intentions": [
+            [
+                5,
+                "acquire",
+                "statement",
+                "PreparedStatement"
+            ]
+        ],
+        "leaks": {
+            "statement": {
+                "type": "PreparedStatement",
+                "paths": [
+                    "-> line 5: PreparedStatement statement = buildPreparedStatement()\n\t-> line 6: this.connection.setResult(statement.executeUpdate())\n\t-> line 7: this.connection.setKeys(this.returnGeneratedKeys ? statement.getGeneratedKeys() : null)\n\t-> line 8: connection.setCanGetKeys(this.returnGeneratedKeys)\n\t-> line 10: catch (SQLException ex)\n\t-> line 11: this.connection.onException()\n\t-> line 12: throw new Sql2oException('Error in executeUpdate, ' + ex.getMessage(), ex)\n\t-> line 14: finally\n\t-> line 15: closeConnectionIfNecessary()\n\t-> line x: end-finally:4\n\t-> line 18: long end = System.currentTimeMillis()\n\t-> line 19: logger.debug('total: {} ms; executed update [{}]', new Object[]{ end - start, this.getName() == null ? 'No name' : this.getName() })\n\t-> line 24: return this.connection;",
+                    "-> line 5: PreparedStatement statement = buildPreparedStatement()\n\t-> line 6: this.connection.setResult(statement.executeUpdate())\n\t-> line 10: catch (SQLException ex)\n\t-> line 11: this.connection.onException()\n\t-> line 12: throw new Sql2oException('Error in executeUpdate, ' + ex.getMessage(), ex)\n\t-> line 14: finally\n\t-> line 15: closeConnectionIfNecessary()\n\t-> line x: end-finally:4\n\t-> line 18: long end = System.currentTimeMillis()\n\t-> line 19: logger.debug('total: {} ms; executed update [{}]', new Object[]{ end - start, this.getName() == null ? 'No name' : this.getName() })\n\t-> line 24: return this.connection;",
+                    "-> line 5: PreparedStatement statement = buildPreparedStatement()\n\t-> line 6: this.connection.setResult(statement.executeUpdate())\n\t-> line 7: this.connection.setKeys(this.returnGeneratedKeys ? statement.getGeneratedKeys() : null)\n\t-> line 8: connection.setCanGetKeys(this.returnGeneratedKeys)\n\t-> line x: end-try:4\n\t-> line 14: finally\n\t-> line 15: closeConnectionIfNecessary()\n\t-> line x: end-finally:4\n\t-> line 18: long end = System.currentTimeMillis()\n\t-> line 19: logger.debug('total: {} ms; executed update [{}]', new Object[]{ end - start, this.getName() == null ? 'No name' : this.getName() })\n\t-> line 24: return this.connection;",
+                    "-> line 5: PreparedStatement statement = buildPreparedStatement()\n\t-> line 10: catch (SQLException ex)\n\t-> line 11: this.connection.onException()\n\t-> line 12: throw new Sql2oException('Error in executeUpdate, ' + ex.getMessage(), ex)\n\t-> line 14: finally\n\t-> line 15: closeConnectionIfNecessary()\n\t-> line x: end-finally:4\n\t-> line 18: long end = System.currentTimeMillis()\n\t-> line 19: logger.debug('total: {} ms; executed update [{}]', new Object[]{ end - start, this.getName() == null ? 'No name' : this.getName() })\n\t-> line 24: return this.connection;",
+                    "-> line 5: PreparedStatement statement = buildPreparedStatement()\n\t-> line 6: this.connection.setResult(statement.executeUpdate())\n\t-> line 7: this.connection.setKeys(this.returnGeneratedKeys ? statement.getGeneratedKeys() : null)\n\t-> line 10: catch (SQLException ex)\n\t-> line 11: this.connection.onException()\n\t-> line 12: throw new Sql2oException('Error in executeUpdate, ' + ex.getMessage(), ex)\n\t-> line 14: finally\n\t-> line 15: closeConnectionIfNecessary()\n\t-> line x: end-finally:4\n\t-> line 18: long end = System.currentTimeMillis()\n\t-> line 19: logger.debug('total: {} ms; executed update [{}]', new Object[]{ end - start, this.getName() == null ? 'No name' : this.getName() })\n\t-> line 24: return this.connection;"
+                ]
+            }
+        },
+        "file": "Query.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "INFERROI do not understand the semantics of this code, it will close in the finally block, thus this is a fp."
+    },
+    {
+        "method_name": "closeStatement",
+        "source": "@Override\n    public void closeStatement(Statement statement) throws SQLException {\n        statement.close();\n    }",
+        "answer": "Leakable Resources: \nStatement: statement\n\nAPI/method Calls for Acquiring Resources:\nNo explicit resource acquisition in the provided code snippet.\n\nAPI/method Calls for Releasing Resources: \nline 3: `statement.close()` releases `statement` resource\n\nIf-conditions for Checking Resources closed or not:\nNo if-conditions for checking resource status in the provided code snippet.",
+        "intentions": [
+            [
+                3,
+                "release",
+                "statement",
+                "Statement"
+            ]
+        ],
+        "leaks": {
+            "statement": {
+                "type": "Statement",
+                "paths": [
+                    "potiential resource leaks caused by unhandled exception"
+                ]
+            }
+        },
+        "file": "NoQuirks.java.json",
+        "is_human_confirmed_true": true,
+        "reason": "If the .close throws an exception, the resource may not closed properly."
+    },
+    {
+        "method_name": "getConnection",
+        "source": "java.sql.Connection getConnection() throws SQLException;",
+        "answer": "Leakable Resources: \n- java.sql.Connection: connection\n\nAPI/method Calls for Acquiring Resources:\n- line 1: `getConnection()` acquires `connection` resource\n\nAPI/method Calls for Releasing Resources: \n- Not available in the provided snippet.\n\nIf-conditions for Checking Resources closed or not:\n- Not available in the provided snippet.",
+        "intentions": [
+            [
+                1,
+                "acquire",
+                "connection",
+                "connection"
+            ]
+        ],
+        "leaks": {
+            "connection": {
+                "type": "connection",
+                "paths": [
+                    "-> line 1: java.sql.Connection getConnection()"
+                ]
+            }
+        },
+        "file": "ConnectionSource.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "INFERROI do not understand this statement only declare an interface, thus this is a fp."
+    },
+    {
+        "method_name": "executeScalar",
+        "source": "public Object executeScalar() {\n        long start = System.currentTimeMillis();\n\n        logExecution();\n        try (final PreparedStatement ps = buildPreparedStatement();\n             final ResultSet rs = ps.executeQuery()) {\n            if (rs.next()) {\n                Object o = getQuirks().getRSVal(rs, 1);\n                long end = System.currentTimeMillis();\n                logger.debug(\"total: {} ms; executed scalar [{}]\", new Object[]{\n                    end - start,\n                    this.getName() == null ? \"No name\" : this.getName()\n                });\n                return o;\n            } else {\n                return null;\n            }\n\n        } catch (SQLException e) {\n            this.connection.onException();\n            throw new Sql2oException(\"Database error occurred while running executeScalar: \" + e.getMessage(), e);\n        } finally {\n            closeConnectionIfNecessary();\n        }\n\n    }",
+        "answer": "Leakable Resources: \nPreparedStatement: ps\nResultSet: rs\n\nAPI/method Calls for Acquiring Resources:\nline 5: `buildPreparedStatement()` acquires `ps` resource\nline 6: `ps.executeQuery()` acquires `rs` resource\n\nAPI/method Calls for Releasing Resources: \nThe resources `ps` and `rs` are automatically released by the try-with-resources statement which implicitly calls `close()` on these resources at the end of the try block.\n\nIf-conditions for Checking Resources closed or not:\nNo explicit if-conditions for checking if resources are closed or not are present in the code snippet. The try-with-resources statement ensures that resources are closed automatically.",
+        "intentions": [
+            [
+                5,
+                "acquire",
+                "ps",
+                "PreparedStatement"
+            ],
+            [
+                6,
+                "acquire",
+                "rs",
+                "ResultSet"
+            ]
+        ],
+        "leaks": {
+            "rs": {
+                "type": "ResultSet",
+                "paths": [
+                    "-> line 6: final ResultSet rs = ps.executeQuery()\n\t-> line 7: if (rs.next())\n\t-> line 8: Object o = getQuirks().getRSVal(rs, 1)\n\t-> line 9: long end = System.currentTimeMillis()\n\t-> line 10: logger.debug('total: {} ms; executed scalar [{}]', new Object[]{ end - start, this.getName() == null ? 'No name' : this.getName() })\n\t-> line 19: catch (SQLException e)\n\t-> line 20: this.connection.onException()\n\t-> line 21: throw new Sql2oException('Database error occurred while running executeScalar: ' + e.getMessage(), e)\n\t-> line 22: finally\n\t-> line 23: closeConnectionIfNecessary()\n\t-> line x: end-finally:6",
+                    "-> line 6: final ResultSet rs = ps.executeQuery()\n\t-> line 7: if (rs.next())\n\t-> line 8: Object o = getQuirks().getRSVal(rs, 1)\n\t-> line 9: long end = System.currentTimeMillis()\n\t-> line 19: catch (SQLException e)\n\t-> line 20: this.connection.onException()\n\t-> line 21: throw new Sql2oException('Database error occurred while running executeScalar: ' + e.getMessage(), e)\n\t-> line 22: finally\n\t-> line 23: closeConnectionIfNecessary()\n\t-> line x: end-finally:6",
+                    "-> line 6: final ResultSet rs = ps.executeQuery()\n\t-> line 7: if (rs.next())\n\t-> line 8: Object o = getQuirks().getRSVal(rs, 1)\n\t-> line 19: catch (SQLException e)\n\t-> line 20: this.connection.onException()\n\t-> line 21: throw new Sql2oException('Database error occurred while running executeScalar: ' + e.getMessage(), e)\n\t-> line 22: finally\n\t-> line 23: closeConnectionIfNecessary()\n\t-> line x: end-finally:6",
+                    "-> line 6: final ResultSet rs = ps.executeQuery()\n\t-> line 7: if (rs.next())\n\t-> line 16: return null;\n\t-> line 19: catch (SQLException e)\n\t-> line 20: this.connection.onException()\n\t-> line 21: throw new Sql2oException('Database error occurred while running executeScalar: ' + e.getMessage(), e)\n\t-> line 22: finally\n\t-> line 23: closeConnectionIfNecessary()\n\t-> line x: end-finally:6",
+                    "-> line 6: final ResultSet rs = ps.executeQuery()\n\t-> line 7: if (rs.next())\n\t-> line 8: Object o = getQuirks().getRSVal(rs, 1)\n\t-> line 9: long end = System.currentTimeMillis()\n\t-> line 10: logger.debug('total: {} ms; executed scalar [{}]', new Object[]{ end - start, this.getName() == null ? 'No name' : this.getName() })\n\t-> line 14: return o;\n\t-> line 19: catch (SQLException e)\n\t-> line 20: this.connection.onException()\n\t-> line 21: throw new Sql2oException('Database error occurred while running executeScalar: ' + e.getMessage(), e)\n\t-> line 22: finally\n\t-> line 23: closeConnectionIfNecessary()\n\t-> line x: end-finally:6",
+                    "-> line 6: final ResultSet rs = ps.executeQuery()\n\t-> line 7: if (rs.next())\n\t-> line 19: catch (SQLException e)\n\t-> line 20: this.connection.onException()\n\t-> line 21: throw new Sql2oException('Database error occurred while running executeScalar: ' + e.getMessage(), e)\n\t-> line 22: finally\n\t-> line 23: closeConnectionIfNecessary()\n\t-> line x: end-finally:6",
+                    "-> line 6: final ResultSet rs = ps.executeQuery()\n\t-> line 19: catch (SQLException e)\n\t-> line 20: this.connection.onException()\n\t-> line 21: throw new Sql2oException('Database error occurred while running executeScalar: ' + e.getMessage(), e)\n\t-> line 22: finally\n\t-> line 23: closeConnectionIfNecessary()\n\t-> line x: end-finally:6"
+                ]
+            }
+        },
+        "file": "Query.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "INFERROI do not recognize that this is a try-with-resources statement, thus it think there is a leak, thus this is a fp."
+    },
+    {
+        "method_name": "toByteArray",
+        "source": "public static byte[] toByteArray(InputStream input) throws IOException {\n        ByteArrayOutputStream output = new ByteArrayOutputStream();\n        byte[] buffer = new byte[DEFAULT_BUFFER_SIZE];\n        int n;\n        while (EOF != (n = input.read(buffer))) {\n            output.write(buffer, 0, n);\n        }\n        return output.toByteArray();\n    }",
+        "answer": "Leakable Resources: \nInputStream: input\nByteArrayOutputStream: output\n\nAPI/method Calls for Acquiring Resources:\nline 1: `InputStream input` acquires `input` resource\nline 2: `new ByteArrayOutputStream()` acquires `output` resource\n\nAPI/method Calls for Releasing Resources: \nNo explicit release calls for `input` or `output` in the provided code snippet.\n\nIf-conditions for Checking Resources closed or not:\nNo if-conditions for checking if resources are closed or unclosed in the provided code snippet.",
+        "intentions": [
+            [
+                1,
+                "acquire",
+                "input",
+                "InputStream"
+            ],
+            [
+                2,
+                "acquire",
+                "output",
+                "ByteArrayOutputStream"
+            ]
+        ],
+        "leaks": {
+            "input": {
+                "type": "InputStream",
+                "paths": [
+                    "-> line 1: byte[] toByteArray(InputStream input)\n\t-> line 2: ByteArrayOutputStream output = new ByteArrayOutputStream()\n\t-> line 3: byte[] buffer = new byte[DEFAULT_BUFFER_SIZE]\n\t-> line 4: int n\n\t-> line 5: while (EOF != (n = input.read(buffer)))\n\t-> line x: end-while:6\n\t-> line 8: return output.toByteArray();",
+                    "-> line 1: byte[] toByteArray(InputStream input)\n\t-> line 2: ByteArrayOutputStream output = new ByteArrayOutputStream()\n\t-> line 3: byte[] buffer = new byte[DEFAULT_BUFFER_SIZE]\n\t-> line 4: int n\n\t-> line 5: while (EOF != (n = input.read(buffer)))\n\t-> line 6: output.write(buffer, 0, n)\n\t-> line x: end-while:6\n\t-> line 8: return output.toByteArray();"
+                ]
+            }
+        },
+        "file": "IOUtils.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Since INFERROI check method by method, it doest not know how these data are used. In the real proejct, the stream will be closed properly after use, thus is a fp."
+    },
+    {
+        "method_name": "closeStatement",
+        "source": "void closeStatement(Statement statement) throws SQLException;",
+        "answer": "Leakable Resources: \nStatement: statement\n\nAPI/method Calls for Acquiring Resources:\nNo specific line for acquiring resources in the provided snippet. The method signature implies that the `Statement` resource is passed as a parameter, so the resource acquisition happens outside this method.\n\nAPI/method Calls for Releasing Resources: \nline 1: `closeStatement(Statement statement)` releases `statement` resource\n\nIf-conditions for Checking Resources closed or not:\nNo if-conditions provided in the snippet for checking if the resource is closed or not.",
+        "intentions": [
+            [
+                1,
+                "release",
+                "statement",
+                "Statement"
+            ]
+        ],
+        "leaks": {
+            "statement": {
+                "type": "Statement",
+                "paths": [
+                    "potiential resource leaks caused by unhandled exception"
+                ]
+            }
+        },
+        "file": "Quirks.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "INFERROI do not understand the semantics, this method is declared in an interface, thus this is a fp."
+    },
+    {
+        "method_name": "createQuery",
+        "source": "public Query createQuery(String queryText, boolean returnGeneratedKeys){\n\n        try {\n            if (jdbcConnection.isClosed()){\n                createConnection();\n            }\n        } catch (SQLException e) {\n            throw new Sql2oException(\"Error creating connection\", e);\n        }\n\n        return new Query(this, queryText, returnGeneratedKeys);\n    }",
+        "answer": "Leakable Resources: \n`Connection`: `jdbcConnection`\n\nAPI/method Calls for Acquiring Resources:\nline 5: `createConnection()` acquires `jdbcConnection` resource\n\nAPI/method Calls for Releasing Resources: \nNo explicit release method call for `jdbcConnection` in the provided code snippet.\n\nIf-conditions for Checking Resources closed or not:\nline 4: `jdbcConnection.isClosed()` checks `jdbcConnection` resource\n\nNote: The provided code snippet does not include the actual closing of the `jdbcConnection` resource, which is necessary to prevent resource leaks. Proper resource management would require a `finally` block or try-with-resources statement to ensure that the connection is closed.",
+        "intentions": [
+            [
+                4,
+                "check",
+                "jdbcConnection",
+                "jdbcConnection"
+            ],
+            [
+                5,
+                "acquire",
+                "jdbcConnection",
+                "jdbcConnection"
+            ]
+        ],
+        "leaks": {
+            "jdbcConnection": {
+                "type": "jdbcConnection",
+                "paths": [
+                    "-> line 5: createConnection()\n\t-> line x: end-if:5\n\t-> line x: end-try:4\n\t-> line 11: return new Query(this, queryText, returnGeneratedKeys);",
+                    "-> line 5: createConnection()\n\t-> line 7: catch (SQLException e)\n\t-> line 8: throw new Sql2oException('Error creating connection', e)"
+                ]
+            }
+        },
+        "file": "Connection.java.json",
+        "is_human_confirmed_true": false,
+        "reason": "INFERROI do not understand the semantics of this method, it is decorated as deprecated, thus not used in the project, thus this is a fp."
+    }
+]

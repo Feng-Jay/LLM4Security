@@ -1,0 +1,312 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "8ec3178103ee11a2f996b8a6043efae9ad53e25769739305775f0b12655eef3a760bc1ed3c3def093064b81a81e647cd198d9b7d743ca6e83e264d640d93e67d_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/modules/cemedia/handler/ImageHandler.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 47,
+                        "endLine": 177,
+                        "snippet": {
+                            "text": "\t\tFile mediaFile = new File(mediaDir, filename);"
+                        },
+                        "startColumn": 39,
+                        "startLine": 177
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not understand the project, the filename is from internal logic, not user input."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "0527cd294037a4a62c279a9d982f8b2d3b95265dbec1c313e057a8327242d75eeb29eca44da73f7352876be409333d6c4fbf9a95ced308ab5018ab06196815bb_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/course/certificate/manager/CertificatePdfServiceWorker.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 59,
+                        "endLine": 125,
+                        "snippet": {
+                            "text": "\t\tFile certificateFile = new File(destinationDir, filename);"
+                        },
+                        "startColumn": 51,
+                        "startLine": 125
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not understand the project, all dirs are from internal logic, all filenames are either hardcoded or sanitized by previous logic."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "51c43011250f1c99e50be1bae813fe767789e149e5bffb3822c6b22c8ec9c5cee79a2ea044e1d533ce0de5af9ce4ae49ee2fb03bb8100976b9b36e4d1d68229e_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/repository/handlers/DocumentEditorDelegate.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 53,
+                        "endLine": 90,
+                        "snippet": {
+                            "text": "\t\tFile target = new File(fResourceFileroot, filename);"
+                        },
+                        "startColumn": 45,
+                        "startLine": 90
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not understand the project, the filename is from internal logic, not user input. And the dir also from internal logic."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "7128aeb8c54b30e2e2f16ebc4c95988f8c599556dd6b268a93133c4f5cc1966992ad9ae7cdb34314e18e6cb84e8456bca437d301df3f5e6d74c83e93d96e438b_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/modules/qpool/restapi/QuestionPoolWebService.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 40,
+                        "endLine": 151,
+                        "snippet": {
+                            "text": "\t\t\tFile tmpFile = partsReader.getFile();"
+                        },
+                        "startColumn": 9,
+                        "startLine": 151
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "Detected a potential path traversal. A malicious actor could control the location of this file, to include going backwards in the directory with '../'. To address this, ensure that user-controlled variables in file paths are sanitized. You may also consider using a utility method such as org.apache.commons.io.FilenameUtils.getName(...) to only retrieve the file name from the path."
+        },
+        "properties": {},
+        "ruleId": "java.lang.security.httpservlet-path-traversal.httpservlet-path-traversal",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not recognized there exists a sanitization logic when initialized the MultipartReader object."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "96563aad29a06c73a0654a6f1e309494a5d3ad60381858f6443defed8329d86ad6f663f9904dff9cbfa8242aa8effd012fc1792f4724c7713dee1d24a49bf406_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/core/gui/dev/controller/SourceViewController.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 44,
+                        "endLine": 106,
+                        "snippet": {
+                            "text": "\t\tFile file = new File(velocityTemplatePath);"
+                        },
+                        "startColumn": 24,
+                        "startLine": 106
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not understand the project, the file paths are hardcoded in the project, not from user input."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "c21c7505ec5295fee31d97b40e2e9ad8808a7928b14fbd00b29ce8977b367fd2ef2fbd7b0e959868c65be19a6cb6996c5161e30dfa683497a562501cbf65bf8f_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/core/util/vfs/VFSManager.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 75,
+                        "endLine": 71,
+                        "snippet": {
+                            "text": "\t\tFile file = new File(FolderConfig.getCanonicalRoot() + relPath, filename);"
+                        },
+                        "startColumn": 67,
+                        "startLine": 71
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not recognized that the paths are either hardcoded or collect from saved data, not user input."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "74da13ed270af17977d339c48cbbd6e8314d64673ddcb99d1ef6cd6ed3e5848ac824bda50c2243d72b01188639e52a294552c6ba312444b5c0b6d42842461dc1_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/core/util/FileUtils.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 64,
+                        "endLine": 125,
+                        "snippet": {
+                            "text": "\t\treturn copyFileToDir(new File(sourceFile), new File(targetDir), true, filter, wt);"
+                        },
+                        "startColumn": 55,
+                        "startLine": 125
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not find that this sink will not be called in the real project."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "bd7a54ef46a82b9e1b335e45ab372186973d59e833d0a5d9c25fba91c8610251366dff45df4b76a0449d30fdcf1069f9d95dd7b5437c58f797934dadb860ca40_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/core/util/ExportUtil.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 46,
+                        "endLine": 54,
+                        "snippet": {
+                            "text": "\t\tFile f = new File(exportDirectory, fileName);"
+                        },
+                        "startColumn": 38,
+                        "startLine": 54
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not recognized that the input dir and filename are from internal logic / internal config, not user input."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "849a15d7edcacebd37fdad0753d6372bce2ce43cf123a7e5248432dcec51dde5a9944b70d8ad4ac5d2e71181d8294d2b0e3395f081c0adda22915ceefa52ad0f_1"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/core/util/FileUtils.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 64,
+                        "endLine": 115,
+                        "snippet": {
+                            "text": "\t\treturn copyFileToDir(new File(sourceFile), new File(targetDir), false, null);"
+                        },
+                        "startColumn": 55,
+                        "startLine": 115
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not find that this sink will only be called with internal logic or config values."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "3417aaaf8029078e42e3e7cd0be598e77a2629769d80f5fd98c3c9dee59feb74d30b4eecb4a283be7783175c3ada13d04c7b1027c465aa07633fb279d2327e4f_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/OpenOLAT/src/main/java/org/olat/ims/qti21/ui/ResourcesMapper.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 56,
+                        "endLine": 98,
+                        "snippet": {
+                            "text": "\t\t\tFile file = new File(root.getParentFile(), filename);"
+                        },
+                        "startColumn": 9,
+                        "startLine": 98
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The application builds a file path from potentially untrusted data, which can lead to a path traversal vulnerability. An attacker can manipulate the file path which the application uses to access files. If the application does not validate user input and sanitize file paths, sensitive files such as configuration or user data can be accessed, potentially creating or overwriting files. To prevent this vulnerability, validate and sanitize any input that is used to create references to file paths. Also, enforce strict file access controls. For example, choose privileges allowing public-facing applications to access only the required files. In Java, you may also consider using a utility method such as `org.apache.commons.io.FilenameUtils.getName(...)` to only retrieve the file name from the path."
+        },
+        "properties": {},
+        "ruleId": "java.servlets.security.httpservlet-path-traversal.httpservlet-path-traversal",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not understand the semantics, it misses several critical sanitizers in the function, it will check whether the path is forbidden or not."
+    }
+]

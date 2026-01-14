@@ -1,0 +1,33 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "150643a3a0810658f22e0de9519cdbc3c2b66616eea0837bc232dc81ecae4141db18c45b1a0fc571e1664fa392a22504bd276f18aacdccc5f44453644682ac16_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/gpac/src/filters/decrypt_cenc_isma.c",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 32,
+                        "endLine": 227,
+                        "snippet": {
+                            "text": "\tstrcpy(szPath, getenv(\"HOME\"));"
+                        },
+                        "startColumn": 2,
+                        "startLine": 227
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The `getenv` function returns NULL on error and this line dereferences the return value without checking for NULL."
+        },
+        "properties": {},
+        "ruleId": "cpp.lang.security.memory.null-deref.null-library-function.null-library-function",
+        "is_human_confirmed_true": true,
+        "reason": "There exists a NULL dereference issue. The getenv may return NULL, and the return value is directly used in strcpy without NULL check."
+    }
+]

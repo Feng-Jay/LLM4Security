@@ -1,0 +1,6 @@
+Logic Error	Off-by-one error in loop deallocation	sound/drivers/opl4/opl4_lib.c	snd_opl4_wait	22	17	"FALSE; There is no operations like free in the body of loop"
+Logic Error	Off-by-one error in loop deallocation	sound/core/info.c	snd_info_get_str	631	5	"FALSE; There is no operations like free in the body of loop"
+Logic Error	Off-by-one error in loop deallocation	sound/pci/emu10k1/emu10k1_patch.c	snd_emu10k1_sample_new	124	26  "FALSE; There is no operations like free in the body of loop"
+Logic Error	Off-by-one error in loop deallocation	sound/isa/sb/sb8_midi.c	snd_sb8dsp_midi_output_write	163	7   "FALSE; There is no operations like free in the body of loop"
+Logic Error	Off-by-one error in loop deallocation	sound/core/info.c	snd_info_get_str	637	6   "FALSE; There is no operations like free in the body of loop"
+Logic Error	Off-by-one error in loop deallocation	sound/drivers/opl4/opl4_synth.c	snd_opl4_wait_for_wave_headers	469	2   "FALSE; There is no operations like free in the body of loop"

@@ -1,0 +1,22 @@
+Uncontrolled data used in path expression,Accessing paths influenced by users can allow an attacker to access unexpected resources.,error,"This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/BundleUploadBitstreamController.java:92:13:92:58""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/ExternalSourcesRestController.java:86:68:86:106""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/ExternalSourcesRestController.java:59:9:59:50""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/RestResourceController.java:662:13:662:64""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/ScriptProcessesController.java:74:9:74:80""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-api/src/main/java/org/dspace/authenticate/ShibAuthentication.java:1110:21:1110:43""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-api/src/main/java/org/dspace/authenticate/ShibAuthentication.java:1113:21:1113:57""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-api/src/main/java/org/dspace/authenticate/ShibAuthentication.java:1116:21:1116:57""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-api/src/main/java/org/dspace/ctask/general/MicrosoftTranslator.java:68:56:68:92""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-api/src/main/java/org/dspace/orcid/client/OrcidClientImpl.java:281:47:281:79""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-api/src/main/java/org/dspace/xmlworkflow/state/actions/processingaction/ProcessingAction.java:70:25:70:59""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-api/src/main/java/org/dspace/xmlworkflow/state/actions/processingaction/ScoreReviewAction.java:80:25:80:52""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/BundleUploadBitstreamController.java:115:34:115:65""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/repository/ScriptRestRepository.java:180:43:180:68""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/repository/VocabularyEntryLinkRepository.java:59:50:59:79""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/repository/VocabularyEntryLinkRepository.java:60:51:60:81""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/submit/step/UploadStep.java:139:39:139:64""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/utils/Utils.java:424:35:424:69""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-server-webapp/src/main/java/org/dspace/app/rest/utils/Utils.java:430:20:430:42""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-sword/src/main/java/org/purl/sword/server/DepositServlet.java:297:31:297:65""]].
+This path depends on a [[""user-provided value""|""relative:///dspace-sword/src/main/java/org/purl/sword/server/DepositServlet.java:303:41:303:90""]].",/dspace-api/src/test/java/org/dspace/app/sherpa/MockSHERPAService.java,83,47,83,54,"FALSE; Context is limited! In the real project, the input of this sink from internal data."
+"Arbitrary file access during archive extraction (""Zip Slip"")","Extracting files from a malicious ZIP file, or similar type of archive, without validating that the destination file path is within the destination directory can allow an attacker to unexpectedly gain access to resources.",error,"Unsanitized archive entry, which may contain '..', is used in a [[""file system operation""|""relative:///dspace-api/src/test/java/org/dspace/app/sherpa/MockSHERPAService.java:83:47:83:54""]].",/dspace-swordv2/src/main/java/org/dspace/sword2/SimpleZipContentIngester.java,141,36,141,50, "FALSE; Context is limited! CodeQL do not understand that the input of this sink is hard coded or provided by internal logics."

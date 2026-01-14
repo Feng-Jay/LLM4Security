@@ -1,0 +1,312 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "21d10d0e5f7d807b5da6a9a578216ab7647f0b5195f1df76e235dda5c1498e39447348b32f75b86bcbea8ac4d6d9df87a2481eef07baa20743fd7ec7256e60b3_10"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Image.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 22,
+                        "endLine": 1080,
+                        "snippet": {
+                            "text": "      delete _imgRef;"
+                        },
+                        "startColumn": 7,
+                        "startLine": 1080
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not check the constructors' list, where _imgRef is allocated with simple new operator. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "82fca15afffa0ced207248b146d3ddac6ebb68f222ec69bcecf2d18d706cd7d46e3dec1b47e19bb48bb2cb2b0c10ac8d50a3e12954f624763e9ba3fb5fe72d78_1"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Blob.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 25,
+                        "endLine": 58,
+                        "snippet": {
+                            "text": "        delete _blobRef;"
+                        },
+                        "startColumn": 9,
+                        "startLine": 58
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this function, when reference count is zero, the memory allocated with new operator will be released. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "b9b2222ca11851346c87f0bc6ced7c4883070f88f2eb2006c58b4768a80416ac536e6072dbadbee37f985ee6c320efa36463715794146635e3256c07459cd7e8_1"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Drawable.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 17,
+                        "endLine": 114,
+                        "snippet": {
+                            "text": "      delete dp;"
+                        },
+                        "startColumn": 7,
+                        "startLine": 114
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this function, this function is rewrite the =operator, when assigned with a new value, the old one should be deleted. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "94d2b8f3ee70f99863c81d24bf124bdadb52ed4a9535507e16ae680d3568947d10e4c513459658fcf034e6cdf20d55bac592a435357ee58ea56dd24fd4e35390_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/MagickCore/memory.c",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 13,
+                        "endLine": 218,
+                        "snippet": {
+                            "text": "  free(ptr);"
+                        },
+                        "startColumn": 3,
+                        "startLine": 218
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this function, this free function will only be called when ptr is allocated with malloc/calloc/realloc. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "82fca15afffa0ced207248b146d3ddac6ebb68f222ec69bcecf2d18d706cd7d46e3dec1b47e19bb48bb2cb2b0c10ac8d50a3e12954f624763e9ba3fb5fe72d78_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Blob.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 23,
+                        "endLine": 43,
+                        "snippet": {
+                            "text": "      delete _blobRef;"
+                        },
+                        "startColumn": 7,
+                        "startLine": 43
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this function, when this deconstructor is called, _blobRef is allocated with simple new operator. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "82fca15afffa0ced207248b146d3ddac6ebb68f222ec69bcecf2d18d706cd7d46e3dec1b47e19bb48bb2cb2b0c10ac8d50a3e12954f624763e9ba3fb5fe72d78_3"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Blob.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 21,
+                        "endLine": 127,
+                        "snippet": {
+                            "text": "    delete _blobRef;"
+                        },
+                        "startColumn": 5,
+                        "startLine": 127
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this function, when reference count is zero, the memory allocated with new operator will be released. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "21d10d0e5f7d807b5da6a9a578216ab7647f0b5195f1df76e235dda5c1498e39447348b32f75b86bcbea8ac4d6d9df87a2481eef07baa20743fd7ec7256e60b3_4"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Image.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 20,
+                        "endLine": 172,
+                        "snippet": {
+                            "text": "    delete _imgRef;"
+                        },
+                        "startColumn": 5,
+                        "startLine": 172
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this deconstructor, when the allocation encountered with error, the obj need be deleted. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "617896e45b0b56d2335f88480195c8da2987e0c773154991332bfd8fd219e5b8b1b036e12e43f43f72de44dfcfe5e02ded7104d58fbbe9426aed4f4462ca61c8_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Color.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 19,
+                        "endLine": 187,
+                        "snippet": {
+                            "text": "    delete _pixel;"
+                        },
+                        "startColumn": 5,
+                        "startLine": 187
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this deconstructor, when reach the end of the life cycle, the memory allocated with new operator will be released. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "f9bb49139dbb59bbc9812379dccd041f8b07df7ddf7ff501cbf9ded5843cdbf34ab237db93f11bebba71d704ca4b461c1c0194946c6bd86fa618a3502bad051d_3"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Drawable.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 17,
+                        "endLine": 608,
+                        "snippet": {
+                            "text": "  delete _image;"
+                        },
+                        "startColumn": 3,
+                        "startLine": 608
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this function, when init with another image, the old one should be deleted. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "21d10d0e5f7d807b5da6a9a578216ab7647f0b5195f1df76e235dda5c1498e39447348b32f75b86bcbea8ac4d6d9df87a2481eef07baa20743fd7ec7256e60b3_5"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/ImageMagick/Magick++/lib/Image.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 20,
+                        "endLine": 197,
+                        "snippet": {
+                            "text": "    delete _imgRef;"
+                        },
+                        "startColumn": 5,
+                        "startLine": 197
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+        },
+        "properties": {},
+        "ruleId": "data.jiangjiajun.LLM4Security.resources.semgrep-rules.c.raptor-mismatched-memory-management-cpp",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the real usage of this Constructor, when the allocation encountered with error, the obj need be deleted. Thus, this is a false positive."
+    }
+]

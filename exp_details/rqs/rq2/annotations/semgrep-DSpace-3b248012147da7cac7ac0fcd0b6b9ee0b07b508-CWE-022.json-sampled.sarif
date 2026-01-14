@@ -1,0 +1,312 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "075b8d23f13c954f3225acde2569a7421dcaf9d4a56042eb6822d5393445060d4c0704387ea73b2e407f7c3470f321586387488180101ee30649db257aa49872_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/XSLTCrosswalk.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 55,
+                        "endLine": 162,
+                        "snippet": {
+                            "text": "                transformFile = new File(parent, fname);"
+                        },
+                        "startColumn": 50,
+                        "startLine": 162
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, the fname and parent are from internal data."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "3f4ace9f1f54b7d4cc972e70760eaf37502512f61f69d3afb63717152c835991424a1d2ea2db52b476a2ac0e9f484f0695c1882f4f6c98af08f2def9e83080d4_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/administer/MetadataExporter.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 68,
+                        "endLine": 154,
+                        "snippet": {
+                            "text": "        try (Writer writer = new BufferedWriter(new FileWriter(file))) {"
+                        },
+                        "startColumn": 64,
+                        "startLine": 154
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to write to its contents. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files at an arbitrary filesystem location\ncould be modified. This rule identifies potential path traversal vulnerabilities. In many\ncases, the constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_OUT-1.PATH_TRAVERSAL_OUT-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, this file are used to export metadata not traversal on server file system."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "e2e56720156fd7055bdd1472b5b923eb3fc77babac36c8bcad8ea16cf022569ba1a87dec300e78e2c652baffe25971f28a0b7e44f7998b25c61c258abaf85d64_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/app/itemupdate/BitstreamFilter.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 47,
+                        "endLine": 46,
+                        "snippet": {
+                            "text": "            in = new FileInputStream(filepath);"
+                        },
+                        "startColumn": 18,
+                        "startLine": 46
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, the file are used to load as filter not traversal on server file system."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "d74542e3d5fb592ff2650ef947ebd91a9c04b226a0e7ba328ba94a9f5ffc1560716839f0744a22ed0a000168650c7f6d33f7dcf6b1c994e7c1c0f2a020a23f58_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/app/itemimport/ItemImportServiceImpl.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 48,
+                        "endLine": 279,
+                        "snippet": {
+                            "text": "            File d = new java.io.File(sourceDir);"
+                        },
+                        "startColumn": 39,
+                        "startLine": 279
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not recognized that the sourceDir is built from internal code logic and randomly generated temp folder."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "d2ff1b1862b4bd21d5841d41ebfaa1db0ed9c57a5caaf6c7a445bd124f1c620ef4426a94a9f0fa4a92308fdf5bed30e2519ac6113e7189d2a90b4f2961d2529e_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/ClassicDSpaceLogConverter.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 63,
+                        "endLine": 132,
+                        "snippet": {
+                            "text": "                output = new BufferedWriter(new FileWriter(out));"
+                        },
+                        "startColumn": 60,
+                        "startLine": 132
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to write to its contents. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files at an arbitrary filesystem location\ncould be modified. This rule identifies potential path traversal vulnerabilities. In many\ncases, the constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_OUT-1.PATH_TRAVERSAL_OUT-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, this code is used to convert log format on user's fs, not traversal on server file system."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "77f0c24e5626cfd82883f49b726f1ee5d0b77f561f6e5e6ae8f863a6d9a1637da980c3a84f05e2fb1aa7bec5e7a0a2c4b91727792f17fa35e19a3000c6a379e4_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/app/itemimport/ItemImportServiceImpl.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 78,
+                        "endLine": 682,
+                        "snippet": {
+                            "text": "            PrintWriter handleOut = new PrintWriter(new FileWriter(handleFile, true));"
+                        },
+                        "startColumn": 68,
+                        "startLine": 682
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to write to its contents. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files at an arbitrary filesystem location\ncould be modified. This rule identifies potential path traversal vulnerabilities. In many\ncases, the constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_OUT-1.PATH_TRAVERSAL_OUT-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, the dir is controlled by internal logics and the file are used to load as filter not traversal on server file system."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "322eebf899e15cf9847b7ee6f8047cc1ffd5acf06df8e97a78cf35b19aa02562ab90eedf5a57603d933aafae5d83f9ff53196ce5811c5932cde4a4e7094aa7f0_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/app/mediafilter/ImageMagickThumbnailFilter.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 54,
+                        "endLine": 89,
+                        "snippet": {
+                            "text": "        FileOutputStream fos = new FileOutputStream(f);"
+                        },
+                        "startColumn": 53,
+                        "startLine": 89
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to write to its contents. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files at an arbitrary filesystem location\ncould be modified. This rule identifies potential path traversal vulnerabilities. In many\ncases, the constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_OUT-1.PATH_TRAVERSAL_OUT-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not recognized that the input prefix and suffix are hardcoded internal values."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "981e237a76a2b38a623ba76362178c72a75e53b47afd6c08d1cf410660c890a84dfd4d931b437b2cb1b8737bca42e8ce2260f18d7aac3102fb2e8acf750f63f8_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/app/itemimport/BatchUpload.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 80,
+                        "endLine": 127,
+                        "snippet": {
+                            "text": "        LineNumberReader reader = new LineNumberReader(new FileReader(filename));"
+                        },
+                        "startColumn": 56,
+                        "startLine": 127
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, the dir is on user's local fs and the file name is hardcoded to write error logs."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "e93e0dff49e067c6f46c4e4dbe88f7d794d9b8cf36746a5a56080fce7a35de9ca7422d226269f88699930784d767bf431ffa5957b198e49142e2540e9aebd3f1_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/app/statistics/ReportGenerator.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 41,
+                        "endLine": 590,
+                        "snippet": {
+                            "text": "                fr = new FileReader(map);"
+                        },
+                        "startColumn": 22,
+                        "startLine": 590
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not recognized that the map file are all NULL in this real project."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "fba5d8d651e7d95bfd21b0025afd08aae7350dbeef00d3d332b60e9f51d10538e6d9de53f43c576566e0a47d6c2c8a40d2f4304bb15afb51a55ba48045bb5499_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/ClassicDSpaceLogConverter.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 62,
+                        "endLine": 125,
+                        "snippet": {
+                            "text": "                input = new BufferedReader(new FileReader(in));"
+                        },
+                        "startColumn": 44,
+                        "startLine": 125
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, this code is used to convert log format on user's fs, not traversal on server file system."
+    }
+]

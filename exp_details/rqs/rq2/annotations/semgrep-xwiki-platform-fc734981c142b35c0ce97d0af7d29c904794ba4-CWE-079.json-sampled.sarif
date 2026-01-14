@@ -1,0 +1,33 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "2c081515aafbb263814514db39a8d87fc5694474520e3340c43cdfa89fcf6cc992c8f52ba02321c8f830bb7967c5321263c7d14da7914791e9469eff0fec5d83_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/xwiki-platform/xwiki-platform-core/xwiki-platform-web/xwiki-platform-web-war/src/main/webapp/resources/uicomponents/extension/history.js",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 70,
+                        "endLine": 229,
+                        "snippet": {
+                            "text": "      replayStatusURL += replayStatusURL.indexOf('?') < 0 ? '?' : '&';"
+                        },
+                        "startColumn": 7,
+                        "startLine": 229
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "User controlled data in a HTML string may result in XSS"
+        },
+        "properties": {},
+        "ruleId": "javascript.browser.security.raw-html-concat.raw-html-concat",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, the replayStatusURL variable is from internal source `window.location.href` which is not controllable by attacker."
+    }
+]

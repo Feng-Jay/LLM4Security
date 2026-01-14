@@ -1,0 +1,157 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "a3f82346d67beb9ddd7a6609635ef7176d6f43481dcbe04f1c830360e767eef8045edfe1deb920d9e0bfa7a09da2bf5c83b050d9d4fa8ca0b6c7c6d2f2c72c28_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/spark/src/main/java/spark/resource/ExternalResource.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 41,
+                        "endLine": 67,
+                        "snippet": {
+                            "text": "        return new FileInputStream(file);"
+                        },
+                        "startColumn": 16,
+                        "startLine": 67
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! In the real project the file parameter is from internal logic or hardcoded."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "c1db2590c2959f78594ffbbf855cb47cd0c5a737851e50388789208042b8826a0c4f2f771530ca2e38cec5be0abf6c1e4f0d03019c36b2cd0938c48307835835_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/spark/src/main/java/spark/utils/ResourceUtils.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 45,
+                        "endLine": 182,
+                        "snippet": {
+                            "text": "            return new File(resourceLocation);"
+                        },
+                        "startColumn": 29,
+                        "startLine": 182
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! In the real project, the urls are first sanitized to avoid path traversal, and then confined to internal dirs. Thus this is a FP."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "d569628c5cbac9d18071b081b92388a1e58242082423d6243490d6653742750eaa95089dafce144d89e88d3bc80bb07e436e702fe3b603ce486d349be17199b2_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/spark/src/main/java/spark/staticfiles/DirectoryTraversal.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 27,
+                        "endLine": 27,
+                        "snippet": {
+                            "text": "    \treturn Paths.get(path).toAbsolutePath().toString().replace(\"\\\\\", \"/\");"
+                        },
+                        "startColumn": 23,
+                        "startLine": 27
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, this sink will just convert path to abs and then in the project these paths are sanitized."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "efd8a676bae954758779678c8de49b5825722193904dea259f3dc997d632cadfb939a8467d289b20d6891444c5ae035934d81aba642d539515266c3683b6580f_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/spark/src/main/java/spark/utils/ResourceUtils.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 49,
+                        "endLine": 143,
+                        "snippet": {
+                            "text": "                return new File(resourceLocation).toURI().toURL();"
+                        },
+                        "startColumn": 33,
+                        "startLine": 143
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! In the real project, the resourceLocation are provided by internal data."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "fee673f4944d2be9b8057d86056d2816c74aafb1258127279b705838c4b9edf9cabcfb4f8bb0c2a529a5814edd903fa43b741bea274c6f738c1da81baac8d12f_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/spark/src/main/java/spark/staticfiles/StaticFilesFolder.java",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 49,
+                        "endLine": 28,
+                        "snippet": {
+                            "text": "        String unixLikeFolder = Paths.get(folder).toAbsolutePath().toString().replace(\"\\\\\", \"/\");"
+                        },
+                        "startColumn": 43,
+                        "startLine": 28
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "A file is opened to read its content. The filename comes from an input parameter. If an\nunfiltered parameter is passed to this file API, files from an arbitrary filesystem location\ncould be read. This rule identifies potential path traversal vulnerabilities. In many cases,\nthe constructed file path cannot be controlled by the user.\n"
+        },
+        "properties": {},
+        "ruleId": "gitlab.find_sec_bugs.PATH_TRAVERSAL_IN-1",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics, this api is deprecated."
+    }
+]

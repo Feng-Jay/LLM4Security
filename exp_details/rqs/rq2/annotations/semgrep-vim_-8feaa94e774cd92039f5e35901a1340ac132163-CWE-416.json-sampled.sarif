@@ -1,0 +1,64 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "f519e02a1db7c4543453bcd8ef677e16a01647eadf6f829e787b69357980d93a80c3a92d4c53c587a5b8879909148653e19a52d7489d46badddc66f7d9777c88_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/vim/src/autocmd.c",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 21,
+                        "endLine": 3270,
+                        "snippet": {
+                            "text": "\t\t\t\tdelete | replace, group, 0) == FAIL)"
+                        },
+                        "startColumn": 5,
+                        "startLine": 3270
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "This expression points to memory that has been freed. This can lead to a segmentation fault or memory corruption."
+        },
+        "properties": {},
+        "ruleId": "cpp.lang.security.use-after-free.local-variable-new-delete.local-variable-new-delete",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics of this code, the delete is an int variable, not a delete operation. Thus, this is a false positive."
+    },
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "ac97dbdac8c37bd64b947d8839e8fadf59868fd9d03d17e42aa290fc6139c84aea51006dd8308513df7a526e9ef0c87f249c0f45969b5341f50a662f22b4d27d_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/vim/src/autocmd.c",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 13,
+                        "endLine": 3221,
+                        "snippet": {
+                            "text": "\t\tif (do_autocmd_event(event, pat, once, nested, cmd, delete,\n\t\t\t\t\t\t\tgroup, 0) == FAIL)"
+                        },
+                        "startColumn": 55,
+                        "startLine": 3220
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "This expression points to memory that has been freed. This can lead to a segmentation fault or memory corruption."
+        },
+        "properties": {},
+        "ruleId": "cpp.lang.security.use-after-free.local-variable-new-delete.local-variable-new-delete",
+        "is_human_confirmed_true": false,
+        "reason": "Semgrep do not understand the semantics of this code, the fromer 'delete' is an int variable, not a delete operation. And all args in this function call are either pointers not been freed or simple int variables. Thus, this is a false positive."
+    }
+]

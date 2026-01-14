@@ -1,0 +1,33 @@
+[
+    {
+        "fingerprints": {
+            "matchBasedId/v1": "d6bc19a4cff4135f8562ddebc3472ecdd2a5f922fde40c3a4f420cf5c49d4a0c0355ec1c8ad2956c51e859e849b74a932b8631e3f5eccb24ba786eb3334b87b7_0"
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "/data/jiangjiajun/LLM4Security/data/projects/jenkins/src/main/js/plugin-manager-ui.js",
+                        "uriBaseId": "%SRCROOT%"
+                    },
+                    "region": {
+                        "endColumn": 49,
+                        "endLine": 50,
+                        "snippet": {
+                            "text": "      tbody.insertAdjacentHTML(\"beforeend\", rows);"
+                        },
+                        "startColumn": 45,
+                        "startLine": 50
+                    }
+                }
+            }
+        ],
+        "message": {
+            "text": "Detection of insertAdjacentHTML from non-constant definition. This can inadvertently expose users to cross-site scripting (XSS) attacks if this comes from user-provided input. If you have to use insertAdjacentHTML, consider using a sanitization library such as DOMPurify to sanitize your HTML."
+        },
+        "properties": {},
+        "ruleId": "typescript.react.security.audit.react-unsanitized-method.react-unsanitized-method",
+        "is_human_confirmed_true": false,
+        "reason": "Context is limited! Semgrep do not understand how the rows are used to build HTML. In the proeject, rows is built with hbs templates, which is safe."
+    }
+]

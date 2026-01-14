@@ -1,0 +1,25 @@
+Uncontrolled data used in path expression,Accessing paths influenced by users can allow an attacker to access unexpected resources.,error,"This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:50:31:50:54""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:51:28:51:48""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:54:27:54:50""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:55:24:55:44""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/servlet/FilterTools.java:34:23:34:45""]].",/src/main/java/spark/resource/AbstractFileResolvingResource.java,112,44,112,47, "FALSE; CodeQL do not undestand the semantics, this sink only check the file's status, will not used to acquire any permission."
+Uncontrolled data used in path expression,Accessing paths influenced by users can allow an attacker to access unexpected resources.,error,"This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:50:31:50:54""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:51:28:51:48""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:54:27:54:50""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:55:24:55:44""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/servlet/FilterTools.java:34:23:34:45""]].",/src/main/java/spark/resource/ExternalResource.java,67,36,67,39, "FALSE; In the real project, the used data are sanitized."
+Uncontrolled data used in path expression,Accessing paths influenced by users can allow an attacker to access unexpected resources.,error,"This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:50:31:50:54""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:51:28:51:48""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:54:27:54:50""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:55:24:55:44""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/servlet/FilterTools.java:34:23:34:45""]].",/src/main/java/spark/resource/ExternalResource.java,52,16,52,19, "FALSE; CodeQL do not undestand the semantics, this sink will only used to check the status of file, will not cause path traversal"
+Uncontrolled data used in path expression,Accessing paths influenced by users can allow an attacker to access unexpected resources.,error,"This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:50:31:50:54""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:51:28:51:48""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:54:27:54:50""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:55:24:55:44""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/servlet/FilterTools.java:34:23:34:45""]].",/src/main/java/spark/resource/AbstractFileResolvingResource.java,112,25,112,28, "FALSE; CodeQL do not undestand the semantics, this sink will only used to check the status of file, will not cause path traversal"
+Uncontrolled data used in path expression,Accessing paths influenced by users can allow an attacker to access unexpected resources.,error,"This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:50:31:50:54""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:51:28:51:48""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:54:27:54:50""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/resource/AbstractResourceHandler.java:55:24:55:44""]].
+This path depends on a [[""user-provided value""|""relative:///src/main/java/spark/servlet/FilterTools.java:34:23:34:45""]].",/src/main/java/spark/resource/ExternalResource.java,57,16,57,19, "FALSE; CodeQL do not undestand the semantics, this sink will only used to check the status of file, will not cause path traversal"
