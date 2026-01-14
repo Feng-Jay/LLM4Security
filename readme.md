@@ -1,65 +1,96 @@
 # LLM4Security
 
-## How to run
+This repository contains the replication package for our empirical study:
 
-```bash
-git clone --recursive https://github.com/Feng-Jay/LLM4Security.git {path to your local repo}
-cd {path to your local repo}
-pip install -r requirements.txt
-# clone projects, you can skip linux to avoid long time cloning, use mirror in https://mirrors.tuna.tsinghua.edu.cn/help/linux.git/
-cd src && python setup.py 
+**LLM-based Vulnerability Detection at Project Scale: An Empirical Study**
 
-# If you forget to add the --recursive flag during clone, you can run the following command to update submodules
-git submodule update --init --recursive
-```
+It includes evaluation scripts, prompts/configurations, and datasets metadata used to compare multiple project-scale LLM-based vulnerability detectors with traditional static analyzers on two complementary settings:
+1) an **in-house benchmark** of known real-world vulnerabilities, and  
+2) a set of **recent, actively maintained real-world projects** for analyzing false positives and practical usability.
 
-If we want to modify the submodules, you can modify the submodule and give me a pull request.
+> Note: Some result artifacts (e.g., large logs / SARIF) may be tracked via Google Drive links in the `exp_details` directory due to GitHub file size limits.
 
-## Selected Methods
+---
+
+## Repository Structure (High Level)
+
+- `appendix/`
+  Appendix materials for the paper.
+- `exp_details/`  
+  Experiment configuration, tool outputs, and intermediate results.  
+  - `exp_details/results/` may contain large artifacts (logs/SARIF).
+- `data/`
+  Dataset metadata, project lists, and vulnerability instance lists.
+- `figs/`  
+  Figures and visualizations used in the paper.
+- `resources/`  
+  Supporting resources such as codeql and semgrep rule sets, and linux-kernel patches to make it compilable.
+- `src/`  
+  Our evaluation framework to run tools easily on target benchmark.
+
+---
+
+## Evaluated Methods
 
 | Candidate Methods | Methodology       | Supported PLs                     | Vulnerability Types                                          | Evaluated BenchMark           | Project Level？   | Link |
 | ----------------- | ----------------- | --------------------------------- | ------------------------------------------------------------ | ----------------------------- | ----------------- | ----------------- |
 | RepoAudit ✅       | LLM               | C/Cpp, Java, Python, Go           | NPD, MLK, UAF                                                | Many Real-world Projects      | YES               |https://github.com/PurCL/RepoAudit |
-| KNighter 📋         | LLM + SAST        | C/Cpp                             | Any (NPD, IntOver, Misuse, Concurrency, MemLeak, BufOver, OOB, UAF, UBI) | Linux Kernel                  | YES               | https://github.com/ise-uiuc/KNighter                 |
-| ~~LLift~~             | ~~SAST + LLM~~     | ~~C/Cpp~~                             | ~~UBI~~                                                          | ~~Linux Kernel~~                  | ~~YES~~               | https://github.com/seclab-ucr/LLift |
-| LLMDFA 📋            | LLM + Validator   | Java, C/Cpp (partially supported) | APT, DBZ, OSCI, XSS                                          | Juliet Test Suite, TaintBench | YES               | https://github.com/chengpeng-wang/LLMDFA |
+| KNighter ✅         | LLM + SAST        | C/Cpp                             | Multi | Linux Kernel                  | YES               | https://github.com/ise-uiuc/KNighter                 |
+| LLMDFA ✅            | LLM + Validator   | Java, C/Cpp (partially supported) | APT, OSCI, XSS                                          | Juliet Test Suite, TaintBench | YES               | https://github.com/chengpeng-wang/LLMDFA |
 | IRIS ✅              | LLM + SAST        | Java                              | APT, OSCI, XSS, Code Injection                               | CWE-Bench-Java                | YES               | https://github.com/iris-sast/iris |
 | INFERROI ✅          | LLM or LLM + SAST | Java                              | Resource Leak                                                | JLeaks,                       | YES (with codeql) | https://github.com/cs-wangchong/InferROI-Replication |
-| LLMSAN 📋           | LLM               | Java                              | APT, XSS, OSCI, DBZ, NPD                                     |                               | YES               | https://github.com/chengpeng-wang/LLMSAN |
+| CodeQL ✅           | Static Analyzer   | C/Cpp, Java                       | All above        | Many Real-world Projects      | YES               | https://codeql.github.com/
+| Semgrep ✅          | Static Analyzer   | C/Cpp, Java                       | All above        | Many Real-world Projects      | YES               | https://semgrep.dev/
 
+## Requirements
 
-## Evaluation Criteria
+### System
+- Linux / macOS (recommended)
+- Python 3.11+
 
-### In-house Evaluation
+## How to run
 
-This evaluation setting aims to evaluate the effectiveness of selected baselines on already known vulnerabilities. In this way, we can easily compare the performance of different methods on the same set of vulnerabilities.
+Since our repo contains several submodules, please first clone it with `--recursive` flag:
 
-It should be noted that we should give each type of CWE a benchmark to fit all above methods.
+```bash
+git clone --recursive https://github.com/Feng-Jay/LLM4Security.git {path to your local repo}
+```
 
-#### Important Vulnerabilities Types
+Then, install the required python packages and setup the project:
 
-> [!NOTE]
-> Filtered by referencing [2024 Top-25 Most Dangerous SWE leaderboard](https://cwe.mitre.org/top25/archive/2024/2024_cwe_top25.html):
+```bash
+cd {path to your local repo}
+pip install -r requirements.txt
+```
+In case you forget to add the --recursive flag during clone, you can run the following command to update submodules
 
-C/CPP: NPD, MLK, UAF, UBI, IntOver, OOB
+```bash
+git submodule update --init --recursive
+```
 
-There are some already known vulnerability reports:
+Then run a specific tool by modifying corresponding configuration files.
 
-- [existing reports#1](https://github.com/fusion-scan/fusion-scan.github.io/blob/master/index.html): contains NPD, MLK, UAF vulnerabilities.
+For example, to run RepoAudit on the in-house benchmark, you can modify the `example.yaml` and `repoaudit.yaml` like this:
 
-- [existing reports#2](https://dl.acm.org/doi/10.1145/3368089.3409686): contains 8 UBI vulnerabilities in Linux Kernel.
+```yaml
+# example.yaml
+tool: "repoaudit"
 
-- [existing reports#3](https://link.springer.com/content/pdf/10.1186/s42400-020-00058-2.pdf): contains 8 IntOver vulnerabilities in Linux Kernel.
+tools:
+  repoaudit:
+    # configurations fit your environment
+  ...
+```
 
-- [existing reports#4](https://www.usenix.org/system/files/sec20-chen-weiteng.pdf): contains 8 OOB vulnerabilities in Linux Kernel.
+```yaml
+# repoaudit.yaml
+repoaudit_path: /path/to/LLM4Security/src/dependencies/RepoAudit_main/src
+project_path: /path/to/LLM4Security/data/projects/linux
+vul_type: NPD
+model_name: claude-3.5
+```
+Then, you can run the evaluation script:
 
-
-Java: XSS, OSCI, APT, Code Injection, NPD, Resource Leak (CWE-400)
-
-- [existing reports#1](https://github.com/iris-sast/cwe-bench-java/tree/698fb7248ae30cb7f7782d59c841f05ad70ea9cc): contains XSS, OSCI, APT and Code Injection vulnerabilities in Java.
-
-- [existing reports#2](https://github.com/ucd-plse/Static-Bug-Detectors-ASE-Artifact/blob/main/INSTALL.md): contains 102 NPD vulnerabilities in Java.
-
-- [existing reports#3](https://github.com/Dcollectors/JLeaks): contains 1,094 Resource Leak vulnerabilities in Java. 
-
-### Real-world Projects
+```bash
+cd src/ && python main.py
+```
