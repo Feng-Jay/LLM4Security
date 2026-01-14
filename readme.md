@@ -15,7 +15,7 @@ It includes evaluation scripts, prompts/configurations, and datasets metadata us
 
 ## Repository Structure
 
-- `appendix/`
+- `appendix/`  
   Appendix materials for the paper.
 - `exp_details/`  
   Experiment logs, tool outputs, and detailed results for each RQ.  
