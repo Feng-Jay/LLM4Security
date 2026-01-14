@@ -16,7 +16,7 @@ for line in lines:
     object.pop("windows_after")
     object["localization"] = ""
     vuls.append(object)
-print(set(cwes))
+# print(set(cwes))
 
 # get cwe-190s
 # cwe_190s = [vul for vul in vuls if "CWE-190" in vul["cwe_id"]]
@@ -40,11 +40,23 @@ print(set(cwes))
 #     f.write(json.dumps(cwe_416s, indent=4))
 
 # get cwe_476s
-cwe_476s = [vul for vul in vuls if "CWE-476" in vul["cwe_id"]]
+cwe_476s = [vul for vul in vuls if "CWE-78" in vul["cwe_id"]]
 cwe_476s.sort(key=lambda x: x["cve_id"])
-print(len(cwe_476s))
-with open("./in_house/java/cwe_476_NPD.json", "w") as f:
-    f.write(json.dumps(cwe_476s, indent=4))
+# print(len(cwe_476s))
+projects = dict()
+
+for item in cwe_476s:
+    project = item["project"]
+    if project not in projects:
+        projects[project] = 1
+    else:
+        projects[project] += 1
+
+sorted_projects = sorted(projects.items(), key=lambda x: x[1], reverse=True)
+
+print(sorted_projects[:])
+# with open("./in_house/java/cwe_476_NPD.json", "w") as f:
+#     f.write(json.dumps(cwe_476s, indent=4))
 
 # get cwe_787 or 125
 # cwe_787_125s = [

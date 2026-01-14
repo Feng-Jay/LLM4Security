@@ -1,0 +1,58 @@
+tool: "repoaudit"
+
+tools:
+  repoaudit:
+    vulnerability: "CWE-476"
+    vulnerability_info_file: "../data/real_world/c/reposvul_vulnerabilities.json"
+    projects_dir: "/path/to/projects/"
+    log: "../logs/repoaudit_inhouse/"
+    results: "../results/repoaudit_inhouse/"
+    order: 0
+
+  knighter:
+    vulnerability: "CWE-476"
+    vulnerability_info_file: "../data/in_house/c/reposvul_vulnerabilities.json"
+    projects_dir: "../data/projects/"
+    log: "../logs/knighter_inhouse/"
+    results: "../results/knighter_inhouse/"
+    order: 0
+
+  iris:
+    vulnerability: "CWE-094"
+    vulnerability_info_file: "../data/in_house/java/project_info.csv"
+    projects_dir: "/path/to/LLM4Security/data/projects"
+    log: "../logs/iris_inhouse/"
+    results: "../results/iris_inhouse/"
+    order: 0
+
+  llmdfa:
+    vulnerability: "CWE-079"
+    vulnerability_info_file: "../data/in_house/java/project_info.csv"
+    projects_dir: "/path/to/LLM4Security/data/projects"
+    log: "../logs/llmdfa_inhouse/"
+    results: "../results/llmdfa_inhouse/"
+    order: 0
+  
+  inferroi:
+    vulnerability: "jleaks"
+    vulnerability_info_file: "../data/in_house/java/jleaks_vulnerabilities.json"
+    projects_dir: "/path/to/LLM4Security/data/projects"
+    log: "../logs/inferroi_inhouse/"
+    results: "../results/inferroi_inhouse/"
+    order: 0
+
+  codeql:
+    vulnerability: "CWE-094"
+    vulnerability_info_file: "../data/in_house/java/project_info.csv"
+    projects_dir: "/path/to/LLM4Security/data/projects"
+    log: "../logs/codeql_inhouse/"
+    results: "../results/codeql_inhouse/"
+    order: 0
+
+  semgrep:
+    vulnerability: "jleaks"
+    vulnerability_info_file: "../data/in_house/java/jleaks_vulnerabilities"
+    projects_dir: "/path/to/LLM4Security/data/projects"
+    log: "../logs/semgrep_inhouse/"
+    results: "../results/semgrep_inhouse/"
+    order: 0

@@ -24,18 +24,32 @@ for line in lines:
 #     f.write(json.dumps(cwe_190s, indent=4))
 
 # get cwe_401s
-# cwe_401s = [vul for vul in vuls if "CWE-401" in vul["cwe_id"]]
+# cwe_401s = [vul for vul in vuls if "CWE-476" in vul["cwe_id"]]
 # cwe_401s.sort(key=lambda x: x["cve_id"])
+
+# projects = dict()
+
+# for item in cwe_401s:
+#     project = item["project"]
+#     if project not in projects:
+#         projects[project] = 1
+#     else:
+#         projects[project] += 1
+
+# sorted_projects = sorted(projects.items(), key=lambda x: x[1], reverse=True)
+
+# print(sorted_projects[:])
+
 # print(len(cwe_401s))
 # with open("./in_house/c/cwe_401_MLk_linux.json", "w") as f:
 #     f.write(json.dumps(cwe_401s, indent=4))
 
 # get cwe_416s
-cwe_416s = [vul for vul in vuls if "CWE-416" in vul["cwe_id"]]
+cwe_416s = [vul for vul in vuls if "CWE-476" in vul["cwe_id"]]
 cwe_416s.sort(key=lambda x: x["cve_id"])
 print(len(cwe_416s))
-with open("./in_house/c/cwe_416_UAF_linux_new.json", "w") as f:
-    f.write(json.dumps(cwe_416s, indent=4))
+# with open("./in_house/c/cwe_416_UAF_linux_new.json", "w") as f:
+#     f.write(json.dumps(cwe_416s, indent=4))
 
 # get cwe_476s
 # cwe_476s = [vul for vul in vuls if "CWE-476" in vul["cwe_id"]]

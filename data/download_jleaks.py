@@ -75,7 +75,36 @@ def download_jleaks_data():
     pass
 
 
+def make_url_file():
+    csv_file = "./in_house/java/JLeaks.csv"
+    df = pd.read_csv(csv_file)
+    commit_to_url = {}
+    for index, row in df.iterrows():
+        repo_name = row['projects'].split('/')[-1]
+        commit_id = row['commit url'].split('/')[-1]
+        tmp_key = repo_name + "_" + commit_id
+        if tmp_key in commit_to_url:
+            continue
+        commit_to_url[tmp_key] = row['commit url']
+    
+    with open("./in_house/java/jleaks_urls.txt", "w") as f:
+        sub_files = list(Path("../src/dependencies/INFERROI/log/").iterdir())
+        import re
+        def natural_key(s: str):
+            return [int(t) if t.isdigit() else t.lower()
+                    for t in re.split(r'(\d+)', s)]
+        sub_files.sort(key=lambda x: natural_key(x.stem))
+        for result in sub_files:
+            if result.suffix != ".log":
+                continue
+            parts = result.stem.split("-")
+            tmp_key = "-".join(parts[1:])
+            f.write(commit_to_url[tmp_key] + "\n")
+
+
+
+
 if __name__ == "__main__":
     # extract_jleaks_data()
-    download_jleaks_data()
-    
+    # download_jleaks_data()
+    make_url_file()

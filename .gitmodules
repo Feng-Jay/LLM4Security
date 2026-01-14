@@ -14,11 +14,7 @@
 	path = src/dependencies/iris
 	url = https://github.com/Feng-Jay/iris.git
 	branch = master
-[submodule "src/dependencies/RepoAudit"]
-	path = src/dependencies/RepoAudit
-	url = https://github.com/Feng-Jay/RepoAudit1.git
-	branch = master
-[submodule "src/dependencies/LLMSAN"]
-	path = src/dependencies/LLMSAN
-	url = https://github.com/Feng-Jay/LLMSAN.git
+[submodule "src/dependencies/RepoAudit_main"]
+	path = src/dependencies/RepoAudit_main
+	url = https://github.com/Feng-Jay/RepoAudit_main.git
 	branch = master

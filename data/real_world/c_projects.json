@@ -1,0 +1,64 @@
+{
+    "CWE-401": [
+        {
+            "repo_name": "linux",
+            "commit_id": "6093a688a07da07808f0122f9aa2a3eed250d853",
+            "repo_link": "https://www.github.com/torvalds/linux.git",
+            "localization": "sound/"
+        },
+
+        {
+            "repo_name": "linux",
+            "commit_id": "6093a688a07da07808f0122f9aa2a3eed250d853",
+            "repo_link": "https://www.github.com/torvalds/linux.git",
+            "localization": "mm"
+        },
+
+        {
+            "repo_name": "ImageMagick",
+            "commit_id": "3bf1076d748a5ec40073685ce71ca9222cf0b00c",
+            "repo_link": "https://github.com/ImageMagick/ImageMagick.git",
+            "localization": ""
+        }
+    ],
+    "CWE-416": [
+        {
+            "repo_name": "linux",
+            "commit_id": "6093a688a07da07808f0122f9aa2a3eed250d853",
+            "repo_link": "https://www.github.com/torvalds/linux.git",
+            "localization": "net/"
+        },
+        {
+            "repo_name": "linux",
+            "commit_id": "6093a688a07da07808f0122f9aa2a3eed250d853",
+            "repo_link": "https://www.github.com/torvalds/linux.git",
+            "localization": "drivers/net/"
+        },
+        {
+            "repo_name": "vim",
+            "commit_id": "8feaa94e774cd92039f5e35901a1340ac132163f",
+            "repo_link": "https://github.com/vim/vim.git",
+            "localization": ""
+        }
+    ],
+    "CWE-476": [
+        {
+            "repo_name": "linux",
+            "commit_id": "6093a688a07da07808f0122f9aa2a3eed250d853",
+            "repo_link": "https://www.github.com/torvalds/linux.git",
+            "localization": "drivers/peci/"
+        },
+        {
+            "repo_name": "gpac",
+            "commit_id": "c6a72c35aadadd9755d177c5ffc51b3e2b5f9268",
+            "repo_link": "https://github.com/gpac/gpac.git",
+            "localization": ""
+        },
+        {
+            "repo_name": "bitlbee",
+            "commit_id": "8af06ca5362445ff6379aca028b79c607ed77f90",
+            "repo_link": "https://github.com/bitlbee/bitlbee.git",
+            "localization": ""
+        }
+    ]
+}

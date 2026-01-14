@@ -991,6 +991,7 @@
             "cwe_id": [
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "An issue was discovered in ksmbd in the Linux kernel 5.15 through 5.19 before 5.19.2. fs/ksmbd/smb2pdu.c omits a kfree call in certain smb2_handle_negotiate error conditions, aka a memory leak.",
             "cvss": "7.5",
@@ -1027,6 +1028,7 @@
             "cwe_id": [
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "An issue was discovered in the Linux kernel before 5.16.5. There is a memory leak in yam_siocdevprivate in drivers/net/hamradio/yam.c.",
             "cvss": "5.5",
@@ -1063,6 +1065,7 @@
             "cwe_id": [
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "An issue was discovered in the Linux kernel before 5.15.11. There is a memory leak in the __rds_conn_create() function in net/rds/connection.c in a certain combination of circumstances.",
             "cvss": "5.5",
@@ -1100,6 +1103,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the sof_set_get_large_ctrl_data() function in sound/soc/sof/ipc.c in the Linux kernel through 5.3.9 allows attackers to cause a denial of service (memory consumption) by triggering sof_get_ctrl_copy_params() failures, aka CID-45c1380358b1.",
             "cvss": "5.5",
@@ -1137,6 +1141,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the sof_dfsentry_write() function in sound/soc/sof/debug.c in the Linux kernel through 5.3.9 allows attackers to cause a denial of service (memory consumption), aka CID-c0a333d842ef.",
             "cvss": "7.5",
@@ -1174,6 +1179,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the af9005_identify_state() function in drivers/media/usb/dvb-usb/af9005.c in the Linux kernel through 5.3.9 allows attackers to cause a denial of service (memory consumption), aka CID-2289adbfa559.",
             "cvss": "4.6",
@@ -1211,6 +1217,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the crypto_report() function in crypto/crypto_user_base.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering crypto_report_alg() failures, aka CID-ffdde5932042.",
             "cvss": "4.7",
@@ -1248,6 +1255,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the adis_update_scan_mode() function in drivers/iio/imu/adis_buffer.c in the Linux kernel before 5.3.9 allows attackers to cause a denial of service (memory consumption), aka CID-ab612b1daf41.",
             "cvss": "7.5",
@@ -1285,6 +1293,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the adis_update_scan_mode_burst() function in drivers/iio/imu/adis_buffer.c in the Linux kernel before 5.3.9 allows attackers to cause a denial of service (memory consumption), aka CID-9c0530e898f3.",
             "cvss": "7.5",
@@ -1322,6 +1331,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the alloc_sgtable() function in drivers/net/wireless/intel/iwlwifi/fw/dbg.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering alloc_page() failures, aka CID-b4b814fec1a5.",
             "cvss": "4.7",
@@ -1359,6 +1369,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "Multiple memory leaks in the iwl_pcie_ctxt_info_gen3_init() function in drivers/net/wireless/intel/iwlwifi/pcie/ctxt-info-gen3.c in the Linux kernel through 5.3.11 allow attackers to cause a denial of service (memory consumption) by triggering iwl_pcie_init_fw_sec() or dma_alloc_coherent() failures, aka CID-0f4f199443fa.",
             "cvss": "4.7",
@@ -1396,6 +1407,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "Two memory leaks in the mwifiex_pcie_init_evt_ring() function in drivers/net/wireless/marvell/mwifiex/pcie.c in the Linux kernel through 5.3.11 allow attackers to cause a denial of service (memory consumption) by triggering mwifiex_map_pci_memory() failures, aka CID-d10dcb615c8e.",
             "cvss": "3.3",
@@ -1433,6 +1445,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the mwifiex_pcie_alloc_cmdrsp_buf() function in drivers/net/wireless/marvell/mwifiex/pcie.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering mwifiex_map_pci_memory() failures, aka CID-db8fd2cde932.",
             "cvss": "4.7",
@@ -1470,6 +1483,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "** DISPUTED ** A memory leak in the nl80211_get_ftm_responder_stats() function in net/wireless/nl80211.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering nl80211hdr_put() failures, aka CID-1399c59fa929. NOTE: third parties dispute the relevance of this because it occurs on a code path where a successful allocation has already occurred.",
             "cvss": "5.5",
@@ -1507,6 +1521,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the fastrpc_dma_buf_attach() function in drivers/misc/fastrpc.c in the Linux kernel before 5.3.9 allows attackers to cause a denial of service (memory consumption) by triggering dma_get_sgtable() failures, aka CID-fc739a058d99.",
             "cvss": "7.5",
@@ -1544,6 +1559,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the ccp_run_sha_cmd() function in drivers/crypto/ccp/ccp-ops.c in the Linux kernel through 5.3.9 allows attackers to cause a denial of service (memory consumption), aka CID-128c66429247.",
             "cvss": "5.5",
@@ -1581,6 +1597,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "** DISPUTED ** Four memory leaks in the acp_hw_init() function in drivers/gpu/drm/amd/amdgpu/amdgpu_acp.c in the Linux kernel before 5.3.8 allow attackers to cause a denial of service (memory consumption) by triggering mfd_add_hotplug_devices() or pm_genpd_add_device() failures, aka CID-57be09c6e874. NOTE: third parties dispute the relevance of this because the attacker must already have privileges for module loading.",
             "cvss": "4.4",
@@ -1618,6 +1635,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "Memory leaks in *clock_source_create() functions under drivers/gpu/drm/amd/display/dc in the Linux kernel before 5.3.8 allow attackers to cause a denial of service (memory consumption). This affects the dce112_clock_source_create() function in drivers/gpu/drm/amd/display/dc/dce112/dce112_resource.c, the dce100_clock_source_create() function in drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c, the dcn10_clock_source_create() function in drivers/gpu/drm/amd/display/dc/dcn10/dcn10_resource.c, the dcn20_clock_source_create() function in drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c, the dce120_clock_source_create() function in drivers/gpu/drm/amd/display/dc/dce120/dce120_resource.c, the dce110_clock_source_create() function in drivers/gpu/drm/amd/display/dc/dce110/dce110_resource.c, and the dce80_clock_source_create() function in drivers/gpu/drm/amd/display/dc/dce80/dce80_resource.c, aka CID-055e547478a1.",
             "cvss": "4.7",
@@ -1655,6 +1673,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the rtl8xxxu_submit_int_urb() function in drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering usb_submit_urb() failures, aka CID-a2cdd07488e6.",
             "cvss": "4.6",
@@ -1692,6 +1711,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "** DISPUTED ** A memory leak in the fsl_lpspi_probe() function in drivers/spi/spi-fsl-lpspi.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering pm_runtime_get_sync() failures, aka CID-057b8945f78f. NOTE: third parties dispute the relevance of this because an attacker cannot realistically control these failures at probe time.",
             "cvss": "7.5",
@@ -1729,6 +1749,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "** DISPUTED ** A memory leak in the spi_gpio_probe() function in drivers/spi/spi-gpio.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering devm_add_action_or_reset() failures, aka CID-d3b0ffa1d75d. NOTE: third parties dispute the relevance of this because the system must have already been out of memory before the probe began.",
             "cvss": "7.5",
@@ -1766,6 +1787,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "** DISPUTED ** A memory leak in the sdma_init() function in drivers/infiniband/hw/hfi1/sdma.c in the Linux kernel before 5.3.9 allows attackers to cause a denial of service (memory consumption) by triggering rhashtable_init() failures, aka CID-34b3be18a04e. NOTE: This has been disputed as not a vulnerability because \"rhashtable_init() can only fail if it is passed invalid values in the second parameter's struct, but when invoked from sdma_init() that is a pointer to a static const struct, so an attacker could only trigger failure if they could corrupt kernel memory (in which case a small memory leak is not a significant problem).\"",
             "cvss": "4.7",
@@ -1803,6 +1825,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "Two memory leaks in the rtl_usb_probe() function in drivers/net/wireless/realtek/rtlwifi/usb.c in the Linux kernel through 5.3.11 allow attackers to cause a denial of service (memory consumption), aka CID-3f9361695113.",
             "cvss": "4.6",
@@ -1840,6 +1863,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the rsi_send_beacon() function in drivers/net/wireless/rsi/rsi_91x_mgmt.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering rsi_prepare_beacon() failures, aka CID-d563131ef23c.",
             "cvss": "7.5",
@@ -1877,6 +1901,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the rsi_send_beacon() function in drivers/net/wireless/rsi/rsi_91x_mgmt.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering rsi_prepare_beacon() failures, aka CID-d563131ef23c.",
             "cvss": "7.5",
@@ -1914,6 +1939,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the bfad_im_get_stats() function in drivers/scsi/bfa/bfad_attr.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering bfa_port_get_stats() failures, aka CID-0e62395da2bd.",
             "cvss": "4.7",
@@ -1951,6 +1977,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the predicate_parse() function in kernel/trace/trace_events_filter.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption), aka CID-96c5c6e6a5b6.",
             "cvss": "4.4",
@@ -1988,6 +2015,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the ca8210_probe() function in drivers/net/ieee802154/ca8210.c in the Linux kernel before 5.3.8 allows attackers to cause a denial of service (memory consumption) by triggering ca8210_get_platform_data() failures, aka CID-6402939ec86e.",
             "cvss": "7.5",
@@ -2025,6 +2053,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "** DISPUTED ** A memory leak in the nfp_abm_u32_knode_replace() function in drivers/net/ethernet/netronome/nfp/abm/cls.c in the Linux kernel before 5.3.6 allows attackers to cause a denial of service (memory consumption), aka CID-78beef629fd9. NOTE: This has been argued as not a valid vulnerability. The upstream commit 78beef629fd9 was reverted.",
             "cvss": "5.9",
@@ -2062,6 +2091,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the nfp_flower_spawn_vnic_reprs() function in drivers/net/ethernet/netronome/nfp/flower/main.c in the Linux kernel before 5.3.4 allows attackers to cause a denial of service (memory consumption), aka CID-8ce39eb5a67a.",
             "cvss": "5.9",
@@ -2099,6 +2129,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "Four memory leaks in the nfp_flower_spawn_phy_reprs() function in drivers/net/ethernet/netronome/nfp/flower/main.c in the Linux kernel before 5.3.4 allow attackers to cause a denial of service (memory consumption), aka CID-8572cea1461a.",
             "cvss": "5.9",
@@ -2136,6 +2167,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "Memory leaks in *create_resource_pool() functions under drivers/gpu/drm/amd/display/dc in the Linux kernel through 5.3.11 allow attackers to cause a denial of service (memory consumption). This affects the dce120_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce120/dce120_resource.c, the dce110_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce110/dce110_resource.c, the dce100_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c, the dcn10_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dcn10/dcn10_resource.c, and the dce112_create_resource_pool() function in drivers/gpu/drm/amd/display/dc/dce112/dce112_resource.c, aka CID-104c307147ad.",
             "cvss": "4.7",
@@ -2173,6 +2205,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the ath10k_usb_hif_tx_sg() function in drivers/net/wireless/ath/ath10k/usb.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering usb_submit_urb() failures, aka CID-b8d17e7d93d2.",
             "cvss": "7.5",
@@ -2210,6 +2243,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the bnxt_re_create_srq() function in drivers/infiniband/hw/bnxt_re/ib_verbs.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering copy to udata failures, aka CID-4a9d46a9fe14.",
             "cvss": "5.5",
@@ -2247,6 +2281,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the qrtr_tun_write_iter() function in net/qrtr/tun.c in the Linux kernel before 5.3 allows attackers to cause a denial of service (memory consumption), aka CID-a21b7f0cff19.",
             "cvss": "7.5",
@@ -2284,6 +2319,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "A memory leak in the ath9k_wmi_cmd() function in drivers/net/wireless/ath/ath9k/wmi.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption), aka CID-728c1e2a05e4.",
             "cvss": "7.5",
@@ -2321,6 +2357,7 @@
                 "CWE-400",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "Memory leaks in drivers/net/wireless/ath/ath9k/htc_hst.c in the Linux kernel through 5.3.11 allow attackers to cause a denial of service (memory consumption) by triggering wait_for_completion_timeout() failures. This affects the htc_config_pipe_credits() function, the htc_setup_complete() function, and the htc_connect_service() function, aka CID-853acf7caf10.",
             "cvss": "4.0",
@@ -2358,6 +2395,7 @@
                 "CWE-399",
                 "CWE-401"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "An issue was discovered in the Linux kernel before 5.0.6. There is a memory leak issue when idr_alloc() fails in genl_register_family() in net/netlink/genetlink.c.",
             "cvss": "4.7",
@@ -2395,6 +2433,7 @@
                 "CWE-401",
                 "CWE-772"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 5.0.3, a memory leak exits in hsr_dev_finalize() in net/hsr/hsr_device.c if hsr_add_port fails to add a port, which may cause denial of service, aka CID-6caabe7f197d.",
             "cvss": "7.5",
@@ -2432,6 +2471,7 @@
                 "CWE-401",
                 "CWE-772"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 5.0, a memory leak exists in sit_init_net() in net/ipv6/sit.c when register_netdev() fails to register sitn->fb_tunnel_dev, which may cause denial of service, aka CID-07f12b26e21a.",
             "cvss": "4.7",
@@ -2470,6 +2510,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A use-after-free flaw was found in nfc_llcp_find_local in net/nfc/llcp_core.c in NFC in the Linux kernel. This flaw allows a local user with special privileges to impact a kernel information leak issue.",
             "cvss": "4.1",
@@ -2506,6 +2547,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A use-after-free flaw was found in xgene_hwmon_remove in drivers/hwmon/xgene-hwmon.c in the Hardware Monitoring Linux Kernel Driver (xgene-hwmon). This flaw could allow a local attacker to crash the system due to a race problem. This vulnerability could even lead to a kernel information leak problem.",
             "cvss": "6.3",
@@ -2542,6 +2584,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A flaw use after free in the Linux kernel integrated infrared receiver/transceiver driver was found in the way user detaching rc device. A local user could use this flaw to crash the system or potentially escalate their privileges on the system.",
             "cvss": "7.8",
@@ -2578,6 +2621,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A use-after-free flaw was found in reconn_set_ipaddr_from_hostname in fs/cifs/connect.c in the Linux kernel. The issue occurs when it forgets to set the free pointer server->hostname to NULL, leading to an invalid pointer request.",
             "cvss": "5.5",
@@ -2614,6 +2658,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "An issue was discovered in ksmbd in the Linux kernel 5.15 through 5.19 before 5.19.2. fs/ksmbd/smb2pdu.c has a use-after-free and OOPS for SMB2_TREE_DISCONNECT.",
             "cvss": "9.8",
@@ -2650,6 +2695,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A use-after-free flaw was found in vmxnet3_rq_alloc_rx_buf in drivers/net/vmxnet3/vmxnet3_drv.c in VMware's vmxnet3 ethernet NIC driver in the Linux Kernel. This issue could allow a local attacker to crash the system due to a double-free while cleaning up vmxnet3_rq_cleanup_all, which could also lead to a kernel information leak problem.",
             "cvss": "7.1",
@@ -2686,6 +2732,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A flaw in Linux Kernel found in nfcmrvl_nci_unregister_dev() in drivers/nfc/nfcmrvl/main.c can lead to use after free both read or write when non synchronized between cleanup routine and firmware download routine.",
             "cvss": "7.0",
@@ -2722,6 +2769,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A flaw was found in the MCTP protocol in the Linux kernel. The function mctp_unregister() reclaims the device's relevant resource when a netcard detaches. However, a running routine may be unaware of this and cause the use-after-free of the mdev->addrs object, potentially leading to a denial of service.",
             "cvss": "4.7",
@@ -2748,7 +2796,7 @@
             "repo_name": "linux",
             "commit_id": "4e0f718daf97d47cf7dec122da1be970f145c809^",
             "repo_link": "https://www.github.com/torvalds/linux.git",
-            "localization": "",
+            "localization": "net/",
             "src_localization": "net/ax25/af_ax25.c",
             "sink_localization": "net/ax25/af_ax25.c",
             "src_api": "sock_put",
@@ -2759,6 +2807,7 @@
                 "CWE-476",
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A flaw was found in the Linux kernel. This flaw allows an attacker to crash the Linux kernel by simulating amateur radio from the user space, resulting in a null-ptr-deref vulnerability and a use-after-free vulnerability.",
             "cvss": "7.5",
@@ -2794,6 +2843,7 @@
             "cwe_id": [
                 "CWE-416"
             ],
+            "range": "intra",
             "cve_language": "C",
             "cve_description": "An issue was discovered in the Linux kernel before 5.0.10. SMB2_write in fs/cifs/smb2pdu.c has a use-after-free.",
             "cvss": "3.3",
@@ -2835,6 +2885,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "** DISPUTED ** In the Linux kernel before 6.2, mm/memory-tiers.c misinterprets the alloc_memory_type return value (expects it to be NULL in the error case, whereas it is actually an error pointer). NOTE: this is disputed by third parties because there are no realistic cases in which a user can cause the alloc_memory_type error case to be reached.",
             "cvss": "5.5",
@@ -2871,6 +2922,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 6.1.2, kernel/module/decompress.c misinterprets the module_get_next_page return value (expects it to be NULL in the error case, whereas it is actually an error pointer).",
             "cvss": "5.5",
@@ -2907,6 +2959,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "In nf_tables_updtable, if nf_tables_table_enable returns an error, nft_trans_destroy is called to free the transaction object. nft_trans_destroy() calls list_del(), but the transaction was never placed on a list -- the list head is all zeroes, this results in a NULL pointer dereference.",
             "cvss": "5.5",
@@ -2933,7 +2986,7 @@
             "repo_name": "linux",
             "commit_id": "15342f930ebebcfe36f2415049736a77d7d2e045^",
             "repo_link": "https://www.github.com/torvalds/linux.git",
-            "localization": "drivers/",
+            "localization": "drivers/gpu",
             "sink_localization": "drivers/gpu/drm/arm/malidp_planes.c",
             "src_localization": "drivers/dma-buf/udmabuf.c",
             "src_api": "get_sg_table",
@@ -2943,6 +2996,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 5.19, drivers/gpu/drm/arm/malidp_planes.c misinterprets the get_sg_table return value (expects it to be NULL in the error case, whereas it is actually an error pointer).",
             "cvss": "5.5",
@@ -2980,6 +3034,7 @@
                 "CWE-476",
                 "CWE-416"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A flaw was found in the Linux kernel. A NULL pointer dereference may occur while a slip driver is in progress to detach in sl_tx_timeout in drivers/net/slip/slip.c. This issue could allow an attacker to crash the system or leak internal kernel information.",
             "cvss": "7.1",
@@ -3016,6 +3071,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A NULL pointer dereference issue was found in KVM when releasing a vCPU with dirty ring support enabled. This flaw allows an unprivileged local attacker on the host to issue specific ioctl calls, causing a kernel oops condition that results in a denial of service.",
             "cvss": "5.5",
@@ -3052,6 +3108,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A NULL pointer dereference flaw in diFree in fs/jfs/inode.c in Journaled File System (JFS)in the Linux kernel. This could allow a local attacker to crash the system or leak kernel internal information.",
             "cvss": "7.1",
@@ -3088,6 +3145,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A NULL pointer dereference flaw was found in the Linux kernel\u2019s Amateur Radio AX.25 protocol functionality in the way a user connects with the protocol. This flaw allows a local user to crash the system.",
             "cvss": "4.7",
@@ -3124,6 +3182,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 5.16.3, drivers/scsi/ufs/ufs-mediatek.c misinterprets the regulator_get return value (expects it to be NULL in the error case, whereas it is actually an error pointer).",
             "cvss": "5.5",
@@ -3160,6 +3219,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 5.16.3, drivers/usb/dwc3/dwc3-qcom.c misinterprets the dwc3_qcom_create_urs_usb_platdev return value (expects it to be NULL in the error case, whereas it is actually an error pointer).",
             "cvss": "5.5",
@@ -3196,6 +3256,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 5.16.3, drivers/bluetooth/hci_qca.c misinterprets the devm_gpiod_get_index_optional return value (expects it to be NULL in the error case, whereas it is actually an error pointer).",
             "cvss": "5.5",
@@ -3232,6 +3293,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "In the Linux kernel before 5.17, drivers/phy/tegra/xusb.c mishandles the tegra_xusb_find_port_node return value. Callers expect NULL in the error case, but an error pointer is used.",
             "cvss": "5.5",
@@ -3268,6 +3330,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "A NULL pointer dereference flaw was found in the btrfs_rm_device function in fs/btrfs/volumes.c in the Linux Kernel, where triggering the bug requires \u2018CAP_SYS_ADMIN\u2019. This flaw allows a local attacker to crash the system or leak kernel internal information. The highest threat from this vulnerability is to system availability.",
             "cvss": "5.5",
@@ -3304,6 +3367,7 @@
             "cwe_id": [
                 "CWE-476"
             ],
+            "range": "inter",
             "cve_language": "C",
             "cve_description": "An issue was discovered in the Linux kernel before 5.2. There is a NULL pointer dereference in tw5864_handle_frame() in drivers/media/pci/tw5864/tw5864-video.c, which may cause denial of service, aka CID-2e7682ebfc75.",
             "cvss": "4.4",

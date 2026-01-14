@@ -1,2 +1,4 @@
-checker_dir: "/data/lifengjie/sec/src/dependencies/Knighter/results/try1/"
-llvm_dir: "/data/lifengjie/sec/data/projects/llvm-project-llvmorg-18.1.8/"
+checker_dir: "/path/to/LLM4Security/src/dependencies/Knighter/checkers_final/"
+llvm_dir: "/path/to/LLM4Security/data/projects/llvm-project-llvmorg-18.1.8/"
+commit_dir: "/path/to/LLM4Security/src/dependencies/Knighter/commits/commits.txt"
+patches_dir: "/path/to/LLM4Security/resources/linux_patches/"

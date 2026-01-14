@@ -1,2 +1,2 @@
-inferroi_dir: "/data/jiangjiajun/LLM4Security/src/dependencies/INFERROI"
-project_path : "/data/jiangjiajun/LLM4Security/data/in_house/java/projects"
+inferroi_dir: "/path/to/LLM4Security/src/dependencies/INFERROI"
+project_path : "/path/to/LLM4Security/data/projects"

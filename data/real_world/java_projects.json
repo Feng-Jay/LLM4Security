@@ -1,0 +1,90 @@
+{
+    "CWE-022": [
+        {
+            "repo_name": "OpenOLAT",
+            "commit_id": "df53b85db5c27935e7467b9d39eaac7aebf50d4a",
+            "repo_link": "https://github.com/OpenOLAT/OpenOLAT.git"
+        },
+
+        {
+            "repo_name": "spark",
+            "commit_id": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+            "repo_link": "https://github.com/perwendel/spark.git"
+        },
+
+        {
+            "repo_name": "DSpace",
+            "commit_id": "3b248012147da7cac7ac0fcd0b6b9ee0b07b5088",
+            "repo_link": "https://github.com/DSpace/DSpace.git"
+        }
+    ],
+    "CWE-078": [
+        {
+            "repo_name": "xstream",
+            "commit_id": "a22d3af9e3938fcf33bff620fd08669993e203cf",
+            "repo_link": "https://github.com/x-stream/xstream.git"
+        },
+        {
+            "repo_name": "workflow-cps-plugin",
+            "commit_id": "e4b9517bd855657c900bd1b31cde09748c7a19a7",
+            "repo_link": "https://github.com/jenkinsci/workflow-cps-plugin.git"
+        },
+        {
+            "repo_name": "tika",
+            "commit_id": "2b38ed18fa6df22a425cd96f2431b3a574044533",
+            "repo_link": "https://github.com/apache/tika.git"
+        }
+    ],
+    "CWE-079": [
+        {
+            "repo_name": "xwiki-platform",
+            "commit_id": "fc734981c142b35c0ce97d0af7d29c904794ba46",
+            "repo_link": "https://github.com/xwiki/xwiki-platform.git"
+        },
+        {
+            "repo_name": "jenkins",
+            "commit_id": "69d5a542391a0dc5c1b2ed609447bc863e7e892d",
+            "repo_link": "https://github.com/jenkinsci/jenkins.git"
+        },
+        {
+            "repo_name": "keycloak",
+            "commit_id": "4f55b9b6bd6dadfdd04cfd09eb532dfdd26d5607",
+            "repo_link": "https://github.com/keycloak/keycloak.git"
+        }
+    ],
+    "CWE-094": [
+        {
+            "repo_name": "onedev",
+            "commit_id": "b8a4d7cdc212a488fd732a675f3d6f7fc755f5a3",
+            "repo_link": "https://github.com/theonedev/onedev.git"
+        },
+        {
+            "repo_name": "activemq",
+            "commit_id": "56ea235e6e481f7408f09101dec7ae77edb40ed1",
+            "repo_link": "https://github.com/apache/activemq.git"
+        },
+        {
+            "repo_name": "cron-utils",
+            "commit_id": "bac6e866caf5f53d695a9513fc1b938b8064eaeb",
+            "repo_link": "https://github.com/jmrozanec/cron-utils.git"
+        }
+
+    ],
+    "CWE-400": [
+        {
+            "repo_name": "sql2o",
+            "commit_id": "744b85b32bcea972c8d570483e1051cd0a25f0ba",
+            "repo_link": "https://github.com/aaberg/sql2o.git"   
+        },
+        {
+            "repo_name": "RxJava",
+            "commit_id": "f07765edac25ccc110802add8a879d77208f09b9",
+            "repo_link": "https://github.com/ReactiveX/RxJava.git"
+        },
+        {
+            "repo_name": "jsoup",
+            "commit_id": "acafbcf3cb71ea0a04188c8f6257e3d395fa7c36",
+            "repo_link": "https://github.com/jhy/jsoup.git"
+        }
+    ]
+}
