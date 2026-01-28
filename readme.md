@@ -1,5 +1,9 @@
 # LLM-based Vulnerability Detection at Project Scale: An Empirical Study
 
+<p align="left">
+    <a href="https://arxiv.org/abs/2601.19239"><img src="https://img.shields.io/badge/arXiv-2601.19239-b31b1b.svg?style=for-the-badge">
+</p>
+
 This repository contains the replication package for our empirical study:
 
 **LLM-based Vulnerability Detection at Project Scale: An Empirical Study**
