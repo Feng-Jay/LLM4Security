@@ -82,9 +82,9 @@ class RepoAudit(AbsTool, BaseModel):
         if self.vul_type == "":
             self.vul_type = vulnerability_type
             logger.info(f"Set vulnerability type to {self.vul_type} for RepoAudit.")
-        if target_repo.exists():
-            self.project_path = target_repo
-            logger.info(f"Set project path to {self.project_path} for RepoAudit.")
+        # if target_repo.exists():
+        #     self.project_path = target_repo
+        #     logger.info(f"Set project path to {self.project_path} for RepoAudit.")
             
         logger.info(f"Checkout commint {target_commit_id} in {self.project_path}")
         
@@ -108,7 +108,7 @@ class RepoAudit(AbsTool, BaseModel):
                 --temperature 0.0 \
                 --scan-type dfbscan \
                 --call-depth 3 \
-                --max-neural-workers 5"
+                --max-neural-workers 10"
         if self.vul_type != "MLK":
             cmd += " --is-reachable"
         # cmd = f"python3 repoaudit.py \

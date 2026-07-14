@@ -6,3 +6,7 @@ from .iris import IRIS
 from .llmdfa import LLMDFA
 from .codeql import CodeQL
 from .semgrep import Semgrep
+from .claudecode import ClaudeCode
+from .codex import Codex
+from .clang_static_analyzer import CSA
+from .spotbugs import SpotBugs

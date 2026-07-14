@@ -12,7 +12,7 @@ CWE_TO_CODEQL_QUERY = {
     "c-cpp": 
     {
         "CWE-476": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_NPD.qls",
-        "CWE-401": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_MLK.qls",
+        "CWE-401": "/data/lifengjie/LLM4Security/resources/codeql_queries/c_MLK_12.qls",
         "CWE-416": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_UAF.qls",
         "real_world": "/data/jiangjiajun/LLM4Security/resources/codeql_queries/c_all.qls",
     },
@@ -75,7 +75,6 @@ class CodeQL(AbsTool, BaseModel):
             vul_type=configs.get("vul_type", "")
         )
 
-
     def run_on_target(self, target_repo: Path, target_commit_id: str, vulnerability_type: str, report_file: Path) -> bool:
         if self.vul_type == "":
             self.vul_type = vulnerability_type
@@ -94,15 +93,13 @@ class CodeQL(AbsTool, BaseModel):
         
         # then build the codeql database
         if not (self.database_path / f"{target_repo.name}-{target_commit_id}").exists():
-            
             if not self.database_path.exists():
                 self.database_path.mkdir(parents=True)
-            
             create_db_cmd = [
                 str(self.codeql_bin_path),
                 "database",
                 "create",
-                "--threads=3",
+                "--threads=32",
                 str(self.database_path / f"{target_repo.name}-{target_commit_id}"),
                 f"--language={self.programming_language}",  # assuming C/C++ code, modify as needed
                 f"--source-root={str(target_repo)}",
@@ -128,11 +125,13 @@ class CodeQL(AbsTool, BaseModel):
             str(self.codeql_bin_path),
             "database",
             "analyze",
+            "--additional-packs=/data/lifengjie/LLM4Security/resources/codeql-packs/custom-cpp-modules/",
+            "--model-packs=custom-cpp-models",
             str(self.database_path / f"{target_repo.name}-{target_commit_id}"),
             query_suite,
             "--format=csv",
             f"--output={str(report_file)}.csv",
-            "--threads=8",
+            "--threads=16",
             "--rerun",
             "--ram=8192"
         ]

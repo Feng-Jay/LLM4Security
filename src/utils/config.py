@@ -24,28 +24,28 @@ class Config(BaseModel):
 
     @classmethod
     def from_yaml(cls, config_file: Path = Path("../config.yaml")) -> Self:
-        configs = yaml.safe_load(config_file.read_text())
-
-        # set the logger
-        time_stamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-
         global logger
-        log_dir = Path(configs["log"])
-        if not log_dir.exists():
-            log_dir.mkdir(parents=True)
-        log_file = log_dir / f"{configs['tool']}-{configs['vulnerability']}-{time_stamp}.log"
-        logger.add(
-            log_file,
-            rotation="1 day",
-            retention="7 days",
-            level="DEBUG",
-        )
+        configs = yaml.safe_load(config_file.read_text())
 
         tool_name = configs["tool"]
         if tool_name not in configs["tools"]:
             logger.error(f"Tool {tool_name} not found in configuration.")
             raise ValueError(f"Tool {tool_name} not found in configuration.")
         tool_configs = configs["tools"][tool_name]
+
+        # set the logger
+        time_stamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
+
+        log_dir = Path(tool_configs["log"])
+        if not log_dir.exists():
+            log_dir.mkdir(parents=True)
+        log_file = log_dir / f"{configs['tool']}-{tool_configs['vulnerability']}-{time_stamp}.log"
+        logger.add(
+            log_file,
+            rotation="1 day",
+            retention="7 days",
+            level="DEBUG",
+        )
 
         # prepare results dir and file
         results_dir = Path(tool_configs["results"])
@@ -71,10 +71,11 @@ class Config(BaseModel):
         
         # load fl files if provided
         vulnerability_fl_info = {}
-        if "vulnerability_fl_file" in configs:
+        if "vulnerability_fl_file" in tool_configs:
             if Path(tool_configs["vulnerability_fl_file"]).exists():
                 df = pd.read_csv(tool_configs["vulnerability_fl_file"])
                 vulnerability_fl_info = df.groupby("project_slug")["file"].apply(lambda x: list(set(x))).to_dict()
+                # print(vulnerability_fl_info)
 
         logger.info("Configuration loaded.")
 

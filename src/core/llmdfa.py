@@ -34,7 +34,7 @@ class LLMDFA(AbsTool, BaseModel):
 
     @field_validator("llm_model")
     def validate_llm_model(cls, v: str) -> str:
-        candidates = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4o-mini"]
+        candidates = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4o-mini", "gpt-5.4"]
         if v not in candidates:
             logger.error(f"Invalid LLM model: {v}. Must be one of {candidates}.")
             raise ValueError(f"Invalid LLM model: {v}. Must be one of {candidates}.")
@@ -69,7 +69,7 @@ class LLMDFA(AbsTool, BaseModel):
             subprocess.run(" ".join(["git", "checkout", "-f", target_commit_id]), cwd=target_repo, shell=True)
             logger.info(f"Checked out to commit {target_commit_id} of {target_repo}.")
         cmd = f"python run_llmdfa.py --bug-type {self.cwe_mappings[self.vul_type]} --model-name {self.llm_model} \
-                -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name {target_repo.name}"
+                -syn-parser -fscot -syn-solver --solving-refine-number 3 --analysis-mode all --project_name {target_repo}"
         logger.info(f"Running LLMDFA with command: {cmd}")
         subprocess.run(cmd, shell=True, cwd=self.llmdfa_path)
         return True
